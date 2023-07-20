@@ -6,7 +6,7 @@ The Component Starter kit gives you the key building blocks to create dynamic an
 
 Built with love by Uniform folks, standing on the shoulders of TailwindCSS, DaisyUI, React and Next.js.
 
-- [Demo](https://componentsvnext.uniform.app/)
+- [Demo](https://csk-next-approuter.vercel.app)
 - [Storybook](https://components-storybook.uniform.app/)
 - [Docs](https://docs.uniform.app/docs/learn/tutorials/nextjs-app-router)
 - Questions/issues/feedback? [Find us in Discord](https://discord.gg/DRMyTKfxJy).

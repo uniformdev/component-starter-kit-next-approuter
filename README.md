@@ -41,11 +41,11 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
 This integration brings Canvas UI extensions for theme management and new useful visual parameters to help control the look and feel of your components.
 
 1. Open your Uniform project.
-1. Head over to Settings > Canvas and configure preview to `http://your-host/api/canvas?secret=hello-world`
+1. Head over to Settings > Canvas and configure preview to `http://your-host/api/uniform?secret=hello-world`
 1. Navigate to `Manage Integrations` tab and Install `Theme Pack` integration
 1. Select one of the themes or create your own and press `Save`
 1. Go to the Compositions list, find the "Global" composition and open it in Canvas.
-1. In order to apply theme changes, press `Publish` (even if the composition itself is not changed).
+1. To apply theme changes, press `Publish` (even if the composition itself is not changed).
    > Optionally, you can change the main font that will be used along with the theme.
    > Here you can also manage your header and footer content - logo and navigation links.
 

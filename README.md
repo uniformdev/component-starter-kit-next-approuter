@@ -1,6 +1,8 @@
 # Uniform Component Starter Kit for Next.js + App Router
 
-⚠️ This project is in Public Preview and not recommended for production yet. For production use cases, please refer to the page router-based implementation [here](https://github.com/uniformdev/uniform-component-starter-kit/). Use it if you are doing a pilot / PoC for a new project and plan on using Next.js App Router and React Server Components. [See the limitations](#limitations) below.
+This starter is using the latest Next.js 14 with App Router. If you would like to use Page Router instead, head over [here](https://github.com/uniformdev/uniform-component-starter-kit/). 
+
+## Resources
 
 The Component Starter kit gives you the key building blocks to create dynamic and compelling web experiences and demonstrate the power of digital experience composition in Uniform. Just install, customize and start creating.
 
@@ -25,38 +27,84 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
    UNIFORM_PROJECT_ID=
    UNIFORM_PREVIEW_SECRET=hello-world
    ```
+   > Make sure your API key has "Developer" role to be able to push content.
 2. `npm install`
-3. Run `npm run uniform:push` and `npm run uniform:publish` to push the content from this starter kit (components, compositions and project map) into your project.
+3. Run `npm run push` and `npm run publish` to push the content from this starter kit (components, compositions and project map) into your project.
+
+### Configure Canvas Preview URL
+Besides live preview, setting the preview URL enables visual in-line editing and experience management of your Next.js app within the Uniform environment. Enabling this is easy:
+
+1. Open your Uniform project's Settings.
+1. Open `Canvas Settings` and configure the preview URL to `http://localhost:3000/api/preview?secret=hello-world`
+   > Consider changing the `secret` in your .env file. That value must match the `secret` query string used in preview url. The preview can point to a local or deployed version of your Next.js app.
 
 ### Run locally in dev mode
 
 `npm run dev` to run locally.
+At this point, you should be able to browse your site on localhost:3000 and open it in Uniform Canvas.
 
 ### Build and run locally
 
-`npm run build` and `npm start`
+`npm run build` and `npm start` to start a production build on localhost:3000.
 
-## Complete the setup - install the Theme Pack integration
+## Install the Theme Pack integration
 
 This integration brings Canvas UI extensions for theme management and new useful visual parameters to help control the look and feel of your components.
 
-1. Open your Uniform project.
-1. Head over to Settings > Canvas and configure preview to `http://your-host/api/uniform?secret=hello-world`
-1. Navigate to `Manage Integrations` tab and Install `Theme Pack` integration
-1. Select one of the themes or create your own and press `Save`
-1. Go to the Compositions list, find the "Global" composition and open it in Canvas.
-1. To apply theme changes, press `Publish` (even if the composition itself is not changed).
+1. Navigate to the `Integrations` tab, find the `Theme Pack` integration under 'Starters' and install it.
+2. Select one of the themes (Uniform is the default one) or create your own and press `Save`.
+3. Go to the Components section, find the `Main Header` pattern and open it.
+4. To apply theme changes, press `Publish` (even if the pattern itself wasn't changed), this is necessary to apply theme changes.
    > Optionally, you can change the main font that will be used along with the theme.
-   > Here you can also manage your header and footer content - logo and navigation links.
+   > Here you can also manage your header content - logo and navigation links.
 
-Important: to apply theme changes, you must re-publish the "Global" composition after every time you change the `theme` on the integration settings page.
+⚠️ Important: to apply the theme changes, you must re-publish the `Main Header` pattern every time you change the `theme` on the integration settings page.
 
 ## Deployment
 
 Feel free to deploy this app wherever you'd like, we recommend using Vercel for the most enjoyable experience with Next.js App Router.
 
-## Known limitations
-We are rapidly iterating on this SDK, so these will soon be resolved.
+## How to change the rendering mode
 
-1. In-line editing is not supported yet.
-2. Known issues in preview with content updates.
+This app supports all the rendering modes Next.js 14 currently supports - static-site generation (SSG) and server-side rendering on both runtimes - as Node.js runtime (running SSR with a serverless function) and edge runtime (running SSR at the edge node). Learn more about two rendering runtimes [here](https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes).
+
+This app is configured for the ESR (edge-side rendering mode) by default, meaning it runs server-side rendering process at the CDN node closest to the users.
+
+Depending on your requirements, you may choose to change the default mode to SSG, or switch to another rendering runtime.
+
+Not all the CDNs may support the SSR mode, so consult your CDN provider documentation regarding which modes are supported.
+
+### SSG mode
+
+This mode runs your pages through the build-time static site generation process, so there is no runtime involved when visitors request your pages, they are served as static from the CDN node.
+
+⚠️ Important: at this time, preview and in-line editing is not fully supported in SSG mode. Contact our team for the workaround.
+
+Changing to the SSG mode is super straightforward.
+
+1. Open `app/[[...path]]/page.tsx` 
+
+2. Find this line 10 that is commented out and enable it:
+   ```typescript
+   export { generateStaticParams } from "@uniformdev/canvas-next-rsc";
+   ```
+
+3. Set `mode="static"` from `server` (line 24):
+   ```jsx
+      <UniformComposition
+         {...props}
+         route={route}
+         resolveComponent={resolveComponent}
+         mode="static"
+      />
+    ```
+
+That's it! Re-deploy your app after this change.
+
+### Controlling edge vs node.js runtime
+
+When using the server mode, the runtime selection is controlled by this line 13 inside `app/[[...path]]/page.tsx`. If you want to switch to the `nodejs` runtime, simply remove or comment out this line and re-deploy your app.
+
+   ```typescript
+   export const runtime = 'edge';
+   ```

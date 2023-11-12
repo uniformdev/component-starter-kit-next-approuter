@@ -1,74 +1,135 @@
-import { registerUniformComponent } from '@uniformdev/canvas-next-rsc';
-import { FooterLink, HeaderLink, NavigationGroup } from './navigation/NavLink';
-import AccordionItem from './AccordionItem';
-import { AddToCart } from './AddToCart';
+import { ResolveComponentFunction } from "@uniformdev/canvas-next-rsc/component";
+import { mapping as pageMapping } from "./Page/Page";
+import { mapping as headerMapping } from "./_navigation/Header";
+import {
+  footerLinkMapping,
+  headerLinkMapping,
+  navigationGroupMapping,
+  navigationLinkMapping,
+} from "./_navigation/NavLink";
+import { mapping as iconLinkMapping } from "./_navigation/IconLink";
+import { heroMappings } from "./Hero";
+import { callToActionMappings } from "./CallToAction";
+import { featuredCalloutMappings } from "./FeaturedCallout";
+import { featureMapping } from "./Feature";
+import { cardBlockMappings } from "./CardBlock";
+import { gridMapping } from "./_containers/Grid";
+import { cardMappings } from "./Card";
+import { accordionMapping } from "./Accordion";
+import { accordionItemMapping } from "./AccordionItem";
+import { breadcrumbMapping } from "./Breadcrumbs";
+import { dividerMapping } from "./Divider";
+import { containerMappings } from "./_containers/Container";
+import { contentMapping } from "./ContentBlock";
+import { carouselMappings } from "./Carousel";
+import { gridItemMapping } from "./_containers/GridItem";
+import { testimonialMappings } from "./Testimonial";
+import { priceMapping } from "./Price";
+import { addToCartMapping } from "./AddToCart";
+import { spacerMappings } from "./Spacer";
+import { imageMapping } from "./Image";
+import { reviewMappings } from "./Review";
+import { productGalleryMappings } from "./ProductGallery";
+import { productInfoMapping } from "./ProductInfo";
+import { navigationMenuMapping } from "./_navigation/_mega-menu/NavigationMenu";
+import { bannerMappings } from "./Banner";
+import { richTextMappings } from "./RichText";
+import { videoMapping } from "./Video";
+import { modalMapping } from "./Modal";
+import { buttonMapping } from "./Button";
+import { navigationMenuSectionMapping } from "./_navigation/_mega-menu/NavigationMenuSection";
+import { navigationMenuSectionLinkMappings } from "./_navigation/_mega-menu/NavigationMenuSectionLink";
+import { navigationOneColumnMenuMapping } from "./_navigation/_mega-menu/NavigationOneColumnMenu";
+import { navigationOneColumnMenuLinkMappings } from "./_navigation/_mega-menu/NavigationOneColumnMenuLink";
+import { navigationTwoColumnsMenuMapping } from "./_navigation/_mega-menu/NavigationTwoColumnMenu";
+import { footerMapping } from "./_navigation/Footer";
+import { footerSectionMapping } from "./FooterSection";
+import { ComponentMapping } from "./compat";
 
-import './Accordion';
-import './Banner';
-import './Breadcrumbs';
-import './CallToAction';
-import './Card';
-import './CardBlock';
-import './ContentBlock';
-import './Carousel';
-import './Divider';
-import './Feature';
-import './FeaturedCallout';
-import './Hero';
-import './Image';
-import './Spacer';
-import './RichText';
-import './Review';
-import './Video';
-import './Page';
-import './Price';
-import './navigation/Footer';
-import './navigation/FooterSection';
-import './navigation/Header';
-import './navigation/IconLink';
-import './navigation/NavLink';
-import './navigation/mega-menu/NavigationMenu';
-import './navigation/mega-menu/NavigationOneColumnMenuLink';
-import './navigation/mega-menu/NavigationOneColumnMenu';
-import './navigation/mega-menu/NavigationMenuSectionLink';
-import './navigation/mega-menu/NavigationMenuSection';
-import './navigation/mega-menu/NavigationTwoColumnMenu';
-import './containers/Container';
-import './containers/FlexContainer';
-import './containers/GridContainer';
-import './containers/Grid';
-import './containers/GridItem';
-import './containers/SectionOneColumn';
-import './containers/SectionTwoColumns';
+export const resolver: ResolveComponentFunction = ({ component }) => {
+  const checkIsMatch = ({
+    mapping,
+    checkVariant,
+  }: {
+    mapping: ComponentMapping;
+    checkVariant: boolean;
+  }) => {
+    const isComponentMatch = mapping.type === component.type;
+    const isVariantMatch =
+      !mapping.variantId || mapping.variantId === component.variant;
 
-registerUniformComponent({
-  type: 'navigationLink',
-  component: HeaderLink,
-});
+    let isMatch = isComponentMatch;
 
-registerUniformComponent({
-  type: 'navigationLink',
-  component: FooterLink,
-  variantId: 'footer',
-});
+    if (checkVariant) {
+      isMatch = isMatch && isVariantMatch;
+    }
 
-registerUniformComponent({
-  type: 'navigationLink',
-  component: HeaderLink,
-  variantId: 'header',
-});
+    return isMatch;
+  };
 
-registerUniformComponent({
-  type: 'navigationGroup',
-  component: NavigationGroup,
-});
+  let foundMapping = mappings.find((m) => {
+    return checkIsMatch({
+      mapping: m,
+      checkVariant: true,
+    });
+  });
 
-registerUniformComponent({
-  type: 'accordionItem',
-  component: AccordionItem,
-});
+  if (!foundMapping) {
+    foundMapping = mappings.find((m) => {
+      return checkIsMatch({
+        mapping: m,
+        checkVariant: false,
+      });
+    });
+  }
 
-registerUniformComponent({
-  type: 'addToCart',
-  component: AddToCart,
-});
+  return {
+    component: foundMapping?.component || null,
+  };
+};
+
+const mappings = [
+  pageMapping,
+  headerMapping,
+  footerLinkMapping,
+  headerLinkMapping,
+  navigationGroupMapping,
+  navigationLinkMapping,
+  iconLinkMapping,
+  ...heroMappings,
+  ...callToActionMappings,
+  ...featuredCalloutMappings,
+  featureMapping,
+  ...cardBlockMappings,
+  gridMapping,
+  ...cardMappings,
+  accordionMapping,
+  accordionItemMapping,
+  breadcrumbMapping,
+  dividerMapping,
+  ...containerMappings,
+  contentMapping,
+  ...carouselMappings,
+  gridItemMapping,
+  ...testimonialMappings,
+  priceMapping,
+  addToCartMapping,
+  ...spacerMappings,
+  imageMapping,
+  ...reviewMappings,
+  ...productGalleryMappings,
+  productInfoMapping,
+  navigationMenuMapping,
+  ...bannerMappings,
+  ...richTextMappings,
+  videoMapping,
+  modalMapping,
+  buttonMapping,
+  navigationMenuSectionMapping,
+  ...navigationMenuSectionLinkMappings,
+  navigationOneColumnMenuMapping,
+  ...navigationOneColumnMenuLinkMappings,
+  navigationTwoColumnsMenuMapping,
+  footerMapping,
+  footerSectionMapping,
+];

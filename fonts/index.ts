@@ -1,4 +1,4 @@
-import { NextFont } from 'next/dist/compiled/@next/font';
+import { NextFont } from "next/dist/compiled/@next/font";
 import {
   Inter,
   Roboto_Mono,
@@ -10,64 +10,74 @@ import {
   Asap,
   Antonio,
   Maven_Pro,
-} from 'next/font/google';
+  Lexend_Giga,
+  Metrophobic,
+} from "next/font/google";
 
 const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const lexend_giga = Lexend_Giga({ subsets: ["latin"] });
+
+export const metrophobic = Metrophobic({
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const rubik = Rubik({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 const roboto_mono = Roboto_Mono({
-  subsets: ['latin'],
-  display: 'swap',
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const dm_mono = DM_Mono({
-  weight: ['300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["300", "400", "500"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const farro = Farro({
-  weight: ['300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["300", "400", "500"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const damion = Damion({
-  weight: ['400'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const advent_pro = Advent_Pro({
-  weight: ['300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["300", "400", "500"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const asap = Asap({
-  weight: ['300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["300", "400", "500"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const antonio = Antonio({
-  weight: ['300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["300", "400", "500"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const maven_pro = Maven_Pro({
-  weight: ['400', '500', '600'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const appFonts: Record<Types.SupportedFonts, NextFont> = {
@@ -81,4 +91,6 @@ export const appFonts: Record<Types.SupportedFonts, NextFont> = {
   asap,
   antonio,
   maven_pro,
+  lexend_giga,
+  metrophobic,
 };

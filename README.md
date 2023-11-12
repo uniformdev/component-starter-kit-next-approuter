@@ -11,7 +11,7 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
 - [Demo](https://csk-next-approuter.vercel.app)
 - [Storybook](https://components-storybook.uniform.app/)
 - [Docs](https://docs.uniform.app/docs/learn/tutorials/nextjs-app-router)
-- Questions/issues/feedback? [Find us in Discord](https://discord.gg/DRMyTKfxJy).
+- Questions/issues/feedback? [Find us in Discord](https://unfrm.to/discord).
 
 ## Getting started
 

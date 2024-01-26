@@ -1,6 +1,7 @@
 composition:
   _name: Home
   _id: 552a8a72-6c47-4993-bc45-f0148ea79904
+  _slug: /
   type: page
   parameters:
     pageTitle:

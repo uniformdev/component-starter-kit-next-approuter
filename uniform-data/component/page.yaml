@@ -232,6 +232,11 @@ defaults:
           displayRootNode:
             type: checkbox
             value: true
+slugSettings:
+  unique: global
+  required: 'yes'
+  regularExpression: ''
+  regularExpressionMessage: ''
 titleParameter: pageTitle
 canBeComposition: true
 created: '2023-10-21T13:42:23.843101+00:00'

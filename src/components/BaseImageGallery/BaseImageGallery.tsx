@@ -4,14 +4,17 @@ import { FC, Fragment, useState, useEffect } from 'react';
 import classNames from 'classnames';
 import { UniformText } from '@uniformdev/canvas-next-rsc/component';
 import BaseContainer, { ContainerVariants, ScreenContainer } from '../../components/Container';
+import Image from '../../components/Image';
+import { withoutContainer } from '../../hocs/withoutContainer';
 import { DelayVariants } from '../../components/AnimatedContainer';
+import { getMediaUrl, isMediaAsset } from '../../utilities';
 import { getTextClass } from '../../utilities/styling';
 import { BaseImageGalleryProps } from './';
-import { withoutContainer } from '../../hocs/withoutContainer';
 import { GalleryInner } from './GalleryInner';
 
 const BaseImageGallery: FC<BaseImageGalleryProps> = ({
   titleStyle: TitleTag = 'h1',
+  items,
   maxItems,
   animationType,
   animationOrder,
@@ -26,6 +29,33 @@ const BaseImageGallery: FC<BaseImageGalleryProps> = ({
 }) => {
   const [, setRunAnimationToggle] = useState(false);
   const delayValue = DelayVariants[delay];
+
+  const isContentPlaceholder =
+    !component?.slots?.images?.length || component?.slots?.images?.[0]?._id?.startsWith('placeholder');
+
+  const slotsToRender = !isContentPlaceholder
+    ? slots.images
+    : {
+        name: 'images',
+        items:
+          items?.map((image, index) => {
+            const key = (() => {
+              if ('_id' in image) return image?._id;
+              return `image-${index}`;
+            })();
+            const imgSrc = getMediaUrl(image);
+            const { defaultWidth, defaultHeight } = (() => {
+              if (isMediaAsset(image)) {
+                return {
+                  defaultWidth: image.fields?.width?.value,
+                  defaultHeight: image.fields?.height?.value,
+                };
+              }
+              return { defaultWidth: undefined, defaultHeight: undefined };
+            })();
+            return <Image key={key} src={imgSrc} alt={`Image ${index}`} width={defaultWidth} height={defaultHeight} />;
+          }) || [],
+      };
 
   useEffect(() => {
     setRunAnimationToggle(prevState => (animationPreview ? !prevState : prevState));
@@ -65,7 +95,7 @@ const BaseImageGallery: FC<BaseImageGalleryProps> = ({
         delayValue={delayValue}
         duration={duration}
         maxItems={maxItems}
-        slot={slots.images}
+        slot={slotsToRender}
       />
     </BaseContainer>
   );

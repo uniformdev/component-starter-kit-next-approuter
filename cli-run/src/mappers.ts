@@ -7,7 +7,7 @@ import {
   getInsightsEnvs,
 } from './informationCollector';
 import { AvailableProjects, CommonVariants } from './constants';
-import { composeGetEnvFns, fetchThemePackThemes } from './utils';
+import { composeGetEnvFns, fetchThemePackThemes, updatePromptsBasedOnIntegration } from './utils';
 
 export const demosVariantsGetEnvsMap: {
   [availableProjects in CLI.AvailableProjects]: Partial<
@@ -88,6 +88,7 @@ export const Integrations = {
       organization: process.env.CLI_OPEN_AI_ORGANIZATION,
       token: process.env.CLI_OPEN_AI_TOKEN,
     },
+    onIntegrationSet: updatePromptsBasedOnIntegration,
   },
   Writer: {
     name: 'Writer',
@@ -293,6 +294,21 @@ const DataSource: {
       },
     },
   },
+  JavaDripWordpressBlog: {
+    integrationType: 'canvas',
+    integrationDisplayName: '',
+    dataSourceDisplayName: 'JavaDrip Wordpress Blog',
+    dataSourceId: 'javadripWordpressBlog',
+    connectorType: 'genericrestapi',
+    baseUrl: 'https://public-api.wordpress.com/rest/v1.1/sites',
+    dataProperties: {
+      localeMapping: {
+        'en-CA': 'en-US',
+        'en-GB': 'en-US',
+        'en-NL': 'en-US',
+      },
+    },
+  },
 };
 
 export const demosRequiredDataSourceMap: {
@@ -307,6 +323,7 @@ export const demosRequiredDataSourceMap: {
       DataSource.Contentstack,
       DataSource.BrandData,
       DataSource.KontentAi,
+      DataSource.JavaDripWordpressBlog,
     ],
   },
   [AvailableProjects.ComponentStarterKit]: {

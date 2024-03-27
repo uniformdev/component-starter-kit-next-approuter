@@ -10,6 +10,8 @@ const DEFAULT_COLOR = '#000';
 const DEFAULT_TAG = 'p';
 
 export const Text: FC<TextProps> = ({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  text,
   tag,
   color = DEFAULT_COLOR,
   size,
@@ -17,6 +19,13 @@ export const Text: FC<TextProps> = ({
   style = {},
   context,
   component,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  slotName,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  slots,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  slotIndex,
+  ...restStyles
 }) => {
   const currentColor = REGEX_COLOR_HEX.test(color || DEFAULT_COLOR) ? color : undefined;
   const Tag = tag || DEFAULT_TAG;
@@ -25,7 +34,7 @@ export const Text: FC<TextProps> = ({
     <UniformText
       placeholder="Text goes here"
       parameterId="text"
-      style={{ color: currentColor, ...style }}
+      style={{ color: currentColor, ...style, ...restStyles }}
       as={Tag}
       className={classNames(getDefaultTextStyle(Tag), getTextSize(size), getTextLetterSpacing(letterSpacing), {
         [getTextColor(color as Types.ThemeColorsValues)]: !currentColor,
@@ -37,7 +46,7 @@ export const Text: FC<TextProps> = ({
 
   // ToDo requires refactoring (styles do not apply when сontextual editing)
   return context.isContextualEditing ? (
-    <div style={{ color: currentColor, ...style }}>
+    <div style={{ color: currentColor, ...style, ...restStyles }}>
       <TextElement />
     </div>
   ) : (

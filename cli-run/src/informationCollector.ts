@@ -47,12 +47,28 @@ export const getUniformTeam = async (availableVariants: { value: string; label: 
 };
 
 export const getUniformProject = async (availableVariants: { value: string; label: string }[]): Promise<string> => {
-  return (
-    await select({
-      message: `Please select your project:`,
+  let selectedProject: string | undefined = undefined;
+
+  while (!selectedProject) {
+    const projectChoice = await select({
+      message: 'Please select your project:',
       options: availableVariants,
-    })
-  ).toString() as CLI.CommonVariants;
+    });
+
+    if (projectChoice !== 'new') {
+      const isOverwriteConfirmed = await confirm({
+        message: 'Your project will be overwritten. Are you sure?',
+      });
+
+      if (isOverwriteConfirmed) {
+        selectedProject = projectChoice.toString();
+      }
+    } else {
+      selectedProject = projectChoice.toString();
+    }
+  }
+
+  return selectedProject;
 };
 
 export const getUniformProjectName = async (): Promise<string> => {

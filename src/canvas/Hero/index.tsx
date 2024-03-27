@@ -8,6 +8,8 @@ import { HeroBackgroundImage } from './HeroBackgroundImage';
 import { HeroTwoColumns } from './HeroTwoColumns';
 import { HeroDefault } from './Hero';
 
+export const DEFAULT_TEXT_COLOR = '#000';
+
 type Styles = {
   eyebrowText?: string;
   title?: string;
@@ -41,7 +43,9 @@ export type HeroProps = ComponentProps<
     animationType?: Types.AnimationType;
     animationOrder?: Types.AnimationOrder;
     duration?: Types.DurationType;
-    textColorVariant: Types.AvailableTextColorVariant;
+    textColorVariant: Types.AvailableTextColorVariant; // Deprecated
+    textColor?: Types.ThemeColorsValues | string;
+    backgroundColor?: Types.ThemeColorsValues | string;
     delay?: Types.AnimationDelay;
     animationPreview?: boolean;
     styles?: Styles;

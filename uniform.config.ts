@@ -1,32 +1,28 @@
-import type { CLIConfiguration } from "@uniformdev/cli";
-
-require("dotenv").config();
+import type { CLIConfiguration } from '@uniformdev/cli';
 
 const config: CLIConfiguration = {
   serialization: {
-    format: "yaml",
-    mode: "mirror",
-    directory: "./uniform-data",
     entitiesConfig: {
-      composition: {
-        push: {
-          // May be useful to only create new compositions and not update existing ones to avoid accidental overrides
-          mode: "create",
-        },
-      },
-      pattern: {},
+      aggregate: {},
+      asset: {},
       category: {},
+      composition: { publish: true },
+      contentType: {},
       component: {},
       dataType: {},
-      signal: {},
-      test: {},
-      aggregate: {},
       enrichment: {},
-      quirk: {},
+      entry: { publish: true },
+      locale: {},
+      pattern: { publish: true },
       projectMapDefinition: {},
       projectMapNode: {},
+      quirk: {},
       redirect: {},
+      signal: {},
+      test: {},
     },
+    directory: './content',
+    format: 'yaml',
   },
 };
 

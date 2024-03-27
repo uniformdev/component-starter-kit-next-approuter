@@ -1,6 +1,6 @@
 # Uniform Component Starter Kit for Next.js + App Router
 
-This starter is using the latest Next.js 14 with App Router. If you would like to use Page Router instead, head over [here](https://github.com/uniformdev/uniform-component-starter-kit/). 
+This starter is using the latest Next.js 14 with App Router. If you would like to use Page Router instead, head over [here](https://github.com/uniformdev/uniform-component-starter-kit/).
 
 ## Resources
 
@@ -17,7 +17,7 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
 
 ### Prerequisites
 
-- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try?utm_source=component-starter-kit).
+- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
 
 ### Initial setup
 
@@ -32,6 +32,7 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
 3. Run `npm run push` and `npm run publish` to push the content from this starter kit (components, compositions and project map) into your project.
 
 ### Configure Canvas Preview URL
+
 Besides live preview, setting the preview URL enables visual in-line editing and experience management of your Next.js app within the Uniform environment. Enabling this is easy:
 
 1. Open your Uniform project's Settings.
@@ -82,22 +83,18 @@ This mode runs your pages through the build-time static site generation process,
 
 Changing to the SSG mode is super straightforward.
 
-1. Open `app/[[...path]]/page.tsx` 
+1. Open `app/[[...path]]/page.tsx`
 
 2. Find this line 10 that is commented out and enable it:
+
    ```typescript
-   export { generateStaticParams } from "@uniformdev/canvas-next-rsc";
+   export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
    ```
 
 3. Set `mode="static"` from `server` (line 24):
    ```jsx
-      <UniformComposition
-         {...props}
-         route={route}
-         resolveComponent={resolveComponent}
-         mode="static"
-      />
-    ```
+   <UniformComposition {...props} route={route} resolveComponent={resolveComponent} mode="static" />
+   ```
 
 That's it! Re-deploy your app after this change.
 
@@ -105,6 +102,6 @@ That's it! Re-deploy your app after this change.
 
 When using the server mode, the runtime selection is controlled by this line 13 inside `app/[[...path]]/page.tsx`. If you want to switch to the `nodejs` runtime, simply remove or comment out this line and re-deploy your app.
 
-   ```typescript
-   export const runtime = 'edge';
-   ```
+```typescript
+export const runtime = 'edge';
+```

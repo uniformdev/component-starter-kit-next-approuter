@@ -1,16 +1,16 @@
 module.exports = {
-  content: ["./**/*.{ts,tsx}"],
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
     extend: {
       width: {
-        "screen-xl": "1280px",
+        'screen-xl': '1280px',
       },
       blur: {
-        xs: "2px",
+        xs: '2px',
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
     styled: true,
     base: true,

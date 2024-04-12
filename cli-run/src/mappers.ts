@@ -300,7 +300,7 @@ const DataSource: {
     dataSourceDisplayName: 'JavaDrip Wordpress Blog',
     dataSourceId: 'javadripWordpressBlog',
     connectorType: 'genericrestapi',
-    baseUrl: 'https://public-api.wordpress.com/rest/v1.1/sites',
+    baseUrl: 'https://public-api.wordpress.com/rest/v1.1/sites/227813160',
     dataProperties: {
       localeMapping: {
         'en-CA': 'en-US',

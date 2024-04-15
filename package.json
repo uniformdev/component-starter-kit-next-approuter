@@ -1,6 +1,6 @@
 {
   "name": "component-starter-kit-rsc",
-  "version": "5.1.163",
+  "version": "5.2.1",
   "private": true,
   "engines": {
     "npm": ">=8.19.0",
@@ -41,7 +41,7 @@
     "classnames": "^2.3.2",
     "daisyui": "^3.9.3",
     "framer-motion": "10.16.2",
-    "next": "14.1.4",
+    "next": "14.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-multi-carousel": "^2.8.3",

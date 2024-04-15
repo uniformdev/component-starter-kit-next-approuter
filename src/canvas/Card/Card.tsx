@@ -98,32 +98,30 @@ export const Card: FC<CardProps> = ({
           })}
         >
           {Boolean(imageUrl) && (
-            <>
-              <Image
-                alt="image"
-                src={imageUrl}
-                width={variant === CardVariants.Featured ? 80 : 384}
-                height={variant === CardVariants.Featured ? 80 : 384}
-                className={classNames(
-                  getObjectFitClass(objectFit || 'cover'),
-                  getImageSizeClassName(variant),
-                  styles?.image
-                )}
-              />
-              <div
-                className={classNames(
-                  'absolute top-0 left-0 right-0 bottom-0 rounded-xl',
-                  getImageOverlayOpacityStyle(overlayOpacity),
-                  getImageOverlayColorStyle(overlayColor)
-                )}
-              />
-            </>
+            <Image
+              alt="image"
+              src={imageUrl}
+              width={variant === CardVariants.Featured ? 80 : 384}
+              height={variant === CardVariants.Featured ? 80 : 384}
+              className={classNames(
+                getObjectFitClass(objectFit || 'cover'),
+                getImageSizeClassName(variant),
+                styles?.image
+              )}
+            />
           )}
+          <div
+            className={classNames(
+              'absolute top-0 left-0 right-0 bottom-0 rounded-xl',
+              getImageOverlayOpacityStyle(overlayOpacity),
+              getImageOverlayColorStyle(overlayColor)
+            )}
+          />
         </figure>
       </ImageWrapper>
       <div
         className={classNames(
-          'card-body',
+          'card-body z-10',
           {
             'px-2': variant === CardVariants.Featured,
           },

@@ -110,8 +110,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: linksAlignment
 canBeComposition: false
-created: '2023-11-22T09:43:34.431017+00:00'
-updated: '2023-11-22T10:00:48.910499+00:00'
+created: '2024-04-15T10:51:32.804357+00:00'
+updated: '2024-04-15T10:51:32.804357+00:00'
 variants:
   - id: light
     name: Light

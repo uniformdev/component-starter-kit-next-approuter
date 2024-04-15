@@ -122,8 +122,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: personName
 canBeComposition: false
-created: '2023-08-28T12:30:19.579649+00:00'
-updated: '2023-12-27T08:59:05.82411+00:00'
+created: '2024-04-15T10:51:33.364918+00:00'
+updated: '2024-04-15T10:51:33.364918+00:00'
 variants:
   - id: multiColumn
     name: Multi Column

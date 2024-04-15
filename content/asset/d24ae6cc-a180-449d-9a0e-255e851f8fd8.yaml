@@ -8,13 +8,13 @@ asset:
       value: icon_understand.svg
     file:
       type: file
-      value: c5a24e5d-08dc-4efc-bf66-a96f17663394
+      value: 86b08e51-cc4b-407d-8153-29202af85061
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/lrBrZBZPRy6Ze4wZzKYi1w-icon_understand.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/Z1Kj6fDZRtSq9Oy1E8Ge-A-icon_understand.svg
       type: text
     size:
       value: 1402
@@ -26,5 +26,5 @@ asset:
       value: 42
       type: number
     custom: {}
-created: '2023-12-12T13:37:03.592687+00:00'
-modified: '2023-12-12T13:37:03.592687+00:00'
+created: '2024-04-15T10:51:15.2606+00:00'
+modified: '2024-04-15T10:51:15.2606+00:00'

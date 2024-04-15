@@ -8,13 +8,13 @@ asset:
       value: news-paper-svgrepo-com.svg
     file:
       type: file
-      value: 4e377b89-469b-4d2f-9021-dfea87f79989
+      value: 11d5cb3c-f6d9-4db1-be11-ebb01fbba151
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/mz7rjvIeRHGbZyypPL9qMg/AgwC-P0ERZqzxOlCdHvY6w-news-paper-svgrepo-com.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/xjIvJR73QPCnOIpDKzKdyw-news-paper-svgrepo-com.svg
       type: text
     size:
       value: 1181
@@ -26,5 +26,5 @@ asset:
       value: 800
       type: number
     custom: {}
-created: '2024-01-15T11:18:52.502511+00:00'
-modified: '2024-01-15T11:18:52.502511+00:00'
+created: '2024-04-15T10:51:13.65404+00:00'
+modified: '2024-04-15T10:51:13.65404+00:00'

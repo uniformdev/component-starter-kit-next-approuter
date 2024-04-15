@@ -441,7 +441,7 @@ composition:
                     value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
                     type: text
                   file:
                     type: file
@@ -493,8 +493,8 @@ composition:
       marginBottom: 'yes'
       paddingBottom: 'yes'
       backgroundColor: 'yes'
-created: '2024-01-17T11:56:50.754024+00:00'
-modified: '2024-03-26T14:14:07.067104+00:00'
+created: '2024-04-15T10:51:38.288459+00:00'
+modified: '2024-04-15T10:51:38.288459+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_two_columns_preview_image.jpg

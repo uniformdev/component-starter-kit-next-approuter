@@ -8,13 +8,13 @@ asset:
       value: analytics-hands-report-svgrepo-com.svg
     file:
       type: file
-      value: 5580add3-8ecb-4680-9e2e-281a653147e8
+      value: 3bb5d06c-3000-41c4-87d1-d5072d3b9499
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/mz7rjvIeRHGbZyypPL9qMg/wcqkCON8R_SPmPXIDaSvAw-analytics-hands-report-svgrepo-com.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/5wROzE-CSROKCsJ5658i3A-analytics-hands-report-svgrepo-com.svg
       type: text
     size:
       value: 1401
@@ -26,5 +26,5 @@ asset:
       value: 800
       type: number
     custom: {}
-created: '2024-01-15T11:14:43.928334+00:00'
-modified: '2024-01-15T11:14:43.928334+00:00'
+created: '2024-04-15T10:51:12.764703+00:00'
+modified: '2024-04-15T10:51:12.764703+00:00'

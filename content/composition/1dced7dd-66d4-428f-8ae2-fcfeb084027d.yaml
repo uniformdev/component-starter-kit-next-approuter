@@ -37,7 +37,7 @@ composition:
                     value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
                     type: text
                   file:
                     type: file
@@ -861,6 +861,6 @@ composition:
           backgroundType:
             type: tp-background-type-parameter
             value: Dark
-created: '2023-12-04T16:14:22.091444+00:00'
-modified: '2024-03-26T12:12:54.941069+00:00'
+created: '2024-04-15T10:51:42.935117+00:00'
+modified: '2024-04-15T10:51:42.935117+00:00'
 pattern: false

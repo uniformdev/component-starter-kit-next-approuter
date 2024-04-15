@@ -186,8 +186,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-11-14T16:02:44.058827+00:00'
-updated: '2023-12-27T08:54:50.356376+00:00'
+created: '2024-04-15T10:51:32.888542+00:00'
+updated: '2024-04-15T10:51:32.888542+00:00'
 variants:
   - id: backgroundInContainer
     name: Background In Container

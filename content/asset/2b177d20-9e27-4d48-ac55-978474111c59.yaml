@@ -8,13 +8,13 @@ asset:
       value: espressoGPT_image_1.jpg
     file:
       type: file
-      value: f9c80a5c-b9a1-4af4-a743-84a6d8f7c6c6
+      value: ce8d6169-6e96-4672-8ba3-1374c1fde210
     mediaType:
       value: image/jpeg
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/81F57fuRR32gjeEX0RMczQ-espressoGPT_image_1.jpg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/ssNzkw8eTZaT9BfNhLDXJw-espressoGPT_image_1.jpg
       type: text
     size:
       value: 123117
@@ -26,5 +26,5 @@ asset:
       value: 960
       type: number
     custom: {}
-created: '2023-12-12T13:37:04.01777+00:00'
-modified: '2023-12-12T13:37:04.01777+00:00'
+created: '2024-04-15T10:51:14.972549+00:00'
+modified: '2024-04-15T10:51:14.972549+00:00'

@@ -308,7 +308,7 @@ composition:
                     value: f6e7a90a-7050-42c2-8f73-d868c6fb5feb
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/e49FBS7iQw-XQbg6isdlBg-cup_delicious_coffee.jpg
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/pWtg6AziRKmCUkKSiusqKQ-cup_delicious_coffee.jpg
                     type: text
                   file:
                     type: file
@@ -348,8 +348,8 @@ composition:
       marginBottom: 'yes'
       paddingBottom: 'yes'
       backgroundColor: 'yes'
-created: '2024-01-17T11:56:50.291277+00:00'
-modified: '2024-03-26T14:13:08.921444+00:00'
+created: '2024-04-15T10:51:37.868417+00:00'
+modified: '2024-04-15T10:51:37.868417+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_background_video_preview_image

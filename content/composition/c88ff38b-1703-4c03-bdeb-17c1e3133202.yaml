@@ -35,7 +35,7 @@ composition:
                     value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
                     type: text
                   file:
                     type: file
@@ -119,7 +119,7 @@ composition:
                     value: eed5aadc-e335-4f1b-a9c5-dec180489cf4
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/mK1VMuKERPGI3gFQh3ow7Q-cookie_icon.svg
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/tC1DLe5jTM6qZx-1PKm5og-cookie_icon.svg
                     type: text
                   file:
                     type: file
@@ -208,7 +208,7 @@ composition:
                     value: eed5aadc-e335-4f1b-a9c5-dec180489cf4
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/mK1VMuKERPGI3gFQh3ow7Q-cookie_icon.svg
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/tC1DLe5jTM6qZx-1PKm5og-cookie_icon.svg
                     type: text
                   file:
                     type: file
@@ -286,7 +286,7 @@ composition:
                     value: eed5aadc-e335-4f1b-a9c5-dec180489cf4
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/mK1VMuKERPGI3gFQh3ow7Q-cookie_icon.svg
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/tC1DLe5jTM6qZx-1PKm5og-cookie_icon.svg
                     type: text
                   file:
                     type: file
@@ -342,6 +342,6 @@ composition:
               type: projectMapNode
               nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-created: '2023-09-21T21:17:20.435654+00:00'
-modified: '2024-02-08T21:16:28.029113+00:00'
+created: '2024-04-15T10:52:02.214313+00:00'
+modified: '2024-04-15T10:52:02.214313+00:00'
 pattern: false

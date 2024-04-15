@@ -35,7 +35,7 @@ composition:
                     value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
                     value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
+                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
                     type: text
                   file:
                     type: file
@@ -213,7 +213,7 @@ composition:
                                             value: fb5c01d0-bfe4-4c1d-94cb-419f0580fa35
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/REeAxlJsQSC_xoObZtjoTg-cervello_di_caffe_1.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/HSVI8bt5TtCGxNSb4hZh6Q-cervello_di_caffe_1.jpg
                                             type: text
                                           file:
                                             type: file
@@ -251,7 +251,7 @@ composition:
                                             value: c777a60e-b29e-4f94-a56c-307d6d46ccee
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/gieO2Fe8Ts-mAide_iOEXA-cervello_di_caffe_2.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/3NVCi6BjQTOoDFP-5Le5_w-cervello_di_caffe_2.jpg
                                             type: text
                                           file:
                                             type: file
@@ -289,7 +289,7 @@ composition:
                                             value: 92ff34cd-1810-45fd-bab6-cc2d583eba9d
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/GWwpq42AQyGcDrmCRrTQtw-cervello_di_caffe_3.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/VUKHJ_vCS3WpflEcJsxhJg-cervello_di_caffe_3.jpg
                                             type: text
                                           file:
                                             type: file
@@ -428,7 +428,7 @@ composition:
                                             value: fb5c01d0-bfe4-4c1d-94cb-419f0580fa35
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/REeAxlJsQSC_xoObZtjoTg-cervello_di_caffe_1.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/HSVI8bt5TtCGxNSb4hZh6Q-cervello_di_caffe_1.jpg
                                             type: text
                                           file:
                                             type: file
@@ -466,7 +466,7 @@ composition:
                                             value: c777a60e-b29e-4f94-a56c-307d6d46ccee
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/gieO2Fe8Ts-mAide_iOEXA-cervello_di_caffe_2.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/3NVCi6BjQTOoDFP-5Le5_w-cervello_di_caffe_2.jpg
                                             type: text
                                           file:
                                             type: file
@@ -504,7 +504,7 @@ composition:
                                             value: 92ff34cd-1810-45fd-bab6-cc2d583eba9d
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/GWwpq42AQyGcDrmCRrTQtw-cervello_di_caffe_3.jpg
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/VUKHJ_vCS3WpflEcJsxhJg-cervello_di_caffe_3.jpg
                                             type: text
                                           file:
                                             type: file
@@ -653,6 +653,6 @@ composition:
           paddingBottom:
             type: select
             value: ''
-created: '2023-09-21T21:17:19.403376+00:00'
-modified: '2024-02-08T21:15:42.408366+00:00'
+created: '2024-04-15T10:52:12.611858+00:00'
+modified: '2024-04-15T10:52:12.611858+00:00'
 pattern: false

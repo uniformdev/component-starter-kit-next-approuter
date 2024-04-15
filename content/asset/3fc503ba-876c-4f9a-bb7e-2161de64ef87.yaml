@@ -8,13 +8,13 @@ asset:
       value: github_icon_black.svg
     file:
       type: file
-      value: 17aa71fc-a949-4103-b95a-ec9dee4b5a8b
+      value: b5e06963-328b-418c-b692-6c5b282d1899
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/fO3GkjsgSW-33LOxx6O4Jw-github_icon_black.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/661uvaP9TXypadM2_KgTOg-github_icon_black.svg
       type: text
     size:
       value: 1327
@@ -26,5 +26,5 @@ asset:
       value: 34
       type: number
     custom: {}
-created: '2023-12-12T13:37:04.853911+00:00'
-modified: '2023-12-12T13:37:04.853911+00:00'
+created: '2024-04-15T10:51:12.356566+00:00'
+modified: '2024-04-15T10:51:12.356566+00:00'

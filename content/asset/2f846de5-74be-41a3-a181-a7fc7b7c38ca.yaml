@@ -8,13 +8,13 @@ asset:
       value: clock.svg
     file:
       type: file
-      value: b31b3cda-42fc-4a56-a64b-d259c468d24f
+      value: a715aceb-5422-4a96-84a0-e4988fe492e6
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/KcF-bFdcRtyheUhNLlEDJA/U_1YTpmIRHmWfg7M0HUx-g-clock.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/DMos-2sYRNGgfftyaqCtMw-clock.svg
       type: text
     size:
       value: 414
@@ -26,5 +26,5 @@ asset:
       value: 24
       type: number
     custom: {}
-created: '2024-01-09T08:52:54.159232+00:00'
-modified: '2024-01-09T08:52:54.159232+00:00'
+created: '2024-04-15T10:51:12.282644+00:00'
+modified: '2024-04-15T10:51:12.282644+00:00'

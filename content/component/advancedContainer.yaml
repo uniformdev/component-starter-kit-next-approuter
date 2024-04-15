@@ -114,8 +114,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-17T11:56:44.437724+00:00'
-updated: '2024-03-26T12:34:30.544475+00:00'
+created: '2024-04-15T10:51:31.694938+00:00'
+updated: '2024-04-15T10:51:31.694938+00:00'
 variants:
   - id: fluidContent
     name: Fluid Content

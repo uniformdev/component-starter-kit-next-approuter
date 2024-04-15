@@ -8,13 +8,13 @@ asset:
       value: image-svgrepo-com.svg
     file:
       type: file
-      value: 7db4913f-d8d4-4190-b9ac-3de2d5507e33
+      value: 06f2fd53-75ba-4961-978d-4d9ee633e572
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/mz7rjvIeRHGbZyypPL9qMg/stc4bX7kQr6HRmEU46Mg7Q-image-svgrepo-com.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/9UycbOyLQIGMIXtbPkP45w-image-svgrepo-com.svg
       type: text
     size:
       value: 600
@@ -26,5 +26,5 @@ asset:
       value: 800
       type: number
     custom: {}
-created: '2024-01-15T11:44:14.202011+00:00'
-modified: '2024-01-15T11:44:14.202011+00:00'
+created: '2024-04-15T10:51:15.304912+00:00'
+modified: '2024-04-15T10:51:15.304912+00:00'

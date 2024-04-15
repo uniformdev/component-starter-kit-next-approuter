@@ -51,7 +51,7 @@ composition:
                                             value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
                                           url:
                                             value: >-
-                                              https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                                              https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/l33C0rT1QlehX67eRh2NBA-hero_rectangle.png
                                             type: text
                                           file:
                                             type: file
@@ -468,8 +468,8 @@ composition:
       marginBottom: 'yes'
       paddingBottom: 'yes'
       backgroundColor: 'yes'
-created: '2024-01-17T11:56:49.215707+00:00'
-modified: '2024-03-26T14:13:23.910293+00:00'
+created: '2024-04-15T10:51:36.752253+00:00'
+modified: '2024-04-15T10:51:36.752253+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_image_left_preview_image.jpg

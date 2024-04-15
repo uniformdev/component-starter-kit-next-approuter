@@ -104,8 +104,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-08-28T12:30:17.394527+00:00'
-updated: '2023-12-27T08:50:47.375434+00:00'
+created: '2024-04-15T10:51:31.712051+00:00'
+updated: '2024-04-15T10:51:31.712051+00:00'
 variants:
   - id: carousel
     name: Carousel

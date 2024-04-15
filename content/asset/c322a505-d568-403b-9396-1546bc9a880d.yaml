@@ -8,13 +8,13 @@ asset:
       value: home-smile-svgrepo-com.svg
     file:
       type: file
-      value: 4fe7bce0-7830-4ade-a33d-5a6f24f42a43
+      value: 611827c2-f7bf-4c87-9a38-73aac847d912
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/mz7rjvIeRHGbZyypPL9qMg/jAXslNg7TZOSmWCZerF8hw-home-smile-svgrepo-com.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/rwdwbeMNSbmJSZrA7JuVVA-home-smile-svgrepo-com.svg
       type: text
     size:
       value: 835
@@ -26,5 +26,5 @@ asset:
       value: 800
       type: number
     custom: {}
-created: '2024-01-15T11:54:06.492446+00:00'
-modified: '2024-01-15T11:54:06.492446+00:00'
+created: '2024-04-15T10:51:14.456179+00:00'
+modified: '2024-04-15T10:51:14.456179+00:00'

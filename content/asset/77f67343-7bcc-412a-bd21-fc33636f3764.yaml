@@ -8,13 +8,13 @@ asset:
       value: next.svg
     file:
       type: file
-      value: 8fee02db-b592-488e-82ca-1af95157a497
+      value: 0afc28a6-244f-4884-9a47-17abc63fab2a
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/KcF-bFdcRtyheUhNLlEDJA/ceAZL159RJahzRNZyfx8YQ-next.svg
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/YPhZetQkTsaW3rRl-7hvcA-next.svg
       type: text
     size:
       value: 327
@@ -26,5 +26,5 @@ asset:
       value: 24
       type: number
     custom: {}
-created: '2024-01-09T08:55:59.545573+00:00'
-modified: '2024-01-09T08:55:59.545573+00:00'
+created: '2024-04-15T10:51:13.871077+00:00'
+modified: '2024-04-15T10:51:13.871077+00:00'

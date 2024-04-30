@@ -30,7 +30,7 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
    ```
    > Make sure your API key has "Developer" role to be able to push content.
 2. `npm install` to install dependencies.
-3. Run `npm run uniform:push` to push content from disk (see `./uniform-data`) to your project.
+3. Run `npm run uniform:push` to push content from disk (see `./content`) to your project.
 4. Run `npm run uniform:manifest:publish` to publish the manifest with personalization configuration.
 
 ### 2. Run locally in dev mode

@@ -29,7 +29,7 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
    ```
    > Make sure your API key has "Developer" role to be able to push content.
 2. `npm install`
-3. Run `npm run push` and `npm run publish` to push the content from this starter kit (components, compositions and project map) into your project.
+3. Run `npm run uniform:push` and `npm run uniform:publish` to push the content from this starter kit (components, compositions and project map) into your project.
 
 ### Configure Canvas Preview URL
 

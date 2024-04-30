@@ -5,9 +5,10 @@ import { getMediaUrl } from '../../utilities';
 import { componentResolver } from '../../canvas/index';
 
 // Uncomment this to enable static site generation mode
-// export { generateStaticParams } from '@uniformdev/canvas-next-rsc/component';
+// export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
 
-export const runtime = 'edge';
+// Optionally, enable edge rendering mode to run render on the CDN nodes
+// export const runtime = 'edge';
 
 const VERCEL_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
 

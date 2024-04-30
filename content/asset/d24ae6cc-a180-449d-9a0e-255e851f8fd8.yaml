@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d24ae6cc-a180-449d-9a0e-255e851f8fd8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_understand.svg
+    file:
+      type: file
+      value: 86b08e51-cc4b-407d-8153-29202af85061
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/Z1Kj6fDZRtSq9Oy1E8Ge-A-icon_understand.svg
+      type: text
+    size:
+      value: 1402
+      type: number
+    width:
+      value: 44
+      type: number
+    height:
+      value: 42
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:15.2606+00:00'
+modified: '2024-04-15T10:51:15.2606+00:00'

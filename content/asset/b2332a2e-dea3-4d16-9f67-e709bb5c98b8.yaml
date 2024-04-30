@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b2332a2e-dea3-4d16-9f67-e709bb5c98b8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_drive.svg
+    file:
+      type: file
+      value: c390314d-fe90-4f25-8a04-b04cb72f5d13
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/icXv_dQGRL6Tbk_KdcIoSg-icon_drive.svg
+      type: text
+    size:
+      value: 1669
+      type: number
+    width:
+      value: 58
+      type: number
+    height:
+      value: 44
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:14.277013+00:00'
+modified: '2024-04-15T10:51:14.277013+00:00'

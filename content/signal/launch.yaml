@@ -1,0 +1,16 @@
+id: launch
+name: Launch
+cap: 100
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - type: QS
+      match:
+        cs: false
+        op: '='
+        rhs: launch
+      queryName: utm_campaign
+dur: t
+description: ''
+str: 50

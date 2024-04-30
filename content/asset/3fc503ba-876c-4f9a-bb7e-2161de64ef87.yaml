@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3fc503ba-876c-4f9a-bb7e-2161de64ef87
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: github_icon_black.svg
+    file:
+      type: file
+      value: b5e06963-328b-418c-b692-6c5b282d1899
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/661uvaP9TXypadM2_KgTOg-github_icon_black.svg
+      type: text
+    size:
+      value: 1327
+      type: number
+    width:
+      value: 35
+      type: number
+    height:
+      value: 34
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:12.356566+00:00'
+modified: '2024-04-15T10:51:12.356566+00:00'

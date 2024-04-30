@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 541df06f-1366-4874-9ab3-54e435ac68f8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_CTA_w.svg
+    file:
+      type: file
+      value: ee59cfc9-1ca3-4856-a482-ead8b91d52dd
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/__qdMzcyR-qNVXvy54tiSg-icon_CTA_w.svg
+      type: text
+    size:
+      value: 1568
+      type: number
+    width:
+      value: 220
+      type: number
+    height:
+      value: 220
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:13.625581+00:00'
+modified: '2024-04-15T10:51:13.625581+00:00'

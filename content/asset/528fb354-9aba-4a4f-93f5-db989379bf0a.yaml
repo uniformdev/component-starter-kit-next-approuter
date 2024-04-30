@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 528fb354-9aba-4a4f-93f5-db989379bf0a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: content-inline-svgrepo-com.svg
+    file:
+      type: file
+      value: ba77c175-487f-4b32-91f7-893ea38757c0
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/gjIDq86ESgSAG9WGI8smkA-content-inline-svgrepo-com.svg
+      type: text
+    size:
+      value: 377
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:13.106309+00:00'
+modified: '2024-04-15T10:51:13.106309+00:00'

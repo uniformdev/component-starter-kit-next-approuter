@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2c99b69f-1506-43ea-8d33-67fee8f9fe8f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_accordion.svg
+    file:
+      type: file
+      value: c67d580a-c916-4b94-9edf-2c0f7bd191e2
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/FRBLPAmBQ1Wpc0vGWFwjbQ-icon_accordion.svg
+      type: text
+    size:
+      value: 718
+      type: number
+    width:
+      value: 220
+      type: number
+    height:
+      value: 220
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:11.684045+00:00'
+modified: '2024-04-15T10:51:11.684045+00:00'

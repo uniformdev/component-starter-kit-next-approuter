@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d1f5b6a8-be31-4196-bec9-f2c2e57598c3
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: container-volume-svgrepo-com.svg
+    file:
+      type: file
+      value: af7b0d30-0578-428f-9ebe-084b105f2bb8
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/YhswvGx1SzKKcxMMtFkU-Q-container-volume-svgrepo-com.svg
+      type: text
+    size:
+      value: 1598
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:15.248517+00:00'
+modified: '2024-04-15T10:51:15.248517+00:00'

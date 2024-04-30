@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c322a505-d568-403b-9396-1546bc9a880d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: home-smile-svgrepo-com.svg
+    file:
+      type: file
+      value: 611827c2-f7bf-4c87-9a38-73aac847d912
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/rwdwbeMNSbmJSZrA7JuVVA-home-smile-svgrepo-com.svg
+      type: text
+    size:
+      value: 835
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:14.456179+00:00'
+modified: '2024-04-15T10:51:14.456179+00:00'

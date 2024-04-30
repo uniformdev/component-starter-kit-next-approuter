@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1e729c12-25c9-46a2-aeb2-33ce3e47fecb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_cardblock.svg
+    file:
+      type: file
+      value: 01b35d0a-5ac8-4fdb-863d-200272f55382
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/_djGtFUzRCGCPRgIb-ErDw-icon_cardblock.svg
+      type: text
+    size:
+      value: 2587
+      type: number
+    width:
+      value: 220
+      type: number
+    height:
+      value: 220
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:10.928826+00:00'
+modified: '2024-04-15T10:51:10.928826+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6e4df38e-7e0f-4f10-a490-d91ebc6ef84a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: storybook_icon.svg
+    file:
+      type: file
+      value: 5c744134-da10-451d-87ea-37ff950cf20a
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/x4JdqM-TSlaWeAgiV41-ww-storybook_icon.svg
+      type: text
+    size:
+      value: 7943
+      type: number
+    width:
+      value: 38
+      type: number
+    height:
+      value: 38
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:13.913503+00:00'
+modified: '2024-04-15T10:51:13.913503+00:00'

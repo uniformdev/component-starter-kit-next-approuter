@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 68b4d970-8062-4a91-965b-97d2587811fc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_improve.svg
+    file:
+      type: file
+      value: aafb0e4a-5464-4cdb-8b22-41c580c752a8
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/eBNWTFpmSQCa-DM1ejiPWg-icon_improve.svg
+      type: text
+    size:
+      value: 729
+      type: number
+    width:
+      value: 35
+      type: number
+    height:
+      value: 48
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:13.047346+00:00'
+modified: '2024-04-15T10:51:13.047346+00:00'

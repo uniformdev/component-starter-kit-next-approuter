@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 28b936d7-4c98-414d-b1fa-d3594ed08082
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mount.svg
+    file:
+      type: file
+      value: 04954481-3eef-48f7-998b-3122db23a1de
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/1Um6k94ET_eLFksIaNOCVw-mount.svg
+      type: text
+    size:
+      value: 223
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:12.61394+00:00'
+modified: '2024-04-15T10:51:12.61394+00:00'

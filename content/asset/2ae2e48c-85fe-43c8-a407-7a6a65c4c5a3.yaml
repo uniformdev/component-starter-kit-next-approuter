@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2ae2e48c-85fe-43c8-a407-7a6a65c4c5a3
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: analytics-hands-report-svgrepo-com.svg
+    file:
+      type: file
+      value: 3bb5d06c-3000-41c4-87d1-d5072d3b9499
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/5wROzE-CSROKCsJ5658i3A-analytics-hands-report-svgrepo-com.svg
+      type: text
+    size:
+      value: 1401
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:12.764703+00:00'
+modified: '2024-04-15T10:51:12.764703+00:00'

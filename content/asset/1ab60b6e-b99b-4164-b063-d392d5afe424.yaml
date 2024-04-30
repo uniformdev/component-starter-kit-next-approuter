@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1ab60b6e-b99b-4164-b063-d392d5afe424
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: action-solid-svgrepo-com.svg
+    file:
+      type: file
+      value: 9941872d-543d-4e24-92d8-91595135751a
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/Ca8K15qYQlGXNyGtNXuTAg-action-solid-svgrepo-com.svg
+      type: text
+    size:
+      value: 427
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:10.714333+00:00'
+modified: '2024-04-15T10:51:10.714333+00:00'

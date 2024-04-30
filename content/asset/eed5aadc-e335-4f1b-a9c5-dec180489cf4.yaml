@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: eed5aadc-e335-4f1b-a9c5-dec180489cf4
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cookie_icon.svg
+    file:
+      type: file
+      value: 6e2c92d2-b02b-4094-8c3b-0399493f12e6
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/tC1DLe5jTM6qZx-1PKm5og-cookie_icon.svg
+      type: text
+    size:
+      value: 3617
+      type: number
+    width:
+      value: 59
+      type: number
+    height:
+      value: 59
+      type: number
+    custom: {}
+created: '2024-04-15T10:51:16.04509+00:00'
+modified: '2024-04-15T10:51:16.04509+00:00'

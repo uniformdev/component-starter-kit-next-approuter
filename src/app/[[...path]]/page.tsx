@@ -8,7 +8,7 @@ import { componentResolver } from '@/canvas';
 // IMPORTANT: SSG mode, uncomment this line (see other comments below)
 // export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
 
-// Optionally, enable edge rendering mode to run render on the CDN nodes
+// Optionally, when using SSR, you can enable edge runtime to render from the CDN nodes instead of lambda (check your CDN docs if this is supported)
 // export const runtime = 'edge';
 
 const isRouteWithoutErrors = (route: ResolvedRouteGetResponse): route is RouteGetResponseEdgehancedComposition =>
@@ -31,4 +31,4 @@ export default async function Home(props: PageParameters) {
 }
 
 // IMPORTANT: SSG mode, uncomment this line:
-export const dynamic = 'force-static';
+// export const dynamic = 'force-static';

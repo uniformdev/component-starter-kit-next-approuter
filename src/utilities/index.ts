@@ -1,9 +1,53 @@
 import type { Asset } from '@uniformdev/assets';
 import { ComponentInstance } from '@uniformdev/canvas';
+import { RootComponentInstance } from '@uniformdev/canvas';
 
 export const REGEX_COLOR_HEX = /#(?:[0-9a-fA-F]{3}){1,2}$/;
 
 type MediaType = string | Types.CloudinaryImage | { path?: string } | Types.UniformOldImage | Asset | Asset[];
+
+export const getPageMetaData = (composition: RootComponentInstance) => {
+  const {
+    pageTitle,
+    pageMetaDescription,
+    pageKeywords,
+    openGraphTitle,
+    openGraphDescription,
+    openGraphImage,
+    twitterTitle,
+    twitterDescription,
+    twitterImage,
+    twitterCard,
+  } = composition?.parameters || {};
+
+  return {
+    metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
+    title: (pageTitle?.value as string) ?? 'Uniform Component Starter Kit',
+    description: pageMetaDescription?.value as string,
+    keywords: pageKeywords?.value as string,
+    openGraph: {
+      title: (openGraphTitle?.value as string) ?? pageTitle?.value,
+      description: (openGraphDescription?.value as string) ?? pageMetaDescription?.value,
+      images: [
+        {
+          url: getMediaUrl(openGraphImage?.value as Asset | undefined),
+          alt: openGraphTitle?.value as string,
+        },
+      ],
+    },
+    twitter: {
+      title: (twitterTitle?.value as string) ?? pageTitle?.value,
+      description: (twitterDescription?.value as string) ?? pageMetaDescription?.value,
+      images: [
+        {
+          url: getMediaUrl(twitterImage?.value as Asset | undefined),
+          alt: twitterTitle?.value as string,
+        },
+      ],
+      card: twitterCard?.value as 'summary' | 'summary_large_image',
+    },
+  };
+};
 
 export const getMediaUrl = (media?: MediaType) => {
   const mediaUrl: string | undefined = (() => {

@@ -1,10 +1,22 @@
 import type { Asset } from '@uniformdev/assets';
-import { ComponentInstance } from '@uniformdev/canvas';
-import { RootComponentInstance } from '@uniformdev/canvas';
+import { flattenValues, ComponentInstance, RootComponentInstance } from '@uniformdev/canvas';
 
 export const REGEX_COLOR_HEX = /#(?:[0-9a-fA-F]{3}){1,2}$/;
 
 type MediaType = string | Types.CloudinaryImage | { path?: string } | Types.UniformOldImage | Asset | Asset[];
+
+type PageMetaData = {
+  pageTitle: string;
+  pageMetaDescription: string;
+  pageKeywords: string;
+  openGraphTitle: string;
+  openGraphDescription: string;
+  openGraphImage: [Asset];
+  twitterTitle: string;
+  twitterDescription: string;
+  twitterImage: [Asset];
+  twitterCard: string;
+};
 
 export const getPageMetaData = (composition: RootComponentInstance) => {
   const {
@@ -18,33 +30,33 @@ export const getPageMetaData = (composition: RootComponentInstance) => {
     twitterDescription,
     twitterImage,
     twitterCard,
-  } = composition?.parameters || {};
+  } = flattenValues(composition) as PageMetaData;
 
   return {
     metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
-    title: (pageTitle?.value as string) ?? 'Uniform Component Starter Kit',
-    description: pageMetaDescription?.value as string,
-    keywords: pageKeywords?.value as string,
+    title: pageTitle ?? 'Uniform Component Starter Kit',
+    description: pageMetaDescription,
+    keywords: pageKeywords,
     openGraph: {
-      title: (openGraphTitle?.value as string) ?? pageTitle?.value,
-      description: (openGraphDescription?.value as string) ?? pageMetaDescription?.value,
+      title: openGraphTitle ?? pageTitle,
+      description: openGraphDescription ?? pageMetaDescription,
       images: [
         {
-          url: getMediaUrl(openGraphImage?.value as Asset | undefined),
-          alt: openGraphTitle?.value as string,
+          url: getMediaUrl(openGraphImage),
+          alt: openGraphTitle,
         },
       ],
     },
     twitter: {
-      title: (twitterTitle?.value as string) ?? pageTitle?.value,
-      description: (twitterDescription?.value as string) ?? pageMetaDescription?.value,
+      title: twitterTitle ?? pageTitle,
+      description: twitterDescription ?? pageMetaDescription,
       images: [
         {
-          url: getMediaUrl(twitterImage?.value as Asset | undefined),
-          alt: twitterTitle?.value as string,
+          url: getMediaUrl(twitterImage),
+          alt: twitterTitle,
         },
       ],
-      card: twitterCard?.value as 'summary' | 'summary_large_image',
+      card: twitterCard as 'summary' | 'summary_large_image',
     },
   };
 };

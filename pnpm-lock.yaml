@@ -102,6 +102,9 @@ importers:
       '@typescript-eslint/types':
         specifier: ^6.4.0
         version: 6.21.0
+      '@uniformdev/assets':
+        specifier: ^19.182.0
+        version: 19.182.0
       '@uniformdev/cli':
         specifier: ^19.182.0
         version: 19.182.0(@types/node@18.19.43)(encoding@0.1.13)(typescript@5.3.3)

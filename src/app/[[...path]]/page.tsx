@@ -6,7 +6,7 @@ import { getPageMetaData } from '@/utilities';
 import { componentResolver } from '@/canvas';
 
 // IMPORTANT: SSG mode, uncomment this line (see other comments below)
-// export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
+export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
 
 // Optionally, when using SSR, you can enable edge runtime to render from the CDN nodes instead of lambda (check your CDN docs if this is supported)
 // export const runtime = 'edge';
@@ -27,8 +27,8 @@ export async function generateMetadata(props: PageParameters): Promise<Metadata>
 export default async function Home(props: PageParameters) {
   const route = await retrieveRoute(props);
   // IMPORTANT: SSG mode, change mode="server" to mode="static" below:
-  return <UniformComposition {...props} route={route} resolveComponent={componentResolver} mode="server" />;
+  return <UniformComposition {...props} route={route} resolveComponent={componentResolver} mode="static" />;
 }
 
 // IMPORTANT: SSG mode, uncomment this line:
-// export const dynamic = 'force-static';
+export const dynamic = 'force-static';

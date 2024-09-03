@@ -31,6 +31,7 @@
     "@uniformdev/canvas-next-rsc": "^19.182.0",
     "@uniformdev/canvas": "^19.182.0",
     "@uniformdev/context-next": "^19.182.0",
+    "@uniformdev/context-react": "^19.182.0",
     "@uniformdev/project-map": "^19.182.0",
     "@uniformdev/richtext": "^19.182.0",
     "@vercel/og": "^0.5.7",

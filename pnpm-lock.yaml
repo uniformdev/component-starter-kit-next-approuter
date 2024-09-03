@@ -23,6 +23,9 @@ importers:
       '@uniformdev/context-next':
         specifier: ^19.182.0
         version: 19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/context-react':
+        specifier: ^19.182.0
+        version: 19.182.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@uniformdev/project-map':
         specifier: ^19.182.0
         version: 19.182.0

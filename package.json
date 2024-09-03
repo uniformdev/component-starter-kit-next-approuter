@@ -6,7 +6,7 @@
     "npm": ">=8.19.0",
     "node": ">=18.17.0",
     "yarn": "please-use-npm",
-    "pnpm": "please-use-npm"
+    "pnpm": ">=9.4.0"
   },
   "scripts": {
     "dev": "run-s uniform:manifest:pull dev:next",
@@ -48,6 +48,8 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "@types/color": "^3.0.3",
+    "@kontent-ai/delivery-sdk": "^14.11.0",
+    "@kontent-ai/delivery-node-parser": "^4.1.6",
     "@types/node": "^18.15.11",
     "@types/node-fetch": "^2.6.4",
     "@types/react": "18.2.45",

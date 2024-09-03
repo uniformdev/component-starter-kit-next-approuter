@@ -27,3 +27,6 @@ jobs:
 
       - name: Build project
         run: pnpm run build
+        env:
+          UNIFORM_PROJECT: ${{ secrets.UNIFORM_PROJECT_ID }}
+          UNIFORM_API_KEY: ${{ secrets.UNIFORM_API_KEY }}

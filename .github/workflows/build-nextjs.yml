@@ -23,7 +23,10 @@ jobs:
           npm install -g pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
+
+      - name: List installed packages
+        run: pnpm list
 
       - name: Build project
         run: pnpm run build

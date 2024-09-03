@@ -29,6 +29,7 @@
     "@contentful/rich-text-html-renderer": "^16.1.0",
     "@contentful/rich-text-types": "^16.2.0",
     "@uniformdev/canvas-next-rsc": "^19.182.0",
+    "@uniformdev/canvas-next-rsc-shared": "^19.182.0",
     "@uniformdev/canvas": "^19.182.0",
     "@uniformdev/context-next": "^19.182.0",
     "@uniformdev/context-react": "^19.182.0",

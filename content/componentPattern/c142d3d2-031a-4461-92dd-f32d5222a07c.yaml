@@ -1,0 +1,24 @@
+composition:
+  _name: Rich Text with Datasource Pattern
+  _id: c142d3d2-031a-4461-92dd-f32d5222a07c
+  type: richTextWithDatasource
+  parameters:
+    text:
+      type: json
+      value: ${#jptr:/Rich Text Content/item/elements/untitled_rich_text/value}
+  _dataResources:
+    Rich Text Content:
+      type: richText
+      variables:
+        language: ''
+        itemsCodenames: untitled_content_item_5eea9c4
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+    - fr
+created: '2024-05-22T13:57:39.853092+00:00'
+modified: '2024-05-23T09:01:28.083794+00:00'
+pattern: true

@@ -1,4 +1,5 @@
 import { richTextMappings } from './_atoms/RichText';
+import { richTextDSMappings } from './_atoms/RichTextDS';
 import { textMappings } from './_atoms/Text';
 import { accordionMappings } from './Accordion';
 import { accordionItemMappings } from './AccordionItem';
@@ -81,6 +82,7 @@ export const baseComponentMappings = {
   ...imageGalleryMappings,
   ...reviewMappings,
   ...richTextMappings,
+  ...richTextDSMappings,
   ...textMappings,
   ...spacerMappings,
   ...testimonialMappings,

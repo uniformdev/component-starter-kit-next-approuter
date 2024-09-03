@@ -14,18 +14,21 @@ importers:
       '@contentful/rich-text-types':
         specifier: ^16.2.0
         version: 16.8.3
+      '@uniformdev/canvas':
+        specifier: ^19.182.0
+        version: 19.182.0
       '@uniformdev/canvas-next-rsc':
-        specifier: ^19.173.0
-        version: 19.177.1(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^19.182.0
+        version: 19.182.0(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@uniformdev/context-next':
-        specifier: ^19.173.0
-        version: 19.177.1(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^19.182.0
+        version: 19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@uniformdev/project-map':
-        specifier: ^19.173.0
-        version: 19.177.1
+        specifier: ^19.182.0
+        version: 19.182.0
       '@uniformdev/richtext':
-        specifier: ^19.173.0
-        version: 19.177.1
+        specifier: ^19.182.0
+        version: 19.182.0
       '@vercel/og':
         specifier: ^0.5.7
         version: 0.5.20
@@ -100,8 +103,8 @@ importers:
         specifier: ^6.4.0
         version: 6.21.0
       '@uniformdev/cli':
-        specifier: ^19.173.0
-        version: 19.177.1(@types/node@18.19.43)(encoding@0.1.13)(typescript@5.3.3)
+        specifier: ^19.182.0
+        version: 19.182.0(@types/node@18.19.43)(encoding@0.1.13)(typescript@5.3.3)
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.20(postcss@8.4.41)
@@ -525,77 +528,77 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@uniformdev/assets@19.177.1':
-    resolution: {integrity: sha512-U2GJfBek6taiISg6FB7ONz6mPAQMNI4L11U+E+MIrOLHVoaFhH9AZiyi2s+MkFlpDxDuAdY5DaY4GA+BQq9SNw==}
+  '@uniformdev/assets@19.182.0':
+    resolution: {integrity: sha512-Jmc9hZO3JfcIBB7R7ERpvh7SQ3cA2wzK8RYw6Ph1sWLaKDhnRUmwWfrZE48wx3+7ohuzD7FINwGX44/7xRB9KA==}
 
-  '@uniformdev/canvas-next-rsc-client@19.177.1':
-    resolution: {integrity: sha512-avuYIwGBohDZmvNdOmZsXroxRfDX98KYq4PcwYC/KsRQuXTLkC8YQ4XkTcqbhBuxuZAVXm1dfucQTqyODRcEJw==}
+  '@uniformdev/canvas-next-rsc-client@19.182.0':
+    resolution: {integrity: sha512-LHP0cASWy9tkRn17prtwmyitssAc5TNrOGQuNjQ8x/HcviDJmQ3qxBWoDJv/786LFK5slAAlCuyDN4sLGH6JzA==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       next: '>=13.4.7'
       react: '>=18.2'
       react-dom: '>=18.2'
 
-  '@uniformdev/canvas-next-rsc-shared@19.177.1':
-    resolution: {integrity: sha512-IWuIYX5riQOCRPcNDaNXzNefyElKgC/lwgn24CQh8q8bKQ5IqAiQV6SlKUzlKTWEL5GzdGe1EC3GqY5hKX+wOw==}
+  '@uniformdev/canvas-next-rsc-shared@19.182.0':
+    resolution: {integrity: sha512-6uJU44KtGHlVingk+0355/44I8bO8BWIBBQAnv9/KOLQr9jupk+7GbVSqcd3sI+c6bKvmD7eXWdmeIFr4IhTPg==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       next: '>=13.4.7'
       react: '>=18.2'
       react-dom: '>=18.2'
 
-  '@uniformdev/canvas-next-rsc@19.177.1':
-    resolution: {integrity: sha512-dedo780MOaE43xx/HYxuTvw8efpDkiz3ZE1BR7WyZXMWpo/j0APIW2LuIQdcof54tWkWwfISFA2eYfmF/HYe8w==}
+  '@uniformdev/canvas-next-rsc@19.182.0':
+    resolution: {integrity: sha512-UQGvD6E402g6Kx8WvGM84NlVQypGVpVWbg+PR5ZrChxsp9romTlOYFgdD5qTZ2rxh/L3CQEpWQ7GgSiPXVDFiw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       next: '>=13.4.7'
       react: '>=18.2'
       react-dom: '>=18.2'
 
-  '@uniformdev/canvas-react@19.177.1':
-    resolution: {integrity: sha512-Kw4mEMUIqM2O0GfAGOgCfuQk2KVhPiAvLmgbKV2gcE1neirrNSaCmND1L3QctUqN9Q61iYLKlHiYGMS793eX8Q==}
+  '@uniformdev/canvas-react@19.182.0':
+    resolution: {integrity: sha512-nHrIk+EJ8ly3unNaeleKToECID4jgotLXD7269So1cnV7d7ax8p4dSi0zB5zBRgA38ptruNsoehCj/7GucrP6Q==}
     peerDependencies:
       immer: '>= 10'
       react: '>= 16 || 17 || 18'
       react-dom: '>=16'
 
-  '@uniformdev/canvas@19.177.1':
-    resolution: {integrity: sha512-BTJUpliY8wBZIK0h3MR8Ele0eyNHRklV83lhZ9AfaRUWXLiowtTDH7qnfqy8hLq2j8ccUGszrbiUNIUyO7E+aA==}
+  '@uniformdev/canvas@19.182.0':
+    resolution: {integrity: sha512-B+LpWN+B3uf76M+BkDkLhWqsIuLSYgeDk+GbO2lxQsLDc1kqNbD6T2JZtWIxiWfNPd2beMh1pI2UNKa+FxLBUw==}
 
-  '@uniformdev/cli@19.177.1':
-    resolution: {integrity: sha512-JS1V4d8Mm/DScu1LOyrrlCP0Vo3FNreDZQms/PMuzDdTI+LhUur4GC2uT6z0CAborojjsgggX4D/iS5VS6oImw==}
+  '@uniformdev/cli@19.182.0':
+    resolution: {integrity: sha512-itEWjrP1d3gbdlLppM/ELXPYRhMux5WqJL/knlHwDDJWJgP14IoxbaxntfaryF6Q1OYEMvVXDIP8U6Op6MRfew==}
     hasBin: true
 
-  '@uniformdev/context-next@19.177.1':
-    resolution: {integrity: sha512-6LCMi6OuEAic+a2KyzADoObxshyHcETmERqhqst6TAPI+mcjeDvFOA+Onr46smCoHDV5QUPqZAZXyQRbHgZfEg==}
+  '@uniformdev/context-next@19.182.0':
+    resolution: {integrity: sha512-v+qsWeRlmBbptgDWWEui95ceHG10KoX9aTjdgpwwtsiOokNr8UPT95GizGt24YpjnyynNYmVAeOMRyg++VTNaA==}
     peerDependencies:
       next: '>= 12.0.0'
       react: '>=16.13.1 || 17 || 18'
       react-dom: '>=16.13.1'
 
-  '@uniformdev/context-react@19.177.1':
-    resolution: {integrity: sha512-sbPXLB/XmHV/Tjx71QK3AFhMBJ2YWRfv6XRVpjPeLk3Rl3PdnEC2NJe/oZ2gwPnIy1W3UHHv/S6rL1ycDSaG9Q==}
+  '@uniformdev/context-react@19.182.0':
+    resolution: {integrity: sha512-K2C4xh8lnRYZ+YO3gn5VPHF2KiWMrqgDqh+IrhYXoN5SFeB4Tt2y0hWVeXawqoE+S3xPAawuMqECytC8oQ/pZg==}
     peerDependencies:
       react: '>=16.13.1 || 17 || 18'
       react-dom: '>=16.13.1'
 
-  '@uniformdev/context@19.177.1':
-    resolution: {integrity: sha512-0Zy5dk6rTFxwtEUMZd2rn+Ht24TrkPmvluv8na/4E8vhepCAOlNHMuPRpLMiaeOazM6kGt7M5TEBNvxzaKrDuA==}
+  '@uniformdev/context@19.182.0':
+    resolution: {integrity: sha512-TRgMFIubWiLOxX9HWiSBQABHxnfq28vnlrt7Tzrb/HpTZrgRzKpcNCKtqUppeKEkej27hBtca4RLRsEv+N3viQ==}
 
-  '@uniformdev/files@19.177.1':
-    resolution: {integrity: sha512-zvNaip92y7zokIp/jYfrVsk+ODIqKCu70ypVDoqbCNOM6TQCCFobEmxMiWAweGtbxv07p08Cs18Zfh7xUcjWag==}
+  '@uniformdev/files@19.182.0':
+    resolution: {integrity: sha512-9n5UhD1WWT8YIIJU6Wzbjg/zlfWU0yzPM+3S79fAHtqlS1atlhOEqfPXJIDB8muPO1dJTqohHlulaNJwj5uZYg==}
 
-  '@uniformdev/project-map@19.177.1':
-    resolution: {integrity: sha512-tmW4ony57EU5t5fdXLDMJzxPHvW/YIyh3FAQZj1gpbL7SSD6qR2nesKe2pHMdzRgj36zQlFmvmsUZ7RSxHHK/w==}
+  '@uniformdev/project-map@19.182.0':
+    resolution: {integrity: sha512-gKkwZMPW7pRR/RNVqNtOKBmdNbvWAz9+k5gqjrj/m19ipwAPaZ27PCVfvBgOwmEzPnnPU2pVY/V+kUTjxdueTQ==}
 
-  '@uniformdev/redirect@19.177.1':
-    resolution: {integrity: sha512-WgbVQGgaSiKwnqD4Q90arhM5lwtn6pUBQZXThJLTXAxTHdDY40JunpvEia9Q2JGSg0VJnBBKvIVaIlpta9FDgw==}
+  '@uniformdev/redirect@19.182.0':
+    resolution: {integrity: sha512-iOU8ZCyOiNXVxwuenlEYOPDSUqs5bmwWC1Dq8Eb1+OAj0sRn5fAYCCU8NVxhdXFlVbEuuGWmLc8I6bZ+J4ambQ==}
 
-  '@uniformdev/richtext@19.177.1':
-    resolution: {integrity: sha512-37YG9YZ9GkUA0M37rBO4p+0BdprIwUt33Rx+nf2gNzYEAHyrEGXycmHvnfHYDQzYNzSJrE0UmaoL+TUmWx66/w==}
+  '@uniformdev/richtext@19.182.0':
+    resolution: {integrity: sha512-qmKF5cECeN6bDPQHLHRuG+9yuuGng/y9ebq1qg2UwTaIh3eeCR8ZzOteauM06FF9TzqFgs5eHmNDj9aUXDE+SQ==}
 
-  '@uniformdev/webhooks@19.177.1':
-    resolution: {integrity: sha512-zB5js99wAgxBfhwV9tIZY8vX7u64o6BbAjhlbmQfEMVY7WI+IdKRliZCc1jtsM5tv5i40XUjtGRDcanUnG32CA==}
+  '@uniformdev/webhooks@19.182.0':
+    resolution: {integrity: sha512-tKVpesEkRe3ohnSTYkyP7ZTM5RwmgHI/6n49wFwsMCfNS/+DQ2aYtq1C388C9NXo0wtWQ9KLcIUUPeIlLjo/nQ==}
 
   '@vercel/edge-config-fs@0.1.0':
     resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
@@ -727,9 +730,6 @@ packages:
   axe-core@4.10.0:
     resolution: {integrity: sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==}
     engines: {node: '>=4'}
-
-  axios@1.7.3:
-    resolution: {integrity: sha512-Ar7ND9pU99eJ9GpoGQKhKf58GpUOgnzuaB7ueNQ5BMi0p+LZ5oaEnfF999fAArcTIBwXTCHAmGcHOZJaWPq9Nw==}
 
   axios@1.7.4:
     resolution: {integrity: sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==}
@@ -3430,40 +3430,40 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@uniformdev/assets@19.177.1':
+  '@uniformdev/assets@19.182.0':
     dependencies:
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/context': 19.182.0
 
-  '@uniformdev/canvas-next-rsc-client@19.177.1(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/canvas-next-rsc-client@19.182.0(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/canvas-next-rsc-shared': 19.177.1(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@uniformdev/canvas-react': 19.177.1(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/canvas-next-rsc-shared': 19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/canvas-react': 19.182.0(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - immer
 
-  '@uniformdev/canvas-next-rsc-shared@19.177.1(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/canvas-next-rsc-shared@19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/context': 19.182.0
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@uniformdev/canvas-next-rsc@19.177.1(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/canvas-next-rsc@19.182.0(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/canvas-next-rsc-client': 19.177.1(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@uniformdev/canvas-next-rsc-shared': 19.177.1(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@uniformdev/canvas-react': 19.177.1(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@uniformdev/context': 19.177.1
-      '@uniformdev/project-map': 19.177.1
-      '@uniformdev/redirect': 19.177.1
-      '@uniformdev/richtext': 19.177.1
-      '@uniformdev/webhooks': 19.177.1
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/canvas-next-rsc-client': 19.182.0(immer@10.1.1)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/canvas-next-rsc-shared': 19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/canvas-react': 19.182.0(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/context': 19.182.0
+      '@uniformdev/project-map': 19.182.0
+      '@uniformdev/redirect': 19.182.0
+      '@uniformdev/richtext': 19.182.0
+      '@uniformdev/webhooks': 19.182.0
       '@vercel/edge-config': 0.4.1
       encoding: 0.1.13
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
@@ -3474,31 +3474,32 @@ snapshots:
     transitivePeerDependencies:
       - immer
 
-  '@uniformdev/canvas-react@19.177.1(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/canvas-react@19.182.0(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/context': 19.177.1
-      '@uniformdev/context-react': 19.177.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@uniformdev/richtext': 19.177.1
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/context': 19.182.0
+      '@uniformdev/context-react': 19.182.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uniformdev/richtext': 19.182.0
       immer: 10.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@uniformdev/canvas@19.177.1':
+  '@uniformdev/canvas@19.182.0':
     dependencies:
-      '@uniformdev/assets': 19.177.1
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/assets': 19.182.0
+      '@uniformdev/context': 19.182.0
+      '@uniformdev/richtext': 19.182.0
       immer: 10.1.1
 
-  '@uniformdev/cli@19.177.1(@types/node@18.19.43)(encoding@0.1.13)(typescript@5.3.3)':
+  '@uniformdev/cli@19.182.0(@types/node@18.19.43)(encoding@0.1.13)(typescript@5.3.3)':
     dependencies:
       '@thi.ng/mime': 2.6.13
-      '@uniformdev/assets': 19.177.1
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/context': 19.177.1
-      '@uniformdev/files': 19.177.1
-      '@uniformdev/project-map': 19.177.1
-      '@uniformdev/redirect': 19.177.1
+      '@uniformdev/assets': 19.182.0
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/context': 19.182.0
+      '@uniformdev/files': 19.182.0
+      '@uniformdev/project-map': 19.182.0
+      '@uniformdev/redirect': 19.182.0
       call-bind: 1.0.7
       colorette: 2.0.20
       cosmiconfig: 9.0.0(typescript@5.3.3)
@@ -3531,23 +3532,23 @@ snapshots:
       - encoding
       - typescript
 
-  '@uniformdev/context-next@19.177.1(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/context-next@19.182.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/context': 19.182.0
       cookie: 0.6.0
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@uniformdev/context-react@19.177.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uniformdev/context-react@19.182.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/context': 19.182.0
       cookie: 0.6.0
       dequal: 2.0.3
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@uniformdev/context@19.177.1':
+  '@uniformdev/context@19.182.0':
     dependencies:
       dequal: 2.0.3
       js-cookie: 3.0.5
@@ -3556,24 +3557,24 @@ snapshots:
       rfdc: 1.4.1
       uuid: 9.0.1
 
-  '@uniformdev/files@19.177.1':
+  '@uniformdev/files@19.182.0':
     dependencies:
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/context': 19.182.0
 
-  '@uniformdev/project-map@19.177.1':
+  '@uniformdev/project-map@19.182.0':
     dependencies:
-      '@uniformdev/canvas': 19.177.1
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/canvas': 19.182.0
+      '@uniformdev/context': 19.182.0
 
-  '@uniformdev/redirect@19.177.1':
+  '@uniformdev/redirect@19.182.0':
     dependencies:
-      '@uniformdev/context': 19.177.1
+      '@uniformdev/context': 19.182.0
       p-limit: 3.1.0
       rfdc: 1.4.1
 
-  '@uniformdev/richtext@19.177.1': {}
+  '@uniformdev/richtext@19.182.0': {}
 
-  '@uniformdev/webhooks@19.177.1':
+  '@uniformdev/webhooks@19.182.0':
     dependencies:
       zod: 3.23.8
 
@@ -3729,14 +3730,6 @@ snapshots:
       possible-typed-array-names: 1.0.0
 
   axe-core@4.10.0: {}
-
-  axios@1.7.3:
-    dependencies:
-      follow-redirects: 1.15.6
-      form-data: 4.0.0
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
 
   axios@1.7.4:
     dependencies:
@@ -5570,7 +5563,7 @@ snapshots:
 
   posthog-node@4.0.1:
     dependencies:
-      axios: 1.7.3
+      axios: 1.7.4
       rusha: 0.8.14
     transitivePeerDependencies:
       - debug

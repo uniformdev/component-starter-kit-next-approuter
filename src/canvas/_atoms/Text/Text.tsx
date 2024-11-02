@@ -44,8 +44,10 @@ export const Text: FC<TextProps> = ({
     />
   );
 
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
   // ToDo requires refactoring (styles do not apply when сontextual editing)
-  return context.isContextualEditing ? (
+  return isContextualEditing ? (
     <div style={{ color: currentColor, ...style, ...restStyles }}>
       <TextElement />
     </div>

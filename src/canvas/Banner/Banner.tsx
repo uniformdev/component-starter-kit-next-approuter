@@ -24,7 +24,9 @@ export const Banner: FC<BannerProps> = ({
   component,
   context,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
+
   const Wrapper = inline && component?.variant !== BannerVariant.FullWidth ? ScreenContainer : Fragment;
 
   return (

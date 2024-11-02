@@ -13,7 +13,8 @@ type Props = ComponentProps<Parameters, SlotNames>;
 export const BasePage = ({ slots, component, context }: Props) => {
   const { isEnabled: isEnabledDraftMode } = draftMode();
   const gap = component?.slots?.pageHeader?.[0]?.parameters?.syntheticGap?.value as PaddingSize | undefined;
-  const isContextualEditing = context.isContextualEditing;
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   return (
     <ThemeProvider data={context.composition}>

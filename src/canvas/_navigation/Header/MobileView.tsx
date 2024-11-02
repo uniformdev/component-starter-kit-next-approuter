@@ -22,7 +22,8 @@ export const MobileView: FC<Props> = ({ wrapperClassName, logo, component, conte
 
   const toggleMenu = useCallback(() => setIsMenuOpen(prevState => !prevState), []);
 
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   const isChildComponentSelected = false;
 

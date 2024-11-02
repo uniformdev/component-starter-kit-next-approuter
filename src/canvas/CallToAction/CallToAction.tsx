@@ -23,7 +23,9 @@ export const CallToAction: FC<CallToActionProps> = ({
   context,
   component,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
+
   const isLightTextColor = textColorVariant === 'Light';
   const eyebrowTextColorStyle = isLightTextColor ? 'text-secondary' : 'text-primary';
   const textColorStyle = isLightTextColor ? 'text-primary-content' : 'text-secondary-content';

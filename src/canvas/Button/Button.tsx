@@ -5,7 +5,8 @@ import { formatProjectMapLink } from '../../utilities';
 import { ButtonProps } from '.';
 
 export const Button: FC<ButtonProps> = ({ copy, link, style, animationType, component, context }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   if (!Boolean(copy) && !isContextualEditing) {
     return null;

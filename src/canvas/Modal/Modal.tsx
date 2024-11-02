@@ -15,8 +15,8 @@ export const Modal: FC<ModalProps> = ({
   slots,
 }) => {
   const [showModal, setShowModal] = useState(false);
-
-  const isContextualEditing = context?.isContextualEditing;
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   const onToggleModal = useCallback(() => {
     if (!isContextualEditing) setShowModal(prev => !prev);

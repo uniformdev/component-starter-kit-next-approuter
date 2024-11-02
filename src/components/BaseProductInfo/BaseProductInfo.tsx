@@ -44,7 +44,8 @@ const ProductInfo: FC<Props> = ({
   context,
   component,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
   const imageUrl = getMediaUrl(image);
   const { ElementWrapper, getDelayValue } = useProductInfoAnimation({
     duration,

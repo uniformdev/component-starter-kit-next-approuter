@@ -19,7 +19,8 @@ export const CardBlockDefault: FC<CardBlockProps> = ({
   context,
   slots,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
   const colorClassName = getColorClassName(textColorVariant);
 
   return (

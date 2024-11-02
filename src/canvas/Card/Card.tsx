@@ -49,7 +49,9 @@ export const Card: FC<CardProps> = ({
   context,
   component,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
+
   const imageUrl = getMediaUrl(image);
 
   const badgeClassNames = classNames('badge', getBadgeStyleClass(badgeStyle), getBadgeSizeClass(badgeSize));

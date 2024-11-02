@@ -85,6 +85,8 @@ export const Carousel: FC<CarouselProps> = ({ component, context, slots }) => {
         </button>
       </div>
     );
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   return (
     <CarouselContext.Provider
@@ -102,7 +104,7 @@ export const Carousel: FC<CarouselProps> = ({ component, context, slots }) => {
                   id={`slide-${slotIndex}`}
                   key={key}
                   className={classNames('min-w-full', {
-                    hidden: context?.isContextualEditing && currentIndex !== slotIndex,
+                    hidden: isContextualEditing && currentIndex !== slotIndex,
                   })}
                 >
                   {child}

@@ -21,7 +21,9 @@ export const CardBlockCarousel: FC<CardBlockProps> = ({
   component,
   slots,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
+
   const colorClassName = getColorClassName(textColorVariant);
 
   return (

@@ -46,7 +46,8 @@ export const HeroBackgroundImage: FC<HeroProps> = ({
   component,
   context,
 }) => {
-  const { isContextualEditing } = context || {};
+  const { previewMode } = context || {};
+  const isContextualEditing = previewMode === 'editor';
 
   const currentColor = REGEX_COLOR_HEX.test(textColorVariant || textColor || DEFAULT_TEXT_COLOR)
     ? textColor

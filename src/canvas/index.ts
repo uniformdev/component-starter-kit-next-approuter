@@ -23,7 +23,10 @@ import { dividerMappings } from './Divider';
 import { featureMappings } from './Feature';
 import { featuredCalloutMappings } from './FeaturedCallout';
 import { heroMappings } from './Hero';
+import { heroContainerMappings } from './HeroContainer';
 import { imageMappings } from './Image';
+import { hotspotsMappings } from './Hotspots';
+import { hotspotMappings } from './_atoms/Hotspot';
 import { tableMappings } from './Table';
 import { modalMappings } from './Modal';
 import { footerMappings } from './_navigation/Footer';
@@ -67,7 +70,10 @@ export const baseComponentMappings = {
   ...featureMappings,
   ...featuredCalloutMappings,
   ...heroMappings,
+  ...heroContainerMappings,
   ...imageMappings,
+  ...hotspotsMappings,
+  ...hotspotMappings,
   ...tableMappings,
   ...modalMappings,
   ...footerMappings,

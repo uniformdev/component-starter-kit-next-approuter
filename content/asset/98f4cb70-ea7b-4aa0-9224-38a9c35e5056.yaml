@@ -8,13 +8,13 @@ asset:
       value: webinar_poster.png
     file:
       type: file
-      value: bbe05f8d-9439-4492-9f2a-5473e83871d6
+      value: 7f114d45-a4cf-43a1-9ab1-93f8eda0a311
     mediaType:
       value: image/png
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/6lBBvxGvR62VZBy-H0uajA-webinar_poster.png
+        https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/P66exJASRfSDsxJpc9HnGw-webinar_poster.png
       type: text
     size:
       value: 197218
@@ -26,5 +26,5 @@ asset:
       value: 720
       type: number
     custom: {}
-created: '2024-04-15T10:51:15.310458+00:00'
-modified: '2024-04-15T10:51:15.310458+00:00'
+created: '2023-12-13T13:42:15.130872+00:00'
+modified: '2023-12-13T13:42:15.130872+00:00'

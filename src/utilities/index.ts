@@ -1,65 +1,9 @@
 import type { Asset } from '@uniformdev/assets';
-import { flattenValues, ComponentInstance, RootComponentInstance } from '@uniformdev/canvas';
+import { ComponentInstance, RootComponentInstance } from '@uniformdev/canvas';
 
 export const REGEX_COLOR_HEX = /#(?:[0-9a-fA-F]{3}){1,2}$/;
 
 type MediaType = string | Types.CloudinaryImage | { path?: string } | Types.UniformOldImage | Asset | Asset[];
-
-type PageMetaData = {
-  pageTitle: string;
-  pageMetaDescription: string;
-  pageKeywords: string;
-  openGraphTitle: string;
-  openGraphDescription: string;
-  openGraphImage: [Asset];
-  twitterTitle: string;
-  twitterDescription: string;
-  twitterImage: [Asset];
-  twitterCard: string;
-};
-
-export const getPageMetaData = (composition: RootComponentInstance) => {
-  const {
-    pageTitle,
-    pageMetaDescription,
-    pageKeywords,
-    openGraphTitle,
-    openGraphDescription,
-    openGraphImage,
-    twitterTitle,
-    twitterDescription,
-    twitterImage,
-    twitterCard,
-  } = flattenValues(composition) as PageMetaData;
-
-  return {
-    metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
-    title: pageTitle ?? 'Uniform Component Starter Kit',
-    description: pageMetaDescription,
-    keywords: pageKeywords,
-    openGraph: {
-      title: openGraphTitle ?? pageTitle,
-      description: openGraphDescription ?? pageMetaDescription,
-      images: [
-        {
-          url: getMediaUrl(openGraphImage),
-          alt: openGraphTitle,
-        },
-      ],
-    },
-    twitter: {
-      title: twitterTitle ?? pageTitle,
-      description: twitterDescription ?? pageMetaDescription,
-      images: [
-        {
-          url: getMediaUrl(twitterImage),
-          alt: twitterTitle,
-        },
-      ],
-      card: twitterCard as 'summary' | 'summary_large_image',
-    },
-  };
-};
 
 export const getMediaUrl = (media?: MediaType) => {
   const mediaUrl: string | undefined = (() => {
@@ -161,4 +105,54 @@ const deepEqual = <T>(a: T, b: T): boolean => {
   for (const key of keysA) if (!keysB.includes(key) || !deepEqual(a[key as keyof T], b[key as keyof T])) return false;
 
   return true;
+};
+
+export const getManifestFromDOM = () => {
+  let manifest = { project: {} };
+  if (typeof window !== 'undefined') {
+    const json = document.getElementById('manifest')?.innerHTML;
+    if (json) {
+      manifest = JSON.parse(json);
+    }
+  }
+  return manifest;
+};
+
+export const findSlotsWithType = (composition: RootComponentInstance, targetType: string): ComponentInstance | null => {
+  let result: ComponentInstance | null = null;
+  let found = false;
+
+  function recursiveSearch(node: ComponentInstance): void {
+    if (found) return; // Early exit if we've found the target
+
+    if (node && typeof node === 'object') {
+      // Check if 'node' has 'type' and it matches 'targetType'
+      if (node.type === targetType) {
+        result = node;
+        found = true;
+        return;
+      }
+
+      // Proceed to search in 'slots' if they exist
+      if (node.slots) {
+        for (const key in node.slots) {
+          if (Object.prototype.hasOwnProperty.call(node.slots, key)) {
+            const slotContent = node.slots[key];
+            if (Array.isArray(slotContent)) {
+              for (const item of slotContent) {
+                recursiveSearch(item);
+                if (found) return; // Early exit if found
+              }
+            } else {
+              recursiveSearch(slotContent);
+              if (found) return; // Early exit if found
+            }
+          }
+        }
+      }
+    }
+  }
+
+  recursiveSearch(composition);
+  return result;
 };

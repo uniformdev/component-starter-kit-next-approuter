@@ -8,13 +8,13 @@ asset:
       value: action-solid-svgrepo-com.svg
     file:
       type: file
-      value: 9941872d-543d-4e24-92d8-91595135751a
+      value: 4fc98145-1c72-476f-8335-fdeb395f5888
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/Ca8K15qYQlGXNyGtNXuTAg-action-solid-svgrepo-com.svg
+        https://img.uniform.global/p/mz7rjvIeRHGbZyypPL9qMg/Ke16iSUNTDuKgJL8EYpIXQ-action-solid-svgrepo-com.svg
       type: text
     size:
       value: 427
@@ -26,5 +26,5 @@ asset:
       value: 800
       type: number
     custom: {}
-created: '2024-04-15T10:51:10.714333+00:00'
-modified: '2024-04-15T10:51:10.714333+00:00'
+created: '2024-01-15T11:10:11.079558+00:00'
+modified: '2024-01-15T11:10:11.079558+00:00'

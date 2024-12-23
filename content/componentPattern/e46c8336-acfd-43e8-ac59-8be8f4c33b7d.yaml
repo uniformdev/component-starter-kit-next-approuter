@@ -14,7 +14,7 @@ composition:
               value: 89401cb5-7432-4abb-ab3d-0c58a98e7737
             url:
               value: >-
-                https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/E9EN9RpHRhq0IrCbqv7mGQ-uniform_csk_logo.png
+                https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/MH5AJGrcR5eFgxNc5EUJHA-uniform_csk_logo.png
               type: text
             file:
               type: file
@@ -79,7 +79,7 @@ composition:
               value: 88505c93-6df6-4dbd-8ecb-d178f7f2341f
             url:
               value: >-
-                https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/uWCsHGIDRSON2KrD9FUEwQ-favicon.png
+                https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/JA7dBpIBRRWtc3K6Bd-ysQ-favicon.png
               type: text
             file:
               type: file
@@ -484,6 +484,22 @@ composition:
                 title:
                   type: text
                   value: Images
+            - _id: eccf2078-7fb7-400c-bd03-0d0efedc2a5a
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /components/hotspots
+                    type: projectMapNode
+                    nodeId: 36dbc81a-a455-4d5b-8b98-16fb4bad234f
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                title:
+                  type: text
+                  value: Hotspots
             - _id: fb9580f8-495a-4f50-89fb-21dca93a303c
               type: navigationLink
               parameters:
@@ -586,7 +602,7 @@ composition:
                     value: 6e4df38e-7e0f-4f10-a490-d91ebc6ef84a
                   url:
                     value: >-
-                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/x4JdqM-TSlaWeAgiV41-ww-storybook_icon.svg
+                      https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/HwXZcb0XQWW8W17eUNo6lQ-storybook_icon.svg
                     type: text
                   file:
                     type: file
@@ -626,7 +642,7 @@ composition:
                     value: f02a73de-bab2-48da-a138-7463c1f82257
                   url:
                     value: >-
-                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/m_UT2I5JSg-nIPOnGLUW_Q-github_icon.svg
+                      https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/La00wu5URKud2JEfpyuZNw-github_icon.svg
                     type: text
                   file:
                     type: file
@@ -655,8 +671,8 @@ composition:
   _overridability:
     parameters:
       syntheticGap: 'yes'
-created: '2024-04-15T10:51:40.427952+00:00'
-modified: '2024-04-15T10:51:40.427952+00:00'
+created: '2023-12-04T16:14:20.339128+00:00'
+modified: '2024-06-13T11:50:30.875235+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Header_pattern_preview_image

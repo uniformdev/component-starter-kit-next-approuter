@@ -1,12 +1,12 @@
 composition:
-  _name: Hero Background Image
-  _id: ef9f29a8-b972-4326-bf5b-1a00f2fa8e9b
+  _name: Hero Background Video
+  _id: 5b8948bf-c097-4600-9481-696dc8df3eb7
   type: advancedContainer
   variant: fluidContent
   parameters:
     title:
       type: text
-      value: Advanced Hero Background Image
+      value: Advanced Hero Background Video
     paddingTop:
       type: select
       value: Large
@@ -18,11 +18,11 @@ composition:
       value: primary-content
   slots:
     content:
-      - _id: 4fffcc72-da42-42b4-9043-b0ff954809ad
+      - _id: 3eca0bed-0899-4f7c-9886-98110abbfc60
         type: box
         slots:
           content:
-            - _id: ea89db6a-f014-4816-970c-0075d8d10a50
+            - _id: 4925df97-3e4b-40fb-8afc-b1574e865d74
               type: text
               parameters:
                 tag:
@@ -56,7 +56,7 @@ composition:
                   fontWeight: 'yes'
                   whiteSpace: 'yes'
                   letterSpacing: 'yes'
-            - _id: bd589953-587f-46a4-bd05-93a89124c712
+            - _id: 60d5aa17-c732-4a85-b4f2-82cda288d1d8
               type: spacer
               parameters:
                 thickness:
@@ -66,7 +66,7 @@ composition:
                 variants: true
                 parameters:
                   thickness: 'yes'
-            - _id: 37dbaca4-fb95-4515-9a88-d2feb1c5765c
+            - _id: edf877df-b1e9-4625-9e2a-8063c93bb3b6
               type: text
               parameters:
                 tag:
@@ -74,19 +74,13 @@ composition:
                   value: h1
                 size:
                   type: tp-segmented-control-parameter
-                  value: 5XL
+                  value: ''
                 text:
                   type: text
-                  value: Background Image Hero variant with light text
+                  value: Hero with video variant
                 color:
                   type: tp-color-palette-parameter
                   value: primary-content
-                fontWeight:
-                  type: tp-segmented-control-parameter
-                  value: normal
-                whiteSpace:
-                  type: tp-segmented-control-parameter
-                  value: normal
                 letterSpacing:
                   type: tp-segmented-control-parameter
                   value: ''
@@ -97,20 +91,18 @@ composition:
                   text: 'yes'
                   color: 'yes'
                   style: 'yes'
-                  fontWeight: 'yes'
-                  whiteSpace: 'yes'
                   letterSpacing: 'yes'
-            - _id: 414704f4-463c-4a52-bd92-1aaad8e3a57c
+            - _id: 9ff6ff49-5c92-4904-bfb5-daad8fea8707
               type: spacer
               parameters:
                 thickness:
                   type: tp-slider-parameter
-                  value: 20px
+                  value: 30px
               _overridability:
                 variants: true
                 parameters:
                   thickness: 'yes'
-            - _id: ea499a44-cff9-4208-981c-a1ed4fb9e7be
+            - _id: 7cf2b88f-77b2-4c82-a36c-cb33aae1dead
               type: text
               parameters:
                 tag:
@@ -144,7 +136,7 @@ composition:
                   fontWeight: 'yes'
                   whiteSpace: 'yes'
                   letterSpacing: 'yes'
-            - _id: 5d5d5a59-9514-44e2-830e-37dfa528b40a
+            - _id: 88db3829-28d6-4e68-8623-0ae114e104f8
               type: spacer
               parameters:
                 thickness:
@@ -154,19 +146,19 @@ composition:
                 variants: true
                 parameters:
                   thickness: 'yes'
-            - _id: 72ea2465-9492-4465-8080-d81c13d93a2c
+            - _id: 986ba5e6-fc4b-42b4-8c18-52078b772ad8
               type: grid
               slots:
                 grid-inner:
-                  - _id: 5f68c878-a54e-4f76-be20-93180c1c990e
+                  - _id: eb62bae2-e443-45c6-b928-9b88a4c3e1c4
                     type: gridItem
                     slots:
                       inner:
-                        - _id: 51f9f248-5f34-40ef-bf5e-6d3d6ed2d318
+                        - _id: 01fc0a34-b16c-4143-a435-157faa04c0cc
                           type: grid
                           slots:
                             grid-inner:
-                              - _id: c82aafb6-c5ea-4aec-8481-1dde80e3eca4
+                              - _id: 99d32992-ac53-4a2e-a270-865c278c857b
                                 type: button
                                 parameters:
                                   copy:
@@ -178,7 +170,7 @@ composition:
                                     link: 'yes'
                                     style: 'yes'
                                     animationType: 'yes'
-                              - _id: c7f7f636-8657-41dd-bb79-200abc72c534
+                              - _id: 331316f7-68a5-44c4-83bd-447cc94a9f65
                                 type: button
                                 parameters:
                                   copy:
@@ -273,6 +265,9 @@ composition:
           textAlign:
             type: tp-segmented-control-parameter
             value: center
+          alignItems:
+            type: tp-segmented-control-parameter
+            value: center
           flexDirection:
             type: tp-segmented-control-parameter
             value: column
@@ -287,74 +282,62 @@ composition:
             flexDirection: 'yes'
             justifyContent: 'yes'
     background:
-      - _id: be22eaa2-0697-4bd4-a193-0945fcf580c4
-        type: image
+      - _id: 59768fad-186c-4856-b138-e0ec5d187ce2
+        type: video
         parameters:
-          alt:
-            type: text
-            value: Background Image
-          src:
+          url:
+            type: link
+            value:
+              path: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/v1693387616/videos/pexels-cristian-rojas.mp4
+              type: url
+          muted:
+            type: checkbox
+            value: true
+          autoPlay:
+            type: checkbox
+            value: true
+          placeholderImage:
             type: asset
             value:
-              - _id: 9c6a310c-7651-4f71-8f34-13230d5226af
+              - _id: f9b82d09-c644-4406-8aee-597920a98bd3
                 type: image
                 fields:
                   id:
                     type: text
-                    value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    value: f6e7a90a-7050-42c2-8f73-d868c6fb5feb
                   url:
                     value: >-
-                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
+                      https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/e49FBS7iQw-XQbg6isdlBg-cup_delicious_coffee.jpg
                     type: text
                   file:
                     type: file
-                    value: fc16abbb-dc29-49fb-b7a1-5076b7fc2637
+                    value: 6fef738d-787c-4e40-835f-6b44192510b5
                   size:
-                    value: 49092
+                    value: 2396183
                     type: number
                   title:
                     type: text
-                    value: rectangle.webp
+                    value: cup_delicious_coffee.jpg
                   width:
-                    value: 1600
+                    value: 4608
                     type: number
                   height:
-                    value: 689
+                    value: 3072
                     type: number
                   mediaType:
-                    value: image/webp
+                    value: image/jpeg
                     type: text
                 _source: uniform-assets
-          fill:
-            type: checkbox
-            value: true
-          objectFit:
-            type: select
-            value: cover
-          borderRadius:
-            type: tp-slider-parameter
-            value: none
-          overlayColor:
-            type: tp-color-style-parameter
-            value: secondary
-          overlayOpacity:
-            type: tp-slider-parameter
-            value: 0%
         _overridability:
           parameters:
-            alt: 'yes'
-            src: 'yes'
-            fill: 'yes'
-            width: 'yes'
-            height: 'yes'
-            quality: 'yes'
-            priority: 'yes'
-            objectFit: 'yes'
-            borderColor: 'yes'
-            borderWidth: 'yes'
-            borderRadius: 'yes'
-            overlayColor: 'yes'
-            overlayOpacity: 'yes'
+            url: 'yes'
+            loop: 'yes'
+            muted: 'yes'
+            autoPlay: 'yes'
+            controls: 'yes'
+            lazyLoad: 'yes'
+            placeholderImage: 'yes'
   _overridability:
     variants: true
     parameters:
@@ -365,8 +348,8 @@ composition:
       marginBottom: 'yes'
       paddingBottom: 'yes'
       backgroundColor: 'yes'
-created: '2024-04-15T10:51:39.374713+00:00'
-modified: '2024-04-15T10:51:39.374713+00:00'
+created: '2024-01-17T11:56:50.291277+00:00'
+modified: '2024-03-26T14:13:08.921444+00:00'
 pattern: true
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_background_image_preview_image
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_background_video_preview_image

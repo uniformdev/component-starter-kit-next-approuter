@@ -10,17 +10,16 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
 
 - [Demo](https://csk-next-approuter.vercel.app)
 - [Storybook](https://components-storybook.uniform.app/)
-- [Tutorial](https://docs.uniform.app/docs/learn/tutorials/csk)
+- [Docs](https://docs.uniform.app/docs/learn/tutorials/nextjs-app-router)
 - Questions/issues/feedback? [Find us in Discord](https://unfrm.to/discord).
-
-## Prerequisites
-
-- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
-- Node.js LTS and `git` installed on your machine.
 
 ## Getting started
 
-### 1. Initial setup
+### Prerequisites
+
+- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
+
+### Initial setup
 
 1. Setup your .env file (see .env.example for reference)
    ```bash
@@ -29,24 +28,27 @@ Built with love by Uniform folks, standing on the shoulders of TailwindCSS, Dais
    UNIFORM_PREVIEW_SECRET=hello-world
    ```
    > Make sure your API key has "Developer" role to be able to push content.
-2. `npm install` to install dependencies.
-3. Run `npm run uniform:push` to push content from disk (see `./content`) to your project.
-4. Run `npm run uniform:manifest:publish` to publish the manifest with personalization configuration.
+2. `npm install`
+3. Run `npm run push` and `npm run publish` to push the content from this starter kit (components, compositions and project map) into your project.
 
-### 2. Run locally in dev mode
-
-`npm run dev` to run locally.
-At this point, you should be able to browse your site on localhost:3000 and open it in Uniform Canvas.
-
-### 3. Configure Preview URL
+### Configure Canvas Preview URL
 
 Besides live preview, setting the preview URL enables visual in-line editing and experience management of your Next.js app within the Uniform environment. Enabling this is easy:
 
 1. Open your Uniform project's Settings.
-1. Open `Canvas Settings` and configure the preview URL to your localhost endpoint: `http://localhost:3000` and use this for your preview path: `/api/preview?secret=hello-world`
+1. Open `Canvas Settings` and configure the preview URL to `http://localhost:3000/api/preview?secret=hello-world`
    > Consider changing the `secret` in your .env file. That value must match the `secret` query string used in preview url. The preview can point to a local or deployed version of your Next.js app.
 
-### 4. Install the Theme Pack integration
+### Run locally in dev mode
+
+`npm run dev` to run locally.
+At this point, you should be able to browse your site on localhost:3000 and open it in Uniform Canvas.
+
+### Build and run locally
+
+`npm run build` and `npm start` to start a production build on localhost:3000.
+
+## Install the Theme Pack integration
 
 This integration brings Canvas UI extensions for theme management and new useful visual parameters to help control the look and feel of your components.
 
@@ -61,7 +63,7 @@ This integration brings Canvas UI extensions for theme management and new useful
 
 ## Deployment
 
-Feel free to deploy this app to the front-end platform of your choice, as long as it supports Next.js App Router :)
+Feel free to deploy this app wherever you'd like, we recommend using Vercel for the most enjoyable experience with Next.js App Router.
 
 ## How to change the rendering mode
 

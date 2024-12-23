@@ -123,7 +123,7 @@ export const Card: FC<CardProps> = ({
       </ImageWrapper>
       <div
         className={classNames(
-          'card-body z-10',
+          'card-body',
           {
             'px-2': variant === CardVariants.Featured,
           },

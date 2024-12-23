@@ -8,13 +8,13 @@ asset:
       value: icon_image.svg
     file:
       type: file
-      value: d198a293-2a37-42b6-a97b-0e4e80523cfb
+      value: 7166ec54-1d2d-4a33-b97d-d4577fcfd04f
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/D5E-EfEqRHGjOwT6K0x3EQ-icon_image.svg
+        https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/eawWXXquSo-q0b6i6mbn9A-icon_image.svg
       type: text
     size:
       value: 1076
@@ -26,5 +26,5 @@ asset:
       value: 165
       type: number
     custom: {}
-created: '2024-04-15T10:51:11.900296+00:00'
-modified: '2024-04-15T10:51:11.900296+00:00'
+created: '2023-12-12T13:37:04.467238+00:00'
+modified: '2023-12-12T13:37:04.467238+00:00'

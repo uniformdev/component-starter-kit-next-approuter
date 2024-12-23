@@ -8,7 +8,7 @@ export type SpacerProps = ComponentProps<{
 }>;
 
 export enum SpacerVariants {
-  Vertical = 'vertical',
+  Horizontal = 'horizontal',
 }
 
 export const spacerMappings = {

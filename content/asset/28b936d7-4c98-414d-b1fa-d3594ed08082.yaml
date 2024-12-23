@@ -8,13 +8,13 @@ asset:
       value: mount.svg
     file:
       type: file
-      value: 04954481-3eef-48f7-998b-3122db23a1de
+      value: 8eea689a-61ee-4ba9-b9e5-8a2e4d779461
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/1Um6k94ET_eLFksIaNOCVw-mount.svg
+        https://img.uniform.global/p/KcF-bFdcRtyheUhNLlEDJA/aYeo-BBNSgKJhyfs44EXTA-mount.svg
       type: text
     size:
       value: 223
@@ -26,5 +26,5 @@ asset:
       value: 24
       type: number
     custom: {}
-created: '2024-04-15T10:51:12.61394+00:00'
-modified: '2024-04-15T10:51:12.61394+00:00'
+created: '2024-01-09T08:55:59.545573+00:00'
+modified: '2024-01-09T08:55:59.545573+00:00'

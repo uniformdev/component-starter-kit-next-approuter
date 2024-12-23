@@ -33,7 +33,7 @@ export const Footer: FC<FooterProps> = ({
             {displayBuildTimestamp && <BuildTimestamp style={styles?.buildTimestamp} />}
             <div className="footer-content text-secondary-content" dangerouslySetInnerHTML={{ __html: copyright }} />
             <div className="footer-content text-secondary-content">
-              <UniformRichText component={component} parameterId="footerText" />
+              <UniformRichText placeholder="Footer text goes here..." component={component} parameterId="footerText" />
             </div>
           </div>
           <UniformSlot context={context} slot={slots.section} data={component} />

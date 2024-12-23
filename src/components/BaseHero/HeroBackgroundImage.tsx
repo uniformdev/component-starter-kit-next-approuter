@@ -1,28 +1,18 @@
-'use client';
-
 import { FC } from 'react';
 import classNames from 'classnames';
 import { useHeroAnimation } from './animation';
-import { BackgroundImage, Container, Description, EyebrowText, PrimaryButton, SecondaryButton, Title } from './atoms';
+import { BackgroundImage, Container, Description, EyebrowText, Title } from './atoms';
 import { AnimationVariant } from '../../components/AnimatedContainer';
-import { HeroProps, DEFAULT_TEXT_COLOR } from './';
+import { DEFAULT_TEXT_COLOR, BaseHeroProps } from './';
 import { REGEX_COLOR_HEX } from '../../utilities';
 import { getHeroTextStyle } from './helpers';
 
-export const HeroBackgroundImage: FC<HeroProps> = ({
+export const HeroBackgroundImage: FC<BaseHeroProps> = ({
   title,
   titleStyle = 'h1',
   description,
   image,
   video,
-  primaryButtonCopy,
-  primaryButtonLink,
-  primaryButtonStyle = 'primary',
-  primaryButtonAnimationType,
-  secondaryButtonCopy,
-  secondaryButtonLink,
-  secondaryButtonStyle = 'primary',
-  secondaryButtonAnimationType,
   overlayOpacity,
   overlayColor,
   objectFit,
@@ -42,13 +32,11 @@ export const HeroBackgroundImage: FC<HeroProps> = ({
   textColor = DEFAULT_TEXT_COLOR,
   animationPreview,
   delay = 'none',
+  buttonsSlot,
   styles,
   component,
   context,
 }) => {
-  const { previewMode } = context || {};
-  const isContextualEditing = previewMode === 'editor';
-
   const currentColor = REGEX_COLOR_HEX.test(textColorVariant || textColor || DEFAULT_TEXT_COLOR)
     ? textColor
     : undefined;
@@ -111,51 +99,20 @@ export const HeroBackgroundImage: FC<HeroProps> = ({
           </ElementWrapper>
           <ElementWrapper
             duration={duration}
-            delay={getDelayValue(3)}
+            delay={getDelayValue(2.25)}
             animationVariant={animationType === 'fadeIn' ? AnimationVariant.FadeIn : AnimationVariant.FadeInTop}
           >
             {styles?.descriptionSeparator && description ? <div className={styles?.descriptionSeparator} /> : null}
           </ElementWrapper>
           <ElementWrapper
             duration={duration}
-            delay={getDelayValue(4.5)}
+            delay={getDelayValue(3)}
             animationVariant={animationType === 'fadeIn' ? AnimationVariant.FadeIn : AnimationVariant.FadeInTop}
           >
             <Description component={component} context={context} className={styles?.description} />
           </ElementWrapper>
 
-          <div className="py-6">
-            {(Boolean(primaryButtonCopy) || isContextualEditing) && (
-              <ElementWrapper
-                duration={duration}
-                delay={getDelayValue(6)}
-                animationVariant={animationType === 'fadeIn' ? AnimationVariant.FadeIn : AnimationVariant.FadeInTop}
-              >
-                <PrimaryButton
-                  component={component}
-                  context={context}
-                  animationType={primaryButtonAnimationType}
-                  primaryButtonLink={primaryButtonLink}
-                  primaryButtonStyle={primaryButtonStyle}
-                />
-              </ElementWrapper>
-            )}
-            {(Boolean(secondaryButtonCopy) || isContextualEditing) && (
-              <ElementWrapper
-                duration={duration}
-                delay={getDelayValue(9)}
-                animationVariant={animationType === 'fadeIn' ? AnimationVariant.FadeIn : AnimationVariant.FadeInTop}
-              >
-                <SecondaryButton
-                  component={component}
-                  context={context}
-                  animationType={secondaryButtonAnimationType}
-                  secondaryButtonLink={secondaryButtonLink}
-                  secondaryButtonStyle={secondaryButtonStyle}
-                />
-              </ElementWrapper>
-            )}
-          </div>
+          <div className="py-6">{buttonsSlot}</div>
         </div>
       </div>
     </Container>

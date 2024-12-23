@@ -1,12 +1,12 @@
 composition:
-  _name: Hero Two Columns
-  _id: 6db7d5ba-6e46-44a4-9418-48e4f9437915
+  _name: Hero Image Left
+  _id: 283447b2-9b21-45ee-8336-8cf0e99b49b4
   type: advancedContainer
   variant: fluidContent
   parameters:
     title:
       type: text
-      value: Advanced Hero Two Columns
+      value: Advanced Hero Image Left
     paddingTop:
       type: select
       value: Large
@@ -18,28 +18,105 @@ composition:
       value: primary-content
   slots:
     content:
-      - _id: >-
-          ff498b73-55e8-4cb4-b736-babae9314261|b09a3ef5-7fd2-4a45-85bb-80859bfd1475
+      - _id: b09a3ef5-7fd2-4a45-85bb-80859bfd1475
         type: grid
         slots:
           grid-inner:
-            - _id: >-
-                ff498b73-55e8-4cb4-b736-babae9314261|5a97203f-5ff7-4cf6-b8ff-d0eef3d866b3
+            - _id: 5a97203f-5ff7-4cf6-b8ff-d0eef3d866b3
               type: gridItem
               slots:
                 inner:
-                  - _id: >-
-                      ff498b73-55e8-4cb4-b736-babae9314261|df736b52-5aa7-494c-8e32-c1c42c0447ff
+                  - _id: df736b52-5aa7-494c-8e32-c1c42c0447ff
                     type: grid
                     slots:
                       grid-inner:
-                        - _id: >-
-                            ff498b73-55e8-4cb4-b736-babae9314261|95e0dee2-3cc5-40fb-a77d-47af4da3f744
+                        - _id: 95e0dee2-3cc5-40fb-a77d-47af4da3f744
                           type: box
                           slots:
                             content:
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|d38d5da8-57c7-4068-bc5b-e453584758b7
+                              - _id: b14d975e-ddd2-4ee4-99aa-7db3e9229408
+                                type: image
+                                parameters:
+                                  alt:
+                                    type: text
+                                    value: Image Left
+                                  src:
+                                    type: asset
+                                    value:
+                                      - _id: 5519727f-3de1-41d1-b97d-1d3377c96e84
+                                        type: image
+                                        fields:
+                                          id:
+                                            type: text
+                                            value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                                          url:
+                                            value: >-
+                                              https://img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                                            type: text
+                                          file:
+                                            type: file
+                                            value: 189b86bb-f7d0-44e0-9750-7aac69d51ea9
+                                          size:
+                                            value: 76327
+                                            type: number
+                                          title:
+                                            type: text
+                                            value: hero_rectangle.png
+                                          width:
+                                            value: 510
+                                            type: number
+                                          height:
+                                            value: 496
+                                            type: number
+                                          mediaType:
+                                            value: image/png
+                                            type: text
+                                        _source: uniform-assets
+                                  objectFit:
+                                    type: select
+                                    value: cover
+                                  borderWidth:
+                                    type: tp-slider-parameter
+                                    value: 0px
+                                  borderRadius:
+                                    type: tp-slider-parameter
+                                    value: large
+                                  overlayColor:
+                                    type: tp-color-style-parameter
+                                    value: secondary
+                                  overlayOpacity:
+                                    type: tp-slider-parameter
+                                    value: 0%
+                                _overridability:
+                                  parameters:
+                                    alt: 'yes'
+                                    src: 'yes'
+                                    fill: 'yes'
+                                    width: 'yes'
+                                    height: 'yes'
+                                    quality: 'yes'
+                                    priority: 'yes'
+                                    objectFit: 'yes'
+                                    borderColor: 'yes'
+                                    borderWidth: 'yes'
+                                    borderRadius: 'yes'
+                                    overlayColor: 'yes'
+                                    overlayOpacity: 'yes'
+                          _overridability:
+                            parameters:
+                              style: 'yes'
+                              width: 'yes'
+                              height: 'yes'
+                              display: 'yes'
+                              textAlign: 'yes'
+                              alignItems: 'yes'
+                              flexDirection: 'yes'
+                              justifyContent: 'yes'
+                        - _id: 78737677-d588-45f7-a6a1-de18431b797c
+                          type: box
+                          slots:
+                            content:
+                              - _id: d38d5da8-57c7-4068-bc5b-e453584758b7
                                 type: text
                                 parameters:
                                   tag:
@@ -53,7 +130,7 @@ composition:
                                     value: EYEBROW TEXT
                                   color:
                                     type: tp-color-palette-parameter
-                                    value: primary-content
+                                    value: primary
                                   fontWeight:
                                     type: tp-segmented-control-parameter
                                     value: normal
@@ -73,19 +150,16 @@ composition:
                                     fontWeight: 'yes'
                                     whiteSpace: 'yes'
                                     letterSpacing: 'yes'
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|a2d0c1e7-5032-4c8d-9347-e29471347da7
+                              - _id: a2d0c1e7-5032-4c8d-9347-e29471347da7
                                 type: spacer
                                 parameters:
                                   thickness:
                                     type: tp-slider-parameter
                                     value: 20px
                                 _overridability:
-                                  variants: true
                                   parameters:
                                     thickness: 'yes'
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|7352138e-fbef-4ede-86d4-6452a3a9c22d
+                              - _id: 7352138e-fbef-4ede-86d4-6452a3a9c22d
                                 type: text
                                 parameters:
                                   tag:
@@ -96,10 +170,10 @@ composition:
                                     value: ''
                                   text:
                                     type: text
-                                    value: Two Columns Hero variant
+                                    value: Image Left Hero variant
                                   color:
                                     type: tp-color-palette-parameter
-                                    value: primary-content
+                                    value: secondary-content
                                   fontWeight:
                                     type: tp-segmented-control-parameter
                                     value: normal
@@ -119,39 +193,7 @@ composition:
                                     fontWeight: 'yes'
                                     whiteSpace: 'yes'
                                     letterSpacing: 'yes'
-                          parameters:
-                            display:
-                              type: tp-segmented-control-parameter
-                              value: flex
-                            textAlign:
-                              type: tp-segmented-control-parameter
-                              value: center
-                            alignItems:
-                              type: tp-segmented-control-parameter
-                              value: center
-                            flexDirection:
-                              type: tp-segmented-control-parameter
-                              value: column
-                            justifyContent:
-                              type: tp-segmented-control-parameter
-                              value: center
-                          _overridability:
-                            parameters:
-                              style: 'yes'
-                              width: 'yes'
-                              height: 'yes'
-                              display: 'yes'
-                              textAlign: 'yes'
-                              alignItems: 'yes'
-                              flexDirection: 'yes'
-                              justifyContent: 'yes'
-                        - _id: >-
-                            ff498b73-55e8-4cb4-b736-babae9314261|78737677-d588-45f7-a6a1-de18431b797c
-                          type: box
-                          slots:
-                            content:
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|e7884ae5-909a-4e9f-9bc3-5585d7e509d2
+                              - _id: e7884ae5-909a-4e9f-9bc3-5585d7e509d2
                                 type: spacer
                                 parameters:
                                   thickness:
@@ -161,8 +203,7 @@ composition:
                                   variants: true
                                   parameters:
                                     thickness: 'yes'
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|42e2ea1d-ea67-40d0-8356-175f71d6075f
+                              - _id: 42e2ea1d-ea67-40d0-8356-175f71d6075f
                                 type: text
                                 parameters:
                                   tag:
@@ -176,7 +217,7 @@ composition:
                                     value: Very compelling human generated text
                                   color:
                                     type: tp-color-palette-parameter
-                                    value: primary-content
+                                    value: secondary-content
                                   fontWeight:
                                     type: tp-segmented-control-parameter
                                     value: normal
@@ -196,8 +237,7 @@ composition:
                                     fontWeight: 'yes'
                                     whiteSpace: 'yes'
                                     letterSpacing: 'yes'
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|3fa05cf6-2a3e-4a29-a454-3408dff74329
+                              - _id: 3fa05cf6-2a3e-4a29-a454-3408dff74329
                                 type: spacer
                                 parameters:
                                   thickness:
@@ -207,23 +247,19 @@ composition:
                                   variants: true
                                   parameters:
                                     thickness: 'yes'
-                              - _id: >-
-                                  ff498b73-55e8-4cb4-b736-babae9314261|6407c709-e5b9-4595-a6be-ed634e6019c9
+                              - _id: 6407c709-e5b9-4595-a6be-ed634e6019c9
                                 type: grid
                                 slots:
                                   grid-inner:
-                                    - _id: >-
-                                        ff498b73-55e8-4cb4-b736-babae9314261|25923ef1-5b54-4676-8f02-f5b5657faae5
+                                    - _id: 25923ef1-5b54-4676-8f02-f5b5657faae5
                                       type: gridItem
                                       slots:
                                         inner:
-                                          - _id: >-
-                                              ff498b73-55e8-4cb4-b736-babae9314261|711c4351-3d0a-4b1c-93cf-10a4d88fd095
+                                          - _id: 711c4351-3d0a-4b1c-93cf-10a4d88fd095
                                             type: grid
                                             slots:
                                               grid-inner:
-                                                - _id: >-
-                                                    ff498b73-55e8-4cb4-b736-babae9314261|251febba-88ca-43b3-a95a-7fe8f222714a
+                                                - _id: 251febba-88ca-43b3-a95a-7fe8f222714a
                                                   type: button
                                                   parameters:
                                                     copy:
@@ -235,8 +271,7 @@ composition:
                                                       link: 'yes'
                                                       style: 'yes'
                                                       animationType: 'yes'
-                                                - _id: >-
-                                                    ff498b73-55e8-4cb4-b736-babae9314261|61df4ae3-fcfa-45c8-b475-c59f8a52563a
+                                                - _id: 61df4ae3-fcfa-45c8-b475-c59f8a52563a
                                                   type: button
                                                   parameters:
                                                     copy:
@@ -353,10 +388,10 @@ composition:
                     parameters:
                       gapX:
                         type: tp-slider-parameter
-                        value: large
+                        value: small
                       gapY:
                         type: tp-slider-parameter
-                        value: none
+                        value: small
                       title:
                         type: text
                         value: 2 columns
@@ -423,66 +458,6 @@ composition:
             paddingBottom: 'yes'
             backgroundType: 'yes'
             containerVariant: 'yes'
-    background:
-      - _id: b043e9e4-4b36-4973-908c-21aef48d78db
-        type: image
-        parameters:
-          alt:
-            type: text
-            value: Background Image
-          src:
-            type: asset
-            value:
-              - _id: 80ba3a16-51f4-4a47-aaac-1bcbe8728c1e
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
-                  url:
-                    value: >-
-                      https://img.uniform.global/p/naAA5qE-RfCiIsczuIiWIg/lcT5ckpLRTusLp927yStQQ-rectangle.webp
-                    type: text
-                  file:
-                    type: file
-                    value: fc16abbb-dc29-49fb-b7a1-5076b7fc2637
-                  size:
-                    value: 49092
-                    type: number
-                  title:
-                    type: text
-                    value: rectangle.webp
-                  width:
-                    value: 1600
-                    type: number
-                  height:
-                    value: 689
-                    type: number
-                  mediaType:
-                    value: image/webp
-                    type: text
-                _source: uniform-assets
-          fill:
-            type: checkbox
-            value: true
-          objectFit:
-            type: select
-            value: cover
-        _overridability:
-          parameters:
-            alt: 'yes'
-            src: 'yes'
-            fill: 'yes'
-            width: 'yes'
-            height: 'yes'
-            quality: 'yes'
-            priority: 'yes'
-            objectFit: 'yes'
-            borderColor: 'yes'
-            borderWidth: 'yes'
-            borderRadius: 'yes'
-            overlayColor: 'yes'
-            overlayOpacity: 'yes'
   _overridability:
     variants: true
     parameters:
@@ -493,8 +468,8 @@ composition:
       marginBottom: 'yes'
       paddingBottom: 'yes'
       backgroundColor: 'yes'
-created: '2024-04-15T10:51:38.288459+00:00'
-modified: '2024-04-15T10:51:38.288459+00:00'
+created: '2024-01-17T11:56:49.215707+00:00'
+modified: '2024-03-26T14:13:23.910293+00:00'
 pattern: true
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_two_columns_preview_image.jpg
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_image_left_preview_image.jpg

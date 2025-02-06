@@ -7,9 +7,10 @@ import { getMediaUrl } from '../../utilities';
 import { componentResolver } from '../../canvas/index';
 
 // Uncomment this to enable static site generation mode
-// export { generateStaticParams } from '@uniformdev/canvas-next-rsc/component';
+// export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
 
-export const runtime = 'edge';
+// Enable this only when using server mode and if you want to render at the edge instead of with a serverless function
+// export const runtime = 'edge';
 
 const VERCEL_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
 
@@ -66,5 +67,6 @@ export async function generateMetadata(props: PageParameters): Promise<Metadata>
 export default async function Home(props: PageParameters) {
   const route = await retrieveRoute(props);
   if (!isRouteWithoutErrors(route)) return notFound();
+  // SSR: change "mode" to "static" to enable SSG/staic mode
   return <UniformComposition {...props} route={route} resolveComponent={componentResolver} mode="server" />;
 }

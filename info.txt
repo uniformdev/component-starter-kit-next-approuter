@@ -1,6 +1,0 @@
-repo: demo-v-next
-branch: release
-commit: 9a4ffd20219efe126a20157529b818267328421e
-project: component-starter-kit-rsc
-variant: default
-date/time: 12/23/2024, 11:10:06 AM

@@ -1,107 +1,161 @@
-# Uniform Component Starter Kit for Next.js + App Router
+# Uniform Component Starter Kit (CSK6)
 
-This starter is using the latest Next.js 14 with App Router. If you would like to use Page Router instead, head over [here](https://github.com/uniformdev/uniform-component-starter-kit/).
+This repository is the latest version 6 of the Uniform Component Starter Kit (CSK).
+It is built using Next.js 15 App Router, TailwindCSS and TypeScript.
 
-## Resources
+Check out more about CSK and what you can do with it at https://components.uniform.app
 
-The Component Starter kit gives you the key building blocks to create dynamic and compelling web experiences and demonstrate the power of digital experience composition in Uniform. Just install, customize and start creating.
+## Prerequisites
 
-Built with love by Uniform folks, standing on the shoulders of TailwindCSS, DaisyUI, React and Next.js.
-
-- [Demo](https://csk-next-approuter.vercel.app)
-- [Storybook](https://components-storybook.uniform.app/)
-- [Docs](https://docs.uniform.app/docs/learn/tutorials/nextjs-app-router)
-- Questions/issues/feedback? [Find us in Discord](https://unfrm.to/discord).
+- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
+- Node.js LTS and `git` installed on your machine.
 
 ## Getting started
 
-### Prerequisites
+### Step 1. Initial setup
 
-- A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
+#### Option 1: via Uniform CLI
 
-### Initial setup
+Run `npx @uniformdev/cli new` and pick `Next.js` -> `Component Starter Kit` from the interactive prompt. Complete the process to deploy a new instance of CSK to your 
 
-1. Setup your .env file (see .env.example for reference)
+#### Option 2: manually
+1. `git clone` this repo.
+1. Create an empty Uniform project in your team.
+1. Setup your .env file using your Uniform project connection details (see .env.example for reference)
    ```bash
    UNIFORM_API_KEY=
    UNIFORM_PROJECT_ID=
    UNIFORM_PREVIEW_SECRET=hello-world
    ```
    > Make sure your API key has "Developer" role to be able to push content.
-2. `npm install`
-3. Run `npm run push` and `npm run publish` to push the content from this starter kit (components, compositions and project map) into your project.
+1. `npm install` to install dependencies
+1. Run `npm run init` to initialize your project. This will push all content from disk (`.\content` folder) and your design settings (colors, fonts, borders, etc. for this default theme).
 
-### Configure Canvas Preview URL
+### Step 2. Run locally in dev mode
 
-Besides live preview, setting the preview URL enables visual in-line editing and experience management of your Next.js app within the Uniform environment. Enabling this is easy:
+Use `npm run dev` to run locally.
+At this point, you should be able to browse your site on localhost:3000 and open your Uniform projects compositions for preview and visual editing.
 
-1. Open your Uniform project's Settings.
-1. Open `Canvas Settings` and configure the preview URL to `http://localhost:3000/api/preview?secret=hello-world`
-   > Consider changing the `secret` in your .env file. That value must match the `secret` query string used in preview url. The preview can point to a local or deployed version of your Next.js app.
+### Step 3. Install the Design Extensions integration
 
-### Run locally in dev mode
+This integration brings new parameter types for design and layout control via Uniform UI extensions to help control and manage the look and feel of your components.
 
-`npm run dev` to run locally.
-At this point, you should be able to browse your site on localhost:3000 and open it in Uniform Canvas.
+1. Open your current team page.
+   ![Team page](https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/doc/team_page.png)
+1. Navigate to the `Settings` tab, than `Custom Integrations` and add `Design Extensions` as a custom integration using this [manifest](https://github.com/uniformdev/uniform-mesh-integrations/blob/canary/integrations/design-extensions/mesh-manifest.stable.json).
+1. Open your project.
+   ![Your project](https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/doc/project_page.png)
+1. Navigate to the `Integrations` tab, find the `Design Extensions` integration and install it.
 
-### Build and run locally
+## How to sync content 
 
-`npm run build` and `npm start` to start a production build on localhost:3000.
+The following scripts are created to facilitate sync of content from / to your project and source control. The representation of your project on disk is stored int the `./contnet` folder.
 
-## Install the Theme Pack integration
+1. Run `npm run push:data` to push data from disk (see `./content`) to your project.
+1. Run `npm run pull:data` to pull data from uniform to `./content` folder.
 
-This integration brings Canvas UI extensions for theme management and new useful visual parameters to help control the look and feel of your components.
+## Other scripts
 
-1. Navigate to the `Integrations` tab, find the `Theme Pack` integration under 'Starters' and install it.
-2. Select one of the themes (Uniform is the default one) or create your own and press `Save`.
-3. Go to the Components section, find the `Main Header` pattern and open it.
-4. To apply theme changes, press `Publish` (even if the pattern itself wasn't changed), this is necessary to apply theme changes.
-   > Optionally, you can change the main font that will be used along with the theme.
-   > Here you can also manage your header content - logo and navigation links.
+### **Design Extension Sync**  
 
-⚠️ Important: to apply the theme changes, you must re-publish the `Main Header` pattern every time you change the `theme` on the integration settings page.
+## ⚠️ Important  
+Whenever you add new **colors, dimensions, fonts, or borders**, your application should recognize these values. To ensure this, you need to run:  
 
-## Deployment
-
-Feel free to deploy this app wherever you'd like, we recommend using Vercel for the most enjoyable experience with Next.js App Router.
-
-## How to change the rendering mode
-
-This app supports all the rendering modes Next.js 14 currently supports - static-site generation (SSG) and server-side rendering on both runtimes - as Node.js runtime (running SSR with a serverless function) and edge runtime (running SSR at the edge node). Learn more about two rendering runtimes [here](https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes).
-
-This app is configured for the ESR (edge-side rendering mode) by default, meaning it runs server-side rendering process at the CDN node closest to the users.
-
-Depending on your requirements, you may choose to change the default mode to SSG, or switch to another rendering runtime.
-
-Not all the CDNs may support the SSR mode, so consult your CDN provider documentation regarding which modes are supported.
-
-### SSG mode
-
-This mode runs your pages through the build-time static site generation process, so there is no runtime involved when visitors request your pages, they are served as static from the CDN node.
-
-⚠️ Important: at this time, preview and in-line editing is not fully supported in SSG mode. Contact our team for the workaround.
-
-Changing to the SSG mode is super straightforward.
-
-1. Open `app/[[...path]]/page.tsx`
-
-2. Find this line 10 that is commented out and enable it:
-
-   ```typescript
-   export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
-   ```
-
-3. Set `mode="static"` from `server` (line 24):
-   ```jsx
-   <UniformComposition {...props} route={route} resolveComponent={resolveComponent} mode="static" />
-   ```
-
-That's it! Re-deploy your app after this change.
-
-### Controlling edge vs node.js runtime
-
-When using the server mode, the runtime selection is controlled by this line 13 inside `app/[[...path]]/page.tsx`. If you want to switch to the `nodejs` runtime, simply remove or comment out this line and re-deploy your app.
-
-```typescript
-export const runtime = 'edge';
+```sh
+npm run pull:configuration
 ```
+
+This command is automatically executed when running:  
+- **Development mode:**  
+  ```sh
+  npm run dev:watch
+  ```
+- **Build process:**  
+  ```sh
+  npm run build
+  ```
+
+## 🔄 Automatic Synchronization  
+When modifying an **existing value**, your app will automatically fetch the updated configuration in **two cases**:  
+1. If you are in **preview mode** (within the canvas).  
+2. If the **WATCH** environment variable is set to `true`.  
+
+## 🎨 Working with Styles  
+If you prefer managing styles manually, you can modify the predefined configuration files located in the `styles/` directory:  
+
+- `styles/border.css`  
+- `styles/colors.css`  
+- `styles/dimensions.css`  
+- `styles/fonts.css`  
+
+After making changes, push the updated configuration using:  
+```sh
+npm run push:configuration
+```
+This will update the **Design Extensions Integration** with your new styles.  
+
+## 🌙 Dark Mode Integration  
+When developing an application that supports **dark mode**, ensure that your integration recognizes dark theme colors by defining them inside the `.dark` class:  
+
+```css
+.dark {
+  --text-primary: #752B2B;
+  --text-secondary: #391717;
+  --text-tertiary: #6F5454;
+  --text-light: #ED1616;
+  --text-dark: #3E867D;
+}
+```
+
+This ensures that the **Design Extension Integration** correctly identifies and applies dark mode styling. 
+
+## 🗂 Managing Groups in Design Extension  
+By default, the **Design Extension** includes two predefined groups:  
+- `button`  
+- `text`  
+
+### **Understanding `allowGroups.json`**  
+When your project is still using the default configuration, the `allowGroups.json` file will be **empty**. However, if you add a custom group (e.g., `page`), it will be added to this file automatically.  
+
+#### **Example: Adding a Custom Group (Page)**  
+If you introduce a new group, such as `page`, the `allowGroups.json` file will be updated as follows:  
+
+```json
+{
+  "color": [
+    "button",
+    "page",
+    "text"
+  ]
+}
+```
+
+### **Creating and Pushing Custom Groups**  
+You can define your own groups and push them using:  
+```sh
+npm run push:configuration
+```
+
+🔹 **Important:** The **Design Extension Integration** will only display a group **if it contains values**.  
+
+### **Linking Design Tokens to a Group**  
+To assign a **design token** to a specific group, the token's name **must** be prefixed with the group name.  
+
+#### **Example: Assigning Colors to a Group**  
+For the `page` group to be recognized, you should define colors using the `page-` prefix:  
+
+```css
+--page-background-primary: #FFFFFF;
+```
+
+After this, the token will be correctly linked to the **Page** section in your **Design Extension Integration**.  
+
+### **Supported Grouping Categories**  
+Currently, grouping is supported for:  
+✅ **Color tokens**  
+✅ **Dimension tokens**  
+
+
+## Publishing manifest file via CLI
+
+1. Run `npm run publish:manifest` to publish the manifest with A/B testing and personalization configuration.

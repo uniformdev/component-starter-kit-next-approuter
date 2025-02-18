@@ -1,72 +1,25 @@
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { PageParameters, UniformComposition, retrieveRoute } from '@uniformdev/canvas-next-rsc';
-import { ResolvedRouteGetResponse, RouteGetResponseEdgehancedComposition } from '@uniformdev/canvas';
-import type { Asset } from '@uniformdev/assets';
-import { getMediaUrl } from '../../utilities';
-import { componentResolver } from '../../canvas/index';
-
-// Uncomment this to enable static site generation mode
-// export { generateStaticParams } from '@uniformdev/canvas-next-rsc';
-
-// Enable this only when using server mode and if you want to render at the edge instead of with a serverless function
-// export const runtime = 'edge';
-
-const VERCEL_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
-
-const isRouteWithoutErrors = (route: ResolvedRouteGetResponse): route is RouteGetResponseEdgehancedComposition =>
-  'compositionApiResponse' in route && !!route.compositionApiResponse && 'composition' in route.compositionApiResponse;
-
-export async function generateMetadata(props: PageParameters): Promise<Metadata> {
-  const route = await retrieveRoute(props);
-  if (!isRouteWithoutErrors(route)) return notFound();
-  const composition = route.compositionApiResponse.composition;
-
-  const {
-    pageTitle,
-    pageMetaDescription,
-    pageKeywords,
-    openGraphTitle,
-    openGraphDescription,
-    openGraphImage,
-    twitterTitle,
-    twitterDescription,
-    twitterImage,
-    twitterCard,
-  } = composition?.parameters || {};
-
-  return {
-    metadataBase: new URL(VERCEL_URL || 'http://localhost:3000'),
-    title: (pageTitle?.value as string) ?? 'Uniform Component Starter Kit',
-    description: pageMetaDescription?.value as string,
-    keywords: pageKeywords?.value as string,
-    openGraph: {
-      title: (openGraphTitle?.value as string) ?? pageTitle?.value,
-      description: (openGraphDescription?.value as string) ?? pageMetaDescription?.value,
-      images: [
-        {
-          url: getMediaUrl(openGraphImage?.value as Asset | undefined),
-          alt: openGraphTitle?.value as string,
-        },
-      ],
-    },
-    twitter: {
-      title: (twitterTitle?.value as string) ?? pageTitle?.value,
-      description: (twitterDescription?.value as string) ?? pageMetaDescription?.value,
-      images: [
-        {
-          url: getMediaUrl(twitterImage?.value as Asset | undefined),
-          alt: twitterTitle?.value as string,
-        },
-      ],
-      card: twitterCard?.value as 'summary' | 'summary_large_image',
-    },
-  };
-}
+import { PageParameters, UniformComposition } from '@uniformdev/canvas-next-rsc';
+import { emptyPlaceholderResolver } from '@uniformdev/csk-components/components/canvas/emptyPlaceholders';
+import { DesignExtensionsProvider } from '@uniformdev/design-extensions-tools/components/providers/server';
+import { componentResolver } from '@/components';
+import locales from '@/i18n/locales.json';
+import retrieveRoute from '@/utils/retrieveRoute';
 
 export default async function Home(props: PageParameters) {
-  const route = await retrieveRoute(props);
-  if (!isRouteWithoutErrors(route)) return notFound();
-  // SSR: change "mode" to "static" to enable SSG/staic mode
-  return <UniformComposition {...props} route={route} resolveComponent={componentResolver} mode="server" />;
+  const route = await retrieveRoute(props, locales.defaultLocale);
+  const searchParams = await props.searchParams;
+  const isPreviewMode = searchParams?.is_incontext_editing_mode === 'true';
+  return (
+    <DesignExtensionsProvider isPreviewMode={isPreviewMode}>
+      <UniformComposition
+        {...props}
+        route={route}
+        resolveComponent={componentResolver}
+        mode="server"
+        resolveEmptyPlaceholder={emptyPlaceholderResolver}
+      />
+    </DesignExtensionsProvider>
+  );
 }
+
+export { generateMetadata } from '@/utils/metadata';

@@ -1,8 +1,16 @@
 import { UniformPlayground, UniformPlaygroundProps } from '@uniformdev/canvas-next-rsc';
-import { componentResolver } from '../../canvas/index';
+import { emptyPlaceholderResolver } from '@uniformdev/csk-components/components/canvas/emptyPlaceholders';
+import { DesignExtensionsProvider } from '@uniformdev/design-extensions-tools/components/providers/server';
+import { componentResolver } from '@/components';
 
-export default function PlaygroundPage(props: { searchParams: UniformPlaygroundProps['searchParams'] }) {
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  //@ts-ignore
-  return <UniformPlayground {...props} resolveComponent={componentResolver} />;
+export default async function PlaygroundPage(props: { searchParams: UniformPlaygroundProps['searchParams'] }) {
+  return (
+    <DesignExtensionsProvider>
+      <UniformPlayground
+        {...props}
+        resolveComponent={componentResolver}
+        resolveEmptyPlaceholder={emptyPlaceholderResolver}
+      />
+    </DesignExtensionsProvider>
+  );
 }

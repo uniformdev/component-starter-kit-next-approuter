@@ -43,7 +43,11 @@ parameters:
     type: dex-space-control-parameter
     typeConfig:
       type: dimensions
-      defaultValue: {}
+      defaultValue:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+      withViewPort: true
       selectedGroup: container
   - id: border
     name: Border
@@ -79,5 +83,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:15.788642+00:00'
-updated: '2025-02-17T15:34:15.788642+00:00'
+created: '2025-01-29T10:47:03.283758+00:00'
+updated: '2025-02-19T10:34:32.233721+00:00'

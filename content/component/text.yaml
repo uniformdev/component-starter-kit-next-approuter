@@ -44,6 +44,10 @@ parameters:
     type: dex-segmented-control-parameter
     typeConfig:
       options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
         - key: Base
           value: base
         - key: LG
@@ -169,4 +173,4 @@ slots: []
 titleParameter: text
 canBeComposition: false
 created: '2025-02-17T15:34:16.686516+00:00'
-updated: '2025-02-17T15:34:16.686516+00:00'
+updated: '2025-02-24T15:02:40.517913+00:00'

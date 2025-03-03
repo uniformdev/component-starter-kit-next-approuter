@@ -3,6 +3,7 @@ import { ProjectMapClient, getNodeActiveCompositionEdition } from '@uniformdev/p
 import localesConfig from '@/i18n/locales.json';
 
 const projectMap = new ProjectMapClient({
+  apiHost: process.env.UNIFORM_CLI_BASE_URL! || 'https://uniform.app',
   apiKey: process.env.UNIFORM_API_KEY!,
   projectId: process.env.UNIFORM_PROJECT_ID!,
 });

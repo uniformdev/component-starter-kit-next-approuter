@@ -1,0 +1,103 @@
+composition:
+  _name: Accordion
+  _id: 8887d174-2083-4745-abd1-988e53910884
+  type: accordion
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          marginTop: container-small
+          marginBottom: container-small
+        tablet:
+          marginTop: container-small
+          marginBottom: container-small
+        desktop:
+          marginTop: container-small
+          marginBottom: container-small
+    displayName:
+      type: text
+      value: Frequently Asked Questions
+  slots:
+    accordionItems:
+      - _id: fc0685d7-4cc2-4157-aab6-34d82d451b21
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Accordion Items
+          specific:
+            type: array
+            value:
+              - $p:aa9019a0-1baa-44bc-966f-5cb18278f350
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+    accordionContent:
+      - _id: e02e7d43-a487-48f6-a9de-156d98e0185e
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: 2xl
+              tablet: 3xl
+              desktop: 4xl
+          text:
+            type: text
+            value: Frequently Asked Questions
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            size: 'yes'
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+      - _id: c9fc04b4-854a-4ee2-885e-02d3f0f62ded
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: span
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: ''
+              tablet: base
+              desktop: xl
+          text:
+            type: text
+            value: >-
+              Answer your customers possible questions here, it will increase
+              the conversion rate as well as support or chat requests.
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+        _overridability:
+          parameters:
+            size: 'yes'
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-20T13:08:16.441907+00:00'
+modified: '2025-03-20T13:32:04.812322+00:00'
+pattern: true

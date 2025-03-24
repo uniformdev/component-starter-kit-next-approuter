@@ -66,8 +66,8 @@ slots:
       - accordionItem
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: true
+    patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:00.832869+00:00'
-updated: '2025-02-19T10:34:31.889696+00:00'
+created: '2025-03-20T12:55:43.254716+00:00'
+updated: '2025-03-20T13:31:38.088026+00:00'

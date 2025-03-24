@@ -1,0 +1,109 @@
+composition:
+  _name: Accordion Item
+  _id: aa9019a0-1baa-44bc-966f-5cb18278f350
+  type: accordionItem
+  parameters:
+    tag:
+      type: dex-segmented-control-parameter
+      value: span
+    size:
+      type: dex-segmented-control-parameter
+      value:
+        mobile: lg
+        tablet: 2xl
+        desktop: 2xl
+    text:
+      type: text
+      value: How much does the Component Starter Kit cost?
+    color:
+      type: dex-color-palette-parameter
+      value: text-light
+    weight:
+      type: dex-segmented-control-parameter
+      value: bold
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-small
+          paddingLeft: container-small
+          marginBottom: ''
+          paddingRight: container-small
+          paddingBottom: container-small
+        tablet:
+          paddingTop: container-small
+          paddingLeft: container-small
+          marginBottom: ''
+          paddingRight: container-small
+          paddingBottom: container-small
+        desktop:
+          paddingTop: container-small
+          paddingLeft: container-small
+          marginBottom: ''
+          paddingRight: container-small
+          paddingBottom: container-small
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-3
+  slots:
+    accordionItemContent:
+      - _id: 07756ee5-5635-44d5-88b3-14fb5016d7aa
+        type: container
+        slots:
+          containerContent:
+            - _id: d2b3e054-bc98-42b7-86fa-35758fae9075
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: span
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: base
+                    tablet: lg
+                    desktop: xl
+                text:
+                  type: text
+                  value: >-
+                    Exactly $0. These components are totally open source and
+                    available for anyone to use.
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: normal
+              _overridability:
+                parameters:
+                  size: 'yes'
+                  text: 'yes'
+                  color: 'yes'
+                hideLockedParameters: true
+        parameters:
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              marginTop: container-small
+              paddingTop: ''
+              paddingBottom: ''
+          displayName:
+            type: text
+            value: Content
+          fluidContent:
+            type: checkbox
+            value: true
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      size: 'yes'
+      text: 'yes'
+      color: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-03-20T13:29:21.05824+00:00'
+modified: '2025-03-20T13:29:38.461659+00:00'
+pattern: true

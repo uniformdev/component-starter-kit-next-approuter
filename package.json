@@ -1,16 +1,16 @@
 {
   "name": "@uniformdev/component-starter-kit",
-  "version": "6.0.16",
+  "version": "6.0.29",
   "private": true,
   "engines": {
     "yarn": "please-use-npm",
     "pnpm": "please-use-npm",
-    "node": ">=20",
+    "node": "^18.18.0 || ^19.8.0 || >= 20.0.0",
     "npm": ">=10"
   },
   "scripts": {
     "dev": "run-s pull:dex pull:locales next:dev",
-    "build": "run-s pull:dex next:build",
+    "build": "run-s pull:locales pull:dex next:build",
     "start": "next start",
     "dev:watch": "cross-env WATCH=true run-s pull:dex next:dev",
     "next:dev": "next dev",
@@ -33,10 +33,10 @@
     "uniform:publish": "uniform context manifest publish"
   },
   "dependencies": {
-    "@uniformdev/canvas-next-rsc": "^20.6.1",
-    "@uniformdev/csk-components": "^6.0.16",
-    "@uniformdev/design-extensions-tools": "^6.0.16",
-    "next": "^15.1.7",
+    "@uniformdev/canvas-next-rsc": "^20.8.1",
+    "@uniformdev/csk-components": "^6.0.29",
+    "@uniformdev/design-extensions-tools": "^6.0.29",
+    "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -46,11 +46,11 @@
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@uniformdev/cli": "^20.6.1",
-    "@uniformdev/csk-cli": "^6.0.16",
+    "@uniformdev/cli": "^20.8.1",
+    "@uniformdev/csk-cli": "^6.0.29",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",
-    "eslint-config-next": "^15.1.6",
+    "eslint-config-next": "^15.2.3",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",

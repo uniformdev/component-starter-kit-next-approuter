@@ -39,7 +39,8 @@
     },
     "fontFamily": {
       "dm-sans": "var(--dm-sans)",
-      "space-mono": "var(--space-mono)"
+      "space-mono": "var(--space-mono)",
+      "default": "var(--dm-sans)"
     }
   }
 }

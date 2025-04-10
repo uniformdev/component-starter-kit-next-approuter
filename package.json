@@ -33,10 +33,10 @@
     "uniform:publish": "uniform context manifest publish"
   },
   "dependencies": {
-    "@uniformdev/canvas-next-rsc": "^20.8.1",
+    "@uniformdev/canvas-next-rsc": "^20.11.0",
     "@uniformdev/csk-components": "^6.0.29",
     "@uniformdev/design-extensions-tools": "^6.0.29",
-    "next": "^15.2.3",
+    "next": "15.2.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -46,7 +46,7 @@
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@uniformdev/cli": "^20.8.1",
+    "@uniformdev/cli": "^20.11.0",
     "@uniformdev/csk-cli": "^6.0.29",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",

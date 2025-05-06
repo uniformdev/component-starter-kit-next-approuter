@@ -69,6 +69,9 @@ parameters:
       childrenParams:
         - contentAlignment
         - fullHeight
+        - eyebrowTitleColor
+        - titleColor
+        - descriptionColor
   - id: contentAlignment
     name: Content Alignment
     type: dex-segmented-control-parameter
@@ -85,6 +88,26 @@ parameters:
     name: Full Height
     type: checkbox
     typeConfig: null
+  - id: eyebrowTitleColor
+    name: Eyebrow Text Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+      allowThemeColors: []
+  - id: titleColor
+    name: Title Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: descriptionColor
+    name: Description Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+      allowThemeColors: []
 categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/hero-fixed.jpg

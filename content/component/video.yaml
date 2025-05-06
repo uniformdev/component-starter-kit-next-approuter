@@ -9,23 +9,23 @@ parameters:
     type: text
     typeConfig: null
     localizable: true
+  - id: video
+    name: Video
+    type: asset
+    typeConfig:
+      max: 1
+      min: 1
+      allowedTypes:
+        - video
   - id: url
-    name: Video Url
+    name: Video Url (Deprecated)
     type: link
+    helpText: Please use video parameter instead of url.
     typeConfig:
       linkTypes:
         tel: false
         email: false
         projectMapNode: false
-  - id: placeholderImage
-    name: Placeholder Image
-    type: asset
-    helpText: >-
-      You can replace video preview image by using this parameter. Work only
-      when light is checked
-    typeConfig:
-      max: 1
-      min: 0
   - id: e83bb21e-978b-4d8a-b20a-d19a7f0571ec
     name: Playback settings
     type: group
@@ -65,6 +65,63 @@ parameters:
     type: checkbox
     helpText: Mutes the player
     typeConfig: null
+  - id: 7bd909b4-6715-44fb-88b3-9a7c9aa182fd
+    name: Presentation
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - overlayColor
+        - overlayOpacity
+        - border
+  - id: overlayColor
+    name: Overlay Color
+    type: dex-color-palette-parameter
+    typeConfig: null
+  - id: overlayOpacity
+    name: Overlay Opacity
+    type: dex-slider-control-parameter
+    typeConfig:
+      type: custom
+      options:
+        - key: 0%
+          value: '0'
+        - key: 10%
+          value: '0.1'
+        - key: 20%
+          value: '0.2'
+        - key: 30%
+          value: '0.3'
+        - key: 40%
+          value: '0.4'
+        - key: 50%
+          value: '0.5'
+        - key: 60%
+          value: '0.6'
+        - key: 70%
+          value: '0.7'
+        - key: 80%
+          value: '0.8'
+        - key: 90%
+          value: '0.9'
+        - key: 100%
+          value: '1'
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    typeConfig:
+      allowTokens:
+        - border-image-radius-small
+      selectedTokenType: border
+  - id: placeholderImage
+    name: Placeholder Image
+    type: asset
+    helpText: >-
+      You can replace video preview image by using this parameter. Work only
+      when light is checked
+    typeConfig:
+      max: 1
+      min: 0
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/video.jpg
@@ -73,5 +130,5 @@ slots: []
 titleParameter: displayName
 thumbnailParameter: placeholderImage
 canBeComposition: false
-created: '2025-02-17T15:34:16.710829+00:00'
-updated: '2025-02-17T15:34:16.710829+00:00'
+created: '2025-05-12T12:37:35.19628+00:00'
+updated: '2025-05-12T20:39:30.257503+00:00'

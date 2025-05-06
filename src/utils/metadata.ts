@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { Asset } from '@uniformdev/assets';
+import { AssetParamValue } from '@uniformdev/assets';
 import { flattenValues } from '@uniformdev/canvas';
 import { PageParameters } from '@uniformdev/canvas-next-rsc';
 import { resolveAsset } from '@uniformdev/csk-components/utils/assets';
@@ -27,12 +27,12 @@ type UniformMetadataParameters = {
     | 'video.episode'
     | 'video.tv_show'
     | 'video.other';
-  openGraphImage: Asset[];
+  openGraphImage: AssetParamValue;
   twitterTitle: string;
   twitterDescription: string;
-  twitterImage: Asset[];
+  twitterImage: AssetParamValue;
   twitterCard: 'summary' | 'summary_large_image' | 'app' | 'player';
-  favicon: Asset[];
+  favicon: AssetParamValue;
 };
 
 /**
@@ -70,7 +70,7 @@ export async function generateMetadata(props: PageParameters): Promise<Metadata>
     twitterImage,
     twitterCard,
     favicon,
-  } = parameters;
+  } = parameters || {};
 
   // Resolve assets for Open Graph, Twitter, and favicon
   const [resolvedOgImage] = resolveAsset(openGraphImage);

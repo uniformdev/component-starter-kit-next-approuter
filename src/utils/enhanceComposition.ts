@@ -16,11 +16,37 @@ const enhanceParameters = async (component: ComponentInstance, composition: Root
         button
           .parameterName('eventLabel', eventLabelEnhancer)
     ),
-    context: { composition: composition },
+    // @ts-expect-error
+    context: { composition },
   });
 };
 
 const eventLabelEnhancer = async ({ context, component, parameter }: { context: any, component: any, parameter: any }) => {
-  console.log('parameter!!!!', { parameter, component, context });
-  return parameter.value;
+  let value = parameter.value;
+
+  // Helper to sluggify text
+  const sluggify = (str: string) =>
+    str
+      .toString()
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-+|-+$/g, '');
+
+  // Get replacements
+  const replacements: Record<string, string> = {
+    '%LOCALE%': 'en',
+    '%COMPOSITION-TYPE%': sluggify(context?.composition?.type) || 'unknown',
+    '%COMPOSITION-NAME%': sluggify(context?.composition?._name) || 'unknown',
+    '%COMPONENT-TYPE%': sluggify(component?.type) || 'unknown',
+    '%TEXT-PARAM%': component?.parameters?.text?.value ? sluggify(component.parameters.text.value) : 'unknown',
+  };
+
+  // Replace tokens
+  Object.entries(replacements).forEach(([token, realValue]) => {
+    value = value?.replaceAll(token, realValue);
+  });
+
+  return value;
 };

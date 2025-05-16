@@ -21,20 +21,19 @@ const enhanceParameters = async (component: ComponentInstance, composition: Root
   });
 };
 
-const eventLabelEnhancer = async ({ context, component, parameter }: { context: any, component: any, parameter: any }) => {
-  let value = parameter.value;
+// Helper to sluggify text
+const sluggify = (str: string) =>
+  str
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '');
 
-  // Helper to sluggify text
-  const sluggify = (str: string) =>
-    str
-      .toString()
-      .toLowerCase()
-      .replace(/\s+/g, '-')
-      .replace(/[^a-z0-9-]/g, '')
-      .replace(/-+/g, '-')
-      .replace(/^-+|-+$/g, '');
-
-  // Get replacements
+// Function to format parameter value with token replacement
+const formatParameterValue = (value: string, context: any, component: any) => {
+  let formatted = value;
   const replacements: Record<string, string> = {
     '%LOCALE%': 'en',
     '%COMPOSITION-TYPE%': sluggify(context?.composition?.type) || 'unknown',
@@ -42,11 +41,12 @@ const eventLabelEnhancer = async ({ context, component, parameter }: { context: 
     '%COMPONENT-TYPE%': sluggify(component?.type) || 'unknown',
     '%TEXT-PARAM%': component?.parameters?.text?.value ? sluggify(component.parameters.text.value) : 'unknown',
   };
-
-  // Replace tokens
   Object.entries(replacements).forEach(([token, realValue]) => {
-    value = value?.replaceAll(token, realValue);
+    formatted = formatted?.replaceAll(token, realValue);
   });
+  return formatted;
+};
 
-  return value;
+const eventLabelEnhancer = async ({ context, component, parameter }: { context: any, component: any, parameter: any }) => {
+  return formatParameterValue(parameter.value, context, component);
 };

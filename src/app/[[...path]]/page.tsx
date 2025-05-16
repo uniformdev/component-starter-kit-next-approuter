@@ -11,10 +11,7 @@ export default async function Home(props: PageParameters) {
 
   if (resolvedRoute?.type === 'composition') {
     const { composition } = resolvedRoute.compositionApiResponse ?? {};
-
-    await enhanceComposition(composition, locales.defaultLocale);
-
-    //console.log({ comp: composition });
+    await enhanceComposition(composition);
   }
 
   const searchParams = await props.searchParams;

@@ -14,13 +14,10 @@ const isLocaleInPath = (path: string | string[]): boolean =>
  * Formats a given path to include the specified locale.
  *
  * @param {string | string[] | undefined} path - The path to format, which can be a string, array, or undefined.
- * @param {string | null | undefined} locale - The locale to prepend to the path.
- * @returns {string | string[] | undefined} - The formatted path with the locale, if applicable.
+ * @param {string} locale - The locale to prepend to the path.
+ * @returns {string | string[]} - The formatted path with the locale, if applicable.
  */
-const formatPath = (path?: string | string[], locale?: string | null): string | string[] | undefined => {
-  // If no locale is provided, just return the original path.
-  if (!locale) return path;
-
+const formatPath = (path: string | string[] | undefined, locale: string): string | string[] => {
   // If path is not defined, use the locale directly.
   if (!path) return locale;
 
@@ -41,19 +38,29 @@ const formatPath = (path?: string | string[], locale?: string | null): string | 
  * @returns {Promise<ResolvedRouteGetResponse>} - The retrieved route response.
  */
 const retrieveRoute = async (props: Parameters<typeof uniformRetrieveRoute>[0], locale?: string | null) => {
+  // If no locale is provided, just return the original route.
+  if (!locale) return uniformRetrieveRoute(props);
+
   const params = await props.params;
   const updatedParams = getUpdatedParams(params, locale);
   return uniformRetrieveRoute({
     ...props,
     params: updatedParams,
-  });
+    // If the route is not found, try to retrieve the route without the locale(only if the locale is provided)
+  }).then(route => (route.type === 'notFound' ? uniformRetrieveRoute(props) : route));
 };
 
-async function getUpdatedParams(params: { path?: string | string[] } | undefined, locale: string | null | undefined) {
-  return Promise.resolve({
+/**
+ * Returns updated route parameters with the locale included in the path.
+ *
+ * @param {{ path?: string | string[] } | undefined} params - The original route parameters.
+ * @param {string} locale - The locale to prepend to the path.
+ * @returns {Promise<{ path?: string | string[] }>} - A promise resolving to the updated parameters.
+ */
+const getUpdatedParams = (params: { path?: string | string[] } | undefined, locale: string) =>
+  Promise.resolve({
     ...params,
     path: formatPath(params?.path, locale),
   });
-}
 
 export default retrieveRoute;

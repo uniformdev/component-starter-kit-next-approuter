@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: tableRow
 name: Table Row
@@ -10,6 +10,8 @@ parameters:
     typeConfig: null
     localizable: true
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/table-row.jpg
 useTeamPermissions: true
 slots:
   - id: tableRowCells

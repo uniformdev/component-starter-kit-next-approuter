@@ -188,3 +188,28 @@ Currently, grouping is supported for:
 ## Publishing manifest file via CLI
 
 1. Run `npm run uniform:publish` to publish the manifest with A/B testing and personalization configuration.
+
+## Optional Integrations
+
+### Uniform Insights
+
+To enable [**Uniform Insights**](https://docs.uniform.app/docs/integrations/data/insights), add the following variables to your `.env` file:
+
+```bash
+UNIFORM_INSIGHTS_ENDPOINT=
+UNIFORM_INSIGHTS_KEY=
+```
+
+> Refer to the [Uniform Insights documentation](https://docs.uniform.app/docs/integrations/data/insights) for detailed configuration and usage instructions.
+
+---
+
+### Google Analytics
+
+To integrate [**Google Analytics**](https://docs.uniform.app/docs/integrations/data/google-analytics), include this variable in your `.env` file:
+
+```bash
+GOOGLE_ANALYTICS_ID=
+```
+
+> Learn more in the [Google Analytics integration guide](https://docs.uniform.app/docs/integrations/data/google-analytics).

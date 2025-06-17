@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: breadcrumbs
 name: Breadcrumbs
@@ -25,22 +25,23 @@ parameters:
     typeConfig:
       allowedTypes:
         - breadcrumbLink
+  - id: autoGenerate
+    name: Auto Generate
+    type: checkbox
+    helpText: >-
+      Enables automatic breadcrumb generation based on the project’s map
+      structure
+    typeConfig: null
   - id: 4fa3aa01-1d60-4c4d-ace3-c68c833126b3
     name: Presentation Settings
     type: group
     typeConfig:
       collapsed: true
       childrenParams:
-        - alignment
         - size
         - color
-        - weight
         - font
         - transform
-        - decoration
-        - letterSpacing
-        - backgroundColor
-        - spacing
   - id: size
     name: Size
     type: dex-segmented-control-parameter
@@ -89,5 +90,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:15.669745+00:00'
-updated: '2025-02-17T15:34:15.669745+00:00'
+created: '2025-03-20T12:55:43.600905+00:00'
+updated: '2025-06-02T08:35:49.777213+00:00'

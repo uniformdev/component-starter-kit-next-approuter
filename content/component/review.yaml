@@ -37,6 +37,7 @@ parameters:
         - border
         - fluidContent
         - fullHeight
+        - fitHeight
   - id: backgroundColor
     name: Background Color
     type: dex-color-palette-parameter
@@ -67,6 +68,10 @@ parameters:
     typeConfig: null
   - id: showRatingLabel
     name: Show Rating Label
+    type: checkbox
+    typeConfig: null
+  - id: fitHeight
+    name: Fit Height
     type: checkbox
     typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

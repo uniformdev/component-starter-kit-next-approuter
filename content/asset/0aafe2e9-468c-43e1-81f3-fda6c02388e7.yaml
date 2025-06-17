@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0aafe2e9-468c-43e1-81f3-fda6c02388e7
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: man.png
+    file:
+      type: file
+      value: 5bb4fe79-4e64-4b7c-9c5b-350cd801296b
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/h7VVOiFOSWyx2snFx06-Sw/xBYy0MwzRHqiYe2NXV3tgg-man.png
+      type: text
+    size:
+      value: 1251800
+      type: number
+    width:
+      value: 1059
+      type: number
+    height:
+      value: 1059
+      type: number
+    custom: {}
+created: '2025-05-19T08:12:12.766978+00:00'
+modified: '2025-05-19T08:12:12.766978+00:00'

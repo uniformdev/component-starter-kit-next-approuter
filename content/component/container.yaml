@@ -43,6 +43,10 @@ parameters:
     name: Full Height
     type: checkbox
     typeConfig: null
+  - id: fitHeight
+    name: Fit Height
+    type: checkbox
+    typeConfig: null
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/container-default.jpg

@@ -25,27 +25,27 @@ composition:
                   type: text
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
-                  type: text
                   value: >-
-                    https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/0yvN5zM8RC6TAbxfwWCHWQ-meta-image.png
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                  type: text
                 file:
                   type: file
                   value: 28f307bf-569a-446d-9700-39e855892108
                 size:
-                  type: number
                   value: 171834
+                  type: number
                 title:
                   type: text
                   value: meta-image.png
                 width:
-                  type: number
                   value: 1200
-                height:
                   type: number
+                height:
                   value: 630
+                  type: number
                 mediaType:
-                  type: text
                   value: image/png
+                  type: text
               _source: uniform-assets
         twitterTitle:
           type: text
@@ -63,27 +63,27 @@ composition:
                   type: text
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
-                  type: text
                   value: >-
-                    https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/0yvN5zM8RC6TAbxfwWCHWQ-meta-image.png
+                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                  type: text
                 file:
                   type: file
                   value: 28f307bf-569a-446d-9700-39e855892108
                 size:
-                  type: number
                   value: 171834
+                  type: number
                 title:
                   type: text
                   value: meta-image.png
                 width:
-                  type: number
                   value: 1200
-                height:
                   type: number
+                height:
                   value: 630
+                  type: number
                 mediaType:
-                  type: text
                   value: image/png
+                  type: text
               _source: uniform-assets
         openGraphTitle:
           type: text
@@ -98,7 +98,6 @@ composition:
         $slotSectionItems:
           - _id: eebf1227-58aa-41c5-bfc4-089d94cebdba
             type: fixedHero
-            variant: ''
             parameters:
               image:
                 type: asset
@@ -106,12 +105,12 @@ composition:
               titleTag:
                 type: dex-segmented-control-parameter
                 value: h1
+              textColor:
+                type: dex-color-palette-parameter
+                value: text-primary
               titleText:
                 type: text
                 value: Component Starter Kit
-              titleColor:
-                type: dex-color-palette-parameter
-                value: text-primary
               displayName:
                 type: text
                 value: Welcome Hero
@@ -123,15 +122,9 @@ composition:
               contentAlignment:
                 type: dex-segmented-control-parameter
                 value: center
-              descriptionColor:
-                type: dex-color-palette-parameter
-                value: text-primary
               eyebrowTitleText:
                 type: text
                 value: Get your next project started on the right foot
-              eyebrowTitleColor:
-                type: dex-color-palette-parameter
-                value: text-tertiary
               primaryButtonLink:
                 type: link
                 locales:
@@ -145,5 +138,5 @@ composition:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
 created: '2025-01-29T10:47:10.496403+00:00'
-modified: '2025-04-30T11:52:47.114589+00:00'
+modified: '2025-06-12T08:05:55.451205+00:00'
 pattern: false

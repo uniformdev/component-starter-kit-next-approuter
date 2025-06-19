@@ -6,11 +6,13 @@ import { componentResolver } from '@/components';
 export default async function PlaygroundPage(props: { searchParams: UniformPlaygroundProps['searchParams'] }) {
   return (
     <DesignExtensionsProvider>
-      <UniformPlayground
-        {...props}
-        resolveComponent={componentResolver}
-        resolveEmptyPlaceholder={emptyPlaceholderResolver}
-      />
+      <div className="px-4 py-14">
+        <UniformPlayground
+          {...props}
+          resolveComponent={componentResolver}
+          resolveEmptyPlaceholder={emptyPlaceholderResolver}
+        />
+      </div>
     </DesignExtensionsProvider>
   );
 }

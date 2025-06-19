@@ -1,0 +1,173 @@
+composition:
+  _name: Review - Default
+  _id: 5091ea39-eae3-4ac1-8f4f-ac0487eb564a
+  type: review
+  parameters:
+    stars:
+      type: number
+      value: '5'
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    starsColor:
+      type: dex-color-palette-parameter
+      value: general-color-6
+    displayName:
+      type: text
+      value: Hector Gibbons review
+    showRatingLabel:
+      type: checkbox
+      value: true
+    activeStarsColor:
+      type: dex-color-palette-parameter
+      value: button-primary-hover
+  slots:
+    reviewImage:
+      - _id: bb51df40-cf4d-4dd3-85e2-b7a185e1552f
+        type: image
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 3f6fa97d-9fb9-436e-a03b-27df23b8f03d
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 0aafe2e9-468c-43e1-81f3-fda6c02388e7
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/h7VVOiFOSWyx2snFx06-Sw/xBYy0MwzRHqiYe2NXV3tgg-man.png
+                    type: text
+                  file:
+                    type: file
+                    value: 5bb4fe79-4e64-4b7c-9c5b-350cd801296b
+                  size:
+                    value: 1251800
+                    type: number
+                  title:
+                    type: text
+                    value: man.png
+                  width:
+                    value: 1059
+                    type: number
+                  height:
+                    value: 1059
+                    type: number
+                  mediaType:
+                    value: image/png
+                    type: text
+                _source: uniform-assets
+          border:
+            type: dex-token-selector-parameter
+            value: border-image-radius-small
+          objectFit:
+            type: dex-segmented-control-parameter
+            value: cover
+        _overridability:
+          parameters:
+            image: 'yes'
+          hideLockedParameters: true
+    reviewContent:
+      - _id: 576a2fd1-1a47-4521-b0fe-ec6b4a49b310
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: p
+          size:
+            type: dex-segmented-control-parameter
+            value: {}
+          text:
+            type: text
+            value: >-
+              The Component Starter Kit is great. It cut time to market in half.
+              A big win!
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+      - _id: d8693525-cf0b-4f36-957d-cb710ab71e5a
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: span
+          text:
+            type: text
+            value: >-
+              With a solid foundation of pre-built components and best
+              practices, the Component Starter Kit eliminated repetitive setup
+              work and boosted our velocity. Time to market was slashed, and
+              developer experience noticeably improved.
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+    reviewPersonInfo:
+      - _id: ab488771-c052-4a37-b8e5-cacfc5a2f002
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: p
+          size:
+            type: dex-segmented-control-parameter
+            value: {}
+          text:
+            type: text
+            value: John Doe
+          weight:
+            type: dex-segmented-control-parameter
+            value: bold
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+      - _id: 663f0e08-a1d2-44eb-b815-d334767a1931
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: p
+          size:
+            type: dex-segmented-control-parameter
+            value: {}
+          text:
+            type: text
+            value: July 12, 2021
+          color:
+            type: dex-color-palette-parameter
+            value: text-tertiary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      stars: 'yes'
+      starsColor: 'yes'
+      displayName: 'yes'
+      activeStarsColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-16T11:28:41.298534+00:00'
+modified: '2025-05-22T11:56:01.013512+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1747395403/csk-v-next/baseline/preview-images/review-default.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

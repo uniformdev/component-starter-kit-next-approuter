@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: navigationLink
 name: Navigation Link
@@ -45,6 +45,7 @@ parameters:
         - decoration
         - letterSpacing
         - alignment
+        - hoverEffect
   - id: size
     name: Size
     type: dex-segmented-control-parameter
@@ -135,6 +136,17 @@ parameters:
           value: center
         - key: Right
           value: right
+  - id: hoverEffect
+    name: Hover Effect
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Brightness
+          value: opacity-75
+        - key: Scale
+          value: scale-105
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-link.jpg
@@ -143,5 +155,5 @@ slots: []
 titleParameter: text
 thumbnailParameter: icon
 canBeComposition: false
-created: '2025-02-17T15:34:15.313519+00:00'
-updated: '2025-02-17T15:34:15.313519+00:00'
+created: '2025-01-29T10:47:03.327349+00:00'
+updated: '2025-05-20T09:38:16.865694+00:00'

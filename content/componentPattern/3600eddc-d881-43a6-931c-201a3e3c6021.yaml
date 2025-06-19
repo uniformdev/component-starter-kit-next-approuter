@@ -1,0 +1,219 @@
+composition:
+  _name: Card - Default
+  _id: 3600eddc-d881-43a6-931c-201a3e3c6021
+  type: card
+  parameters:
+    border:
+      type: dex-token-selector-parameter
+      value: border-primary
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        marginTop: ''
+        marginLeft: ''
+        paddingTop: container-medium
+        marginRight: ''
+        paddingLeft: container-medium
+        marginBottom: ''
+        paddingRight: container-medium
+        paddingBottom: container-medium
+    displayName:
+      type: text
+      value: Card Default
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-1
+  slots:
+    cardContent:
+      - _id: f5137d43-c357-4038-aa47-f914b2ebd4a9
+        type: richText
+        parameters:
+          text:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Component Starter Kit
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                    textFormat: 1
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A production-ready starter kit with reusable
+                          components, design tokens, and modern frontend
+                          tooling.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Free (Open Source)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 1
+                direction: ltr
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+      - _id: 56d91268-fcc7-4473-bdbe-8bdf80294ebc
+        type: button
+        parameters:
+          size:
+            type: dex-token-selector-parameter
+            value: button-small
+          text:
+            type: text
+            value: View Details
+          textColor:
+            type: dex-color-palette-parameter
+            value: text-light
+          textWeight:
+            type: dex-segmented-control-parameter
+            value: normal
+          buttonColor:
+            type: dex-color-palette-parameter
+            value: button-primary
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
+      - _id: e7dc2efe-a0ac-493b-97d4-9bbdc6825158
+        type: richText
+        parameters:
+          text:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: start
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Prebuilt components
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: start
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Tailwind support
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: start
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Storybook
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: start
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Vercel integration
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                direction: ltr
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+        _overridability:
+          parameters:
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-16T12:10:05.54514+00:00'
+modified: '2025-05-22T11:55:41.823316+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

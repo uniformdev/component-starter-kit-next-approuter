@@ -1,0 +1,499 @@
+composition:
+  _name: Table - Default
+  _id: 447955a7-fb96-41cf-b6ff-6d8bb3f9d8ac
+  type: table
+  parameters:
+    size:
+      type: dex-token-selector-parameter
+      value: table-small
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+    displayName:
+      type: text
+      value: Table Default
+  slots:
+    tableBody:
+      - _id: cc4f76dd-2a21-477f-a245-4388016f9502
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: dc7d7bdd-0c55-4c87-8edf-6015208cea5d
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: 🚀 Rapid Time-to-Market
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 2dc41b08-6780-40e1-8b2f-56a6b1dc7d55
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: Prebuilt components reduce setup and dev time
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 3ef5551b-a0c4-4457-a3f9-29f3ee2e8505
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: Cuts delivery time by up to 50%
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🚀 Rapid Time-to-Market
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 220fd6df-ebd7-49ec-ba3a-6ec259528077
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: 8af43ebb-b9d8-4ef9-9089-ba3ab69c4095
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |
+                    🧱 Ready-to-Use Components
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 575179ab-696f-4594-b3c3-67fe3bc0d61a
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |
+                    Well-designed UI blocks for consistent, scalable design
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 96389ad7-5642-4f4f-be21-28b46448e0bb
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |
+                    Faster prototyping & production
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🧱 Ready-to-Use Components
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 202c020d-3a3b-41e8-83d4-56864ad7f383
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: e1f3110f-a4cf-4751-847d-f8f36d9ab33a
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    🛠 Built-in Best Practices
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: df045673-d39c-44c4-a5a7-403485e5deb4
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Includes performance, accessibility, and layout standards
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 3e2e3957-10f7-4811-8756-d6c5addfc094
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Fewer bugs, better user UX
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🛠 Built-in Best Practices
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 2ca0db88-0d9a-4a05-8656-4405a397d1c1
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: 74f467e5-3159-4858-9960-fe1c543a65a3
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    🎨 Theme Support
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: fe640083-d274-4960-bed6-ab81bc9f5639
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Easy theming and brand alignment out of the box
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 84976581-67ab-43fe-b727-b589839755c6
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Consistent look & feel
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🎨 Theme Support
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 40d6043e-674c-4233-9bd6-d013c24b04e7
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: e24de9d4-23f9-45b7-921c-118132004f1c
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    🧪 Tested & Maintained
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 020a5aa6-8231-4653-90d8-aa3b9243f7cd
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Components are battle-tested and updated regularly
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 0b86da59-7b97-4583-8ecf-9d2889b50416
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Less tech debt over time
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🧪 Tested & Maintained
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 3f87d00c-491c-4ba8-8e51-41a74fb1e912
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: f38c9b34-fc2d-4b7b-afec-97a3606eae21
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    🧭 Opinionated but Flexible
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 220b9079-54d2-42fa-9662-5c51132b2a8f
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Defaults that work well, but allow overrides when needed
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: c5e95cec-722f-438e-a4d0-2e9da391e1cf
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Balances speed and flexibility
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🧭 Opinionated but Flexible
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: 48cd5cb5-8928-49b1-ad31-101b25c5b9ae
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: 276b92e2-0527-48c7-8e4d-8670547e3074
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    🧩 Seamless Integration
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 5ab35905-c81f-4af5-830d-9bc9f8f4dc08
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Works with Next.js, Tailwind, and modern tooling
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 4c54e143-2858-40f0-bd41-db1c0a95189c
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Smooth onboarding into any stack
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 🧩 Seamless Integration
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+      - _id: e01600e8-e5f2-4c6b-9cc7-46935a81b3dc
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: 466ff0d2-6e96-472e-9911-070feed106fe
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    📦 Storybook & Previews
+
+
+
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 0d275637-838b-493a-8881-2213c163ab71
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: >+
+                    Includes documentation and visual previews for each
+                    component
+
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: 18e8f8b7-bca0-4ef3-9182-7ea99bc14573
+              type: tableDataCell
+              parameters:
+                value:
+                  type: text
+                  value: |+
+                    Faster adoption across teams
+
+
+
+
+
+
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: 📦 Storybook & Previews
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+    tableHead:
+      - _id: 8fdf2722-983c-4da7-8010-7cf8f32cb14b
+        type: tableRow
+        slots:
+          tableRowCells:
+            - _id: e0a1b21d-6a7e-4648-926c-24dbddda28fc
+              type: tableHeaderCell
+              parameters:
+                value:
+                  type: text
+                  value: Feature / Benefit
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+                hideLockedParameters: false
+            - _id: b7c62572-5d72-4f25-8ff9-2136681afcfe
+              type: tableHeaderCell
+              parameters:
+                value:
+                  type: text
+                  value: Description
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+            - _id: fd51719e-e433-4d31-a85c-dc094f9c5108
+              type: tableHeaderCell
+              parameters:
+                value:
+                  type: text
+                  value: Impact
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  value: 'yes'
+        parameters:
+          displayName:
+            type: text
+            value: Header
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            displayName: 'yes'
+  _overridability:
+    parameters:
+      textColor: 'yes'
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-16T11:46:43.352257+00:00'
+modified: '2025-05-22T11:56:18.616781+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1747396671/csk-v-next/baseline/preview-images/table-default.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

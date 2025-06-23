@@ -15,15 +15,25 @@ composition:
     textColor:
       type: dex-color-palette-parameter
       value: text-light
+    eventLabel:
+      type: text
+      value: >-
+        %LOCALE%_%COMPOSITION-TYPE%_%COMPOSITION-NAME%_%COMPONENT-TYPE%_PRIMARY_%TEXT-PARAM%
     textWeight:
       type: dex-segmented-control-parameter
       value: normal
     buttonColor:
       type: dex-color-palette-parameter
       value: button-primary
+    eventAction:
+      type: text
+      value: event_button_click
     iconPosition:
       type: dex-segmented-control-parameter
       value: left
+    eventCategory:
+      type: text
+      value: event_informational_action
     textTransform:
       type: dex-segmented-control-parameter
       value: uppercase
@@ -35,11 +45,15 @@ composition:
     parameters:
       link: 'yes'
       text: 'yes'
+      eventLabel: 'yes'
+      eventValue: 'yes'
+      eventAction: 'yes'
+      eventCategory: 'yes'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.084298+00:00'
-modified: '2025-02-17T15:34:18.084298+00:00'
+created: '2025-05-15T21:29:44.306856+00:00'
+modified: '2025-05-15T22:42:29.39491+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button.jpg

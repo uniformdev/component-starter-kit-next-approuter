@@ -15,15 +15,25 @@ composition:
     textColor:
       type: dex-color-palette-parameter
       value: text-light
+    eventLabel:
+      type: text
+      value: >-
+        %LOCALE%_%COMPOSITION-TYPE%_%COMPOSITION-NAME%_%COMPONENT-TYPE%_SECONDARY_%TEXT-PARAM%
     textWeight:
       type: dex-segmented-control-parameter
       value: normal
     buttonColor:
       type: dex-color-palette-parameter
       value: button-secondary
+    eventAction:
+      type: text
+      value: event_button_click
     iconPosition:
       type: dex-segmented-control-parameter
       value: right
+    eventCategory:
+      type: text
+      value: event_informational_action
     hoverButtonColor:
       type: dex-color-palette-parameter
       value: button-secondary-hover
@@ -32,11 +42,15 @@ composition:
     parameters:
       link: 'yes'
       text: 'yes'
+      eventLabel: 'no'
+      eventValue: 'no'
+      eventAction: 'no'
+      eventCategory: 'no'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:20.528264+00:00'
-modified: '2025-02-17T15:34:20.528264+00:00'
+created: '2025-05-15T21:29:44.490384+00:00'
+modified: '2025-05-15T23:08:18.057788+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-secondary.jpg

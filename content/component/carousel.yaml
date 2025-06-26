@@ -21,8 +21,7 @@ parameters:
         - spacing
         - border
         - fluidContent
-        - fullHeight
-        - fitHeight
+        - height
   - id: itemsPerPage
     name: Items Per Page
     type: dex-slider-control-parameter
@@ -79,12 +78,31 @@ parameters:
     name: Fluid Content
     type: checkbox
     typeConfig: null
-  - id: fullHeight
-    name: Full Height
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
+  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
+    name: Deprecated
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - fitHeight
+        - fullHeight
+  - id: fitHeight
+    name: Fit Height (Deprecated)
     type: checkbox
     typeConfig: null
-  - id: fitHeight
-    name: Fit Height
+  - id: fullHeight
+    name: Full Height (Deprecated)
     type: checkbox
     typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
@@ -100,8 +118,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-03-20T12:55:43.435513+00:00'
-updated: '2025-06-13T09:53:23.696497+00:00'
+created: '2025-01-29T10:47:01.262734+00:00'
+updated: '2025-06-25T09:40:33.149256+00:00'
 variants:
   - id: brochure
     name: Brochure

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: image
 name: Image
@@ -19,29 +19,35 @@ parameters:
         - objectFit
         - width
         - height
+        - fill
   - id: objectFit
     name: Object Fit
     type: dex-segmented-control-parameter
     typeConfig:
       options:
-        - key: Fill
-          value: fill
         - key: Contain
           value: contain
         - key: Cover
           value: cover
-        - key: None
-          value: none
-        - key: Scale Down
-          value: scale-down
       defaultValue: cover
   - id: width
     name: Width
     type: number
+    helpText: >-
+      Defines intrinsic width (not visual size). For 'background' variant, helps
+      set focal point.
     typeConfig: null
   - id: height
     name: Height
     type: number
+    helpText: >-
+      Defines intrinsic height (not visual size). For 'background' variant,
+      helps set focal point.
+    typeConfig: null
+  - id: fill
+    name: Fill
+    type: checkbox
+    helpText: Fills the parent container
     typeConfig: null
   - id: 6a821149-f836-49f2-806c-db36ecc79dc8
     name: Loading Settings
@@ -116,5 +122,5 @@ slots: []
 titleParameter: image
 thumbnailParameter: image
 canBeComposition: false
-created: '2025-02-17T15:34:14.681024+00:00'
-updated: '2025-02-17T15:34:14.681024+00:00'
+created: '2025-03-20T12:55:44.383837+00:00'
+updated: '2025-06-19T14:23:44.458359+00:00'

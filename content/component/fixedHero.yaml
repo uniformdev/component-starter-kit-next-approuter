@@ -9,6 +9,17 @@ parameters:
     type: text
     typeConfig: null
     localizable: true
+  - id: 66c64fb5-2d29-4bc8-8b98-02c37b519cee
+    name: Content
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - eyebrowTitleText
+        - titleText
+        - titleTag
+        - descriptionText
+        - image
   - id: eyebrowTitleText
     name: Eyebrow Text
     type: text
@@ -39,6 +50,23 @@ parameters:
     type: text
     typeConfig: null
     localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+      min: 0
+      allowedTypes:
+        - image
+    allowConditionalValues: true
+  - id: 6f7eed5b-dd00-46d0-b5bd-48cf3e264beb
+    name: Call to Action
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - primaryButtonText
+        - primaryButtonLink
   - id: primaryButtonText
     name: Button Text
     type: text
@@ -52,15 +80,6 @@ parameters:
     helpText: Select type and target link to set the button's link.
     typeConfig: null
     localizable: true
-  - id: image
-    name: Image
-    type: asset
-    typeConfig:
-      max: 1
-      min: 0
-      allowedTypes:
-        - image
-    allowConditionalValues: true
   - id: 9f8178c3-539f-4a1e-8a4e-71bfcedfe223
     name: Presentation Settings
     type: group
@@ -68,10 +87,9 @@ parameters:
       collapsed: true
       childrenParams:
         - contentAlignment
-        - fullHeight
-        - fitHeight
+        - height
         - textColor
-        - enableOverlayAutoTint
+        - overlayAutoTint
   - id: contentAlignment
     name: Content Alignment
     type: dex-segmented-control-parameter
@@ -84,29 +102,50 @@ parameters:
         - key: Right
           value: right
       defaultValue: center
-  - id: fullHeight
-    name: Full Height
-    type: checkbox
-    typeConfig: null
-  - id: fitHeight
-    name: Fit Height
-    type: checkbox
-    typeConfig: null
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
   - id: textColor
     name: Text Color
     type: dex-color-palette-parameter
     typeConfig:
       allowColors: []
       selectedGroup: text
-  - id: enableOverlayAutoTint
-    name: Enable Overlay Auto Tint
-    type: checkbox
+  - id: overlayAutoTint
+    name: Overlay Auto Tint
+    type: dex-slider-control-parameter
     helpText: >-
-      Automatically generates a 30% transparent overlay from the title color.
-      This applies only when the component is in its default variant.
-    typeConfig: null
-  - id: 60931dc3-7941-493e-86bc-2e83d49044b9
-    name: Deprecated Parameters
+      Generates a high-contrast overlay based on the text color with adjustable
+      opacity. Applies only when the component is in its default variant.
+    typeConfig:
+      step: 1
+      type: custom
+      units: px
+      options:
+        - key: 0%
+          value: '0'
+        - key: 20%
+          value: '0.2'
+        - key: 40%
+          value: '0.4'
+        - key: 60%
+          value: '0.6'
+        - key: 80%
+          value: '0.8'
+        - key: 100%
+          value: '1'
+      maxValue: 10
+      minValue: 0
+  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
+    name: Deprecated
     type: group
     typeConfig:
       collapsed: true
@@ -114,6 +153,9 @@ parameters:
         - eyebrowTitleColor
         - titleColor
         - descriptionColor
+        - fitHeight
+        - fullHeight
+        - enableOverlayAutoTint
   - id: eyebrowTitleColor
     name: Eyebrow Text Color (Deprecated)
     type: dex-color-palette-parameter
@@ -143,6 +185,21 @@ parameters:
       allowColors: []
       selectedGroup: text
       allowThemeColors: []
+  - id: fitHeight
+    name: Fit Height (Deprecated)
+    type: checkbox
+    typeConfig: null
+  - id: fullHeight
+    name: Full Height (Deprecated)
+    type: checkbox
+    typeConfig: null
+  - id: enableOverlayAutoTint
+    name: Enable Overlay Auto Tint (Deprecated)
+    type: checkbox
+    helpText: >-
+      Automatically generates a 30% transparent overlay from the title color.
+      This applies only when the component is in its default variant.
+    typeConfig: null
 categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/hero-fixed.jpg
@@ -151,7 +208,7 @@ slots: []
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:01.402162+00:00'
-updated: '2025-06-12T06:46:59.727763+00:00'
+updated: '2025-06-25T09:40:33.309461+00:00'
 variants:
   - id: columns
     name: Columns

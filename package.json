@@ -1,6 +1,6 @@
 {
   "name": "@uniformdev/component-starter-kit",
-  "version": "6.0.88",
+  "version": "6.0.104",
   "private": true,
   "engines": {
     "yarn": "please-use-npm",
@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "@uniformdev/canvas-next-rsc": "^20.20.3",
-    "@uniformdev/csk-components": "^6.0.88",
-    "@uniformdev/design-extensions-tools": "^6.0.88",
+    "@uniformdev/csk-components": "^6.0.104",
+    "@uniformdev/design-extensions-tools": "^6.0.104",
     "next": "^15.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -47,7 +47,7 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "@uniformdev/cli": "^20.20.3",
-    "@uniformdev/csk-cli": "^6.0.88",
+    "@uniformdev/csk-cli": "^6.0.104",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",
     "eslint-config-next": "^15.3.2",

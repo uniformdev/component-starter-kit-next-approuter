@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: review
 name: Review
@@ -36,8 +36,7 @@ parameters:
         - spacing
         - border
         - fluidContent
-        - fullHeight
-        - fitHeight
+        - height
   - id: backgroundColor
     name: Background Color
     type: dex-color-palette-parameter
@@ -62,16 +61,35 @@ parameters:
     name: Fluid Content
     type: checkbox
     typeConfig: null
-  - id: fullHeight
-    name: Full Height
-    type: checkbox
-    typeConfig: null
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
   - id: showRatingLabel
     name: Show Rating Label
     type: checkbox
     typeConfig: null
+  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
+    name: Deprecated
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - fitHeight
+        - fullHeight
   - id: fitHeight
-    name: Fit Height
+    name: Fit Height (Deprecated)
+    type: checkbox
+    typeConfig: null
+  - id: fullHeight
+    name: Full Height (Deprecated)
     type: checkbox
     typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
@@ -103,7 +121,7 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:02.552456+00:00'
-updated: '2025-02-19T10:34:32.18878+00:00'
+updated: '2025-06-25T09:40:33.221121+00:00'
 variants:
   - id: multiColumn
     name: Multi Column

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: table
 name: Table
@@ -33,8 +33,7 @@ parameters:
         - spacing
         - border
         - fluidContent
-        - fullHeight
-        - fitHeight
+        - height
   - id: backgroundColor
     name: Background Color
     type: dex-color-palette-parameter
@@ -59,12 +58,31 @@ parameters:
     name: Fluid Content
     type: checkbox
     typeConfig: null
-  - id: fullHeight
-    name: Full Height
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
+  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
+    name: Deprecated
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - fitHeight
+        - fullHeight
+  - id: fitHeight
+    name: Fit Height (Deprecated)
     type: checkbox
     typeConfig: null
-  - id: fitHeight
-    name: Fit Height
+  - id: fullHeight
+    name: Full Height (Deprecated)
     type: checkbox
     typeConfig: null
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
@@ -89,4 +107,4 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:03.283758+00:00'
-updated: '2025-02-19T10:34:32.233721+00:00'
+updated: '2025-06-25T09:40:33.398569+00:00'

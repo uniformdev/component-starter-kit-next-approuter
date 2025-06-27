@@ -42,47 +42,6 @@ composition:
         _overridability:
           hideLockedParameters: true
     sectionMedia:
-      - _id: 412246da-ecc8-4363-b9cf-ae51830dd358
-        type: image
-        parameters:
-          $viz:
-            type: $viz
-            value:
-              criteria:
-                clauses:
-                  - op: is
-                    rule: $qk
-                    value: dark
-                    source: theme
-          image:
-            type: asset
-            value: []
-          priority:
-            type: checkbox
-            value: true
-          objectFit:
-            type: dex-segmented-control-parameter
-            value: cover
-          unoptimized:
-            type: checkbox
-            value: true
-          overlayColor:
-            type: dex-color-palette-parameter
-            value: general-color-1
-          overlayOpacity:
-            type: dex-slider-control-parameter
-            value: '0.1'
-        _overridability:
-          parameters:
-            image: 'yes'
-            width: 'yes'
-            height: 'yes'
-            priority: 'yes'
-            objectFit: 'yes'
-            unoptimized: 'yes'
-            overlayColor: 'yes'
-            overlayOpacity: 'yes'
-          hideLockedParameters: true
       - _id: 056a6d83-e242-4ddc-b318-f1f06d5a5fd1
         type: image
         parameters:
@@ -95,6 +54,9 @@ composition:
                     rule: $qk
                     value: dark
                     source: theme
+          fill:
+            type: checkbox
+            value: true
           image:
             type: asset
             value:
@@ -106,7 +68,7 @@ composition:
                     value: 246a9113-763f-4330-b55e-dfa654743828
                   url:
                     value: >-
-                      https://img.uniform.global/p/YBXmRPPzQZ-45Yo5jJzHAw/G2YVRLWeQ3KUenstvlJEsw-Rectangle-1-(2).svg
+                      https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/HZCRULDRQAO-R-4OhEMqOQ-Rectangle-1-(2).svg
                     type: text
                   file:
                     type: file
@@ -258,15 +220,17 @@ composition:
     parameters:
       $viz: 'yes'
       title: 'yes'
+      height: 'yes'
       spacing: 'yes'
+      fitHeight: 'yes'
       fullHeight: 'yes'
       fluidContent: 'yes'
       backgroundColor: 'yes'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.953339+00:00'
-modified: '2025-02-17T15:34:18.953339+00:00'
+created: '2025-01-29T10:47:08.446904+00:00'
+modified: '2025-06-23T10:37:53.26818+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-hero.jpg

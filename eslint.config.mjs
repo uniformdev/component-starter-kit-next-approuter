@@ -1,30 +1,27 @@
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-});
+import eslintConfigPrettier from 'eslint-config-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
+import importPlugin from 'eslint-plugin-import';
+import tseslint from 'typescript-eslint';
+import nextConfig from 'eslint-config-next';
 
 const eslintConfig = [
-  ...compat.config({
-    extends: [
-      'next/core-web-vitals',
-      'next/typescript',
-      'prettier',
-      'plugin:@next/next/recommended',
-      'plugin:tailwindcss/recommended',
-    ],
-    plugins: ['prettier'],
+  js.configs.recommended,
+  ...nextConfig,
+  eslintConfigPrettier,
+  {
+    plugins: {
+      prettier: prettierPlugin,
+      import: importPlugin,
+      '@typescript-eslint': tseslint.plugin,
+    },
     rules: {
-      'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
-      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_', varsIgnorePattern: '_' }],
       'prettier/prettier': 'error',
+      'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
+      // TypeScript rules are included in eslint-config-next, override if needed
+      '@typescript-eslint/no-explicit-any': 'error',
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_', varsIgnorePattern: '_' }],
       'import/order': [
         'error',
         {
@@ -64,7 +61,18 @@ const eslintConfig = [
         },
       ],
     },
-  }),
+  },
+  {
+    ignores: [
+      '.next/**',
+      'out/**',
+      'build/**',
+      'dist/**',
+      'node_modules/**',
+      'next-env.d.ts',
+      '*.config.{js,mjs,cjs,ts}',
+    ],
+  },
 ];
 
 export default eslintConfig;

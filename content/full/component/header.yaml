@@ -1,0 +1,96 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: header
+name: Header
+icon: border-top
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: 9f8178c3-539f-4a1e-8a4e-71bfcedfe223
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - favicon
+        - backgroundColor
+        - color
+        - spacing
+        - border
+  - id: favicon
+    name: Favicon
+    type: asset
+    guidance: Use the Favicon parameter to add a favicon for page.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    guidance: Use the Color parameter to control the text color.
+    typeConfig: null
+  - id: spacing
+    name: Spacing
+    type: dex-space-control-parameter
+    guidance: Use the Spacing parameter to control component margins and padding.
+    typeConfig:
+      type: dimensions
+      withViewPort: true
+      selectedGroup: container
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the component border.
+    typeConfig:
+      selectedTokenType: border
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/header-default.jpg
+useTeamPermissions: true
+slots:
+  - id: headerLeftContent
+    name: Header Left Content
+    allowedComponents:
+      - text
+      - iconLabel
+      - image
+      - link
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: headerCenterContent
+    name: Header Center Content
+    allowedComponents:
+      - navigationLink
+      - navigationFlyout
+      - navigationGroup
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: headerRightContent
+    name: Header Right Content
+    allowedComponents:
+      - button
+      - themeSwitcher
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: displayName
+thumbnailParameter: favicon
+canBeComposition: false
+created: '2025-01-29T10:47:01.517369+00:00'
+updated: '2025-10-13T10:17:25.532911+00:00'
+variants:
+  - id: sticky
+    name: Sticky

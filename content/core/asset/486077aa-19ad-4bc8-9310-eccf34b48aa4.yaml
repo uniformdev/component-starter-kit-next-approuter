@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 486077aa-19ad-4bc8-9310-eccf34b48aa4
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: rectangle_light.png
+    file:
+      type: file
+      value: 4fbbd08c-6f27-48ab-9d9a-4bbc665c96c8
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/gaaGBo44T8KlqJ3IGMZtAQ/Ze4bptBxSsypS_AB5rQ7ng-rectangle_light.png
+      type: text
+    size:
+      value: 1350631
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-10-14T07:24:25.366227+00:00'
+modified: '2025-10-14T07:24:25.366227+00:00'

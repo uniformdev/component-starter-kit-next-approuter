@@ -1,0 +1,126 @@
+composition:
+  _name: Global Simple Header
+  _id: a7ff8876-b73f-41ed-bb93-170e2d7f7b5a
+  type: simpleHeader
+  parameters:
+    logo:
+      type: asset
+      locales:
+        en:
+          - _id: 678bb77d-78fa-48b9-82a4-130fd90f2f6f
+            type: image
+            fields:
+              id:
+                type: text
+                value: 0f0670b4-a425-40d3-842b-c7c895d500a5
+              url:
+                value: >-
+                  https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/m2Q91871TPyv9wBSeEh0nA-uniformlogo.svg
+                type: text
+              file:
+                type: file
+                value: 3295cc71-bf13-4b4e-9d67-14959d233d3a
+              size:
+                value: 454
+                type: number
+              title:
+                type: text
+                value: uniformlogo.svg
+              width:
+                value: 45
+                type: number
+              height:
+                value: 52
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    links:
+      type: $block
+      value:
+        - _id: 4398eac8-f13c-45e4-8e7b-b33b228e690f
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://dev-csk-marketing-site.vercel.app/get-started
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Get Started
+        - _id: bb8f2a16-01b3-4f26-94c9-9b49035a7b6f
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://dev-csk-marketing-site.vercel.app/components
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Components
+    favicon:
+      type: asset
+      locales:
+        en:
+          - _id: 091a49a3-0f0b-4a59-91fa-62551cac38f1
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9f964074-61ec-4afb-8d5b-8cb499257744
+              url:
+                value: >-
+                  https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/Af96erKLQr-0rnqY4msIkQ-favicon.png
+                type: text
+              file:
+                type: file
+                value: f5f4db6b-da24-45ef-a53e-425af95ec08e
+              size:
+                value: 1139
+                type: number
+              title:
+                type: text
+                value: favicon.png
+              width:
+                value: 69
+                type: number
+              height:
+                value: 79
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    textColor:
+      type: dex-color-palette-parameter
+      value: text-primary
+    displayName:
+      type: text
+      locales:
+        en: Simple Header
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-tertiary
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-1
+  _overridability:
+    parameters:
+      logo: 'no'
+      textColor: 'no'
+      displayName: 'no'
+      hoverTextColor: 'no'
+      backgroundColor: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-10-09T11:11:27.490849+00:00'
+modified: '2025-10-09T11:11:27.490849+00:00'
+pattern: true

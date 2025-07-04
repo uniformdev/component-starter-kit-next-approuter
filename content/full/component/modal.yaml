@@ -1,0 +1,83 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: modal
+name: Modal
+icon: desktop
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: disableCloseModalOnClickOutside
+    name: Disable Close Modal On Click Outside
+    type: checkbox
+    guidance: >-
+      Use the Disable Close Modal On Click Outside parameter to prevent the
+      modal from closing when the user clicks outside its content area.
+    typeConfig: null
+  - id: 71cf65b3-5e47-4f97-9811-5cac1435fcab
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - maxWidth
+        - backgroundColor
+        - closeIconColor
+  - id: maxWidth
+    name: Max Width
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Max Width parameter to set the maximum horizontal size of the
+      modal window.
+    typeConfig:
+      options:
+        - key: Small
+          value: small
+        - key: Medium
+          value: medium
+        - key: Large
+          value: large
+      defaultValue: medium
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: closeIconColor
+    name: Close Icon Color
+    type: dex-color-palette-parameter
+    guidance: >-
+      Use the Close Icon Color parameter to set the color of the modal’s close
+      icon.
+    typeConfig: null
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/modal-default.jpg
+useTeamPermissions: true
+slots:
+  - id: trigger
+    name: Trigger
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: modalContent
+    name: Modal Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: modalActions
+    name: Modal Actions
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: displayName
+canBeComposition: false
+created: '2025-01-29T10:47:02.33521+00:00'
+updated: '2025-10-06T21:18:49.535305+00:00'

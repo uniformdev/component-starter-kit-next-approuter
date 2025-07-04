@@ -1,0 +1,255 @@
+composition:
+  _name: Global Simple Footer
+  _id: 99ecf042-cb50-4ec7-b890-582c33b8dcd6
+  type: simpleFooter
+  parameters:
+    logo:
+      type: asset
+      locales:
+        en:
+          - _id: d0bdd193-d933-4226-9a4d-4531f811034d
+            type: image
+            fields:
+              id:
+                type: text
+                value: 0efbc807-7b4a-4f7d-847b-62fe616b0815
+              url:
+                value: >-
+                  https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/ex8zD_VER7GYPIFzTrZwYw-uniform-dark-logo.svg
+                type: text
+              file:
+                type: file
+                value: f7d59111-ecb2-4ac8-ab26-255d3a97a413
+              size:
+                value: 1697
+                type: number
+              title:
+                type: text
+                value: uniform-dark-logo.svg
+              width:
+                value: 204
+                type: number
+              height:
+                value: 52
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    links:
+      type: $block
+      value:
+        - _id: 3064d34c-5ca0-4454-ac2b-705f7161dfe0
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://unfrm.to/csk-docs
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Documentation
+        - _id: f59330fc-dae9-4a9c-938a-89c2615a7db1
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://unfrm.to/csk-sb
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Storybook
+        - _id: ec2975f6-47ef-456f-9165-de6ece08a519
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://unfrm.to/csk-demo
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Demo
+        - _id: 1fde38d3-f942-43ac-a0e5-bf3680cd45f2
+          type: navigationLink
+          fields:
+            link:
+              type: link
+              locales:
+                en:
+                  path: https://unfrm.to/csk-demo-request
+                  type: url
+            title:
+              type: text
+              locales:
+                en: Request a personal demo
+    copyright:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: '2025 Uniform Systems, Inc. All rights reserved. '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Built with 💙 by folks at\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://unfrm.to/uniformdev
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Uniform
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' leveraging the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'TNT Stack:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: ' '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.typescriptlang.org/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: TypeScript
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ",\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://nextjs.org/docs/app
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Next.js App Router
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://tailwindcss.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: TailwindCSS
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: .
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    displayName:
+      type: text
+      locales:
+        en: Simple Footer
+    footerLinkSectionTitle:
+      type: text
+      locales:
+        en: Key resources
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-10-09T11:11:27.797143+00:00'
+modified: '2025-10-09T11:11:27.797143+00:00'
+pattern: true

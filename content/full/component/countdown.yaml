@@ -1,0 +1,91 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: countdown
+name: Countdown
+icon: timer
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: targetDate
+    name: Target Date
+    type: datetime
+    guidance: Use the Target Date parameter to specify target date.
+    typeConfig: null
+  - id: fd19ac02-577c-4300-8eb9-45862e7a5cf5
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - size
+        - backgroundColor
+        - textColor
+        - border
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    guidance: Use the Size parameter to control the countdown numbers font size.
+    typeConfig:
+      options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 6XL
+          value: 6xl
+        - key: 7XL
+          value: 7xl
+      withViewPort: true
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig:
+      allowColors: []
+  - id: textColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    guidance: Use the Text Color parameter to control text control.
+    typeConfig: null
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the component border.
+    typeConfig:
+      selectedTokenType: border
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/countdown-default.jpg
+useTeamPermissions: true
+slots:
+  - id: countdownComplete
+    name: Countdown Complete
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: displayName
+canBeComposition: false
+created: '2025-01-29T10:47:01.362054+00:00'
+updated: '2025-10-06T21:18:48.288845+00:00'
+variants:
+  - id: labelsUnder
+    name: Labels Under

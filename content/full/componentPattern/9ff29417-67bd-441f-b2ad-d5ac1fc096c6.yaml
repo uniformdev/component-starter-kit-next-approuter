@@ -1,0 +1,109 @@
+composition:
+  _name: Cookie Consent pattern
+  _id: 9ff29417-67bd-441f-b2ad-d5ac1fc096c6
+  type: cookieConsent
+  variant: bottom
+  parameters:
+    displayName:
+      type: text
+      locales:
+        en: Cookie Consent
+    allowTextColor:
+      type: dex-color-palette-parameter
+      value: text-secondary
+    allowButtonText:
+      type: text
+      locales:
+        en: Accept
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-2
+    allowButtonColor:
+      type: dex-color-palette-parameter
+      value: button-primary
+    declineTextColor:
+      type: dex-color-palette-parameter
+      value: text-secondary
+    declineButtonText:
+      type: text
+      locales:
+        en: Decline
+    declineButtonColor:
+      type: dex-color-palette-parameter
+      value: button-secondary
+    allowButtonHoverColor:
+      type: dex-color-palette-parameter
+      value: button-primary-hover
+    declineButtonHoverColor:
+      type: dex-color-palette-parameter
+      value: button-secondary-hover
+  slots:
+    cookieConsentContent:
+      - _id: e0d19c06-57ff-446a-8725-f18233ead8b9
+        type: richText
+        parameters:
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: base
+              tablet: base
+              desktop: base
+          text:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            We use necessary cookies to make our site work. We’d
+                            like to set additional cookies to understand site
+                            usage, make site improvements and to remember your
+                            settings. We also use cookies set by other sites to
+                            help deliver content from their services. View our 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - link:
+                            path: https://www.uniform.dev/cookie-policy
+                            type: url
+                          type: link
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cookie Notice
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-12-05T14:18:15.038176+00:00'
+modified: '2025-12-05T14:27:22.504678+00:00'
+pattern: true

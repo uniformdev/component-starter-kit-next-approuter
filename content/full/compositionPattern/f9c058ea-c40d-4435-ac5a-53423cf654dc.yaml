@@ -1,0 +1,62 @@
+composition:
+  _name: Global Page Template
+  _id: f9c058ea-c40d-4435-ac5a-53423cf654dc
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: Page Title
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: page-background-primary
+  slots:
+    pageFooter:
+      - _id: eea9191c-9a4a-4178-9910-8112068f1e89
+        type: simpleFooter
+        _pattern: 99ecf042-cb50-4ec7-b890-582c33b8dcd6
+    pageHeader:
+      - _id: 9e04906c-2f07-4359-b487-fd7e7f31e3f1
+        type: simpleHeader
+        _pattern: a7ff8876-b73f-41ed-bb93-170e2d7f7b5a
+    pageContent:
+      - _id: dc2e95be-21b5-4476-a309-f8a34922f528
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Page Content
+          specific:
+            type: array
+            value:
+              - $p:db25526c-e9e6-45f1-acb6-230bf6c0efb4
+              - $p:7befe27a-102c-439b-8295-19d060112631
+              - $p:b83eebba-34e9-4c62-a5b4-454022f44957
+              - $p:d39ed051-35dc-447d-8be0-fc0afb98e694
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      pageDescription: 'yes'
+      twitterDescription: 'yes'
+      openGraphDescription: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-09-18T08:02:07.756779+00:00'
+modified: '2025-11-26T12:11:31.078588+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/global-composition.png
+categoryId: c7a1d1d9-cc3f-431c-b55e-6c4af1285108

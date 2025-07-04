@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: cookieConsent
+name: Cookie Consent
+icon: image-text
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: 186c770f-d86f-40f7-93ba-0e7c72cc3fcb
+    name: Allow Button
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - allowButtonText
+        - allowTextColor
+        - allowButtonColor
+        - allowButtonHoverColor
+  - id: allowButtonText
+    name: Button Text
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: allowTextColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: allowButtonColor
+    name: Button Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: allowButtonHoverColor
+    name: Button Hover Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: 40d53061-3591-4436-a82b-27131d6f82fb
+    name: Decline Button
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - declineButtonText
+        - declineTextColor
+        - declineButtonColor
+        - declineButtonHoverColor
+  - id: declineButtonText
+    name: Button Text
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: declineTextColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: declineButtonColor
+    name: Button Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: declineButtonHoverColor
+    name: Button Hover Color
+    type: dex-color-palette-parameter
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: 9f8178c3-539f-4a1e-8a4e-71bfcedfe223
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundColor
+        - border
+        - fluidContent
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the component border.
+    typeConfig:
+      selectedTokenType: border
+  - id: fluidContent
+    name: Fluid Content
+    type: checkbox
+    guidance: >-
+      Use the Fluid Content parameter to control the component width.
+
+      This parameter restricts the component within the standard centered
+      container by default, or can enable it to render without restrictions
+      across the full screen width.
+    typeConfig: null
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/cookie-consent
+useTeamPermissions: true
+slots:
+  - id: cookieConsentContent
+    name: Cookie Consent Content
+    allowedComponents:
+      - richText
+      - text
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: displayName
+canBeComposition: false
+created: '2025-12-05T14:17:32.572562+00:00'
+updated: '2025-12-07T16:57:32.889175+00:00'
+variants:
+  - id: top
+    name: Top
+  - id: bottom
+    name: Bottom

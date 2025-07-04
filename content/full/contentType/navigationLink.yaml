@@ -1,0 +1,23 @@
+id: navigationLink
+name: Navigation Link
+created: '2025-10-09T10:42:49.663408+00:00'
+updated: '2025-10-09T10:42:49.663408+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    typeConfig: null
+    localizable: true
+entryName: title
+icon: file-document
+type: block
+permissions: []
+previewConfigurations: []

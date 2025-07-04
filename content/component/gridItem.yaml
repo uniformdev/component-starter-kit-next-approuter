@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: gridItem
 name: Grid Item
@@ -119,6 +119,19 @@ parameters:
       minValue: 0
       defaultValue: {}
       withViewPort: true
+  - id: alignSelf
+    name: Align Self
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Start
+          value: start
+        - key: End
+          value: end
+        - key: Center
+          value: center
+        - key: Stretch
+          value: stretch
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/grid-item.jpg
@@ -132,5 +145,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:14.399068+00:00'
-updated: '2025-02-17T15:34:14.399068+00:00'
+created: '2025-01-29T10:47:01.813878+00:00'
+updated: '2025-08-15T12:40:01.114278+00:00'

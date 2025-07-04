@@ -1,0 +1,71 @@
+{
+  "colors": {
+    "light": {
+      "button-primary": "#0052ED",
+      "button-primary-hover": "#0B4ECA",
+      "button-secondary": "#b10d00",
+      "button-secondary-hover": "#920A00",
+      "button-tertiary": "#FFFFFF",
+      "button-tertiary-hover": "#E6E6E6",
+      "text-primary": "#001242",
+      "text-secondary": "#ffffff",
+      "text-tertiary": "#0052ed",
+      "general-color-1": "#FFFFFF",
+      "general-color-2": "#041142",
+      "general-color-3": "#0052ed",
+      "general-color-4": "#df0000",
+      "general-color-5": "#001c6c",
+      "page-background-primary": "#FFFFFF"
+    }
+  },
+  "dimensions": {
+    "container-small": "24px",
+    "container-medium": "48px",
+    "container-large": "96px",
+    "container-xlarge": "120px",
+    "table-small": "4px 8px",
+    "table-medium": "12px 16px",
+    "table-large": "16px 24px",
+    "badge-small": "2px 6px",
+    "badge-large": "4px 8px",
+    "button-small": "8px 24px",
+    "button-medium": "12px 32px",
+    "button-large": "18px 40px",
+    "spacer-extra-small": "10px",
+    "spacer-small": "20px",
+    "spacer-medium": "40px",
+    "spacer-large": "80px"
+  },
+  "fonts": {
+    "dm-sans": "",
+    "space-mono": ""
+  },
+  "defaultFontKey": "dm-sans",
+  "borders": {
+    "border-primary": {
+      "radius": "25px",
+      "width": "1px",
+      "color": "#E5E7EB",
+      "style": "solid"
+    },
+    "border-secondary": {
+      "radius": "10px",
+      "width": "1px",
+      "color": "#DF0000",
+      "style": "solid"
+    },
+    "border-footer": {
+      "radius": "0px",
+      "width": "1px 0px 0px 0px",
+      "color": "#99C6FF",
+      "style": "solid"
+    },
+    "border-image-radius-small": {
+      "radius": "12px",
+      "width": "0px",
+      "color": "#000000",
+      "style": "solid"
+    }
+  },
+  "allowedGroups": {}
+}

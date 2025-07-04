@@ -1,0 +1,20 @@
+endpoint:
+  channels: null
+  createdAt: 2025-01-29T12:36:09.752Z
+  description: ''
+  disabled: true
+  filterTypes:
+    - manifest.published
+  id: ep_2sIrwgs3iJHcNNhknS4sU5PxzN2
+  metadata: {}
+  rateLimit: null
+  uid: null
+  updatedAt: 2025-09-01T09:40:34.505Z
+  url: https://your_deploy_hook_url
+  version: 1
+headers:
+  headers: {}
+  sensitive: []
+transformation:
+  code: null
+  enabled: false

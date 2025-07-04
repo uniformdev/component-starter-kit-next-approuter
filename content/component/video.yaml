@@ -113,22 +113,6 @@ parameters:
     typeConfig:
       max: 1
       min: 0
-  - id: 92c7ea4f-d2f7-45b6-ba9d-75d23b4ddb78
-    name: Deprecated
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - url
-  - id: url
-    name: Video Url (Deprecated)
-    type: link
-    helpText: Please use video parameter instead of url.
-    typeConfig:
-      linkTypes:
-        tel: false
-        email: false
-        projectMapNode: false
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/video.jpg
@@ -137,5 +121,5 @@ slots: []
 titleParameter: displayName
 thumbnailParameter: placeholderImage
 canBeComposition: false
-created: '2025-01-29T10:47:04.294063+00:00'
-updated: '2025-06-23T11:48:55.65784+00:00'
+created: '2025-06-26T12:10:52.185441+00:00'
+updated: '2025-07-04T13:55:28.978092+00:00'

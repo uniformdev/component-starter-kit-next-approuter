@@ -2,11 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { AssetParamValue } from '@uniformdev/assets';
 import { flattenValues } from '@uniformdev/canvas';
-import { PageParameters } from '@uniformdev/canvas-next-rsc';
+import { resolveRouteFromCode, UniformPageParameters } from '@uniformdev/canvas-next-rsc-v2';
 import { resolveAsset } from '@uniformdev/csk-components/utils/assets';
-import { isRouteWithoutErrors } from '@uniformdev/csk-components/utils/routing';
-import locales from '@/i18n/locales.json';
-import retrieveRoute from '@/utils/retrieveRoute';
 
 type UniformMetadataParameters = {
   pageTitle: string;
@@ -34,7 +31,6 @@ type UniformMetadataParameters = {
   twitterCard: 'summary' | 'summary_large_image' | 'app' | 'player';
   favicon: AssetParamValue;
 };
-
 /**
  * Generates metadata for a page using Uniform parameters and assets.
  *
@@ -42,12 +38,14 @@ type UniformMetadataParameters = {
  * @returns {Promise<Metadata>} - The metadata object compatible with Next.js.
  * @throws Will throw an error if the route contains issues or cannot be found.
  */
-export async function generateMetadata(props: PageParameters): Promise<Metadata> {
-  // Retrieve the route for the current page and locale
-  const route = await retrieveRoute(props, locales.defaultLocale);
+export async function generateMetadata(props: UniformPageParameters): Promise<Metadata> {
+  const result = await resolveRouteFromCode(props);
 
-  // Handle cases where the route contains errors or is not found
-  if (!isRouteWithoutErrors(route)) return notFound();
+  if (!result.route) {
+    notFound();
+  }
+
+  const { route } = result;
 
   const {
     compositionApiResponse: { composition },

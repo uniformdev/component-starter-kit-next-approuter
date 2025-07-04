@@ -1,5 +1,5 @@
 import { NextConfig } from 'next';
-import { withUniformConfig } from '@uniformdev/canvas-next-rsc/config';
+import { withUniformConfig } from '@uniformdev/canvas-next-rsc-v2/config';
 
 /** @type {NextConfig} */
 const nextConfig: NextConfig = {

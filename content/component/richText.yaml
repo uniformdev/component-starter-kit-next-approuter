@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: richText
 name: Rich Text
@@ -40,9 +40,31 @@ parameters:
     typeConfig:
       collapsed: true
       childrenParams:
+        - size
         - color
         - font
         - lineCountRestrictions
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    helpText: Adjust typography size for different contexts with tailwindcss-typography.
+    typeConfig:
+      options:
+        - key: Sm
+          value: sm
+        - key: Base
+          value: base
+        - key: Lg
+          value: lg
+        - key: Xl
+          value: xl
+        - key: 2Xl
+          value: 2xl
+      defaultValue:
+        mobile: base
+        tablet: base
+        desktop: base
+      withViewPort: true
   - id: color
     name: Color
     type: dex-color-palette-parameter
@@ -85,5 +107,5 @@ previewImageUrl: >-
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2025-02-17T15:34:15.709485+00:00'
-updated: '2025-02-17T15:34:15.709485+00:00'
+created: '2025-01-29T10:47:03.280307+00:00'
+updated: '2025-08-18T09:23:47.774875+00:00'

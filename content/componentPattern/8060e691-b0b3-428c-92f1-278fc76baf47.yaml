@@ -14,7 +14,7 @@ composition:
         desktop: sm
     textColor:
       type: dex-color-palette-parameter
-      value: text-dark
+      value: text-primary
     textWeight:
       type: dex-segmented-control-parameter
       value: normal
@@ -24,6 +24,9 @@ composition:
     iconPosition:
       type: dex-segmented-control-parameter
       value: right
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-primary
     hoverButtonColor:
       type: dex-color-palette-parameter
       value: button-tertiary-hover

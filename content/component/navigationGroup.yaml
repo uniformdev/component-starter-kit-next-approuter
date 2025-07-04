@@ -48,16 +48,26 @@ parameters:
     type: dex-segmented-control-parameter
     typeConfig:
       options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
         - key: Base
           value: base
+        - key: LG
+          value: lg
         - key: XL
           value: xl
         - key: 2XL
           value: 2xl
+        - key: 3XL
+          value: 3xl
         - key: 4XL
           value: 4xl
         - key: 5XL
           value: 5xl
+        - key: 6XL
+          value: 6xl
         - key: 7XL
           value: 7xl
       withViewPort: false

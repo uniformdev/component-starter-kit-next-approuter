@@ -69,22 +69,6 @@ parameters:
         - key: Screen
           value: screen
       withViewPort: true
-  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
-    name: Deprecated
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - fitHeight
-        - fullHeight
-  - id: fitHeight
-    name: Fit Height (Deprecated)
-    type: checkbox
-    typeConfig: null
-  - id: fullHeight
-    name: Full Height (Deprecated)
-    type: checkbox
-    typeConfig: null
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/table-default-variant.jpg
@@ -106,5 +90,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:03.283758+00:00'
-updated: '2025-06-25T09:40:33.398569+00:00'
+created: '2025-06-26T12:10:51.211969+00:00'
+updated: '2025-07-04T13:55:28.912658+00:00'

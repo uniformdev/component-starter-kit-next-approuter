@@ -1,0 +1,76 @@
+composition:
+  _name: Hero (Image Right)
+  _id: b83eebba-34e9-4c62-a5b4-454022f44957
+  type: fixedHero
+  variant: columnsReverse
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: cccd007b-0294-4b34-869a-d8b5acd87061
+          type: image
+          fields:
+            id:
+              type: text
+              value: ff044480-8310-44f4-9991-82176767a172
+            url:
+              value: >-
+                https://img.uniform.global/p/gaaGBo44T8KlqJ3IGMZtAQ/A_n5T_nCS9eAVWRPWxms5Q-featured-bg.png
+              type: text
+            file:
+              type: file
+              value: 014eef90-3293-4758-9382-4a9928827675
+            size:
+              value: 63589
+              type: number
+            title:
+              type: text
+              value: featured-bg.png
+            width:
+              value: 806
+              type: number
+            height:
+              value: 432
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    titleTag:
+      type: dex-segmented-control-parameter
+      value: h2
+    displayName:
+      type: text
+      locales:
+        en: Hero (Image Right)
+    contentAlignment:
+      type: dex-segmented-control-parameter
+      value: center
+    primaryButtonTextColor:
+      type: dex-color-palette-parameter
+      value: text-secondary
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      image: 'yes'
+      height: 'no'
+      titleTag: 'yes'
+      textColor: 'no'
+      titleText: 'yes'
+      displayName: 'yes'
+      descriptionText: 'yes'
+      overlayAutoTint: 'no'
+      contentAlignment: 'no'
+      eyebrowTitleText: 'yes'
+      primaryButtonLink: 'yes'
+      primaryButtonText: 'yes'
+      primaryButtonTextColor: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-09-18T16:23:44.513423+00:00'
+modified: '2025-11-26T12:15:56.078335+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/hero-image-right
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af

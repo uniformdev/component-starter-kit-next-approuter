@@ -1,0 +1,199 @@
+composition:
+  _name: Home
+  _id: 852664d7-7d35-4eb5-97ad-e1c23ce940ca
+  _slug: /
+  type: page
+  _overrides:
+    852664d7-7d35-4eb5-97ad-e1c23ce940ca:
+      parameters:
+        pageTitle:
+          type: text
+          value: Component Starter Kit from Uniform
+        twitterCard:
+          type: select
+          value: summary_large_image
+        pageKeywords:
+          type: text
+          value: uniform, nextjs, composable, cms, commerce
+        twitterImage:
+          type: asset
+          value:
+            - _id: 9f8f80e7-4111-4e3e-b13b-55b4ce48b835
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 0ff678c5-794e-4ad2-af0b-861222dd178d
+                url:
+                  value: >-
+                    https://img.uniform.global/p/gaaGBo44T8KlqJ3IGMZtAQ/3ftRlyDGQaKrH7NJ5jUWBQ-meta-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 28f307bf-569a-446d-9700-39e855892108
+                size:
+                  value: 171834
+                  type: number
+                title:
+                  type: text
+                  value: meta-image.png
+                width:
+                  value: 1200
+                  type: number
+                height:
+                  value: 630
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        twitterTitle:
+          type: text
+          value: Uniform // Component Starter Kit
+        openGraphType:
+          type: select
+          value: website
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 5ea92564-890d-499f-85bb-244817c46534
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 0ff678c5-794e-4ad2-af0b-861222dd178d
+                url:
+                  value: >-
+                    https://img.uniform.global/p/gaaGBo44T8KlqJ3IGMZtAQ/3ftRlyDGQaKrH7NJ5jUWBQ-meta-image.png
+                  type: text
+                file:
+                  type: file
+                  value: 28f307bf-569a-446d-9700-39e855892108
+                size:
+                  value: 171834
+                  type: number
+                title:
+                  type: text
+                  value: meta-image.png
+                width:
+                  value: 1200
+                  type: number
+                height:
+                  value: 630
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+              _source: uniform-assets
+        openGraphTitle:
+          type: text
+          value: Uniform // Component Starter Kit
+        pageDescription:
+          type: text
+          value: >-
+            Essential set of components you need to start building
+            personalizable web experiences with Uniform.
+    852664d7-7d35-4eb5-97ad-e1c23ce940ca|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 5e8bdc5f-838d-4915-99b5-fc0f2a2dfa16
+            type: fixedHero
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: d736fe7f-0d3e-4d4b-a854-f070c88c674d
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 486077aa-19ad-4bc8-9310-eccf34b48aa4
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/gaaGBo44T8KlqJ3IGMZtAQ/Ze4bptBxSsypS_AB5rQ7ng-rectangle_light.png
+                        type: text
+                      file:
+                        type: file
+                        value: 4fbbd08c-6f27-48ab-9d9a-4bbc665c96c8
+                      size:
+                        value: 1350631
+                        type: number
+                      title:
+                        type: text
+                        value: rectangle_light.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+              titleTag:
+                type: dex-segmented-control-parameter
+                value: h2
+              textColor:
+                type: dex-color-palette-parameter
+                value: text-primary
+              titleText:
+                type: text
+                locales:
+                  en: Component Starter Kit
+              displayName:
+                type: text
+                locales:
+                  en: Hero
+              descriptionText:
+                type: text
+                locales:
+                  en: >-
+                    A rich set of components to supercharge building fast,
+                    modern, personalized experiences with Uniform DXP.
+              overlayAutoTint:
+                type: dex-slider-control-parameter
+                value: '0'
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+              eyebrowTitleText:
+                type: text
+                locales:
+                  en: Get your next project started on the right foot
+              primaryButtonLink:
+                type: link
+                locales:
+                  en:
+                    path: https://unfrm.to/csk-docs
+                    type: url
+              primaryButtonText:
+                type: text
+                locales:
+                  en: Docs
+              primaryButtonTextColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                image: 'yes'
+                height: 'no'
+                titleTag: 'yes'
+                textColor: 'no'
+                titleText: 'yes'
+                displayName: 'yes'
+                descriptionText: 'yes'
+                overlayAutoTint: 'yes'
+                contentAlignment: 'no'
+                eyebrowTitleText: 'yes'
+                primaryButtonLink: 'yes'
+                primaryButtonText: 'yes'
+                primaryButtonTextColor: 'no'
+              hideLockedParameters: true
+  _locales:
+    - en
+  _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
+created: '2025-10-10T11:40:51.160398+00:00'
+modified: '2025-11-26T12:13:08.575804+00:00'
+pattern: false

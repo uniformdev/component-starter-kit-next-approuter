@@ -10,8 +10,8 @@ import { customFontVariables } from '@/fonts';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={customFontVariables}>
+    <html lang="en" suppressHydrationWarning className={customFontVariables}>
+      <body>
         <NextThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <UniformContext>{children}</UniformContext>
         </NextThemeProvider>

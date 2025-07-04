@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: countdown
 name: Countdown
@@ -28,19 +28,28 @@ parameters:
     type: dex-segmented-control-parameter
     typeConfig:
       options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
         - key: Base
           value: base
+        - key: LG
+          value: lg
         - key: XL
           value: xl
         - key: 2XL
           value: 2xl
+        - key: 3XL
+          value: 3xl
         - key: 4XL
           value: 4xl
         - key: 5XL
           value: 5xl
+        - key: 6XL
+          value: 6xl
         - key: 7XL
           value: 7xl
-      defaultValue: {}
       withViewPort: true
   - id: backgroundColor
     name: Background Color
@@ -69,8 +78,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:13.932069+00:00'
-updated: '2025-02-17T15:34:13.932069+00:00'
+created: '2025-01-29T10:47:01.362054+00:00'
+updated: '2025-09-12T10:09:15.890505+00:00'
 variants:
   - id: labelsUnder
     name: Labels Under

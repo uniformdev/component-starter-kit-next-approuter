@@ -6,12 +6,6 @@ composition:
     stars:
       type: number
       value: '5'
-    spacing:
-      type: dex-space-control-parameter
-      value:
-        mobile: {}
-        tablet: {}
-        desktop: {}
     starsColor:
       type: dex-color-palette-parameter
       value: general-color-6
@@ -40,7 +34,7 @@ composition:
                     value: 0aafe2e9-468c-43e1-81f3-fda6c02388e7
                   url:
                     value: >-
-                      https://img.uniform.global/p/h7VVOiFOSWyx2snFx06-Sw/xBYy0MwzRHqiYe2NXV3tgg-man.png
+                      https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/xdb-kwJfR8erZc-SHhUSxg-man.png
                     type: text
                   file:
                     type: file
@@ -78,9 +72,6 @@ composition:
           tag:
             type: dex-segmented-control-parameter
             value: p
-          size:
-            type: dex-segmented-control-parameter
-            value: {}
           text:
             type: text
             value: >-
@@ -119,9 +110,6 @@ composition:
           tag:
             type: dex-segmented-control-parameter
             value: p
-          size:
-            type: dex-segmented-control-parameter
-            value: {}
           text:
             type: text
             value: John Doe
@@ -139,9 +127,6 @@ composition:
           tag:
             type: dex-segmented-control-parameter
             value: p
-          size:
-            type: dex-segmented-control-parameter
-            value: {}
           text:
             type: text
             value: July 12, 2021
@@ -165,8 +150,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-05-16T11:28:41.298534+00:00'
-modified: '2025-05-22T11:56:01.013512+00:00'
+created: '2025-05-20T09:30:44.49949+00:00'
+modified: '2025-09-12T10:10:38.202107+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747395403/csk-v-next/baseline/preview-images/review-default.jpg

@@ -1,5 +1,7 @@
 import { FC } from 'react';
-import { ComponentProps, UniformSlot, UniformText } from '@uniformdev/canvas-next-rsc/component';
+import { ComponentParameter, UniformSlot, UniformText } from '@uniformdev/canvas-next-rsc-v2/component';
+import { ComponentProps } from '@uniformdev/csk-components/types/cskTypes';
+import { withFlattenParameters } from '@uniformdev/csk-components/utils/withFlattenParameters';
 
 // Here, you can add parameters to be used on the canvas side.
 export type CustomComponentParameters = {
@@ -12,18 +14,17 @@ enum CustomComponentSlots {
 
 type CustomComponentProps = ComponentProps<CustomComponentParameters, CustomComponentSlots>;
 
-const CustomComponent: FC<CustomComponentProps> = ({ component, context, slots }) => (
+const CustomComponent: FC<CustomComponentProps & CustomComponentParameters> = ({ parameters, component, slots }) => (
   // Your implementation of the component logic
   <div>
     <UniformText
       placeholder="Text goes here"
-      parameterId="displayName"
+      parameter={parameters.displayName as ComponentParameter<string>}
       as="h1"
       component={component}
-      context={context}
     />
-    <UniformSlot data={component} context={context} slot={slots.customComponentContent} />
+    <UniformSlot slot={slots.customComponentContent} />
   </div>
 );
 
-export default CustomComponent;
+export default withFlattenParameters(CustomComponent);

@@ -6,12 +6,6 @@ composition:
     size:
       type: dex-token-selector-parameter
       value: table-small
-    spacing:
-      type: dex-space-control-parameter
-      value:
-        mobile: {}
-        tablet: {}
-        desktop: {}
     displayName:
       type: text
       value: Table Default
@@ -491,8 +485,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-05-16T11:46:43.352257+00:00'
-modified: '2025-05-22T11:56:18.616781+00:00'
+created: '2025-05-20T09:30:44.496791+00:00'
+modified: '2025-09-12T10:10:37.914248+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747396671/csk-v-next/baseline/preview-images/table-default.jpg

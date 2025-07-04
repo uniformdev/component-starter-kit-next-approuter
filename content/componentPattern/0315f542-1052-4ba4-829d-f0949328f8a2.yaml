@@ -9,27 +9,18 @@ composition:
         mobile: '2'
         tablet: '8'
         desktop: '8'
-    spacing:
-      type: dex-space-control-parameter
-      value: {}
     direction:
       type: dex-segmented-control-parameter
       value:
         mobile: row
         tablet: row
         desktop: row
-    alignItems:
-      type: dex-segmented-control-parameter
-      value: {}
     displayName:
       type: text
       value: Feature item
     fluidContent:
       type: checkbox
       value: true
-    justifyContent:
-      type: dex-segmented-control-parameter
-      value: {}
   slots:
     flexItem:
       - _id: fe27259d-349e-42e6-aa3e-ef73bea56eb5
@@ -50,7 +41,7 @@ composition:
                           value: f9da45f7-168b-4d00-b43b-f2cc28365985
                         url:
                           value: >-
-                            https://img.uniform.global/p/YBXmRPPzQZ-45Yo5jJzHAw/tAODz-eSSfuSrg-b8abbEQ-Uniform-Icon-Library_Composability-1.png
+                            https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/batl9dBlR_ybbqtmxv093g-Uniform-Icon-Library_Composability-1.png
                           type: text
                         file:
                           type: file
@@ -154,9 +145,6 @@ composition:
                   color: 'yes'
                 hideLockedParameters: true
         parameters:
-          alignSelf:
-            type: dex-segmented-control-parameter
-            value: {}
           displayName:
             type: text
             value: Right Content
@@ -167,8 +155,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.070844+00:00'
-modified: '2025-02-17T15:34:18.070844+00:00'
+created: '2025-01-29T10:47:07.63502+00:00'
+modified: '2025-09-12T10:10:35.406513+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/feature-item.jpg

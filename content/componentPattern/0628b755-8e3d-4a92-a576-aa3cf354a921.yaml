@@ -3,9 +3,6 @@ composition:
   _id: 0628b755-8e3d-4a92-a576-aa3cf354a921
   type: flex
   parameters:
-    gap:
-      type: dex-slider-control-parameter
-      value: {}
     border:
       type: dex-token-selector-parameter
       value: ''
@@ -31,9 +28,6 @@ composition:
     fluidContent:
       type: checkbox
       value: true
-    justifyContent:
-      type: dex-segmented-control-parameter
-      value: {}
     backgroundColor:
       type: dex-color-palette-parameter
       value: general-color-5
@@ -100,8 +94,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.113975+00:00'
-modified: '2025-02-17T15:34:18.113975+00:00'
+created: '2025-01-29T10:47:06.445784+00:00'
+modified: '2025-09-12T10:10:36.060054+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/stat-item-with-background.jpg

@@ -44,7 +44,6 @@ parameters:
           value: '32'
       maxValue: 10
       minValue: 0
-      defaultValue: {}
       withViewPort: true
   - id: gapY
     name: Gap Y
@@ -66,7 +65,20 @@ parameters:
           value: '32'
       maxValue: 10
       minValue: 0
-      defaultValue: {}
+      withViewPort: true
+  - id: alignItems
+    name: Align Items
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Start
+          value: start
+        - key: Center
+          value: center
+        - key: End
+          value: end
+        - key: Stretch
+          value: stretch
       withViewPort: true
   - id: 9f4a3823-8aad-4b30-a7bf-e5134643b0b3
     name: More Presentation Settings
@@ -88,10 +100,6 @@ parameters:
     type: dex-space-control-parameter
     typeConfig:
       type: dimensions
-      defaultValue:
-        mobile: {}
-        tablet: {}
-        desktop: {}
       withViewPort: true
       selectedGroup: container
   - id: border
@@ -114,22 +122,6 @@ parameters:
         - key: Screen
           value: screen
       withViewPort: true
-  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
-    name: Deprecated
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - fitHeight
-        - fullHeight
-  - id: fitHeight
-    name: Fit Height (Deprecated)
-    type: checkbox
-    typeConfig: null
-  - id: fullHeight
-    name: Full Height (Deprecated)
-    type: checkbox
-    typeConfig: null
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/grid.jpg
@@ -144,4 +136,4 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:01.756246+00:00'
-updated: '2025-06-25T09:40:33.159842+00:00'
+updated: '2025-09-12T10:09:14.118681+00:00'

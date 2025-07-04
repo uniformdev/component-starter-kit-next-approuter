@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: header
 name: Header
@@ -32,10 +32,6 @@ parameters:
     type: dex-space-control-parameter
     typeConfig:
       type: dimensions
-      defaultValue:
-        mobile: {}
-        tablet: {}
-        desktop: {}
       withViewPort: true
       selectedGroup: container
   - id: border
@@ -78,7 +74,7 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:01.517369+00:00'
-updated: '2025-02-19T10:34:32.190121+00:00'
+updated: '2025-09-12T10:09:14.292526+00:00'
 variants:
   - id: sticky
     name: Sticky

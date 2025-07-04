@@ -3,15 +3,9 @@ composition:
   _id: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
   type: flex
   parameters:
-    gap:
-      type: dex-slider-control-parameter
-      value: {}
     border:
       type: dex-token-selector-parameter
       value: ''
-    spacing:
-      type: dex-space-control-parameter
-      value: {}
     direction:
       type: dex-segmented-control-parameter
       value:
@@ -24,9 +18,6 @@ composition:
     fluidContent:
       type: checkbox
       value: true
-    justifyContent:
-      type: dex-segmented-control-parameter
-      value: {}
   slots:
     flexItem:
       - _id: 29b74799-cf5d-4d42-9f9a-4a4b240f4388
@@ -84,8 +75,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.933311+00:00'
-modified: '2025-02-17T15:34:18.933311+00:00'
+created: '2025-01-29T10:47:07.494153+00:00'
+modified: '2025-09-12T10:10:35.133262+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/stat-item.jpg

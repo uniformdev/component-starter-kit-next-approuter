@@ -86,7 +86,7 @@ composition:
             value: badge-large
           textColor:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           backgroundColor:
             type: dex-color-palette-parameter
             value: general-color-4
@@ -116,7 +116,7 @@ composition:
               desktop: 2xl
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: medium
@@ -139,7 +139,7 @@ composition:
               desktop: xl
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: normal
@@ -167,7 +167,7 @@ composition:
             value: button-small
           textColor:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           buttonColor:
             type: dex-color-palette-parameter
             value: button-primary

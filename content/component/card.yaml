@@ -49,22 +49,6 @@ parameters:
         - key: Screen
           value: screen
       withViewPort: true
-  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
-    name: Deprecated
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - fitHeight
-        - fullHeight
-  - id: fitHeight
-    name: Fit Height (Deprecated)
-    type: checkbox
-    typeConfig: null
-  - id: fullHeight
-    name: Full Height (Deprecated)
-    type: checkbox
-    typeConfig: null
 categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/card-default.jpg
@@ -92,8 +76,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:01.200491+00:00'
-updated: '2025-06-25T09:40:33.263043+00:00'
+created: '2025-06-26T12:10:48.528552+00:00'
+updated: '2025-07-04T13:55:28.699541+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

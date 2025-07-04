@@ -14,7 +14,7 @@ composition:
         desktop: sm
     textColor:
       type: dex-color-palette-parameter
-      value: text-light
+      value: text-secondary
     textWeight:
       type: dex-segmented-control-parameter
       value: normal
@@ -27,6 +27,9 @@ composition:
     textTransform:
       type: dex-segmented-control-parameter
       value: uppercase
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-secondary
     hoverButtonColor:
       type: dex-color-palette-parameter
       value: button-primary-hover

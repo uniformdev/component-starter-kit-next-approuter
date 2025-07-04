@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: accordionItem
 name: Accordion Item
@@ -145,10 +145,6 @@ parameters:
     type: dex-space-control-parameter
     typeConfig:
       type: dimensions
-      defaultValue:
-        mobile: {}
-        tablet: {}
-        desktop: {}
       withViewPort: true
       selectedGroup: container
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
@@ -165,4 +161,4 @@ slots:
 titleParameter: text
 canBeComposition: false
 created: '2025-01-29T10:47:02.414019+00:00'
-updated: '2025-02-24T18:39:14.248894+00:00'
+updated: '2025-09-12T10:09:13.826554+00:00'

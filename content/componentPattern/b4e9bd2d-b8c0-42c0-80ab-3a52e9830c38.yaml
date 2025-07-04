@@ -47,7 +47,7 @@ composition:
             value: John Doe
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: bold
@@ -73,7 +73,7 @@ composition:
             value: Sr. Solutions Architect / Global Tech Firm
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: normal
@@ -103,7 +103,7 @@ composition:
               half. A big win!"
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: bold

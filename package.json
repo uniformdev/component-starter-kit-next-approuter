@@ -31,13 +31,15 @@
     "push:content:dev": "uniform sync push --config ./uniform.config.dev.ts",
     "uniform:pull": "run-s pull:dex apply:dex pull:content",
     "uniform:push": "run-s push:dex push:content",
-    "uniform:publish": "uniform context manifest publish"
+    "uniform:publish": "uniform context manifest publish",
+    "recipes": "csk-recipes init"
   },
   "dependencies": {
     "@uniformdev/canvas-next-rsc-client-v2": "20.7.1-alpha.73",
     "@uniformdev/canvas-next-rsc-shared-v2": "20.7.1-alpha.73",
     "@uniformdev/canvas-next-rsc-v2": "20.7.1-alpha.73",
     "@uniformdev/csk-components": "file:./uniformdev-csk-components-6.1.20.tgz",
+    "@uniformdev/csk-recipes": "file:./uniformdev-csk-recipes-6.1.20.tgz",
     "@uniformdev/design-extensions-tools": "file:./uniformdev-design-extensions-tools-6.1.20.tgz",
     "next": "^15.4.2",
     "react": "^19.1.0",

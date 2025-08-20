@@ -1,0 +1,7 @@
+@source inline("{lg:,md:,}font-{dm-sans,space-mono,default}");
+
+@theme {
+	--font-dm-sans: var(--dm-sans);
+	--font-space-mono: var(--space-mono);
+	--font-default: var(--default-font);
+}

@@ -47,7 +47,7 @@ composition:
             value: John Doe
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: bold
@@ -73,7 +73,7 @@ composition:
             value: Sr. Solutions Architect / Global Tech Firm
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: normal
@@ -103,7 +103,7 @@ composition:
               half. A big win!"
           color:
             type: dex-color-palette-parameter
-            value: text-light
+            value: text-secondary
           weight:
             type: dex-segmented-control-parameter
             value: bold
@@ -130,7 +130,7 @@ composition:
                     value: 0aafe2e9-468c-43e1-81f3-fda6c02388e7
                   url:
                     value: >-
-                      https://img.uniform.global/p/h7VVOiFOSWyx2snFx06-Sw/xBYy0MwzRHqiYe2NXV3tgg-man.png
+                      https://img.uniform.global/p/4rXD6MFgTD6MtAve0vmErQ/El9xLD2lRZqTWxNfH2u13Q-man.png
                     type: text
                   file:
                     type: file
@@ -168,14 +168,35 @@ composition:
           image:
             type: asset
             value:
-              - _id: 4e05dae1-7ef9-430d-a4cf-307200e377f2
+              - _id: 84e9d8d4-1ef5-4740-9f5a-2f1e930c26be
                 type: image
                 fields:
-                  url:
+                  id:
                     type: text
+                    value: ca661a4a-fefe-4e01-afab-0892446cc4d2
+                  url:
                     value: >-
-                      https://res.cloudinary.com/utidinary/image/upload/f_auto,q_auto,h_200,t_Auto-Quality-and-Format/UTI-Logo-Full-Color-White.svg
-                _source: custom-url
+                      https://img.uniform.global/p/bKE8PekcQ3Gk9j6C81jcrQ/iAIoC-kBRq-iFuv2j8zTkw-icon-uniform-logo_white.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 3c8d25a3-25d5-4898-90a9-336d3523fd06
+                  size:
+                    value: 2398
+                    type: number
+                  title:
+                    type: text
+                    value: icon-uniform-logo_white.svg
+                  width:
+                    value: 159
+                    type: number
+                  height:
+                    value: 41
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
           width:
             type: number
             value: '160'
@@ -196,8 +217,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-05-16T10:03:31.208458+00:00'
-modified: '2025-05-22T11:58:03.262787+00:00'
+created: '2025-05-20T09:30:44.285433+00:00'
+modified: '2025-07-30T13:07:21.235597+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747393468/csk-v-next/baseline/preview-images/testimonial-overlapping-image.jpg

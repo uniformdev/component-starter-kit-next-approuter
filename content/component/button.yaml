@@ -40,6 +40,8 @@ parameters:
     type: dex-segmented-control-parameter
     typeConfig:
       options:
+        - key: XS
+          value: xs
         - key: SM
           value: sm
         - key: Base

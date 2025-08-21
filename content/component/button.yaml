@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: button
 name: Button
@@ -169,6 +169,32 @@ parameters:
     typeConfig:
       allowColors: []
       selectedGroup: text
+  - id: 9ac80151-aa6b-423f-8a69-8545e0297ccc
+    name: Tagging & Tracking
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - eventCategory
+        - eventAction
+        - eventLabel
+        - eventValue
+  - id: eventCategory
+    name: Event Category
+    type: text
+    typeConfig: null
+  - id: eventAction
+    name: Event Action
+    type: text
+    typeConfig: null
+  - id: eventLabel
+    name: Event Label
+    type: text
+    typeConfig: null
+  - id: eventValue
+    name: Event Value
+    type: text
+    typeConfig: null
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button.jpg
@@ -177,8 +203,8 @@ slots: []
 titleParameter: text
 thumbnailParameter: icon
 canBeComposition: false
-created: '2025-02-17T15:34:15.396123+00:00'
-updated: '2025-02-17T15:34:15.396123+00:00'
+created: '2025-05-15T21:29:03.56788+00:00'
+updated: '2025-05-15T21:51:56.194912+00:00'
 variants:
   - id: link
     name: Link

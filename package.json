@@ -32,7 +32,8 @@
     "push:content:dev": "uniform sync push --config ./uniform.config.dev.ts",
     "uniform:pull": "run-s pull:dex apply:dex pull:content",
     "uniform:push": "run-s push:dex push:content",
-    "uniform:publish": "uniform context manifest publish"
+    "uniform:publish": "uniform context manifest publish",
+    "recipes": "csk-recipes init"
   },
   "dependencies": {
     "@uniformdev/canvas-next-rsc-client-v2": "20.7.1-alpha.81",
@@ -53,6 +54,7 @@
     "@types/react-dom": "^19.1.0",
     "@uniformdev/cli": "20.7.1-alpha.81",
     "@uniformdev/csk-cli": "file:./uniformdev-csk-cli-6.1.28.tgz",
+    "@uniformdev/csk-recipes": "file:./uniformdev-csk-recipes-6.1.28.tgz",
     "cross-env": "^7.0.3",
     "eslint": "^9.31.0",
     "eslint-config-next": "^15.4.2",

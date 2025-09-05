@@ -17,7 +17,7 @@ composition:
       value: How much does the Component Starter Kit cost?
     color:
       type: dex-color-palette-parameter
-      value: text-light
+      value: text-secondary
     weight:
       type: dex-segmented-control-parameter
       value: bold

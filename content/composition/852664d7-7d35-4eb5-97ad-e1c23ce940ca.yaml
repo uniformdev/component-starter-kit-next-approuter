@@ -134,9 +134,12 @@ composition:
               primaryButtonText:
                 type: text
                 value: Docs
+              primaryButtonTextColor:
+                type: dex-color-palette-parameter
+                value: text-secondary
   _locales:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
 created: '2025-01-29T10:47:10.496403+00:00'
-modified: '2025-06-12T08:05:55.451205+00:00'
+modified: '2025-07-16T09:51:50.510562+00:00'
 pattern: false

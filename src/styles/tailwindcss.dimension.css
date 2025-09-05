@@ -1,0 +1,20 @@
+@source inline("{[&_td]:,[&_th]:,lg:,md:,}{mt,mb,mr,ml,pt,pb,pr,pl,w,h,p}-{container-small,container-medium,container-large,container-xlarge,table-small,table-medium,table-large,badge-small,badge-large,button-small,button-medium,button-large,spacer-extra-small,spacer-small,spacer-medium,spacer-large}");
+
+@theme {
+	--spacing-container-small: var(--container-small);
+	--spacing-container-medium: var(--container-medium);
+	--spacing-container-large: var(--container-large);
+	--spacing-container-xlarge: var(--container-xlarge);
+	--spacing-table-small: var(--table-small);
+	--spacing-table-medium: var(--table-medium);
+	--spacing-table-large: var(--table-large);
+	--spacing-badge-small: var(--badge-small);
+	--spacing-badge-large: var(--badge-large);
+	--spacing-button-small: var(--button-small);
+	--spacing-button-medium: var(--button-medium);
+	--spacing-button-large: var(--button-large);
+	--spacing-spacer-extra-small: var(--spacer-extra-small);
+	--spacing-spacer-small: var(--spacer-small);
+	--spacing-spacer-medium: var(--spacer-medium);
+	--spacing-spacer-large: var(--spacer-large);
+}

@@ -77,8 +77,20 @@ parameters:
           value: end
         - key: Stretch
           value: stretch
-      defaultValue: {}
-      withViewPort: false
+      defaultValue:
+        mobile: {}
+        tablet: {}
+        desktop: {}
+      withViewPort: true
+  - id: wrap
+    name: Wrap
+    type: dex-segmented-control-parameter
+    typeConfig:
+      options:
+        - key: Wrap
+          value: wrap
+        - key: No Wrap
+          value: nowrap
   - id: 9f4a3823-8aad-4b30-a7bf-e5134643b0b3
     name: More Presentation Settings
     type: group
@@ -125,22 +137,6 @@ parameters:
         - key: Screen
           value: screen
       withViewPort: true
-  - id: 855b7e83-5dfc-448c-b9a6-f59060c1637b
-    name: Deprecated
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - fitHeight
-        - fullHeight
-  - id: fitHeight
-    name: Fit Height (Deprecated)
-    type: checkbox
-    typeConfig: null
-  - id: fullHeight
-    name: Full Height (Deprecated)
-    type: checkbox
-    typeConfig: null
 categoryId: ae15b0f6-4953-4ccb-9984-ad0525e77b01
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/flex.jpg
@@ -155,4 +151,4 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-01-29T10:47:01.687973+00:00'
-updated: '2025-06-25T09:40:33.242668+00:00'
+updated: '2025-08-15T11:27:35.716906+00:00'

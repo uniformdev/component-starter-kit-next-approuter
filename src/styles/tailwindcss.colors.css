@@ -1,0 +1,19 @@
+@source inline("{hover:,group-hover:,lg:,md:,}{bg,text,decoration,border,ring,fill,from,to}-{button-primary,button-primary-hover,button-secondary,button-secondary-hover,button-tertiary,button-tertiary-hover,text-primary,text-secondary,text-tertiary,general-color-1,general-color-2,general-color-3,general-color-4,general-color-5,page-background-primary}");
+
+@theme {
+	--color-button-primary: var(--button-primary);
+	--color-button-primary-hover: var(--button-primary-hover);
+	--color-button-secondary: var(--button-secondary);
+	--color-button-secondary-hover: var(--button-secondary-hover);
+	--color-button-tertiary: var(--button-tertiary);
+	--color-button-tertiary-hover: var(--button-tertiary-hover);
+	--color-text-primary: var(--text-primary);
+	--color-text-secondary: var(--text-secondary);
+	--color-text-tertiary: var(--text-tertiary);
+	--color-general-color-1: var(--general-color-1);
+	--color-general-color-2: var(--general-color-2);
+	--color-general-color-3: var(--general-color-3);
+	--color-general-color-4: var(--general-color-4);
+	--color-general-color-5: var(--general-color-5);
+	--color-page-background-primary: var(--page-background-primary);
+}

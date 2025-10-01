@@ -1,0 +1,82 @@
+{
+  "colors": {
+    "light": {
+      "button-primary": "#fc0",
+      "button-primary-hover": "#DAB21C",
+      "button-secondary": "#FFFFFF",
+      "button-secondary-hover": "#E8EEF6",
+      "button-tertiary": "#FFFFFF00",
+      "button-tertiary-hover": "#D2E4F5",
+      "button-cta": "{button-primary}",
+      "button-cta-hover": "{button-primary-hover}",
+      "text-primary": "#002147",
+      "text-secondary": "#fff",
+      "text-tertiary": "{text-primary}",
+      "general-color-1": "#011F42",
+      "general-color-2": "#00397A",
+      "general-color-3": "#E8F4FE",
+      "general-color-4": "{button-primary}",
+      "general-color-5": "#002D62",
+      "page-background-primary": "#FFFFFF"
+    }
+  },
+  "dimensions": {
+    "container-small": "24px",
+    "container-medium": "48px",
+    "container-large": "96px",
+    "container-xlarge": "120px",
+    "table-small": "4px 8px",
+    "table-medium": "12px 16px",
+    "table-large": "16px 24px",
+    "badge-small": "2px 6px",
+    "badge-large": "4px 8px",
+    "button-small": "8px 24px",
+    "button-medium": "12px 32px",
+    "button-large": "18px 40px",
+    "spacer-extra-small": "10px",
+    "spacer-small": "20px",
+    "spacer-medium": "40px",
+    "spacer-large": "80px"
+  },
+  "fonts": {
+    "roboto-serif": "",
+    "roboto-flex": "",
+    "tiempos-headline": "",
+    "tiempos-text": "",
+    "inter": ""
+  },
+  "defaultFontKey": "tiempos-text",
+  "borders": {
+    "border-primary": {
+      "radius": "4px",
+      "width": "2px",
+      "color": "#FFFFFF00",
+      "style": "solid"
+    },
+    "border-secondary": {
+      "radius": "4px",
+      "width": "2px",
+      "color": "#0057a8",
+      "style": "solid"
+    },
+    "border-footer": {
+      "radius": "0px",
+      "width": "1px 0px 0px 0px",
+      "color": "#99C6FF",
+      "style": "solid"
+    },
+    "border-image-radius-small": {
+      "radius": "12px",
+      "width": "0px",
+      "color": "#000000",
+      "style": "solid"
+    },
+    "border-card": {
+      "radius": "8px",
+      "width": "2px",
+      "color": "#00000000",
+      "style": "solid"
+    }
+  },
+  "allowedGroups": {}
+}

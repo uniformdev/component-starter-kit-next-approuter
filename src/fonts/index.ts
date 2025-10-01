@@ -1,21 +1,30 @@
-import { Roboto_Flex, Roboto_Serif } from 'next/font/google';
+import localFont from 'next/font/local';
 
-export const roboto_serif = Roboto_Serif({
-  subsets: ['latin'],
+const roboto_serif = localFont({
+  src: [
+    {
+      path: './roboto/RobotoSerif-SemiBold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   variable: '--roboto-serif',
-  display: 'swap',
-  weight: ['700'],
-  style: ['normal'],
-  preload: true,
 });
 
-export const roboto_flex = Roboto_Flex({
-  subsets: ['latin'],
+const roboto_flex = localFont({
+  src: [
+    {
+      path: './roboto/RobotoFlex-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './roboto/RobotoFlex-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   variable: '--roboto-flex',
-  display: 'swap',
-  weight: ['400', '700'],
-  style: ['normal'],
-  preload: true,
 });
 
 export const customFontVariables = [roboto_serif.variable, roboto_flex.variable].join(' ');

@@ -7,6 +7,8 @@
       "button-secondary-hover": "#E8EEF6",
       "button-tertiary": "#FFFFFF00",
       "button-tertiary-hover": "#D2E4F5",
+      "button-cta": "{button-primary}",
+      "button-cta-hover": "{button-primary-hover}",
       "text-primary": "#002147",
       "text-secondary": "#fff",
       "text-tertiary": "{text-primary}",
@@ -14,10 +16,8 @@
       "general-color-2": "#00397A",
       "general-color-3": "#E8F4FE",
       "general-color-4": "{button-primary}",
-      "page-background-primary": "#FFFFFF",
-      "button-cta": "{button-primary}",
-      "button-cta-hover": "{button-primary-hover}",
-      "general-color-5": "#002D62"
+      "general-color-5": "#002D62",
+      "page-background-primary": "#FFFFFF"
     }
   },
   "dimensions": {

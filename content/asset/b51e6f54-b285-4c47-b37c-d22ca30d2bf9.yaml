@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b51e6f54-b285-4c47-b37c-d22ca30d2bf9
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-home-hero.jpg
+    file:
+      type: file
+      value: fb24e323-47f3-4bee-acd4-f65ebdf3bf8c
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/xxH9AkvZTEm67zdpboI0RQ-su-home-hero.jpg
+      type: text
+    size:
+      value: 318665
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2025-10-01T10:41:52.117051+00:00'
+modified: '2025-10-01T10:41:52.117051+00:00'

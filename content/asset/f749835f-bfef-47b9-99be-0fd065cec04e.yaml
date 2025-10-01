@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f749835f-bfef-47b9-99be-0fd065cec04e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-badge-cod-career.png
+    file:
+      type: file
+      value: 796a5fc7-b061-4647-bed7-165aff1811b4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GlAsEkfOQMu6BJnDAz5glQ-su-badge-cod-career.png
+      type: text
+    size:
+      value: 64682
+      type: number
+    width:
+      value: 990
+      type: number
+    height:
+      value: 990
+      type: number
+    custom: {}
+created: '2025-10-01T11:43:04.319774+00:00'
+modified: '2025-10-01T11:43:04.319774+00:00'

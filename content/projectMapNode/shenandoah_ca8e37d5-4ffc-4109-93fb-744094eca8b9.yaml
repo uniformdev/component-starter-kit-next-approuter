@@ -1,0 +1,9 @@
+id: ca8e37d5-4ffc-4109-93fb-744094eca8b9
+name: Shenandoah
+order: 500
+path: /:locale/shenandoah
+type: composition
+pathSegment: shenandoah
+data: {}
+compositionId: 41d721c6-653e-49de-acbb-aa083bf8630d
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

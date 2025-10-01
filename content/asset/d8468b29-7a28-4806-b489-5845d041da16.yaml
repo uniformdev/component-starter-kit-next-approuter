@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d8468b29-7a28-4806-b489-5845d041da16
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: you-tube.png
+    file:
+      type: file
+      value: 7f16663f-62f7-46e8-a9a0-23ac5c673fc5
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/SKXfNB2FSx2MXPBJVc9HMg-you-tube.png
+      type: text
+    size:
+      value: 6228
+      type: number
+    width:
+      value: 576
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T10:32:17.823478+00:00'
+modified: '2025-10-01T10:32:17.823478+00:00'

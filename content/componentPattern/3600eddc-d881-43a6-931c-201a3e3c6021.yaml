@@ -9,13 +9,9 @@ composition:
     spacing:
       type: dex-space-control-parameter
       value:
-        marginTop: ''
-        marginLeft: ''
         paddingTop: container-medium
-        marginRight: ''
-        paddingLeft: container-medium
-        marginBottom: ''
-        paddingRight: container-medium
+        paddingLeft: container-small
+        paddingRight: container-small
         paddingBottom: container-medium
     displayName:
       type: text
@@ -25,12 +21,42 @@ composition:
       value: true
     backgroundColor:
       type: dex-color-palette-parameter
-      value: general-color-1
+      value: general-color-3
   slots:
     cardContent:
+      - _id: 551f500a-a87b-49a4-ba05-b37cd097d9e2
+        type: text
+        parameters:
+          tag:
+            type: dex-segmented-control-parameter
+            value: h2
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: base
+          text:
+            type: text
+            locales:
+              en: Online MBA
+          color:
+            type: dex-color-palette-parameter
+            value: text-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: medium
+        _overridability:
+          parameters:
+            text: 'yes'
+          hideLockedParameters: true
       - _id: f5137d43-c357-4038-aa47-f914b2ebd4a9
         type: richText
         parameters:
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: sm
+              tablet: sm
+              desktop: sm
           text:
             type: richText
             value:
@@ -40,21 +66,6 @@ composition:
                 indent: 0
                 version: 1
                 children:
-                  - tag: h2
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: Component Starter Kit
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 1
-                        version: 1
-                    direction: ltr
-                    textFormat: 1
                   - type: paragraph
                     format: ''
                     indent: 0
@@ -62,9 +73,9 @@ composition:
                     children:
                       - mode: normal
                         text: >-
-                          A production-ready starter kit with reusable
-                          components, design tokens, and modern frontend
-                          tooling.
+                          Develop sought-after business expertise with an
+                          AACSB-accredited and 100% online program that allows
+                          you to customize your degree with concentrations.
                         type: text
                         style: ''
                         detail: 0
@@ -77,9 +88,17 @@ composition:
                     format: ''
                     indent: 0
                     version: 1
+                    children: []
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
                     children:
                       - mode: normal
-                        text: Free (Open Source)
+                        text: 5 Concentrations Available
                         type: text
                         style: ''
                         detail: 0
@@ -89,130 +108,75 @@ composition:
                     textStyle: ''
                     textFormat: 1
                 direction: ltr
+                textFormat: 1
           color:
             type: dex-color-palette-parameter
-            value: text-primary
+            value: text-tertiary
         _overridability:
           parameters:
             text: 'yes'
             color: 'yes'
           hideLockedParameters: true
-      - _id: 56d91268-fcc7-4473-bdbe-8bdf80294ebc
-        type: button
+      - _id: 197ffb11-a9ab-4489-b130-4a0421f2aa92
+        type: spacer
         parameters:
           size:
             type: dex-token-selector-parameter
-            value: button-small
-          text:
-            type: text
-            value: View Details
-          textColor:
-            type: dex-color-palette-parameter
-            value: text-secondary
-          textWeight:
-            type: dex-segmented-control-parameter
-            value: normal
-          buttonColor:
-            type: dex-color-palette-parameter
-            value: button-primary
+            value: spacer-medium
         _overridability:
-          parameters:
-            text: 'yes'
           hideLockedParameters: true
-      - _id: e7dc2efe-a0ac-493b-97d4-9bbdc6825158
-        type: richText
-        parameters:
-          text:
-            type: richText
-            value:
-              root:
-                type: root
-                format: ''
-                indent: 0
-                version: 1
-                children:
-                  - tag: ul
-                    type: list
-                    start: 1
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: listitem
-                        value: 1
-                        format: start
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Prebuilt components
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: start
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Tailwind support
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 3
-                        format: start
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Storybook
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 4
-                        format: start
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Vercel integration
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                    listType: bullet
-                    direction: ltr
-                direction: ltr
-          color:
-            type: dex-color-palette-parameter
-            value: text-primary
-        _overridability:
-          parameters:
-            text: 'yes'
-            color: 'yes'
-          hideLockedParameters: true
+      - _id: c003bfdb-e8ac-43a4-a370-5e16638cbcc0
+        type: button
+        _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+  _overrides:
+    c003bfdb-e8ac-43a4-a370-5e16638cbcc0:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        text:
+          type: text
+          locales:
+            en: View Degree
   _overridability:
     parameters:
+      height: 'yes'
       displayName: 'yes'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-05-16T12:10:05.54514+00:00'
-modified: '2025-05-22T11:55:41.823316+00:00'
+created: '2025-10-01T08:15:06.382274+00:00'
+modified: '2025-10-01T11:13:24.535832+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg

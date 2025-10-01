@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: be4562d6-0929-4ba7-bb4f-e35397b11f6d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-badge-cod-business.png
+    file:
+      type: file
+      value: 51de4a2f-f16d-414f-bd18-0178eacc5fe3
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/XhRwS78WQ1aUMWGT4ITAGw-su-badge-cod-business.png
+      type: text
+    size:
+      value: 145237
+      type: number
+    width:
+      value: 1200
+      type: number
+    height:
+      value: 1200
+      type: number
+    custom: {}
+created: '2025-10-01T11:44:20.120507+00:00'
+modified: '2025-10-01T11:44:20.120507+00:00'

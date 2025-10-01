@@ -60,6 +60,7 @@ slots:
       - navigationLink
       - navigationFlyout
       - navigationGroup
+      - button
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -73,8 +74,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-01-29T10:47:01.517369+00:00'
-updated: '2025-09-12T10:09:14.292526+00:00'
+created: '2025-10-01T08:15:00.768636+00:00'
+updated: '2025-10-01T09:43:50.98366+00:00'
 variants:
   - id: sticky
     name: Sticky

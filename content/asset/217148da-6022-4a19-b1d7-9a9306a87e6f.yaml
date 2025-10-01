@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 217148da-6022-4a19-b1d7-9a9306a87e6f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: shenandoah_university_footer_logo.png
+    file:
+      type: file
+      value: 5b2679b9-9c36-46c1-b0cc-6d435ced0430
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/mVfvh0VvRp2R6jWRzkh4Tw-shenandoah_university_footer_logo.png
+      type: text
+    size:
+      value: 12769
+      type: number
+    width:
+      value: 644
+      type: number
+    height:
+      value: 89
+      type: number
+    custom: {}
+created: '2025-10-01T10:03:43.933757+00:00'
+modified: '2025-10-01T10:03:43.933757+00:00'

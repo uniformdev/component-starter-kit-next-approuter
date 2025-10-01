@@ -14,7 +14,10 @@
       "general-color-2": "#00397A",
       "general-color-3": "#F6F9FC",
       "general-color-4": "#98002E",
-      "page-background-primary": "#FFFFFF"
+      "page-background-primary": "#FFFFFF",
+      "button-cta": "{general-color-4}",
+      "button-cta-hover": "#A72A4E",
+      "general-color-5": "#002D62"
     }
   },
   "dimensions": {

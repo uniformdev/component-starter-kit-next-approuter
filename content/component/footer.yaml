@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: footer
 name: Footer
@@ -65,7 +65,13 @@ slots:
     allowAllComponents: true
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
+  - id: footerBottom
+    name: Footer Bottom
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
-created: '2025-02-17T15:34:14.305535+00:00'
-updated: '2025-02-17T15:34:14.305535+00:00'
+created: '2025-10-01T08:15:00.439661+00:00'
+updated: '2025-10-01T10:21:55.300778+00:00'

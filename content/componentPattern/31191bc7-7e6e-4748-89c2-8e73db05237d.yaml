@@ -7,30 +7,30 @@ composition:
     icon:
       type: asset
       value:
-        - _id: 547d9183-255a-4fe9-adc4-74700ab519cb
+        - _id: 3446eb43-47d1-4381-a21f-b1e592d47304
           type: image
           fields:
             id:
               type: text
-              value: bf9daf10-949d-4589-8726-0168d567e0d5
+              value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
             url:
               value: >-
-                https://img.uniform.global/p/YBXmRPPzQZ-45Yo5jJzHAw/DnWsxABVTDSyNaccArrvQQ-arrow-right.svg
+                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
               type: text
             file:
               type: file
-              value: 519443cd-5f84-460f-a57c-778bbe1d3daa
+              value: 93c87bab-55c6-4137-b35d-79a66f52271c
             size:
-              value: 300
+              value: 443
               type: number
             title:
               type: text
-              value: arrow-right.svg
+              value: arrow.svg
             width:
-              value: 29
+              value: 448
               type: number
             height:
-              value: 29
+              value: 386
               type: number
             mediaType:
               value: image/svg+xml
@@ -38,7 +38,13 @@ composition:
           _source: uniform-assets
     size:
       type: dex-token-selector-parameter
-      value: ''
+      value: button-medium
+    border:
+      type: dex-token-selector-parameter
+      value: border-primary
+    textFont:
+      type: dex-token-selector-parameter
+      value: roboto-serif
     textSize:
       type: dex-segmented-control-parameter
       value:
@@ -47,16 +53,22 @@ composition:
         desktop: sm
     textColor:
       type: dex-color-palette-parameter
-      value: text-tertiary
+      value: text-primary
     textWeight:
       type: dex-segmented-control-parameter
-      value: normal
+      value: medium
+    buttonColor:
+      type: dex-color-palette-parameter
+      value: button-tertiary
     iconPosition:
       type: dex-segmented-control-parameter
       value: right
-    textTransform:
-      type: dex-segmented-control-parameter
-      value: uppercase
+    hoverTextColor:
+      type: dex-color-palette-parameter
+      value: text-primary
+    hoverButtonColor:
+      type: dex-color-palette-parameter
+      value: button-tertiary-hover
   _overridability:
     variants: false
     parameters:
@@ -66,8 +78,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.061034+00:00'
-modified: '2025-02-17T15:34:18.061034+00:00'
+created: '2025-10-01T08:15:04.780442+00:00'
+modified: '2025-10-01T09:25:28.900624+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-link.jpg

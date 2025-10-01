@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 89370290-35be-4bdb-98c9-33131d32b965
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: shenandoah_university_logo.png
+    file:
+      type: file
+      value: 2d86621f-0734-4e2f-833a-7ad1254fa357
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Du6Rfv00T-ifMgoawc-bIQ-shenandoah_university_logo.png
+      type: text
+    size:
+      value: 5148
+      type: number
+    width:
+      value: 250
+      type: number
+    height:
+      value: 48
+      type: number
+    custom: {}
+created: '2025-10-01T09:28:00.075247+00:00'
+modified: '2025-10-01T09:28:00.075247+00:00'

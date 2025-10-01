@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6abce73d-694d-4a32-82a9-949c66d15a02
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-logo-2025-2026-education-cod-alternate.png
+    file:
+      type: file
+      value: 601047a6-a871-420d-ae79-e22f50b22a9b
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/1-PG0qGwT62n290fRQV3MQ-su-logo-2025-2026-education-cod-alternate.png
+      type: text
+    size:
+      value: 85331
+      type: number
+    width:
+      value: 512
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T11:43:41.264538+00:00'
+modified: '2025-10-01T11:43:41.264538+00:00'

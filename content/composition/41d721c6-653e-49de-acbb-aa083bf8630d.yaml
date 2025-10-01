@@ -1,0 +1,1763 @@
+composition:
+  _name: Shenandoah
+  _id: 41d721c6-653e-49de-acbb-aa083bf8630d
+  _slug: shenandoah
+  type: page
+  _overrides:
+    02e2162e-0dab-4f7a-b48b-fcc7823b5f7f:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Flexible
+    046a1786-7277-4b73-926d-b6c6309d9a21:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Online Coursework
+    1f2137d9-c57e-4166-ae25-ee68d11ddcf7:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    2b2a5675-210d-4e13-a875-3c45db75fdba:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    2d128d5e-fbfe-4672-8e4b-65e6434c0701:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+        displayName:
+          type: text
+          value: Sources Section
+    355f2708-0370-4a16-bc8f-c486f84357ba:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    41d721c6-653e-49de-acbb-aa083bf8630d:
+      parameters:
+        pageTitle:
+          type: text
+          value: Shenandoah University Online Degrees - Apply Today!
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 5f6fc411-a09e-47a4-9d7d-25e1d5afa27c
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://online.su.edu/wp-content/uploads/2025/06/su-brand-admissions-hero.jpg
+              _source: custom-url
+        openGraphTitle:
+          type: text
+          locales:
+            en: Shenandoah University Online Degrees - Apply Today!
+        pageDescription:
+          type: text
+          locales:
+            en: >-
+              For over 150 years, Shenandoah University has offered top-quality
+              degree programs in Virginia to help students succeed. Easy
+              enrollment, get started now!
+        openGraphDescription:
+          type: text
+          locales:
+            en: >-
+              For over 150 years, Shenandoah University has offered top-quality
+              degree programs in Virginia to help students succeed. Easy
+              enrollment, get started now!
+    6cf625d5-2b76-4779-98ac-41e746223831:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Explore Our Programs
+    8394bd6b-9460-40d8-acc7-7c3d8c34bbb6:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    8449a439-756e-4553-9438-a8596f1d87fa:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    96024881-ad68-4d3f-b910-e79a922de3e4:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Discover SU Online
+    a253f3a7-762a-4b90-bd3d-0eb66ed81a65:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: About SU
+    a5ef8ce6-ca0c-4a97-9a26-8393f868b523:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    aaf0904b-8c2f-4c42-9605-0f5e913ddc62:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+    ab290e14-1ae0-40d2-8852-4d857397f802:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    ad2fe45e-5fbf-42ad-bf23-6e51f41de29e:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    f1a1e1b2-7006-4db1-8618-18fef3d399fe:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Student-to-Faculty Ratio
+    f6ca9205-85b9-4280-ba0a-69b1b2d64651:
+      parameters:
+        height:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: full
+            tablet: full
+            desktop: full
+    02e2162e-0dab-4f7a-b48b-fcc7823b5f7f|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Flexible
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    02e2162e-0dab-4f7a-b48b-fcc7823b5f7f|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: To Learn on Your Schedule
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    046a1786-7277-4b73-926d-b6c6309d9a21|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 100%
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    046a1786-7277-4b73-926d-b6c6309d9a21|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Online Coursework
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    1f2137d9-c57e-4166-ae25-ee68d11ddcf7|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 'Online MBA: Cybersecurity Management'
+    1f2137d9-c57e-4166-ae25-ee68d11ddcf7|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Prepare for the CompTIA Security+ exam with an
+                        AACSB-accredited MBA program designed to put you on the
+                        fast-track for leading roles in cybersecurity.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    2b2a5675-210d-4e13-a875-3c45db75fdba|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Online MPH
+    2b2a5675-210d-4e13-a875-3c45db75fdba|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Implement positive changes in your community through an
+                        innovative online program focused on public health in
+                        rural and underserved populations.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    2d128d5e-fbfe-4672-8e4b-65e6434c0701|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: 3be80a81-29c0-4214-8648-071faf055b85
+            type: richText
+            parameters:
+              font:
+                type: dex-token-selector-parameter
+                value: roboto-flex
+              size:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: base
+                  tablet: base
+                  desktop: base
+              text:
+                type: richText
+                locales:
+                  en:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: ol
+                          type: list
+                          start: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: listitem
+                              value: 1
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "U.S. News & World Report. “Best National Universities Rankings.” Retrieved March 25, 2025, from\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - link:
+                                    path: https://www.usnews.com/
+                                    type: url
+                                  type: link
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: https://www.usnews.com/
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - mode: normal
+                                  text: .  
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 2
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "Colleges of Distinction. “Shenandoah University.” Retrieved March 25, 2025, from\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - link:
+                                    path: https://collegesofdistinction.com/
+                                    type: url
+                                  type: link
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: https://collegesofdistinction.com/
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - mode: normal
+                                  text: .
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                          listType: number
+                          direction: ltr
+                      direction: ltr
+    2d128d5e-fbfe-4672-8e4b-65e6434c0701|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: xs
+            tablet: xs
+            desktop: xs
+    2d128d5e-fbfe-4672-8e4b-65e6434c0701|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Sources
+    41d721c6-653e-49de-acbb-aa083bf8630d|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 020fd1ce-51df-4728-b882-e3b1956c4699
+            type: section
+            slots:
+              sectionMedia:
+                - _id: c18913df-a6ca-4f95-8b4f-c3e33f745cbf
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: 77d44217-1687-4d1f-9de5-97009f244dab
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: b51e6f54-b285-4c47-b37c-d22ca30d2bf9
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/xxH9AkvZTEm67zdpboI0RQ-su-home-hero.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: fb24e323-47f3-4bee-acd4-f65ebdf3bf8c
+                            size:
+                              value: 318665
+                              type: number
+                            title:
+                              type: text
+                              value: su-home-hero.jpg
+                            width:
+                              value: 1600
+                              type: number
+                            height:
+                              value: 800
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                    overlayColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-1
+                    overlayOpacity:
+                      type: dex-slider-control-parameter
+                      value: '0.4'
+              sectionContent:
+                - _id: bc69cc94-0136-486f-82e9-4ca9162a406b
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: h1
+                    font:
+                      type: dex-token-selector-parameter
+                      value: roboto-serif
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: 5xl
+                    text:
+                      type: text
+                      locales:
+                        en: Shenandoah University
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                - _id: 9a81a20c-a3bb-4ad7-8b27-6b913ea32479
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: p
+                    font:
+                      type: dex-token-selector-parameter
+                      value: roboto-serif
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: xl
+                    text:
+                      type: text
+                      locales:
+                        en: >-
+                          Embrace a love of learning, collaboration, and service
+                          with Shenandoah, the big little university rising. Our
+                          faculty are committed to providing you with
+                          personalized attention through an interactive online
+                          platform.
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                - _id: 6cf625d5-2b76-4779-98ac-41e746223831
+                  type: button
+                  _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-xlarge
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Main Hero
+              fluidContent:
+                type: checkbox
+                value: true
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+          - _id: aaf0904b-8c2f-4c42-9605-0f5e913ddc62
+            type: flex
+            _pattern: 6fc97589-a549-4105-8b4f-387f64ea2780
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: a343aa2d-51b9-4a65-9957-443e19f42e28
+            type: container
+            slots:
+              containerContent:
+                - _id: f3d224d4-18ea-4996-b0bb-51da62f4e877
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 40b7be01-e821-436b-b661-574a093be62e
+                        type: flex
+                        slots:
+                          flexItem:
+                            - _id: >-
+                                40b7be01-e821-436b-b661-574a093be62e|29b74799-cf5d-4d42-9f9a-4a4b240f4388
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 2xl
+                                    tablet: 2xl
+                                    desktop: 2xl
+                                text:
+                                  type: text
+                                  locales:
+                                    en: At-a-Glance
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-secondary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: center
+                              _overridability:
+                                parameters:
+                                  size: 'yes'
+                                  text: 'yes'
+                                  color: 'yes'
+                                hideLockedParameters: true
+                        parameters:
+                          border:
+                            type: dex-token-selector-parameter
+                            value: ''
+                          direction:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: col
+                              tablet: col
+                              desktop: col
+                          alignItems:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: center
+                              tablet: center
+                              desktop: center
+                          displayName:
+                            type: text
+                            locales:
+                              en: At-a-Glance
+                          fluidContent:
+                            type: checkbox
+                            value: true
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: 046a1786-7277-4b73-926d-b6c6309d9a21
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: 02e2162e-0dab-4f7a-b48b-fcc7823b5f7f
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: f1a1e1b2-7006-4db1-8618-18fef3d399fe
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '2'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: row
+                        desktop: row
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                    displayName:
+                      type: text
+                      locales:
+                        en: Stat Section
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: between
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    paddingTop: container-large
+                    paddingBottom: container-large
+              displayName:
+                type: text
+                locales:
+                  en: Stat Section
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-5
+          - _id: e72426d2-6339-4d95-a836-96d7c631c080
+            type: container
+            slots:
+              containerContent:
+                - _id: 8cc108fa-5b75-494d-b479-ab1c678c0076
+                  type: image
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: f4307910-067d-4901-a618-6e6ae1d652f4
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: f2180a64-750b-40ec-a588-6633a1905931
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/8JT5y5rBREKVe_XrqhW59A-su-home-image.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 22e80c60-68cd-477c-a3dd-220aaaf65981
+                            size:
+                              value: 276854
+                              type: number
+                            title:
+                              type: text
+                              value: su-home-image.jpg
+                            width:
+                              value: 1602
+                              type: number
+                            height:
+                              value: 534
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+            parameters:
+              displayName:
+                type: text
+                locales:
+                  en: Image Container
+              fluidContent:
+                type: checkbox
+                value: true
+          - _id: e6045cdb-0d72-499d-b379-2d243ec33b89
+            type: grid
+            slots:
+              gridInner:
+                - _id: 97caf106-3301-4f7f-9fb8-eb55d10a2893
+                  type: flex
+                  _pattern: 6fc97589-a549-4105-8b4f-387f64ea2780
+                  _overridability:
+                    parameters:
+                      spacing: 'yes'
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                      backgroundColor: 'yes'
+                    hideLockedParameters: true
+                - _id: bd64eb2a-433b-4270-b64c-23bfa11017bf
+                  type: flex
+                  _pattern: 6fc97589-a549-4105-8b4f-387f64ea2780
+                  _overridability:
+                    parameters:
+                      spacing: 'yes'
+                      displayName: 'yes'
+                      fluidContent: 'yes'
+                      backgroundColor: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              gapX:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '8'
+                  tablet: '8'
+                  desktop: '8'
+              gapY:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '8'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    marginBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: About University Section
+              columnsCount:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '1'
+                  tablet: '2'
+                  desktop: '2'
+          - _id: 21be6103-8577-4c64-8c0b-b95d645d70ae
+            type: flex
+            slots:
+              flexItem:
+                - _id: 80ab8244-6228-4e7e-9379-fab04f8e1008
+                  type: image
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: d48ef015-5a88-4a1b-9b5a-13798291ebfc
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: f749835f-bfef-47b9-99be-0fd065cec04e
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GlAsEkfOQMu6BJnDAz5glQ-su-badge-cod-career.png
+                              type: text
+                            file:
+                              type: file
+                              value: 796a5fc7-b061-4647-bed7-165aff1811b4
+                            size:
+                              value: 64682
+                              type: number
+                            title:
+                              type: text
+                              value: su-badge-cod-career.png
+                            width:
+                              value: 990
+                              type: number
+                            height:
+                              value: 990
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    width:
+                      type: number
+                      value: '200'
+                    height:
+                      type: number
+                      value: '200'
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                - _id: fdba1e06-1685-4a63-a368-4989c1166bcb
+                  type: image
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 9dcb3d25-0592-41df-9146-12e0c990e1c8
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 6abce73d-694d-4a32-82a9-949c66d15a02
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/1-PG0qGwT62n290fRQV3MQ-su-logo-2025-2026-education-cod-alternate.png
+                              type: text
+                            file:
+                              type: file
+                              value: 601047a6-a871-420d-ae79-e22f50b22a9b
+                            size:
+                              value: 85331
+                              type: number
+                            title:
+                              type: text
+                              value: su-logo-2025-2026-education-cod-alternate.png
+                            width:
+                              value: 512
+                              type: number
+                            height:
+                              value: 512
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    width:
+                      type: number
+                      value: '200'
+                    height:
+                      type: number
+                      value: '200'
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                - _id: 6973cc34-e5f5-4895-bd81-73528787b069
+                  type: image
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 651a4220-6abc-413f-b1df-625a985aacbb
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: be4562d6-0929-4ba7-bb4f-e35397b11f6d
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/XhRwS78WQ1aUMWGT4ITAGw-su-badge-cod-business.png
+                              type: text
+                            file:
+                              type: file
+                              value: 51de4a2f-f16d-414f-bd18-0178eacc5fe3
+                            size:
+                              value: 145237
+                              type: number
+                            title:
+                              type: text
+                              value: su-badge-cod-business.png
+                            width:
+                              value: 1200
+                              type: number
+                            height:
+                              value: 1200
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    width:
+                      type: number
+                      value: '200'
+                    height:
+                      type: number
+                      value: '200'
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value:
+                  tablet: '32'
+                  desktop: '32'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    marginBottom: container-medium
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: col
+                  tablet: row
+                  desktop: row
+              alignItems:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: center
+              displayName:
+                type: text
+                locales:
+                  en: Awards sWction
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value:
+                  tablet: center
+                  desktop: center
+          - _id: 56a1e932-756a-4abc-bd34-b917511c0998
+            type: container
+            slots:
+              containerContent:
+                - _id: 08ae956f-3c36-4a69-befb-cc78a287fb26
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 8df6e44d-f22b-4065-8501-32a929ae6924
+                        type: image
+                        parameters:
+                          image:
+                            type: asset
+                            value:
+                              - _id: a0415817-cc00-403f-aaeb-96ed76740d23
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 569e522c-0cd6-4812-ab37-9c0c32327bc3
+                                  url:
+                                    value: >-
+                                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Wtvp_ePrQCSMDmuoj_etzw-su-testimonial-casey-edsall.jpg
+                                    type: text
+                                  file:
+                                    type: file
+                                    value: 09c7cbba-1bfa-425b-92ba-dcb28ece8335
+                                  size:
+                                    value: 20765
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: su-testimonial-casey-edsall.jpg
+                                  width:
+                                    value: 512
+                                    type: number
+                                  height:
+                                    value: 512
+                                    type: number
+                                  mediaType:
+                                    value: image/jpeg
+                                    type: text
+                                _source: uniform-assets
+                          width:
+                            type: number
+                            value: '128'
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-image-radius-small
+                          height:
+                            type: number
+                            value: '128'
+                          objectFit:
+                            type: dex-segmented-control-parameter
+                            value: cover
+                      - _id: 390b92f7-6abd-4e28-a848-d4cfad59c413
+                        type: richText
+                        parameters:
+                          font:
+                            type: dex-token-selector-parameter
+                            value: roboto-flex
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: base
+                              tablet: 2xl
+                              desktop: 2xl
+                          text:
+                            type: richText
+                            locales:
+                              en:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: quote
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Shenandoah provides a great education in
+                                            the classroom, but the opportunities
+                                            they provide to take theory to practice
+                                            and apply those concepts in the real
+                                            world are beyond comparable to other
+                                            small schools and even some larger
+                                            universities.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: –Casey Edsall ’18, MBA
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: ltr
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-secondary
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: row
+                        desktop: row
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                        tablet: start
+                    displayName:
+                      type: text
+                      locales:
+                        en: Review
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Review Section
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-5
+          - _id: 9bd605fe-015b-47ca-990a-1f206570d82f
+            type: container
+            slots:
+              containerContent:
+                - _id: 9d2560cd-5bb0-4b34-aca2-d46c8721e346
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 4163f327-df13-490b-a55d-a5f5b5bad14f
+                        type: image
+                        parameters:
+                          image:
+                            type: asset
+                            value:
+                              - _id: 44ca79fa-6ccb-46ab-bcb6-3e7b20539fbf
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 895bd0e6-9e25-4932-8e1a-bb814b0bb1f5
+                                  url:
+                                    value: >-
+                                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/wvEmEZAXTM2lhQo0T7g_Ng-image-1.png
+                                    type: text
+                                  file:
+                                    type: file
+                                    value: 7a88d352-2dcf-4f7d-b0d7-3018650dd486
+                                  size:
+                                    value: 7306
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: image-1.png
+                                  width:
+                                    value: 640
+                                    type: number
+                                  height:
+                                    value: 512
+                                    type: number
+                                  mediaType:
+                                    value: image/png
+                                    type: text
+                                _source: uniform-assets
+                          width:
+                            type: number
+                            value: '64'
+                          height:
+                            type: number
+                            value: '64'
+                          objectFit:
+                            type: dex-segmented-control-parameter
+                            value: contain
+                      - _id: b7f4992e-8c68-475e-9af1-32c4a5c405a0
+                        type: text
+                        parameters:
+                          tag:
+                            type: dex-segmented-control-parameter
+                            value: h2
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: 3xl
+                              tablet: 3xl
+                              desktop: 3xl
+                          text:
+                            type: text
+                            locales:
+                              en: Online Learning Experience
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-primary
+                          weight:
+                            type: dex-segmented-control-parameter
+                            value: medium
+                      - _id: 358fb1a5-0226-48ff-9778-80d6ff3a274e
+                        type: richText
+                        parameters:
+                          font:
+                            type: dex-token-selector-parameter
+                            value: roboto-flex
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: base
+                              tablet: base
+                              desktop: base
+                          text:
+                            type: richText
+                            locales:
+                              en:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            At Shenandoah University, learning
+                                            online doesn’t mean learning alone. Join
+                                            SU’s close-knit community, where caring
+                                            instructors are eager to answer your
+                                            questions. Our Office of Learning
+                                            Resources and Services is also available
+                                            for additional assistance. Build the
+                                            future you want while experiencing
+                                            maximum support with Shenandoah’s
+                                            convenient online programs.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                    - tag: ul
+                                      type: list
+                                      start: 1
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - type: listitem
+                                          value: 1
+                                          format: start
+                                          indent: 0
+                                          version: 1
+                                          children:
+                                            - mode: normal
+                                              text: "Join a network of lifelong learners\_"
+                                              type: text
+                                              style: ''
+                                              detail: 0
+                                              format: 0
+                                              version: 1
+                                          direction: ltr
+                                        - type: listitem
+                                          value: 2
+                                          format: start
+                                          indent: 0
+                                          version: 1
+                                          children:
+                                            - mode: normal
+                                              text: "Small classes with 11-to-1 student-to-faculty ratio\_"
+                                              type: text
+                                              style: ''
+                                              detail: 0
+                                              format: 0
+                                              version: 1
+                                          direction: ltr
+                                        - type: listitem
+                                          value: 3
+                                          format: start
+                                          indent: 0
+                                          version: 1
+                                          children:
+                                            - mode: normal
+                                              text: "Expert, compassionate faculty\_"
+                                              type: text
+                                              style: ''
+                                              detail: 0
+                                              format: 0
+                                              version: 1
+                                          direction: ltr
+                                      listType: bullet
+                                      direction: ltr
+                                  direction: ltr
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                      - _id: 96024881-ad68-4d3f-b910-e79a922de3e4
+                        type: button
+                        _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '8'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: start
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Online Learning Section
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-3
+          - _id: 2d128d5e-fbfe-4672-8e4b-65e6434c0701
+            type: flex
+            _pattern: 6fc97589-a549-4105-8b4f-387f64ea2780
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+    8394bd6b-9460-40d8-acc7-7c3d8c34bbb6|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 'Online MBA: Digital Marketing'
+    8394bd6b-9460-40d8-acc7-7c3d8c34bbb6|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        With this MBA, you’ll also earn the Digital Marketing
+                        Institute (DMI) certificate and prepare for the American
+                        Marketing Association (AMA) certification exam.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    8449a439-756e-4553-9438-a8596f1d87fa|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 'Online MBA: Esports Management'
+    8449a439-756e-4553-9438-a8596f1d87fa|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Become a leader in the fast-growing esports industry
+                        with an elevated understanding of esports revenue
+                        generation, management, marketing and economics.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    97caf106-3301-4f7f-9fb8-eb55d10a2893|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: a253f3a7-762a-4b90-bd3d-0eb66ed81a65
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    97caf106-3301-4f7f-9fb8-eb55d10a2893|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              Choose an online degree program from Shenandoah and join a growing
+              network of lifelong learners that spans 47 countries and all 50
+              states. Our nationally recognized degrees offer a personalized
+              learning experience with individualized instruction from industry
+              experts. Classes are led by caring and experienced faculty to
+              ensure you receive the support you need to thrive as a student and
+              as a professional.
+    97caf106-3301-4f7f-9fb8-eb55d10a2893|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Why Shenandoah University?
+    a5ef8ce6-ca0c-4a97-9a26-8393f868b523|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Online MS in Organizational Leadership
+    a5ef8ce6-ca0c-4a97-9a26-8393f868b523|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Qualify for managerial positions and learn how to
+                        optimize organizational processes with Shenandoah’s
+                        online master’s in organizational leadership.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    aaf0904b-8c2f-4c42-9605-0f5e913ddc62|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: e3f047c5-f22c-436e-bed9-78fcfa3fadcf
+            type: carousel
+            slots:
+              carouselItems:
+                - _id: 355f2708-0370-4a16-bc8f-c486f84357ba
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: ad2fe45e-5fbf-42ad-bf23-6e51f41de29e
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 1f2137d9-c57e-4166-ae25-ee68d11ddcf7
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 8394bd6b-9460-40d8-acc7-7c3d8c34bbb6
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 8449a439-756e-4553-9438-a8596f1d87fa
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: f6ca9205-85b9-4280-ba0a-69b1b2d64651
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 2b2a5675-210d-4e13-a875-3c45db75fdba
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: ab290e14-1ae0-40d2-8852-4d857397f802
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: a5ef8ce6-ca0c-4a97-9a26-8393f868b523
+                  type: card
+                  _pattern: 3600eddc-d881-43a6-931c-201a3e3c6021
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+            variant: brochure
+            parameters:
+              gapX:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '2'
+              height:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: full
+              displayName:
+                type: text
+                locales:
+                  en: Carousel
+              fluidContent:
+                type: checkbox
+                value: true
+              itemsPerPage:
+                type: dex-slider-control-parameter
+                value: '3'
+    aaf0904b-8c2f-4c42-9605-0f5e913ddc62|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              Shenandoah is recognized for forward-thinking programs that
+              produce competitive and purposeful graduates. From business
+              administration to public health, our online degree programs offer
+              career-ready skills for today’s most in-demand industries, all on
+              your schedule.
+    aaf0904b-8c2f-4c42-9605-0f5e913ddc62|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Shenandoah University Online Programs
+    ab290e14-1ae0-40d2-8852-4d857397f802|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Online MS in Cybersecurity
+    ab290e14-1ae0-40d2-8852-4d857397f802|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Develop effective cybersecurity solutions for
+                        organizations of any size and prepare for in-demand
+                        certification exams.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    ad2fe45e-5fbf-42ad-bf23-6e51f41de29e|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 'Online MBA: Business Analytics'
+    ad2fe45e-5fbf-42ad-bf23-6e51f41de29e|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Analyze large-scale data, predict future values and
+                        solve real-world business problems with quantitative
+                        methods using modern code-based software.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    bd64eb2a-433b-4270-b64c-23bfa11017bf|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              In addition to being recognized in U.S. News & World Report’s
+              “Best National Universities Rankings” in 20251, Shenandoah
+              University is also proud to have several 2025–2026 Colleges of
+              Distinction2 awards:
+    bd64eb2a-433b-4270-b64c-23bfa11017bf|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Join a University Known for Top-Tier Quality
+    f1a1e1b2-7006-4db1-8618-18fef3d399fe|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: '11:1'
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    f1a1e1b2-7006-4db1-8618-18fef3d399fe|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Student-to-Faculty Ratio
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    f6ca9205-85b9-4280-ba0a-69b1b2d64651|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: 'Online MBA: Healthcare Management'
+    f6ca9205-85b9-4280-ba0a-69b1b2d64651|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Enter or advance in healthcare management with an
+                        AACSB-accredited program that develops your
+                        industry-specific legal, administrative and ethical
+                        knowledge.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+  _locales:
+    - en
+  _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
+created: '2025-10-01T10:39:04.984375+00:00'
+modified: '2025-10-01T12:12:06.328112+00:00'
+pattern: false

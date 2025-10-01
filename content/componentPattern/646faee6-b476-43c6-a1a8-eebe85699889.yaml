@@ -6,6 +6,12 @@ composition:
     size:
       type: dex-token-selector-parameter
       value: button-medium
+    border:
+      type: dex-token-selector-parameter
+      value: border-secondary
+    textFont:
+      type: dex-token-selector-parameter
+      value: roboto-serif
     textSize:
       type: dex-segmented-control-parameter
       value:
@@ -14,10 +20,10 @@ composition:
         desktop: sm
     textColor:
       type: dex-color-palette-parameter
-      value: text-secondary
+      value: text-primary
     textWeight:
       type: dex-segmented-control-parameter
-      value: normal
+      value: medium
     buttonColor:
       type: dex-color-palette-parameter
       value: button-secondary
@@ -26,7 +32,7 @@ composition:
       value: right
     hoverTextColor:
       type: dex-color-palette-parameter
-      value: text-secondary
+      value: text-primary
     hoverButtonColor:
       type: dex-color-palette-parameter
       value: button-secondary-hover
@@ -38,8 +44,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:20.528264+00:00'
-modified: '2025-02-17T15:34:20.528264+00:00'
+created: '2025-10-01T08:15:05.93091+00:00'
+modified: '2025-10-01T09:19:19.062402+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-secondary.jpg

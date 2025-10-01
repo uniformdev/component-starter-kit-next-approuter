@@ -6,6 +6,12 @@ composition:
     size:
       type: dex-token-selector-parameter
       value: button-medium
+    border:
+      type: dex-token-selector-parameter
+      value: border-primary
+    textFont:
+      type: dex-token-selector-parameter
+      value: roboto-serif
     textSize:
       type: dex-segmented-control-parameter
       value:
@@ -17,7 +23,7 @@ composition:
       value: text-primary
     textWeight:
       type: dex-segmented-control-parameter
-      value: normal
+      value: medium
     buttonColor:
       type: dex-color-palette-parameter
       value: button-tertiary
@@ -33,13 +39,15 @@ composition:
   _overridability:
     variants: true
     parameters:
+      icon: 'yes'
       link: 'yes'
       text: 'yes'
+      iconPosition: 'yes'
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.960294+00:00'
-modified: '2025-02-17T15:34:18.960294+00:00'
+created: '2025-10-01T08:15:05.938526+00:00'
+modified: '2025-10-01T11:09:04.849103+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-tertiary.jpg

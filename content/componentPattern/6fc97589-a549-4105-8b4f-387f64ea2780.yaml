@@ -15,9 +15,6 @@ composition:
         mobile: col
         tablet: col
         desktop: col
-    alignItems:
-      type: dex-segmented-control-parameter
-      value: ''
     displayName:
       type: text
       value: Title
@@ -41,7 +38,7 @@ composition:
               desktop: 3xl
           color:
             type: dex-color-palette-parameter
-            value: text-tertiary
+            value: text-primary
           weight:
             type: dex-segmented-control-parameter
             value: bold
@@ -52,23 +49,47 @@ composition:
             text: 'yes'
             color: 'yes'
           hideLockedParameters: true
+      - _id: ac5a472a-bb21-492c-91bb-cae650e46e98
+        type: divider
+        parameters:
+          color:
+            type: dex-color-palette-parameter
+            value: general-color-4
+          width:
+            type: dex-slider-control-parameter
+            value: 10%
+          alignment:
+            type: dex-segmented-control-parameter
+            value: start
+          thickness:
+            type: dex-slider-control-parameter
+            value: 8px
+        _overridability:
+          hideLockedParameters: true
       - _id: 9d02d05f-d50a-42bc-90bc-b7d411362280
         type: text
         parameters:
           tag:
             type: dex-segmented-control-parameter
             value: p
+          font:
+            type: dex-token-selector-parameter
+            value: roboto-flex
           size:
             type: dex-segmented-control-parameter
             value:
               mobile: 3xl
               tablet: 3xl
               desktop: base
+          color:
+            type: dex-color-palette-parameter
+            value: text-tertiary
           weight:
             type: dex-segmented-control-parameter
             value: normal
         _overridability:
           parameters:
+            font: 'yes'
             size: 'yes'
             text: 'yes'
             color: 'yes'
@@ -90,8 +111,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-02-17T15:34:18.713733+00:00'
-modified: '2025-02-17T15:34:18.713733+00:00'
+created: '2025-10-01T08:15:05.606849+00:00'
+modified: '2025-10-01T11:00:37.479583+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/titled-container.jpg

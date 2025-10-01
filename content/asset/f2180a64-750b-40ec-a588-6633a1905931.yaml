@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f2180a64-750b-40ec-a588-6633a1905931
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-home-image.jpg
+    file:
+      type: file
+      value: 22e80c60-68cd-477c-a3dd-220aaaf65981
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/8JT5y5rBREKVe_XrqhW59A-su-home-image.jpg
+      type: text
+    size:
+      value: 276854
+      type: number
+    width:
+      value: 1602
+      type: number
+    height:
+      value: 534
+      type: number
+    custom: {}
+created: '2025-10-01T11:31:22.424321+00:00'
+modified: '2025-10-01T11:31:22.424321+00:00'

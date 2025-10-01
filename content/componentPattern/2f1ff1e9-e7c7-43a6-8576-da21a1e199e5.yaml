@@ -3,14 +3,18 @@ composition:
   _id: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
   type: navigationLink
   parameters:
+    font:
+      type: dex-token-selector-parameter
+      value: roboto-flex
     color:
       type: dex-color-palette-parameter
       value: text-primary
     weight:
       type: dex-segmented-control-parameter
-      value: bold
+      value: normal
   _overridability:
     parameters:
+      font: 'yes'
       icon: 'yes'
       link: 'yes'
       text: 'yes'
@@ -18,7 +22,7 @@ composition:
       activeState: 'yes'
   _locales:
     - en
-created: '2025-02-17T15:34:18.269258+00:00'
-modified: '2025-02-17T15:34:18.269258+00:00'
+created: '2025-10-01T08:15:05.130084+00:00'
+modified: '2025-10-01T10:24:47.067203+00:00'
 pattern: true
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

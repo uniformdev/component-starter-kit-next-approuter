@@ -4,6 +4,22 @@ composition:
   _slug: /
   type: page
   _overrides:
+    283f1dd9-dd2e-4bd5-b014-944e8065be02:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/shenandoah
+              type: projectMapNode
+              nodeId: ca8e37d5-4ffc-4109-93fb-744094eca8b9
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          locales:
+            en: Shenandoah University
     852664d7-7d35-4eb5-97ad-e1c23ce940ca:
       parameters:
         pageTitle:
@@ -26,7 +42,7 @@ composition:
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/j72pdBaiQka9qnMsbTA_Lg-meta-image.png
                   type: text
                 file:
                   type: file
@@ -64,7 +80,7 @@ composition:
                   value: 0ff678c5-794e-4ad2-af0b-861222dd178d
                 url:
                   value: >-
-                    https://img.uniform.global/p/-4-gL-KXTQmz-m_JqCoP1A/ck_RJf3ZTfiDvE-8PPa0Ag-meta-image.png
+                    https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/j72pdBaiQka9qnMsbTA_Lg-meta-image.png
                   type: text
                 file:
                   type: file
@@ -93,6 +109,22 @@ composition:
           value: >-
             Essential set of components you need to start building
             personalizable web experiences with Uniform.
+    faf33251-3a86-4725-9791-9d5eca0e1d5b:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: /${locale}/shenandoah
+              type: projectMapNode
+              nodeId: ca8e37d5-4ffc-4109-93fb-744094eca8b9
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
+        text:
+          type: text
+          locales:
+            en: North Park University
     852664d7-7d35-4eb5-97ad-e1c23ce940ca|dc2e95be-21b5-4476-a309-f8a34922f528:
       slots:
         $slotSectionItems:
@@ -136,10 +168,51 @@ composition:
                 value: Docs
               primaryButtonTextColor:
                 type: dex-color-palette-parameter
-                value: text-secondary
+                value: text-tertiary
+          - _id: c791c2e2-d299-4fe8-a1c1-cd2ba1b02f2d
+            type: flex
+            slots:
+              flexItem:
+                - _id: 283f1dd9-dd2e-4bd5-b014-944e8065be02
+                  type: button
+                  _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                    hideLockedParameters: true
+                - _id: faf33251-3a86-4725-9791-9d5eca0e1d5b
+                  type: button
+                  _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '8'
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: row
+                  tablet: row
+                  desktop: row
+              displayName:
+                type: text
+                locales:
+                  en: Buttons Section
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: center
   _locales:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
-created: '2025-01-29T10:47:10.496403+00:00'
-modified: '2025-07-16T09:51:50.510562+00:00'
+created: '2025-10-01T08:15:10.286597+00:00'
+modified: '2025-10-01T12:41:56.505681+00:00'
 pattern: false

@@ -40,7 +40,9 @@
   },
   "fonts": {
     "roboto-serif": "",
-    "roboto-flex": ""
+    "roboto-flex": "",
+    "tiempos": "",
+    "inter": ""
   },
   "defaultFontKey": "roboto-serif",
   "borders": {

@@ -48,37 +48,37 @@ const inter = localFont({
   variable: '--inter',
 });
 
-const tiempos = localFont({
+const tiempos_text = localFont({
   src: [
-    // {
-    //   path: './inter/TiemposText-RegularItalic.woff2',
-    //   weight: '400',
-    //   style: 'italic',
-    // },
     {
-      path: './inter/TiemposText-Regular.woff2',
+      path: './tiempos/TiemposText-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './inter/TiemposText-Semibold.woff2',
-      weight: '600',
-      style: 'normal',
-    },
-    // {
-    //   path: './inter/TiemposText-SemiboldItalic.woff2',
-    //   weight: '600',
-    //   style: 'italic',
-    // },
-    {
-      path: './inter/TiemposHeadline-Semibold.woff2',
+      path: './tiempos/TiemposText-Semibold.woff2',
       weight: '600',
       style: 'normal',
     },
   ],
-  variable: '--tiempos',
+  variable: '--tiempos-text',
 });
 
-export const customFontVariables = [roboto_serif.variable, roboto_flex.variable, inter.variable, tiempos.variable].join(
-  ' '
-);
+const tiempos_headline = localFont({
+  src: [
+    {
+      path: './tiempos/TiemposHeadline-Semibold.woff2',
+      weight: '600',
+      style: 'normal',
+    },
+  ],
+  variable: '--tiempos-headline',
+});
+
+export const customFontVariables = [
+  roboto_serif.variable,
+  roboto_flex.variable,
+  inter.variable,
+  tiempos_text.variable,
+  tiempos_headline.variable,
+].join(' ');

@@ -1,9 +1,10 @@
-@source inline("{lg:,md:,}font-{roboto-serif,roboto-flex,tiempos,inter,default}");
+@source inline("{lg:,md:,}font-{roboto-serif,roboto-flex,tiempos-headline,tiempos-text,inter,default}");
 
 @theme {
 	--font-roboto-serif: var(--roboto-serif);
 	--font-roboto-flex: var(--roboto-flex);
-	--font-tiempos: var(--tiempos);
+	--font-tiempos-headline: var(--tiempos-headline);
+	--font-tiempos-text: var(--tiempos-text);
 	--font-inter: var(--inter);
 	--font-default: var(--default-font);
 }

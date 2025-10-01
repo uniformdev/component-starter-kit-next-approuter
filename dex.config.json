@@ -41,7 +41,8 @@
   "fonts": {
     "roboto-serif": "",
     "roboto-flex": "",
-    "tiempos": "",
+    "tiempos-headline": "",
+    "tiempos-text": "",
     "inter": ""
   },
   "defaultFontKey": "roboto-serif",

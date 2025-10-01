@@ -1,7 +1,8 @@
 :root {
 	--roboto-serif: custom-font;
 	--roboto-flex: custom-font;
-	--tiempos: custom-font;
+	--tiempos-headline: custom-font;
+	--tiempos-text: custom-font;
 	--inter: custom-font;
 	--default-font: var(--roboto-serif);
 }

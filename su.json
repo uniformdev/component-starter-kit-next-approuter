@@ -1,0 +1,177 @@
+{
+    "button": {
+        "$type": "color",
+        "primary": {
+            "$value": "#f6f9fc"
+        },
+        "primary-hover": {
+            "$value": "#D1D4D6"
+        },
+        "secondary": {
+            "$value": "#FFFFFF"
+        },
+        "secondary-hover": {
+            "$value": "#E6E9EF"
+        },
+        "tertiary": {
+            "$value": "#FFFFFF00"
+        },
+        "tertiary-hover": {
+            "$value": "#DEE3EB"
+        },
+        "cta": {
+            "$value": "{general-color-4}"
+        },
+        "cta-hover": {
+            "$value": "#A72A4E"
+        }
+    },
+    "text": {
+        "primary": {
+            "$type": "color",
+            "$value": "#002D61"
+        },
+        "secondary": {
+            "$type": "color",
+            "$value": "#fff"
+        },
+        "tertiary": {
+            "$type": "color",
+            "$value": "#000"
+        }
+    },
+    "general": {
+        "color-1": {
+            "$type": "color",
+            "$value": "#011F42"
+        },
+        "color-2": {
+            "$type": "color",
+            "$value": "#00397A"
+        },
+        "color-3": {
+            "$type": "color",
+            "$value": "#F6F9FC"
+        },
+        "color-4": {
+            "$type": "color",
+            "$value": "#98002E"
+        },
+        "color-5": {
+            "$type": "color",
+            "$value": "#002D62"
+        }
+    },
+    "page": {
+        "background-primary": {
+            "$type": "color",
+            "$value": "#FFFFFF"
+        }
+    },
+    "container": {
+        "$type": "dimension",
+        "small": {
+            "$value": "24px"
+        },
+        "medium": {
+            "$value": "48px"
+        },
+        "large": {
+            "$value": "96px"
+        },
+        "xlarge": {
+            "$value": "120px"
+        }
+    },
+    "table": {
+        "$type": "dimension",
+        "small": {
+            "$value": "4px 8px"
+        },
+        "medium": {
+            "$value": "12px 16px"
+        },
+        "large": {
+            "$value": "16px 24px"
+        }
+    },
+    "badge": {
+        "$type": "dimension",
+        "small": {
+            "$value": "2px 6px"
+        },
+        "large": {
+            "$value": "4px 8px"
+        }
+    },
+    "button-small": {
+        "$type": "dimension",
+        "$value": "8px 24px"
+    },
+    "button-medium": {
+        "$type": "dimension",
+        "$value": "12px 32px"
+    },
+    "button-large": {
+        "$type": "dimension",
+        "$value": "18px 40px"
+    },
+    "spacer": {
+        "$type": "dimension",
+        "extra-small": {
+            "$value": "10px"
+        },
+        "small": {
+            "$value": "20px"
+        },
+        "medium": {
+            "$value": "40px"
+        },
+        "large": {
+            "$value": "80px"
+        }
+    },
+    "border": {
+        "$type": "border",
+        "primary": {
+            "$value": {
+                "radius": "4px",
+                "width": "2px",
+                "color": "#FFFFFF00",
+                "style": "solid"
+            }
+        },
+        "secondary": {
+            "$value": {
+                "radius": "4px",
+                "width": "2px",
+                "color": "{text-primary}",
+                "style": "solid"
+            }
+        },
+        "footer": {
+            "$value": {
+                "radius": "0px",
+                "width": "1px 0px 0px 0px",
+                "color": "#99C6FF",
+                "style": "solid"
+            }
+        },
+        "image-radius-small": {
+            "$value": {
+                "radius": "12px",
+                "width": "0px",
+                "color": "#000000",
+                "style": "solid"
+            }
+        },
+        "card": {
+            "$value": {
+                "radius": "8px",
+                "width": "2px",
+                "color": "#00000000",
+                "style": "solid"
+            }
+        }
+    }
+}

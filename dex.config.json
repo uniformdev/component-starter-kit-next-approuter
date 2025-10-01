@@ -37,10 +37,10 @@
     "spacer-large": "80px"
   },
   "fonts": {
-    "dm-sans": "",
-    "space-mono": ""
+    "roboto-serif": "",
+    "roboto-flex": ""
   },
-  "defaultFontKey": "dm-sans",
+  "defaultFontKey": "roboto-serif",
   "borders": {
     "border-primary": {
       "radius": "25px",

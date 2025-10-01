@@ -1,5 +1,5 @@
 :root {
-	--dm-sans: custom-font;
-	--space-mono: custom-font;
-	--default-font: var(--dm-sans);
+	--roboto-serif: custom-font;
+	--roboto-flex: custom-font;
+	--default-font: var(--roboto-serif);
 }

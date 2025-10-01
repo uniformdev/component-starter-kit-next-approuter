@@ -1,21 +1,21 @@
-import { DM_Sans, Space_Mono } from 'next/font/google';
+import { Roboto_Flex, Roboto_Serif } from 'next/font/google';
 
-export const dm_sans = DM_Sans({
+export const roboto_serif = Roboto_Serif({
   subsets: ['latin'],
-  variable: '--dm-sans',
+  variable: '--roboto-serif',
   display: 'swap',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['italic', 'normal'],
+  weight: ['700'],
+  style: ['normal'],
   preload: true,
 });
 
-export const space_mono = Space_Mono({
+export const roboto_flex = Roboto_Flex({
   subsets: ['latin'],
-  variable: '--space-mono',
+  variable: '--roboto-flex',
   display: 'swap',
   weight: ['400', '700'],
-  style: ['italic', 'normal'],
+  style: ['normal'],
   preload: true,
 });
 
-export const customFontVariables = [dm_sans.variable, space_mono.variable].join(' ');
+export const customFontVariables = [roboto_serif.variable, roboto_flex.variable].join(' ');

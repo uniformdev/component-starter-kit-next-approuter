@@ -1,17 +1,16 @@
 :root {
-	--button-primary: #0052ED;
-	--button-primary-hover: #0B4ECA;
-	--button-secondary: #b10d00;
-	--button-secondary-hover: #920A00;
-	--button-tertiary: #FFFFFF;
-	--button-tertiary-hover: #E6E6E6;
-	--text-primary: #001242;
-	--text-secondary: #ffffff;
-	--text-tertiary: #0052ed;
-	--general-color-1: #FFFFFF;
-	--general-color-2: #041142;
-	--general-color-3: #0052ed;
-	--general-color-4: #df0000;
-	--general-color-5: #001c6c;
+	--button-primary: #f6f9fc;
+	--button-primary-hover: #D1D4D6;
+	--button-secondary: #FFFFFF;
+	--button-secondary-hover: #E6E9EF;
+	--button-tertiary: #FFFFFF00;
+	--button-tertiary-hover: #DEE3EB;
+	--text-primary: #002D61;
+	--text-secondary: #fff;
+	--text-tertiary: #000;
+	--general-color-1: #011F42;
+	--general-color-2: #00397A;
+	--general-color-3: #F6F9FC;
+	--general-color-4: #98002E;
 	--page-background-primary: #FFFFFF;
 	}

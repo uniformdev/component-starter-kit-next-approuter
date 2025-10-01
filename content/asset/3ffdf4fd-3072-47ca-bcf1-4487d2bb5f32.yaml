@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3ffdf4fd-3072-47ca-bcf1-4487d2bb5f32
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: homepage-nursing-bucket.jpg
+    file:
+      type: file
+      value: b7309882-94d6-4696-9c82-e7c167569e6f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/zte38UAzSpCnkF2JnIwEIA-homepage-nursing-bucket.jpg
+      type: text
+    size:
+      value: 47344
+      type: number
+    width:
+      value: 340
+      type: number
+    height:
+      value: 160
+      type: number
+    custom: {}
+created: '2025-10-01T13:54:38.773422+00:00'
+modified: '2025-10-01T13:54:38.773422+00:00'

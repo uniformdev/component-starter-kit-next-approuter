@@ -1,0 +1,839 @@
+composition:
+  _name: Global Footer (NP)
+  _id: d00802ae-3a91-46fa-87a7-8066d7afa232
+  type: footer
+  parameters:
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingTop: container-large
+        paddingBottom: container-medium
+    displayName:
+      type: text
+      value: Footer
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-5
+  slots:
+    footerLogo:
+      - _id: bd107466-c7e2-4b3b-8d59-5d1ff0c0c8bf
+        type: link
+        slots:
+          linkContent:
+            - _id: ee663cd6-37e5-4b5e-b629-fdf9a4667eba
+              type: image
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 35261473-de4d-4f34-ba85-33dd85be9668
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: eec20b7b-9624-4fd5-af86-45d898b9bb61
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/ckR0MjYSRj-0U61tI7qLHA-NPU_Logo.png
+                          type: text
+                        file:
+                          type: file
+                          value: d794aada-fdd8-47a8-9648-7bf87c18dad2
+                        size:
+                          value: 4215
+                          type: number
+                        title:
+                          type: text
+                          value: NPU_Logo.png
+                        width:
+                          value: 214
+                          type: number
+                        height:
+                          value: 62
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                width:
+                  type: number
+                  value: '200'
+                height:
+                  type: number
+                  value: '57'
+                objectFit:
+                  type: dex-segmented-control-parameter
+                  value: cover
+        parameters:
+          link:
+            type: link
+            value:
+              path: https://www.uniform.dev
+              type: url
+          displayName:
+            type: text
+            value: Uniform Link
+          openInNewTab:
+            type: checkbox
+            value: true
+        _overridability:
+          hideLockedParameters: true
+    footerBottom:
+      - _id: 706aff77-f667-4d0f-beb7-a485d867516f
+        type: flex
+        slots:
+          flexItem:
+            - _id: b50c8c02-7b95-4c16-bd27-e8cc038045ec
+              type: divider
+              parameters:
+                color:
+                  type: dex-color-palette-parameter
+                  value: general-color-4
+                width:
+                  type: dex-slider-control-parameter
+                  value: 100%
+                alignment:
+                  type: dex-segmented-control-parameter
+                  value: center
+                thickness:
+                  type: dex-slider-control-parameter
+                  value: 2px
+              _overridability:
+                hideLockedParameters: true
+            - _id: 34605017-421d-4a0b-9635-d6d560c4919d
+              type: richText
+              parameters:
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: base
+                    tablet: base
+                    desktop: base
+                text:
+                  type: richText
+                  locales:
+                    en:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: "Risepoint maintains this website on behalf of North Park University. North Park University maintains responsibility for curriculum, teaching, admissions, tuition, financial aid, accreditation, and all other academic- and instruction-related functions and decisions.\_"
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                              - link:
+                                  path: >-
+                                    https://policies.risepoint.com/student-disclosure/
+                                  type: url
+                                type: link
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Learn more about Risepoint.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-secondary
+              _overridability:
+                hideLockedParameters: true
+            - _id: 29609c94-55ee-4fec-86f2-1b02229481e2
+              type: flex
+              slots:
+                flexItem:
+                  - _id: 52cef5b2-4020-49c1-ad79-9cedb97d2d1c
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 3f484343-a05f-4861-91db-b7a4900e6cad
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 80d06b3c-68f6-44f5-9a10-b45731bd8d57
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/d8VSyUkzQa2L_jnMP_i-KA-facebook-y.png
+                                type: text
+                              file:
+                                type: file
+                                value: df8c258b-f08c-4343-b24b-6f4f242bf3e7
+                              size:
+                                value: 3875
+                                type: number
+                              title:
+                                type: text
+                                value: facebook-y.png
+                              width:
+                                value: 320
+                                type: number
+                              height:
+                                value: 512
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '15'
+                      height:
+                        type: number
+                        value: '24'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 98cb2c4e-a2d7-484c-a898-7f8773470cb2
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 295c3ab9-cfd1-482c-8e8e-2fa942261159
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 78ff5dc4-60fb-4a50-839f-aa079f80c45d
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/T3R5sKNNRgaObX8fZu6Btg-x-y.png
+                                type: text
+                              file:
+                                type: file
+                                value: 41dbb74a-63e6-4ae8-a15b-ecbbeaca3ad5
+                              size:
+                                value: 11711
+                                type: number
+                              title:
+                                type: text
+                                value: x-y.png
+                              width:
+                                value: 512
+                                type: number
+                              height:
+                                value: 512
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '24'
+                      height:
+                        type: number
+                        value: '24'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 45269632-5a55-4878-a21a-a753f89c1ace
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 14a953c4-aa69-48da-bb1e-29efbb7b118d
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 6a90ba72-2f24-4a5b-b300-0bb8e8284dcd
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/DwDBkqKjSs6rE6gBheZ-UA-inst-y.png
+                                type: text
+                              file:
+                                type: file
+                                value: 9e154584-e19c-49cd-9879-3c4ac2e9402f
+                              size:
+                                value: 13199
+                                type: number
+                              title:
+                                type: text
+                                value: inst-y.png
+                              width:
+                                value: 448
+                                type: number
+                              height:
+                                value: 512
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '24'
+                      height:
+                        type: number
+                        value: '24'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: fe6eb2ba-a5a8-4c90-b121-fdccc38bb7a9
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 0c4e2972-30ee-4387-a497-79d0b55e4615
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: d02445d0-99ae-45c2-8a64-a3908f693ff3
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BzzOtD0LSGKcDMdEH9Yj_A-linkedin-y.png
+                                type: text
+                              file:
+                                type: file
+                                value: 15f44b38-895f-40f5-8deb-43693f131117
+                              size:
+                                value: 5330
+                                type: number
+                              title:
+                                type: text
+                                value: linkedin-y.png
+                              width:
+                                value: 448
+                                type: number
+                              height:
+                                value: 512
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '21'
+                      height:
+                        type: number
+                        value: '24'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 5077a88a-e738-45ca-85bc-3bb2a6b97649
+                    type: image
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: aa8de380-9fdf-4926-9a4f-a52ce276d2bf
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 5e17b51c-948e-4808-8869-28bf2a64cf9b
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fSvq3b_WSGq-k0IwIkfVGw-yt-y.png
+                                type: text
+                              file:
+                                type: file
+                                value: b797038e-c888-4571-a8e0-466334eb9453
+                              size:
+                                value: 6912
+                                type: number
+                              title:
+                                type: text
+                                value: yt-y.png
+                              width:
+                                value: 576
+                                type: number
+                              height:
+                                value: 512
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                      width:
+                        type: number
+                        value: '24'
+                      height:
+                        type: number
+                        value: '24'
+                      objectFit:
+                        type: dex-segmented-control-parameter
+                        value: cover
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '4'
+                    tablet: '4'
+                    desktop: '4'
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                    tablet: end
+                    desktop: end
+                displayName:
+                  type: text
+                  locales:
+                    en: Icons
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                    tablet: end
+                    desktop: end
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                marginTop: container-small
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          displayName:
+            type: text
+            locales:
+              en: Additional section
+        _overridability:
+          hideLockedParameters: true
+    footerContent:
+      - _id: 757f8498-9331-4b59-9723-95cdd187b2f1
+        type: flex
+        slots:
+          flexItem:
+            - _id: 732046c2-5751-4ff9-9e65-0e51be0f6725
+              type: grid
+              slots:
+                gridInner:
+                  - _id: c7145863-3d47-4ac3-9411-9076d8c67749
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: f5e11d1f-eb42-443c-a509-d59b30ba5361
+                          type: navigationLink
+                          _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                        - _id: 7934d828-edca-4f45-8973-b5d5fe1e8c20
+                          type: navigationLink
+                          _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                        - _id: 3044de61-5162-4f8b-a0d4-8cc6ecf5eff9
+                          type: navigationLink
+                          _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                        - _id: a58ed4f3-7a27-4d32-8c8d-2b70027b4146
+                          type: navigationLink
+                          _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                        - _id: bac1c2f7-648a-4ffd-8511-a296bad6863a
+                          type: navigationLink
+                          _pattern: 2f1ff1e9-e7c7-43a6-8576-da21a1e199e5
+                    parameters:
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: col
+                          tablet: col
+                          desktop: col
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: start
+                          tablet: end
+                          desktop: end
+                      displayName:
+                        type: text
+                        locales:
+                          en: First Column
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 3cac8e14-fb9a-4df5-816d-73011affcb3d
+                    type: flex
+                    slots:
+                      flexItem:
+                        - _id: 3bb4f01b-0c6e-4299-9e2b-a21f74e22577
+                          type: richText
+                          parameters:
+                            size:
+                              type: dex-segmented-control-parameter
+                              value:
+                                mobile: base
+                                tablet: base
+                                desktop: base
+                            text:
+                              type: richText
+                              locales:
+                                en:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - link:
+                                              path: '8884390683'
+                                              type: tel
+                                            type: link
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: (888) 439-0683
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: linebreak
+                                            version: 1
+                                          - mode: normal
+                                            text: 3225 West Foster Ave
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                          - type: linebreak
+                                            version: 1
+                                          - mode: normal
+                                            text: Chicago, IL 60625-4895
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                            color:
+                              type: dex-color-palette-parameter
+                              value: text-secondary
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      direction:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: col
+                          tablet: col
+                          desktop: col
+                      alignItems:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: start
+                          tablet: start
+                          desktop: start
+                      displayName:
+                        type: text
+                        locales:
+                          en: Second Column
+                      justifyContent:
+                        type: dex-segmented-control-parameter
+                        value:
+                          mobile: start
+                          tablet: start
+                          desktop: start
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gapX:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                    desktop: '2'
+                gapY:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                displayName:
+                  type: text
+                  locales:
+                    en: Right Section
+                columnsCount:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '1'
+                    tablet: '2'
+                    desktop: '2'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '16'
+              tablet: '16'
+              desktop: '32'
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: row
+              tablet: row
+              desktop: row
+          displayName:
+            type: text
+            value: Content
+          fluidContent:
+            type: checkbox
+            value: true
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: between
+    footerCopyright:
+      - _id: 6377c95c-1a69-4347-9296-f7a726f27baa
+        type: richText
+        parameters:
+          font:
+            type: dex-token-selector-parameter
+            value: roboto-flex
+          size:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: sm
+              tablet: sm
+              desktop: sm
+          text:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.northpark.edu/about-north-park-university/student-complaint-procedure/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Learn more
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: "\_about how to file a complaint."
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: © 2025 North Park University
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - link:
+                              path: https://policies.risepoint.com/privacy-partner/
+                              type: url
+                            type: link
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Privacy Policyopens in a new window
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: "\_"
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                          - link:
+                              path: https://policies.risepoint.com/terms-partner/
+                              type: url
+                            type: link
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Terms & Conditions
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        direction: null
+                    listType: bullet
+                    direction: null
+                direction: null
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+  _overrides:
+    3044de61-5162-4f8b-a0d4-8cc6ecf5eff9:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          locales:
+            en: Tuition & Aid
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    7934d828-edca-4f45-8973-b5d5fe1e8c20:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          locales:
+            en: Admissions
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    a58ed4f3-7a27-4d32-8c8d-2b70027b4146:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          locales:
+            en: About
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    bac1c2f7-648a-4ffd-8511-a296bad6863a:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          locales:
+            en: Online Experience
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    f5e11d1f-eb42-443c-a509-d59b30ba5361:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          locales:
+            en: Online Degrees
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+  _locales:
+    - en
+created: '2025-10-01T13:21:36.275725+00:00'
+modified: '2025-10-01T13:33:05.484811+00:00'
+pattern: true
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

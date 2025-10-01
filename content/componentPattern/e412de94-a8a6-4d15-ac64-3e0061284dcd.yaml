@@ -1,0 +1,174 @@
+composition:
+  _name: Card - Default (NP)
+  _id: e412de94-a8a6-4d15-ac64-3e0061284dcd
+  type: card
+  parameters:
+    border:
+      type: dex-token-selector-parameter
+      value: border-card
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        paddingBottom: container-small
+    displayName:
+      type: text
+      value: Card Default
+    fluidContent:
+      type: checkbox
+      value: true
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-3
+  slots:
+    cardMedia:
+      - _id: 198ea264-18d9-4cf8-95c0-797b6bc400ca
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: 'Image '
+        _overridability:
+          hideLockedParameters: true
+    cardContent:
+      - _id: 900555c1-2230-4b94-b49e-4918236f892c
+        type: flex
+        slots:
+          flexItem:
+            - _id: 551f500a-a87b-49a4-ba05-b37cd097d9e2
+              type: text
+              parameters:
+                tag:
+                  type: dex-segmented-control-parameter
+                  value: h2
+                font:
+                  type: dex-token-selector-parameter
+                  value: tiempos-headline
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: 2xl
+                    tablet: 2xl
+                    desktop: 2xl
+                text:
+                  type: text
+                  locales:
+                    en: Business
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-primary
+                weight:
+                  type: dex-segmented-control-parameter
+                  value: medium
+              _overridability:
+                parameters:
+                  text: 'yes'
+                hideLockedParameters: true
+            - _id: f5137d43-c357-4038-aa47-f914b2ebd4a9
+              type: richText
+              parameters:
+                size:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: sm
+                    tablet: sm
+                    desktop: sm
+                text:
+                  type: richText
+                  value:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Prepare for a variety of roles in business or
+                                the nonprofit sector with our IACBE-accredited
+                                MBA. Optionally, tailor your MBA to your future
+                                career with one of four concentrations.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                color:
+                  type: dex-color-palette-parameter
+                  value: text-tertiary
+              _overridability:
+                parameters:
+                  text: 'yes'
+                  color: 'yes'
+                hideLockedParameters: true
+            - _id: b59cb276-d5eb-4c6a-8225-dac2215b33a0
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 1
+                name:
+                  type: text
+                  value: CTA Button
+                specific:
+                  type: array
+                  value:
+                    - $p:646faee6-b476-43c6-a1a8-eebe85699889
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: dex-slider-control-parameter
+            value:
+              mobile: '4'
+              tablet: '4'
+              desktop: '4'
+          spacing:
+            type: dex-space-control-parameter
+            value:
+              mobile:
+                marginTop: container-small
+                paddingLeft: container-small
+                paddingRight: container-small
+          direction:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: col
+              tablet: col
+              desktop: col
+          displayName:
+            type: text
+            locales:
+              en: Content Section
+          justifyContent:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: start
+              tablet: start
+              desktop: start
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      height: 'yes'
+      displayName: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-10-01T13:42:05.24841+00:00'
+modified: '2025-10-01T14:14:05.035849+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9

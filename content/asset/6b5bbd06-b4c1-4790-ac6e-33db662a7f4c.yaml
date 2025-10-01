@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6b5bbd06-b4c1-4790-ac6e-33db662a7f4c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: npu-rauqy-ahlfeld.jpg
+    file:
+      type: file
+      value: 54944e40-52d9-4efb-8b9c-64dd569e193e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/gGHNuFW1TkWSxGoS8CpJGQ-npu-rauqy-ahlfeld.jpg
+      type: text
+    size:
+      value: 40181
+      type: number
+    width:
+      value: 512
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T14:01:32.928731+00:00'
+modified: '2025-10-01T14:01:32.928731+00:00'

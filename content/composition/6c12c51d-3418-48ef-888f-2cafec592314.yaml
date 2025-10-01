@@ -1,0 +1,1410 @@
+composition:
+  _name: North Park
+  _id: 6c12c51d-3418-48ef-888f-2cafec592314
+  _slug: north-park
+  type: page
+  _overrides:
+    26a6c25c-c427-4109-a538-79cee9b1235d:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+    29b90ff5-c38e-4ba5-99ee-70d4ce85e948:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Explore Our Programs
+    2bd8f595-56c4-4756-9cda-e6e2a88fde89:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Online Coursework
+    31216f0d-c5cf-43fa-b976-da2e7fb620df:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Explore Healthcare
+    328d4fc7-64ba-403a-9d44-98ea875d8d41:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+    4ed126f1-d026-45ee-93ed-c2e261b676f8:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+    5ca89107-bb9d-41a6-8770-440f97a16b17:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Flexible
+    63d9cf99-815b-45c6-ae03-9d78731ca845:
+      parameters:
+        spacing:
+          type: dex-space-control-parameter
+          value:
+            mobile:
+              marginTop: container-medium
+              marginBottom: container-medium
+    6c12c51d-3418-48ef-888f-2cafec592314:
+      parameters:
+        pageTitle:
+          type: text
+          value: Online Degree Programs - North Park University - Illinois
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 0e5e1d9d-c11b-4b05-82b5-63b3222c985f
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://degree.northpark.edu/wp-content/uploads/2025/04/homepage-1.jpg
+              _source: custom-url
+        openGraphTitle:
+          type: text
+          locales:
+            en: Online Degree Programs - North Park University - Illinois
+        pageDescription:
+          type: text
+          locales:
+            en: >-
+              North Park University offers online degree programs in business,
+              education, and healthcare to prepare you to excel in your chosen
+              career. Apply today!
+        openGraphDescription:
+          type: text
+          locales:
+            en: >-
+              North Park University offers online degree programs in business,
+              education, and healthcare to prepare you to excel in your chosen
+              career. Apply today!
+    6e6ee4f7-a7ff-4242-b1f9-abdb92225758:
+      parameters:
+        displayName:
+          type: text
+          locales:
+            en: Student-to-Faculty Ratio
+    89014e40-be1e-472f-8f97-d0838c2ab3ec:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Discover North Park
+    9ba13a9b-872c-47ef-a134-f7e48726cad3:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Explore Business
+    b1b19f9f-8119-4849-957f-8bcb683d14d9:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Explore Education
+    c6af8ef0-acf2-431b-b429-46ea94ad5ec5:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: About North Park
+    26a6c25c-c427-4109-a538-79cee9b1235d|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: c6af8ef0-acf2-431b-b429-46ea94ad5ec5
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    26a6c25c-c427-4109-a538-79cee9b1235d|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              At North Park University, we encourage your professional success
+              with a values-based education. You’ll learn from accessible
+              faculty who ensure you have what you need to meet your career
+              goals. Our vibrant community offers an education rooted in
+              Christian faith, small class sizes, and expert professors ready to
+              mentor you. North Park embraces and values all people and
+              celebrates the global cultural tapestry that is reflected on our
+              campus. With multiple start dates, it’s always a good time to
+              apply.
+    26a6c25c-c427-4109-a538-79cee9b1235d|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Why North Park?
+    2bd8f595-56c4-4756-9cda-e6e2a88fde89|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: tiempos-headline
+        text:
+          type: text
+          locales:
+            en: Top 10
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    2bd8f595-56c4-4756-9cda-e6e2a88fde89|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Best Online Colleges in Illinois
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    328d4fc7-64ba-403a-9d44-98ea875d8d41|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: da2d9857-90e8-4811-93f8-8cfb1a3b9e0f
+            type: grid
+            slots:
+              gridInner:
+                - _id: 618c8ea5-a5f9-401a-a23a-b16e907f30b9
+                  type: card
+                  _pattern: e412de94-a8a6-4d15-ac64-3e0061284dcd
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 3de6932c-51ed-4851-a8cb-46212ef2501a
+                  type: card
+                  _pattern: e412de94-a8a6-4d15-ac64-3e0061284dcd
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+                - _id: 68cbe200-4c1b-4f93-a991-9320b3e29521
+                  type: card
+                  _pattern: e412de94-a8a6-4d15-ac64-3e0061284dcd
+                  _overridability:
+                    parameters:
+                      height: 'yes'
+                      displayName: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              gapX:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '8'
+                  tablet: '8'
+                  desktop: '8'
+              gapY:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '2'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile: {}
+                  desktop:
+                    paddingLeft: container-large
+                    paddingRight: container-large
+              displayName:
+                type: text
+                locales:
+                  en: Grid
+              columnsCount:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '1'
+                  tablet: '3'
+                  desktop: '3'
+    328d4fc7-64ba-403a-9d44-98ea875d8d41|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              Our wide range of in-demand, on-campus, and online degree and
+              certificate options ensure that you find a career-advancing
+              program that aligns with your goals.
+    328d4fc7-64ba-403a-9d44-98ea875d8d41|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: North Park Programs
+    3de6932c-51ed-4851-a8cb-46212ef2501a|198ea264-18d9-4cf8-95c0-797b6bc400ca:
+      slots:
+        $slotSectionItems:
+          - _id: c8dc3da9-d486-4390-81c2-e6611134e16b
+            type: image
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 8bea0b87-5e02-4d7f-8c62-52878795a061
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: f0aede5b-0714-49b0-bbdd-08aa49cd0d70
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/461q_IIyQKq-31JyUGaMKg-homepage-education-bucket.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: e3104cd2-ec8f-4843-a6a4-e83b81f9c78a
+                      size:
+                        value: 73925
+                        type: number
+                      title:
+                        type: text
+                        value: homepage-education-bucket.jpg
+                      width:
+                        value: 340
+                        type: number
+                      height:
+                        value: 160
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              height:
+                type: number
+                value: '600'
+              objectFit:
+                type: dex-segmented-control-parameter
+                value: cover
+            _overridability:
+              hideLockedParameters: true
+    3de6932c-51ed-4851-a8cb-46212ef2501a|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Education
+    3de6932c-51ed-4851-a8cb-46212ef2501a|b59cb276-d5eb-4c6a-8225-dac2215b33a0:
+      slots:
+        $slotSectionItems:
+          - _id: b1b19f9f-8119-4849-957f-8bcb683d14d9
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    3de6932c-51ed-4851-a8cb-46212ef2501a|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Increase your impact on students by studying for an
+                        advanced education degree with our knowledgeable
+                        faculty. Choose from a variety of endorsements.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    4ed126f1-d026-45ee-93ed-c2e261b676f8|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: 3eba79dd-bd9c-456f-ab07-3f620cc01287
+            type: text
+            parameters:
+              tag:
+                type: dex-segmented-control-parameter
+                value: h2
+              font:
+                type: dex-token-selector-parameter
+                value: tiempos-headline
+              size:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: 2xl
+                  tablet: 2xl
+                  desktop: 2xl
+              text:
+                type: text
+                locales:
+                  en: 'Benefits:'
+              color:
+                type: dex-color-palette-parameter
+                value: text-primary
+              weight:
+                type: dex-segmented-control-parameter
+                value: normal
+          - _id: 80c049f2-ca17-4898-98d5-1ff8b6d61e9c
+            type: richText
+            parameters:
+              size:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: base
+                  tablet: base
+                  desktop: base
+              text:
+                type: richText
+                locales:
+                  en:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: ul
+                          type: list
+                          start: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: listitem
+                              value: 1
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "Hands-on, supportive faculty who have experience in online learning environments\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 2
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "Flexible coursework that can be completed when and where you are\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 3
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: >-
+                                    Connections with a diverse student body from
+                                    many walks of life, helping you develop a
+                                    global perspective
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 4
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "\_North Park University is accredited by the Higher Learning Commission"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                          listType: bullet
+                          direction: ltr
+                      direction: ltr
+          - _id: 89014e40-be1e-472f-8f97-d0838c2ab3ec
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    4ed126f1-d026-45ee-93ed-c2e261b676f8|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: base
+            tablet: base
+            desktop: base
+        text:
+          type: text
+          locales:
+            en: >-
+              At North Park University, we’re here for you — even when you
+              aren’t here. Our online programs are delivered through Canvas and
+              taught by responsive faculty. You’ll be supported every step of
+              the way.
+    4ed126f1-d026-45ee-93ed-c2e261b676f8|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Online Learning Experience
+    5ca89107-bb9d-41a6-8770-440f97a16b17|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: tiempos-headline
+        text:
+          type: text
+          locales:
+            en: No. 4
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    5ca89107-bb9d-41a6-8770-440f97a16b17|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Most Diverse Colleges in Illinois
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    618c8ea5-a5f9-401a-a23a-b16e907f30b9|198ea264-18d9-4cf8-95c0-797b6bc400ca:
+      slots:
+        $slotSectionItems:
+          - _id: 0f7fefeb-2f3f-4d08-87aa-9a8526280015
+            type: image
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 0608dd1c-0210-4bf3-a391-6daf2904f2c6
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: eec808d8-6c1f-49d3-9291-a9fe314cb003
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/kkc3IyRDQe-ZbrimtLYhlw-homepage-business-bucket.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: d9c93481-3b3d-4501-831f-f45aeb5da59a
+                      size:
+                        value: 38109
+                        type: number
+                      title:
+                        type: text
+                        value: homepage-business-bucket.jpg
+                      width:
+                        value: 340
+                        type: number
+                      height:
+                        value: 160
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              height:
+                type: number
+                value: '600'
+              objectFit:
+                type: dex-segmented-control-parameter
+                value: cover
+            _overridability:
+              hideLockedParameters: true
+    618c8ea5-a5f9-401a-a23a-b16e907f30b9|b59cb276-d5eb-4c6a-8225-dac2215b33a0:
+      slots:
+        $slotSectionItems:
+          - _id: 9ba13a9b-872c-47ef-a134-f7e48726cad3
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    63d9cf99-815b-45c6-ae03-9d78731ca845|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: 21209438-d270-4d72-9089-4fc778b60619
+            type: richText
+            parameters:
+              font:
+                type: dex-token-selector-parameter
+                value: inter
+              size:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: base
+                  tablet: base
+                  desktop: base
+              text:
+                type: richText
+                locales:
+                  en:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: ol
+                          type: list
+                          start: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: listitem
+                              value: 1
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: >-
+                                    Forbes Advisor. “Best Online Colleges in
+                                    Illinois of 2024.” Retrieved June 4, 2025,
+                                    from
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - type: linebreak
+                                  version: 1
+                                - link:
+                                    path: >-
+                                      https://www.forbes.com/advisor/education/online-colleges/best-online-colleges-in-illinois/
+                                    type: url
+                                  type: link
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        https://www.forbes.com/advisor/education/online-colleges/best-online-colleges-in-illinois/
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - mode: normal
+                                  text: .
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 2
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "Niche.com. “2025 Most Diverse Colleges in Illinois.” Retrieved June 4, 2025, from\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - link:
+                                    path: >-
+                                      https://www.niche.com/colleges/search/most-diverse-colleges/s/illinois/
+                                    type: url
+                                  type: link
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        https://www.niche.com/colleges/search/most-diverse-colleges
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - mode: normal
+                                  text: .
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                            - type: listitem
+                              value: 3
+                              format: start
+                              indent: 0
+                              version: 1
+                              children:
+                                - mode: normal
+                                  text: "Fulbright Program. “2024 Fulbright HSI Leaders Announced.” Retrieved June 4, 2025, from\_"
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                                - link:
+                                    path: >-
+                                      https://www.fulbrightprogram.org/hsi/#leaders
+                                    type: url
+                                  type: link
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: https://www.fulbrightprogram.org/hsi/
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - mode: normal
+                                  text: .
+                                  type: text
+                                  style: ''
+                                  detail: 0
+                                  format: 0
+                                  version: 1
+                              direction: ltr
+                          listType: number
+                          direction: ltr
+                      direction: ltr
+    63d9cf99-815b-45c6-ae03-9d78731ca845|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        size:
+          type: dex-segmented-control-parameter
+          value:
+            mobile: xs
+            tablet: xs
+            desktop: xs
+        text:
+          type: text
+          locales:
+            en: null
+    63d9cf99-815b-45c6-ae03-9d78731ca845|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Sources
+    68cbe200-4c1b-4f93-a991-9320b3e29521|198ea264-18d9-4cf8-95c0-797b6bc400ca:
+      slots:
+        $slotSectionItems:
+          - _id: af662231-a27e-4f15-9670-4610f62b90f1
+            type: image
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 8e716a6f-989d-478d-b9c1-8870eb11440d
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 3ffdf4fd-3072-47ca-bcf1-4487d2bb5f32
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/zte38UAzSpCnkF2JnIwEIA-homepage-nursing-bucket.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: b7309882-94d6-4696-9c82-e7c167569e6f
+                      size:
+                        value: 47344
+                        type: number
+                      title:
+                        type: text
+                        value: homepage-nursing-bucket.jpg
+                      width:
+                        value: 340
+                        type: number
+                      height:
+                        value: 160
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              height:
+                type: number
+                value: '600'
+              objectFit:
+                type: dex-segmented-control-parameter
+                value: cover
+            _overridability:
+              hideLockedParameters: true
+    68cbe200-4c1b-4f93-a991-9320b3e29521|551f500a-a87b-49a4-ba05-b37cd097d9e2:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Healthcare
+    68cbe200-4c1b-4f93-a991-9320b3e29521|b59cb276-d5eb-4c6a-8225-dac2215b33a0:
+      slots:
+        $slotSectionItems:
+          - _id: 31216f0d-c5cf-43fa-b976-da2e7fb620df
+            type: button
+            _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+            _overridability:
+              variants: true
+              parameters:
+                link: 'yes'
+                text: 'yes'
+              hideLockedParameters: true
+    68cbe200-4c1b-4f93-a991-9320b3e29521|f5137d43-c357-4038-aa47-f914b2ebd4a9:
+      parameters:
+        text:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Hone your healthcare skills and prepare to lead in the
+                        industry with a degree taught by experienced patient
+                        care professionals.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                  textStyle: ''
+                  textFormat: 0
+              direction: ltr
+    6c12c51d-3418-48ef-888f-2cafec592314|dc2e95be-21b5-4476-a309-f8a34922f528:
+      slots:
+        $slotSectionItems:
+          - _id: 1aabac9f-0b56-43b7-8867-556ead59fec9
+            type: section
+            slots:
+              sectionMedia:
+                - _id: 698b20cd-2833-4699-bce0-40979aa96425
+                  type: image
+                  parameters:
+                    fill:
+                      type: checkbox
+                      value: true
+                    image:
+                      type: asset
+                      value:
+                        - _id: b722da0c-4183-43db-bccb-f43241742a12
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: e5ac503b-f627-4e37-8906-51826c6301e3
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/A9tiis6FT8e6oPDM9hQX0g-homepage-1.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: f14294f7-b135-412e-91e8-fc6477d0ec80
+                            size:
+                              value: 335859
+                              type: number
+                            title:
+                              type: text
+                              value: homepage-1.jpg
+                            width:
+                              value: 1600
+                              type: number
+                            height:
+                              value: 800
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
+                    overlayColor:
+                      type: dex-color-palette-parameter
+                      value: general-color-1
+                    overlayOpacity:
+                      type: dex-slider-control-parameter
+                      value: '0.4'
+              sectionContent:
+                - _id: 7bd9ff87-76ad-4faa-bcfe-336faa716563
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: h1
+                    font:
+                      type: dex-token-selector-parameter
+                      value: tiempos-headline
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: 5xl
+                    text:
+                      type: text
+                      locales:
+                        en: >-
+                          North Park University Degree Programs for Working
+                          Adults
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                - _id: 4f32f32e-a133-43da-ac13-5d2544139432
+                  type: text
+                  parameters:
+                    tag:
+                      type: dex-segmented-control-parameter
+                      value: p
+                    size:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: xl
+                    text:
+                      type: text
+                      locales:
+                        en: >-
+                          At North Park, we prepare you to lead a life of
+                          significance and service. Ideal for busy adults in
+                          Illinois and beyond, our programs feature flexible
+                          online schedules, experiential learning, and
+                          supportive faculty.
+                    color:
+                      type: dex-color-palette-parameter
+                      value: text-secondary
+                    weight:
+                      type: dex-segmented-control-parameter
+                      value: normal
+                    alignment:
+                      type: dex-segmented-control-parameter
+                      value: left
+                - _id: 29b90ff5-c38e-4ba5-99ee-70d4ce85e948
+                  type: button
+                  _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                  _overridability:
+                    variants: true
+                    parameters:
+                      link: 'yes'
+                      text: 'yes'
+                    hideLockedParameters: true
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    paddingTop: container-xlarge
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Main Hero
+              fluidContent:
+                type: checkbox
+                value: true
+              contentAlignment:
+                type: dex-segmented-control-parameter
+                value: center
+          - _id: 328d4fc7-64ba-403a-9d44-98ea875d8d41
+            type: flex
+            _pattern: c02cda88-6f1b-4fba-bc75-7431bdccf16b
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 6c4da1ab-17b6-44e3-8076-d3825f6a15b1
+            type: container
+            slots:
+              containerContent:
+                - _id: 00984404-52b2-4c16-9ea2-7b8954470b2a
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: ef004117-0b06-4022-8abf-9a9fee9a6154
+                        type: flex
+                        slots:
+                          flexItem:
+                            - _id: 88927f71-6b1a-4862-8a28-9d8ba0cf0bb4
+                              type: text
+                              parameters:
+                                tag:
+                                  type: dex-segmented-control-parameter
+                                  value: span
+                                font:
+                                  type: dex-token-selector-parameter
+                                  value: tiempos-headline
+                                size:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: 2xl
+                                    tablet: 2xl
+                                    desktop: 2xl
+                                text:
+                                  type: text
+                                  locales:
+                                    en: Join North Park’s Legacy of Excellence
+                                color:
+                                  type: dex-color-palette-parameter
+                                  value: text-secondary
+                                weight:
+                                  type: dex-segmented-control-parameter
+                                  value: bold
+                                alignment:
+                                  type: dex-segmented-control-parameter
+                                  value: center
+                              _overridability:
+                                parameters:
+                                  size: 'yes'
+                                  text: 'yes'
+                                  color: 'yes'
+                                hideLockedParameters: true
+                        parameters:
+                          border:
+                            type: dex-token-selector-parameter
+                            value: ''
+                          direction:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: col
+                              tablet: col
+                              desktop: col
+                          alignItems:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: center
+                              tablet: center
+                              desktop: center
+                          displayName:
+                            type: text
+                            locales:
+                              en: At-a-Glance
+                          fluidContent:
+                            type: checkbox
+                            value: true
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: 2bd8f595-56c4-4756-9cda-e6e2a88fde89
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: 5ca89107-bb9d-41a6-8770-440f97a16b17
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                      - _id: 6e6ee4f7-a7ff-4242-b1f9-abdb92225758
+                        type: flex
+                        _pattern: 7b0d3fc3-d88f-4259-9650-de58fa6aeca7
+                        _overridability:
+                          parameters:
+                            border: 'no'
+                            spacing: 'no'
+                            alignItems: 'no'
+                            displayName: 'yes'
+                            backgroundColor: 'no'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '2'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: row
+                        desktop: row
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                    displayName:
+                      type: text
+                      locales:
+                        en: Stat Section
+                    justifyContent:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: between
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    paddingTop: container-large
+                    paddingBottom: container-large
+              displayName:
+                type: text
+                locales:
+                  en: Stat Section
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-2
+          - _id: 11acd5f9-b6f3-40fe-b5ec-be6a863181d8
+            type: container
+            slots:
+              containerContent:
+                - _id: c33071c5-993d-494b-bab5-32ce9701dfe4
+                  type: image
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: dc0c50be-e4ad-42f8-b046-3a985afdee70
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 4e49f5f5-7fe1-47ec-a742-fc560cf37cb0
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/LosQ-sOuQmu3Xh4NgFydmg-homepage-2.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 79d958b5-fd4e-43de-8d7b-fb5f37af7d14
+                            size:
+                              value: 260022
+                              type: number
+                            title:
+                              type: text
+                              value: homepage-2.jpg
+                            width:
+                              value: 1602
+                              type: number
+                            height:
+                              value: 534
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+            parameters:
+              displayName:
+                type: text
+                locales:
+                  en: Image Container
+              fluidContent:
+                type: checkbox
+                value: true
+          - _id: 26a6c25c-c427-4109-a538-79cee9b1235d
+            type: flex
+            _pattern: c02cda88-6f1b-4fba-bc75-7431bdccf16b
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 67475782-a8bb-425a-8cb5-28d4b1c94c18
+            type: container
+            slots:
+              containerContent:
+                - _id: 38435270-3276-4254-a1ed-8827944fd120
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: bff49087-0964-455c-8ff3-5e87360e0de6
+                        type: image
+                        parameters:
+                          image:
+                            type: asset
+                            value:
+                              - _id: 75f7aa32-a0ee-42e7-aae5-7fd1b822c42d
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 6b5bbd06-b4c1-4790-ac6e-33db662a7f4c
+                                  url:
+                                    value: >-
+                                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/gGHNuFW1TkWSxGoS8CpJGQ-npu-rauqy-ahlfeld.jpg
+                                    type: text
+                                  file:
+                                    type: file
+                                    value: 54944e40-52d9-4efb-8b9c-64dd569e193e
+                                  size:
+                                    value: 40181
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: npu-rauqy-ahlfeld.jpg
+                                  width:
+                                    value: 512
+                                    type: number
+                                  height:
+                                    value: 512
+                                    type: number
+                                  mediaType:
+                                    value: image/jpeg
+                                    type: text
+                                _source: uniform-assets
+                          width:
+                            type: number
+                            value: '128'
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-image-radius-small
+                          height:
+                            type: number
+                            value: '128'
+                          objectFit:
+                            type: dex-segmented-control-parameter
+                            value: cover
+                      - _id: 82c16f6f-3dbc-4cbe-9b4d-ffe8354c25bb
+                        type: richText
+                        parameters:
+                          font:
+                            type: dex-token-selector-parameter
+                            value: roboto-flex
+                          size:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: base
+                              tablet: 2xl
+                              desktop: 2xl
+                          text:
+                            type: richText
+                            locales:
+                              en:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: quote
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            The faculty are very approachable and
+                                            accessible. There’s just the right
+                                            amount of nurture, but they challenge
+                                            and push you to achieve new things.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            –Rauqy Ahlfeld, 2024 Direct Entry MSN
+                                            Graduate
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 1
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 1
+                                  direction: ltr
+                                  textFormat: 1
+                          color:
+                            type: dex-color-palette-parameter
+                            value: text-secondary
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: row
+                        desktop: row
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: center
+                        tablet: start
+                    displayName:
+                      type: text
+                      locales:
+                        en: Review
+            parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    paddingTop: container-medium
+                    paddingBottom: container-medium
+              displayName:
+                type: text
+                locales:
+                  en: Review Section
+              fluidContent:
+                type: checkbox
+                value: true
+              backgroundColor:
+                type: dex-color-palette-parameter
+                value: general-color-1
+          - _id: 4ed126f1-d026-45ee-93ed-c2e261b676f8
+            type: flex
+            _pattern: c02cda88-6f1b-4fba-bc75-7431bdccf16b
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+          - _id: 63d9cf99-815b-45c6-ae03-9d78731ca845
+            type: flex
+            _pattern: c02cda88-6f1b-4fba-bc75-7431bdccf16b
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+    6e6ee4f7-a7ff-4242-b1f9-abdb92225758|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: tiempos-headline
+        text:
+          type: text
+          locales:
+            en: '2024'
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    6e6ee4f7-a7ff-4242-b1f9-abdb92225758|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Fulbright Hispanic-Serving Institution Leader
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+  _locales:
+    - en
+  _pattern: 8ee331ce-5029-4654-aabd-dbc2f49dea3d
+created: '2025-10-01T13:35:18.460949+00:00'
+modified: '2025-10-01T14:13:37.080558+00:00'
+pattern: false

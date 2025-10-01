@@ -40,6 +40,7 @@ composition:
             value: center
         _overridability:
           parameters:
+            font: 'yes'
             size: 'yes'
             text: 'yes'
             color: 'yes'
@@ -75,8 +76,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en
-created: '2025-01-29T10:47:07.494153+00:00'
-modified: '2025-09-12T10:10:35.133262+00:00'
+created: '2025-10-01T08:15:05.942642+00:00'
+modified: '2025-10-01T13:56:58.813099+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/stat-item.jpg

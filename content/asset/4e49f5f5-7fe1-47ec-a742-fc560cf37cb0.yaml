@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 4e49f5f5-7fe1-47ec-a742-fc560cf37cb0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: homepage-2.jpg
+    file:
+      type: file
+      value: 79d958b5-fd4e-43de-8d7b-fb5f37af7d14
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/LosQ-sOuQmu3Xh4NgFydmg-homepage-2.jpg
+      type: text
+    size:
+      value: 260022
+      type: number
+    width:
+      value: 1602
+      type: number
+    height:
+      value: 534
+      type: number
+    custom: {}
+created: '2025-10-01T13:58:50.379165+00:00'
+modified: '2025-10-01T13:58:50.379165+00:00'

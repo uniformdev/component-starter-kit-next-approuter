@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2b5ceea1-b339-43b4-9297-ef788b858fd2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: chevron_2.png
+    file:
+      type: file
+      value: 105b52c1-b881-40b0-bcb3-f2d9f16643bf
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BKmyau5hR6S0INGbGbbLBQ-chevron_2.png
+      type: text
+    size:
+      value: 4922
+      type: number
+    width:
+      value: 512
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T13:16:00.095351+00:00'
+modified: '2025-10-01T13:16:00.095351+00:00'

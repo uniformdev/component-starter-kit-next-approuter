@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 80d06b3c-68f6-44f5-9a10-b45731bd8d57
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: facebook-y.png
+    file:
+      type: file
+      value: df8c258b-f08c-4343-b24b-6f4f242bf3e7
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/d8VSyUkzQa2L_jnMP_i-KA-facebook-y.png
+      type: text
+    size:
+      value: 3875
+      type: number
+    width:
+      value: 320
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T13:30:09.742569+00:00'
+modified: '2025-10-01T13:30:09.742569+00:00'

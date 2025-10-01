@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f0aede5b-0714-49b0-bbdd-08aa49cd0d70
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: homepage-education-bucket.jpg
+    file:
+      type: file
+      value: e3104cd2-ec8f-4843-a6a4-e83b81f9c78a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/461q_IIyQKq-31JyUGaMKg-homepage-education-bucket.jpg
+      type: text
+    size:
+      value: 73925
+      type: number
+    width:
+      value: 340
+      type: number
+    height:
+      value: 160
+      type: number
+    custom: {}
+created: '2025-10-01T13:53:52.882642+00:00'
+modified: '2025-10-01T13:53:52.882642+00:00'

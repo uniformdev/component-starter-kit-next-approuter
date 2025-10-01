@@ -4,5 +4,5 @@
 	--tiempos-headline: custom-font;
 	--tiempos-text: custom-font;
 	--inter: custom-font;
-	--default-font: var(--roboto-serif);
+	--default-font: var(--tiempos-text);
 }

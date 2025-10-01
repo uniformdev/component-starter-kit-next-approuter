@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d02445d0-99ae-45c2-8a64-a3908f693ff3
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: linkedin-y.png
+    file:
+      type: file
+      value: 15f44b38-895f-40f5-8deb-43693f131117
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BzzOtD0LSGKcDMdEH9Yj_A-linkedin-y.png
+      type: text
+    size:
+      value: 5330
+      type: number
+    width:
+      value: 448
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T13:31:21.842779+00:00'
+modified: '2025-10-01T13:31:21.842779+00:00'

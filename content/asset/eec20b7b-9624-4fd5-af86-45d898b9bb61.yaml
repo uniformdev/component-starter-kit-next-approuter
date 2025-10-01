@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: eec20b7b-9624-4fd5-af86-45d898b9bb61
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: NPU_Logo.png
+    file:
+      type: file
+      value: d794aada-fdd8-47a8-9648-7bf87c18dad2
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/ckR0MjYSRj-0U61tI7qLHA-NPU_Logo.png
+      type: text
+    size:
+      value: 4215
+      type: number
+    width:
+      value: 214
+      type: number
+    height:
+      value: 62
+      type: number
+    custom: {}
+created: '2025-10-01T13:13:09.39447+00:00'
+modified: '2025-10-01T13:13:09.39447+00:00'

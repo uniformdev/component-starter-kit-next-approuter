@@ -115,9 +115,9 @@ composition:
           type: link
           locales:
             en:
-              path: /${locale}/shenandoah
+              path: /${locale}/north-park
               type: projectMapNode
-              nodeId: ca8e37d5-4ffc-4109-93fb-744094eca8b9
+              nodeId: 5dcdeea1-4acc-4a08-83fa-8aad36a2bb83
               projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
               dynamicInputValues:
                 locale: ${locale}
@@ -214,5 +214,5 @@ composition:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
 created: '2025-10-01T08:15:10.286597+00:00'
-modified: '2025-10-01T12:41:56.505681+00:00'
+modified: '2025-10-01T14:15:24.447356+00:00'
 pattern: false

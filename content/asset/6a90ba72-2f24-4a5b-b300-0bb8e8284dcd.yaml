@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6a90ba72-2f24-4a5b-b300-0bb8e8284dcd
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: inst-y.png
+    file:
+      type: file
+      value: 9e154584-e19c-49cd-9879-3c4ac2e9402f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/DwDBkqKjSs6rE6gBheZ-UA-inst-y.png
+      type: text
+    size:
+      value: 13199
+      type: number
+    width:
+      value: 448
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T13:31:09.96112+00:00'
+modified: '2025-10-01T13:31:09.96112+00:00'

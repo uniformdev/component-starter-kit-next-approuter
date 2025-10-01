@@ -3,9 +3,6 @@ composition:
   _id: f0bb02cd-315f-40d1-8e74-948e09019995
   type: navigationLink
   parameters:
-    font:
-      type: dex-token-selector-parameter
-      value: roboto-serif
     size:
       type: dex-segmented-control-parameter
       value: sm
@@ -17,6 +14,7 @@ composition:
       value: normal
   _overridability:
     parameters:
+      font: 'yes'
       icon: 'yes'
       link: 'yes'
       text: 'yes'
@@ -25,6 +23,6 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:15:06.278987+00:00'
-modified: '2025-10-01T10:36:15.994994+00:00'
+modified: '2025-10-01T13:19:32.345499+00:00'
 pattern: true
 categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4

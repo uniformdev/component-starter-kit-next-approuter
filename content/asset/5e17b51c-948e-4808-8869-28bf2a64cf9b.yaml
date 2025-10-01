@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5e17b51c-948e-4808-8869-28bf2a64cf9b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: yt-y.png
+    file:
+      type: file
+      value: b797038e-c888-4571-a8e0-466334eb9453
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fSvq3b_WSGq-k0IwIkfVGw-yt-y.png
+      type: text
+    size:
+      value: 6912
+      type: number
+    width:
+      value: 576
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-01T13:31:33.554971+00:00'
+modified: '2025-10-01T13:31:33.554971+00:00'

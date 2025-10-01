@@ -1,0 +1,298 @@
+composition:
+  _name: Global Header (NP)
+  _id: 670f720c-b389-4679-b266-145674bf9cab
+  type: header
+  variant: sticky
+  parameters:
+    color:
+      type: dex-color-palette-parameter
+      value: general-color-3
+    spacing:
+      type: dex-space-control-parameter
+      value:
+        mobile:
+          paddingTop: container-small
+          paddingBottom: container-small
+        tablet:
+          paddingTop: container-small
+          paddingBottom: container-small
+        desktop:
+          paddingTop: container-small
+          paddingBottom: container-small
+    displayName:
+      type: text
+      value: Header
+    backgroundColor:
+      type: dex-color-palette-parameter
+      value: general-color-2
+  slots:
+    headerLeftContent:
+      - _id: 4fb2a9bd-3af3-4951-9ece-9e98588f3bf5
+        type: link
+        slots:
+          linkContent:
+            - _id: 1d80a3d5-a57a-44e5-9ac8-0b665124f55c
+              type: image
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: dd206fce-273f-40f9-bdd2-433767d9458d
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: eec20b7b-9624-4fd5-af86-45d898b9bb61
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/ckR0MjYSRj-0U61tI7qLHA-NPU_Logo.png
+                          type: text
+                        file:
+                          type: file
+                          value: d794aada-fdd8-47a8-9648-7bf87c18dad2
+                        size:
+                          value: 4215
+                          type: number
+                        title:
+                          type: text
+                          value: NPU_Logo.png
+                        width:
+                          value: 214
+                          type: number
+                        height:
+                          value: 62
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                width:
+                  type: number
+                  value: '200'
+                height:
+                  type: number
+                  value: '57'
+                objectFit:
+                  type: dex-segmented-control-parameter
+                  value: cover
+        parameters:
+          link:
+            type: link
+            value:
+              path: /
+              type: projectMapNode
+              nodeId: b90aa0bf-891d-4e40-9899-0d79eb1b26af
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+          displayName:
+            type: text
+            value: Logo
+        _overridability:
+          hideLockedParameters: true
+    headerRightContent:
+      - _id: 1915b3fd-03f3-4565-8e45-9741367d3719
+        type: button
+        parameters:
+          size:
+            type: dex-token-selector-parameter
+            value: button-small
+          text:
+            type: text
+            locales:
+              en: Request Info
+          border:
+            type: dex-token-selector-parameter
+            value: border-primary
+          textSize:
+            type: dex-segmented-control-parameter
+            value:
+              mobile: sm
+              tablet: sm
+              desktop: sm
+          textColor:
+            type: dex-color-palette-parameter
+            value: text-primary
+          textWeight:
+            type: dex-segmented-control-parameter
+            value: normal
+          buttonColor:
+            type: dex-color-palette-parameter
+            value: button-cta
+          hoverButtonColor:
+            type: dex-color-palette-parameter
+            value: button-cta-hover
+        _overridability:
+          hideLockedParameters: true
+    headerCenterContent:
+      - _id: ae1e8dc8-f852-455e-a16a-d43bdf99c5b1
+        type: navigationGroup
+        slots:
+          links:
+            - _id: e89216cd-e763-458a-b0f4-3d08d089baf9
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+            - _id: 99b80ad6-55de-483d-8dde-245ad9d9c756
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+            - _id: d4abcbec-b99c-438b-a473-046e6f4966b7
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+            - _id: 0fe02a13-db56-4f7a-bfee-001c0b09b878
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+            - _id: 23cccba1-c1a5-417a-80df-0f89c507d550
+              type: button
+              _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
+        parameters:
+          size:
+            type: dex-segmented-control-parameter
+            value: sm
+          text:
+            type: text
+            locales:
+              en: Online Programs
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          border:
+            type: dex-token-selector-parameter
+            value: border-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          alignment:
+            type: dex-segmented-control-parameter
+            value: right
+          caretIcon:
+            type: asset
+            locales:
+              en:
+                - _id: 9924b87b-3c3e-48b1-939d-b0b3433ff0f1
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 2b5ceea1-b339-43b4-9297-ef788b858fd2
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BKmyau5hR6S0INGbGbbLBQ-chevron_2.png
+                      type: text
+                    file:
+                      type: file
+                      value: 105b52c1-b881-40b0-bcb3-f2d9f16643bf
+                    size:
+                      value: 4922
+                      type: number
+                    title:
+                      type: text
+                      value: chevron_2.png
+                    width:
+                      value: 512
+                      type: number
+                    height:
+                      value: 512
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: underline
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-3
+        _overridability:
+          hideLockedParameters: true
+      - _id: 09b1471d-7aa8-419c-85e1-ba30947775ca
+        type: navigationLink
+        _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+      - _id: af0e8859-9cc9-4db7-87a6-92db71e075a4
+        type: navigationLink
+        _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+      - _id: d1b6fe36-d88e-44e2-a3ff-debaa477f136
+        type: navigationLink
+        _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+  _overrides:
+    09b1471d-7aa8-419c-85e1-ba30947775ca:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          value: Tuition & Aid
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    0fe02a13-db56-4f7a-bfee-001c0b09b878:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Master of Public Health
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
+    23cccba1-c1a5-417a-80df-0f89c507d550:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Find Your Program
+    99b80ad6-55de-483d-8dde-245ad9d9c756:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Doctorate
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
+    af0e8859-9cc9-4db7-87a6-92db71e075a4:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          value: About
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    d1b6fe36-d88e-44e2-a3ff-debaa477f136:
+      parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        text:
+          type: text
+          value: Online Experience
+        color:
+          type: dex-color-palette-parameter
+          value: text-secondary
+    d4abcbec-b99c-438b-a473-046e6f4966b7:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Certificate
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
+    e89216cd-e763-458a-b0f4-3d08d089baf9:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Master's
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
+  _locales:
+    - en
+created: '2025-10-01T13:11:41.73106+00:00'
+modified: '2025-10-01T13:21:16.047324+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-header.jpg
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

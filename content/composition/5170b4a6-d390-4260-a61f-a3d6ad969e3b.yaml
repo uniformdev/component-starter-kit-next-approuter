@@ -4558,7 +4558,10 @@ composition:
                 value: true
               itemsPerPage:
                 type: dex-slider-control-parameter
-                value: '3'
+                value:
+                  mobile: '1'
+                  tablet: '2'
+                  desktop: '3'
               backgroundColor:
                 type: dex-color-palette-parameter
                 value: general-color-1
@@ -5425,5 +5428,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-02T10:57:36.217041+00:00'
-modified: '2025-10-02T14:26:51.767994+00:00'
+modified: '2025-10-02T21:08:03.150892+00:00'
 pattern: false

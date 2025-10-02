@@ -650,7 +650,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     1f2137d9-c57e-4166-ae25-ee68d11ddcf7|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -700,7 +705,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     2b2a5675-210d-4e13-a875-3c45db75fdba|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -870,7 +880,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     41d721c6-653e-49de-acbb-aa083bf8630d|dc2e95be-21b5-4476-a309-f8a34922f528:
       slots:
@@ -995,7 +1010,11 @@ composition:
                     parameters:
                       link: 'yes'
                       text: 'yes'
+                      textColor: 'yes'
+                      buttonColor: 'yes'
                       textTransform: 'yes'
+                      hoverTextColor: 'yes'
+                      hoverButtonColor: 'yes'
                     hideLockedParameters: true
             parameters:
               spacing:
@@ -1842,7 +1861,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     8394bd6b-9460-40d8-acc7-7c3d8c34bbb6|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -1892,7 +1916,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     8449a439-756e-4553-9438-a8596f1d87fa|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -1980,7 +2009,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     a5ef8ce6-ca0c-4a97-9a26-8393f868b523|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -2032,6 +2066,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: ad2fe45e-5fbf-42ad-bf23-6e51f41de29e
                   type: card
@@ -2040,6 +2075,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: 1f2137d9-c57e-4166-ae25-ee68d11ddcf7
                   type: card
@@ -2048,6 +2084,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: 8394bd6b-9460-40d8-acc7-7c3d8c34bbb6
                   type: card
@@ -2056,6 +2093,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: 8449a439-756e-4553-9438-a8596f1d87fa
                   type: card
@@ -2064,6 +2102,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: f6ca9205-85b9-4280-ba0a-69b1b2d64651
                   type: card
@@ -2072,6 +2111,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: 2b2a5675-210d-4e13-a875-3c45db75fdba
                   type: card
@@ -2080,6 +2120,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: ab290e14-1ae0-40d2-8852-4d857397f802
                   type: card
@@ -2088,6 +2129,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
                 - _id: a5ef8ce6-ca0c-4a97-9a26-8393f868b523
                   type: card
@@ -2096,6 +2138,7 @@ composition:
                     parameters:
                       height: 'yes'
                       displayName: 'yes'
+                      backgroundColor: 'yes'
                     hideLockedParameters: true
             variant: brochure
             parameters:
@@ -2116,7 +2159,10 @@ composition:
                 value: true
               itemsPerPage:
                 type: dex-slider-control-parameter
-                value: '3'
+                value:
+                  mobile: '1'
+                  tablet: '2'
+                  desktop: '3'
     aaf0904b-8c2f-4c42-9605-0f5e913ddc62|9d02d05f-d50a-42bc-90bc-b7d411362280:
       parameters:
         font:
@@ -2155,7 +2201,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     ab290e14-1ae0-40d2-8852-4d857397f802|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -2205,7 +2256,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     ad2fe45e-5fbf-42ad-bf23-6e51f41de29e|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -2298,7 +2354,12 @@ composition:
                 icon: 'yes'
                 link: 'yes'
                 text: 'yes'
+                textColor: 'yes'
+                buttonColor: 'yes'
                 iconPosition: 'yes'
+                textTransform: 'yes'
+                hoverTextColor: 'yes'
+                hoverButtonColor: 'yes'
               hideLockedParameters: true
     f6ca9205-85b9-4280-ba0a-69b1b2d64651|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
@@ -2341,5 +2402,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-01T10:39:04.984375+00:00'
-modified: '2025-10-02T11:00:39.846091+00:00'
+modified: '2025-10-02T20:42:58.985464+00:00'
 pattern: false

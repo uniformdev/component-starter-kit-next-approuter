@@ -2,11 +2,13 @@ import { FC } from 'react';
 import BaseContainer from '@/components/ui/Container';
 import BaseGrid from '@/components/ui/Grid';
 import BaseGridItem from '@/components/ui/GridItem';
+import { cn } from '@/utils/styling';
 import { HeaderProps } from './';
 
 export const DesktopHeader: FC<HeaderProps> = ({
   leftSection,
   rightSection,
+  aboveSection,
   children,
   backgroundColor,
   spacing,
@@ -15,6 +17,7 @@ export const DesktopHeader: FC<HeaderProps> = ({
 }) => (
   <nav>
     <BaseContainer fluidContent {...{ backgroundColor, spacing, border, className }}>
+      {aboveSection}
       <BaseGrid className="items-center" columnsCount="12">
         <BaseGridItem columnSpan="span-2">
           {<div className="flex items-center justify-start">{leftSection}</div>}

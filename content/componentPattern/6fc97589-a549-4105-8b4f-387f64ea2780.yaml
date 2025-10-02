@@ -30,6 +30,9 @@ composition:
           tag:
             type: dex-segmented-control-parameter
             value: h2
+          font:
+            type: dex-token-selector-parameter
+            value: roboto-serif
           size:
             type: dex-segmented-control-parameter
             value:
@@ -41,7 +44,7 @@ composition:
             value: text-primary
           weight:
             type: dex-segmented-control-parameter
-            value: bold
+            value: medium
         _overridability:
           parameters:
             tag: 'yes'
@@ -112,7 +115,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:15:05.606849+00:00'
-modified: '2025-10-01T11:00:37.479583+00:00'
+modified: '2025-10-02T09:43:14.962083+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/titled-container.jpg

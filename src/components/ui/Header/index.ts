@@ -5,6 +5,7 @@ export type HeaderProps = PropsWithChildren &
   Omit<BaseContainerProps, 'fluidContent' | 'height'> & {
     leftSection?: ReactNode;
     rightSection?: ReactNode;
+    aboveSection?: ReactNode;
     color?: string;
     sticky?: boolean;
   };

@@ -11,13 +11,10 @@ composition:
       type: dex-space-control-parameter
       value:
         mobile:
-          paddingTop: container-small
           paddingBottom: container-small
         tablet:
-          paddingTop: container-small
           paddingBottom: container-small
         desktop:
-          paddingTop: container-small
           paddingBottom: container-small
     displayName:
       type: text
@@ -76,19 +73,172 @@ composition:
           link:
             type: link
             value:
-              path: /
-              type: projectMapNode
-              nodeId: b90aa0bf-891d-4e40-9899-0d79eb1b26af
-              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              path: https://online.su.edu/
+              type: url
           displayName:
             type: text
             value: Logo
+        _overridability:
+          hideLockedParameters: true
+    headerAboveContent:
+      - _id: 00914650-7adc-4ddd-8ce7-a8473f9a4b9d
+        type: container
+        slots:
+          containerContent:
+            - _id: f0ab218e-d2c4-4877-af90-a9b8488cc0c3
+              type: flex
+              slots:
+                flexItem:
+                  - _id: d3c92858-4444-426d-8f07-042819c8a327
+                    type: navigationLink
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          en:
+                            path: >-
+                              https://www.su.edu/academics/academics/online-programs-at-shenandoah/
+                            type: url
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: base
+                      text:
+                        type: text
+                        locales:
+                          en: Shenandoah University
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      decoration:
+                        type: dex-segmented-control-parameter
+                        value: underline
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 3e5f3dce-6451-4b2c-a069-4aa0fb9324eb
+                    type: navigationLink
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          en:
+                            path: >-
+                              https://apply.su.edu/apply/?sr=10b7f79c-ca4d-4aa2-8180-817d6b26c189
+                            type: url
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: base
+                      text:
+                        type: text
+                        locales:
+                          en: Apply Now
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      decoration:
+                        type: dex-segmented-control-parameter
+                        value: underline
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 57bbed9d-46c6-43e5-a50f-11a1075adbf6
+                    type: navigationLink
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          en:
+                            path: 833-611-6653
+                            type: tel
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: base
+                      text:
+                        type: text
+                        locales:
+                          en: 833-611-6653
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      decoration:
+                        type: dex-segmented-control-parameter
+                        value: underline
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: ba9686c5-3686-48e8-a2ed-5140816d79f3
+                    type: searchInput
+                    parameters:
+                      placeholder:
+                        type: text
+                        locales:
+                          en: Search
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                wrap:
+                  type: dex-segmented-control-parameter
+                  value: wrap
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile:
+                      paddingTop: container-xsmall
+                      marginBottom: container-xsmall
+                      paddingBottom: container-xsmall
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                displayName:
+                  type: text
+                  locales:
+                    en: Above Section
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: end
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          displayName:
+            type: text
+            locales:
+              en: Above Section
+          fluidContent:
+            type: checkbox
+            value: true
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-5
         _overridability:
           hideLockedParameters: true
     headerRightContent:
       - _id: 1915b3fd-03f3-4565-8e45-9741367d3719
         type: button
         parameters:
+          link:
+            type: link
+            locales:
+              en:
+                path: https://online.su.edu/request-information/
+                type: url
           size:
             type: dex-token-selector-parameter
             value: button-small
@@ -203,6 +353,77 @@ composition:
             value: general-color-3
         _overridability:
           hideLockedParameters: true
+      - _id: 6bc1d77a-cadb-4d8d-b994-fcf27ab5e86f
+        type: navigationGroup
+        slots:
+          links:
+            - _id: d95bf962-5952-44b4-939e-37b429c1c22b
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+        parameters:
+          font:
+            type: dex-token-selector-parameter
+            value: roboto-serif
+          size:
+            type: dex-segmented-control-parameter
+            value: sm
+          text:
+            type: text
+            locales:
+              en: Admissions
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          border:
+            type: dex-token-selector-parameter
+            value: border-primary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          alignment:
+            type: dex-segmented-control-parameter
+            value: right
+          caretIcon:
+            type: asset
+            locales:
+              en:
+                - _id: c5a22ba0-462f-4d4f-b628-7b213697339c
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 0cda9d78-037b-4f13-b6a1-85a3ed727e58
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/TssjP2XnSTSJcA8AvYMRvQ-chevron.png
+                      type: text
+                    file:
+                      type: file
+                      value: 831f1b57-ee43-4f05-8837-71ec2c3c2894
+                    size:
+                      value: 4615
+                      type: number
+                    title:
+                      type: text
+                      value: chevron.png
+                    width:
+                      value: 512
+                      type: number
+                    height:
+                      value: 512
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+          hoverEffect:
+            type: dex-segmented-control-parameter
+            value: underline
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-3
+        _overridability:
+          hideLockedParameters: true
       - _id: 09b1471d-7aa8-419c-85e1-ba30947775ca
         type: navigationLink
         _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
@@ -215,6 +436,12 @@ composition:
   _overrides:
     09b1471d-7aa8-419c-85e1-ba30947775ca:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/tuition-aid/
+              type: url
         text:
           type: text
           value: Tuition & Aid
@@ -223,6 +450,12 @@ composition:
           value: text-secondary
     0fe02a13-db56-4f7a-bfee-001c0b09b878:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/healthcare/mph/
+              type: url
         text:
           type: text
           locales:
@@ -232,12 +465,25 @@ composition:
           value: text-tertiary
     23cccba1-c1a5-417a-80df-0f89c507d550:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/
+              type: url
         text:
           type: text
           locales:
             en: Find Your Degree
     99b80ad6-55de-483d-8dde-245ad9d9c756:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/business/masters-organizational-leadership/
+              type: url
         text:
           type: text
           locales:
@@ -247,6 +493,12 @@ composition:
           value: text-tertiary
     af0e8859-9cc9-4db7-87a6-92db71e075a4:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/about/
+              type: url
         text:
           type: text
           value: About
@@ -255,6 +507,12 @@ composition:
           value: text-secondary
     d1b6fe36-d88e-44e2-a3ff-debaa477f136:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/online-student-experience/
+              type: url
         text:
           type: text
           value: Online Experience
@@ -263,6 +521,13 @@ composition:
           value: text-secondary
     d4abcbec-b99c-438b-a473-046e6f4966b7:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/technology/masters-applied-cybersecurity/
+              type: url
         text:
           type: text
           locales:
@@ -270,8 +535,29 @@ composition:
         color:
           type: dex-color-palette-parameter
           value: text-tertiary
+    d95bf962-5952-44b4-939e-37b429c1c22b:
+      parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/admissions/how-to-apply/
+              type: url
+        text:
+          type: text
+          locales:
+            en: How to Apply
+        color:
+          type: dex-color-palette-parameter
+          value: text-tertiary
     e89216cd-e763-458a-b0f4-3d08d089baf9:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/business/mba/
+              type: url
         text:
           type: text
           locales:
@@ -282,7 +568,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:52:33.385447+00:00'
-modified: '2025-10-01T10:36:32.415465+00:00'
+modified: '2025-10-02T10:01:29.111506+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-header.jpg

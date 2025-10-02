@@ -70,6 +70,9 @@
     },
     "container": {
         "$type": "dimension",
+        "xsmall": {
+            "$value": "12px"
+        },
         "small": {
             "$value": "24px"
         },
@@ -81,6 +84,9 @@
         },
         "xlarge": {
             "$value": "120px"
+        },
+        "xxlarge": {
+            "$value": "192px"
         }
     },
     "table": {

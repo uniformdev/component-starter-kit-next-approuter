@@ -9,6 +9,7 @@ const Header: FC<HeaderProps & HeaderParameters> = ({ backgroundColor, color, sp
     sticky={variant === HeaderVariants.Sticky}
     leftSection={<UniformSlot slot={slots.headerLeftContent} />}
     rightSection={<UniformSlot slot={slots.headerRightContent} />}
+    aboveSection={<UniformSlot slot={slots.headerAboveContent} />}
     {...{ backgroundColor, color, spacing, border }}
   >
     <UniformSlot slot={slots.headerCenterContent} />

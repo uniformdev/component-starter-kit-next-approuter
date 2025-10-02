@@ -82,6 +82,7 @@ slots:
       - text
       - $p:53b59aed-e378-4fcb-9135-20247d92074e
       - flex
+      - spacer
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
@@ -96,7 +97,7 @@ slots:
 titleParameter: displayName
 canBeComposition: false
 created: '2025-10-01T08:15:02.396364+00:00'
-updated: '2025-10-01T10:46:44.395207+00:00'
+updated: '2025-10-02T09:36:59.084735+00:00'
 variants:
   - id: columns
     name: Columns

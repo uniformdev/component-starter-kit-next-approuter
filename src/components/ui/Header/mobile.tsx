@@ -1,6 +1,7 @@
 'use client';
 
 import { FC, useState } from 'react';
+import { Flex } from '@uniformdev/csk-components/components/ui';
 import BaseContainer from '@/components/ui/Container';
 import BaseGrid from '@/components/ui/Grid';
 import BaseGridItem from '@/components/ui/GridItem';
@@ -40,6 +41,7 @@ const IconBurgerMenu: FC<{ isOpen: boolean; onClick: () => void; color?: string 
 export const MobileHeader: FC<HeaderProps> = ({
   leftSection,
   rightSection,
+  aboveSection,
   children,
   backgroundColor,
   spacing,
@@ -65,13 +67,16 @@ export const MobileHeader: FC<HeaderProps> = ({
           className,
         }}
       >
+        {aboveSection}
         <BaseGrid className="items-center" columnsCount="12">
           <BaseGridItem columnSpan="span-10">
             {<div className="flex items-center justify-start">{leftSection}</div>}
           </BaseGridItem>
 
           <BaseGridItem columnSpan="span-2">
-            <IconBurgerMenu isOpen={isBurgerMenuOpen} onClick={onMenuClick} color={color} />
+            <Flex justifyContent="end">
+              <IconBurgerMenu isOpen={isBurgerMenuOpen} onClick={onMenuClick} color={color} />
+            </Flex>
           </BaseGridItem>
         </BaseGrid>
       </BaseContainer>

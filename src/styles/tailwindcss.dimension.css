@@ -1,4 +1,4 @@
-@source inline("{[&_td]:,[&_th]:,lg:,md:,}{mt,mb,mr,ml,pt,pb,pr,pl,w,h,p}-{container-small,container-medium,container-large,container-xlarge,table-small,table-medium,table-large,badge-small,badge-large,button-small,button-medium,button-large,spacer-extra-small,spacer-small,spacer-medium,spacer-large}");
+@source inline("{[&_td]:,[&_th]:,lg:,md:,}{mt,mb,mr,ml,pt,pb,pr,pl,w,h,p}-{container-small,container-medium,container-large,container-xlarge,table-small,table-medium,table-large,badge-small,badge-large,button-small,button-medium,button-large,spacer-extra-small,spacer-small,spacer-medium,spacer-large,container-xsmall,container-xxlarge}");
 
 @theme {
 	--spacing-container-small: var(--container-small);
@@ -17,4 +17,6 @@
 	--spacing-spacer-small: var(--spacer-small);
 	--spacing-spacer-medium: var(--spacer-medium);
 	--spacing-spacer-large: var(--spacer-large);
+	--spacing-container-xsmall: var(--container-xsmall);
+	--spacing-container-xxlarge: var(--container-xxlarge);
 }

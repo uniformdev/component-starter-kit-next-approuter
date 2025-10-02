@@ -7,6 +7,7 @@ export enum HeaderSlots {
   HeaderLeftContent = 'headerLeftContent',
   HeaderCenterContent = 'headerCenterContent',
   HeaderRightContent = 'headerRightContent',
+  HeaderAboveContent = 'headerAboveContent',
 }
 
 export enum HeaderVariants {

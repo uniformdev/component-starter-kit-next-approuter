@@ -33,7 +33,7 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: base
+              mobile: 2xl
           text:
             type: text
             locales:
@@ -43,10 +43,18 @@ composition:
             value: text-primary
           weight:
             type: dex-segmented-control-parameter
-            value: medium
+            value: bold
         _overridability:
           parameters:
             text: 'yes'
+          hideLockedParameters: true
+      - _id: 197ffb11-a9ab-4489-b130-4a0421f2aa92
+        type: spacer
+        parameters:
+          size:
+            type: dex-token-selector-parameter
+            value: spacer-medium
+        _overridability:
           hideLockedParameters: true
       - _id: f5137d43-c357-4038-aa47-f914b2ebd4a9
         type: richText
@@ -54,9 +62,9 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: sm
-              tablet: sm
-              desktop: sm
+              mobile: base
+              tablet: base
+              desktop: base
           text:
             type: richText
             value:
@@ -117,7 +125,7 @@ composition:
             text: 'yes'
             color: 'yes'
           hideLockedParameters: true
-      - _id: 197ffb11-a9ab-4489-b130-4a0421f2aa92
+      - _id: 33904585-e80f-470c-9651-62011164bff9
         type: spacer
         parameters:
           size:
@@ -125,49 +133,28 @@ composition:
             value: spacer-medium
         _overridability:
           hideLockedParameters: true
-      - _id: c003bfdb-e8ac-43a4-a370-5e16638cbcc0
-        type: button
-        _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
-  _overrides:
-    c003bfdb-e8ac-43a4-a370-5e16638cbcc0:
-      parameters:
-        icon:
-          type: asset
-          locales:
-            en:
-              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
-                  url:
-                    value: >-
-                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
-                    type: text
-                  file:
-                    type: file
-                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
-                  size:
-                    value: 443
-                    type: number
-                  title:
-                    type: text
-                    value: arrow.svg
-                  width:
-                    value: 448
-                    type: number
-                  height:
-                    value: 386
-                    type: number
-                  mediaType:
-                    value: image/svg+xml
-                    type: text
-                _source: uniform-assets
-        text:
-          type: text
-          locales:
-            en: View Degree
+      - _id: 448e0529-43db-43b2-b90f-c95de7492df6
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 1
+          name:
+            type: text
+            value: CTA Button
+          specific:
+            type: array
+            value:
+              - button
+              - $p:31191bc7-7e6e-4748-89c2-8e73db05237d
+              - $p:53b59aed-e378-4fcb-9135-20247d92074e
+              - $p:8060e691-b0b3-428c-92f1-278fc76baf47
+              - $p:646faee6-b476-43c6-a1a8-eebe85699889
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
   _overridability:
     parameters:
       height: 'yes'
@@ -176,7 +163,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:15:06.382274+00:00'
-modified: '2025-10-01T11:13:24.535832+00:00'
+modified: '2025-10-02T09:47:34.842233+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg

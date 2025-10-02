@@ -72,10 +72,16 @@ slots:
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
+  - id: headerAboveContent
+    name: Header Above Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
 titleParameter: displayName
 canBeComposition: false
 created: '2025-10-01T08:15:00.768636+00:00'
-updated: '2025-10-01T09:43:50.98366+00:00'
+updated: '2025-10-02T08:55:26.072135+00:00'
 variants:
   - id: sticky
     name: Sticky

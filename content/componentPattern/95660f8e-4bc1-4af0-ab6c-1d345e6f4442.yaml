@@ -68,7 +68,7 @@ composition:
           link:
             type: link
             value:
-              path: https://www.uniform.dev
+              path: https://online.su.edu/
               type: url
           displayName:
             type: text
@@ -103,9 +103,6 @@ composition:
             - _id: 34605017-421d-4a0b-9635-d6d560c4919d
               type: richText
               parameters:
-                font:
-                  type: dex-token-selector-parameter
-                  value: roboto-flex
                 size:
                   type: dex-segmented-control-parameter
                   value:
@@ -164,234 +161,315 @@ composition:
               type: flex
               slots:
                 flexItem:
-                  - _id: 52cef5b2-4020-49c1-ad79-9cedb97d2d1c
-                    type: image
+                  - _id: 69b276db-6049-473c-9211-47cd20f9995c
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 52cef5b2-4020-49c1-ad79-9cedb97d2d1c
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 1a6ff1cb-061a-4b59-944b-daae45f97608
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: df037fec-0650-451b-b796-ac0a7f8cd7a7
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Lb13VsUbRkOdZJrRqqZPPA-facebook.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 68fd40a4-cb36-40ed-ad09-7027a3f3cb19
+                                    size:
+                                      value: 3616
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: facebook.png
+                                    width:
+                                      value: 320
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '15'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 1a6ff1cb-061a-4b59-944b-daae45f97608
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: df037fec-0650-451b-b796-ac0a7f8cd7a7
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Lb13VsUbRkOdZJrRqqZPPA-facebook.png
-                                type: text
-                              file:
-                                type: file
-                                value: 68fd40a4-cb36-40ed-ad09-7027a3f3cb19
-                              size:
-                                value: 3616
-                                type: number
-                              title:
-                                type: text
-                                value: facebook.png
-                              width:
-                                value: 320
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '15'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.facebook.com/ShenandoahUniversity
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: facebook
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 98cb2c4e-a2d7-484c-a898-7f8773470cb2
-                    type: image
+                  - _id: de58f9a8-37a4-4aeb-8abb-4455b8420f39
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 98cb2c4e-a2d7-484c-a898-7f8773470cb2
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 7f0fa082-3954-4b43-99c8-8cce6f6e8d68
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: f19757ef-e968-4775-b259-51ca8eb71106
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/MGt5X08rQvKqD-7YmpZL1A-x.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 6005cef9-8998-4e33-9d55-d9de4ca8a5e8
+                                    size:
+                                      value: 11168
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: x.png
+                                    width:
+                                      value: 512
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 7f0fa082-3954-4b43-99c8-8cce6f6e8d68
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: f19757ef-e968-4775-b259-51ca8eb71106
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/MGt5X08rQvKqD-7YmpZL1A-x.png
-                                type: text
-                              file:
-                                type: file
-                                value: 6005cef9-8998-4e33-9d55-d9de4ca8a5e8
-                              size:
-                                value: 11168
-                                type: number
-                              title:
-                                type: text
-                                value: x.png
-                              width:
-                                value: 512
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://x.com/shenandoahu
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: x
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 45269632-5a55-4878-a21a-a753f89c1ace
-                    type: image
+                  - _id: 12b0816f-fc0b-4b8a-9284-c7c221f394da
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 45269632-5a55-4878-a21a-a753f89c1ace
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 51e6f62c-0db7-43e8-9eae-85e51568e658
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 045392c9-fe6f-4d01-b664-d4b28a1e820e
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Im_3qsLDRwKqu-ZSCSzrkQ-instagram.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 0d6b5acf-27da-4988-95c4-0f5055d35f92
+                                    size:
+                                      value: 11621
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: instagram.png
+                                    width:
+                                      value: 448
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 51e6f62c-0db7-43e8-9eae-85e51568e658
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 045392c9-fe6f-4d01-b664-d4b28a1e820e
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/Im_3qsLDRwKqu-ZSCSzrkQ-instagram.png
-                                type: text
-                              file:
-                                type: file
-                                value: 0d6b5acf-27da-4988-95c4-0f5055d35f92
-                              size:
-                                value: 11621
-                                type: number
-                              title:
-                                type: text
-                                value: instagram.png
-                              width:
-                                value: 448
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.instagram.com/shenandoahuniversity/
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: instagram
                     _overridability:
                       hideLockedParameters: true
-                  - _id: fe6eb2ba-a5a8-4c90-b121-fdccc38bb7a9
-                    type: image
+                  - _id: 787d5467-3df4-4d3f-8a99-ab56f56caecb
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: fe6eb2ba-a5a8-4c90-b121-fdccc38bb7a9
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: e5c26e5d-057b-4507-b03f-be1f1956d269
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 9ca43514-4634-45b7-a26b-5a521ece6131
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fwlJv_cvQoeEWewFKDIwzA-linkedin.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: acb86978-bf15-4269-ae70-36c307875105
+                                    size:
+                                      value: 4876
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: linkedin.png
+                                    width:
+                                      value: 448
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '21'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: e5c26e5d-057b-4507-b03f-be1f1956d269
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 9ca43514-4634-45b7-a26b-5a521ece6131
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fwlJv_cvQoeEWewFKDIwzA-linkedin.png
-                                type: text
-                              file:
-                                type: file
-                                value: acb86978-bf15-4269-ae70-36c307875105
-                              size:
-                                value: 4876
-                                type: number
-                              title:
-                                type: text
-                                value: linkedin.png
-                              width:
-                                value: 448
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '21'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: >-
+                            https://www.linkedin.com/school/shenandoah-university/
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: linkedin
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 5077a88a-e738-45ca-85bc-3bb2a6b97649
-                    type: image
+                  - _id: f729b2c0-81a1-48f7-9be7-6bc18c80f5a1
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 5077a88a-e738-45ca-85bc-3bb2a6b97649
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 739d9a16-39e3-4e4c-baa9-4ca0654bde40
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: d8468b29-7a28-4806-b489-5845d041da16
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/SKXfNB2FSx2MXPBJVc9HMg-you-tube.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 7f16663f-62f7-46e8-a9a0-23ac5c673fc5
+                                    size:
+                                      value: 6228
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: you-tube.png
+                                    width:
+                                      value: 576
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 739d9a16-39e3-4e4c-baa9-4ca0654bde40
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: d8468b29-7a28-4806-b489-5845d041da16
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/SKXfNB2FSx2MXPBJVc9HMg-you-tube.png
-                                type: text
-                              file:
-                                type: file
-                                value: 7f16663f-62f7-46e8-a9a0-23ac5c673fc5
-                              size:
-                                value: 6228
-                                type: number
-                              title:
-                                type: text
-                                value: you-tube.png
-                              width:
-                                value: 576
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.youtube.com/user/ShenandoahUniversity
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: you-tube
                     _overridability:
                       hideLockedParameters: true
               parameters:
@@ -785,6 +863,15 @@ composition:
   _overrides:
     3044de61-5162-4f8b-a0d4-8cc6ecf5eff9:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/tuition-aid/
+              type: url
         text:
           type: text
           locales:
@@ -794,6 +881,15 @@ composition:
           value: text-secondary
     7934d828-edca-4f45-8973-b5d5fe1e8c20:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/admissions/
+              type: url
         text:
           type: text
           locales:
@@ -803,6 +899,15 @@ composition:
           value: text-secondary
     a58ed4f3-7a27-4d32-8c8d-2b70027b4146:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/about/
+              type: url
         text:
           type: text
           locales:
@@ -812,6 +917,15 @@ composition:
           value: text-secondary
     bac1c2f7-648a-4ffd-8511-a296bad6863a:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/online-student-experience/
+              type: url
         text:
           type: text
           locales:
@@ -821,6 +935,15 @@ composition:
           value: text-secondary
     f5e11d1f-eb42-443c-a509-d59b30ba5361:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/
+              type: url
         text:
           type: text
           locales:
@@ -831,6 +954,6 @@ composition:
   _locales:
     - en
 created: '2025-10-01T10:00:31.942466+00:00'
-modified: '2025-10-01T12:12:25.030014+00:00'
+modified: '2025-10-02T10:00:24.481878+00:00'
 pattern: true
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

@@ -24,6 +24,52 @@ composition:
             mobile: full
             tablet: full
             desktop: full
+    20f59b7b-b18d-43f2-9c2e-283909ab4ea6:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/business/mba/cybersecurity-management/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     2b2a5675-210d-4e13-a875-3c45db75fdba:
       parameters:
         height:
@@ -43,6 +89,52 @@ composition:
         displayName:
           type: text
           value: Sources Section
+    3189b643-9212-40b0-987a-f1227891f012:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/business/masters-organizational-leadership/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     355f2708-0370-4a16-bc8f-c486f84357ba:
       parameters:
         height:
@@ -51,6 +143,97 @@ composition:
             mobile: full
             tablet: full
             desktop: full
+    3a6c13b1-19c2-491f-bc48-66ffd63b9d40:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/business/mba/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
+    41ad571c-1e05-4263-b6f5-a8416153d94f:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/business/mba/healthcare-management/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     41d721c6-653e-49de-acbb-aa083bf8630d:
       parameters:
         pageTitle:
@@ -85,8 +268,59 @@ composition:
               For over 150 years, Shenandoah University has offered top-quality
               degree programs in Virginia to help students succeed. Easy
               enrollment, get started now!
+    5ccf78f3-b236-4ac3-ad7f-0b0836d2d66c:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/business/mba/business-analytics/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     6cf625d5-2b76-4779-98ac-41e746223831:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/
+              type: url
         text:
           type: text
           locales:
@@ -107,14 +341,116 @@ composition:
             mobile: full
             tablet: full
             desktop: full
+    8739e921-aae5-4a35-be21-daa7fe28be66:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/healthcare/mph/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     96024881-ad68-4d3f-b910-e79a922de3e4:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/online-student-experience/
+              type: url
         text:
           type: text
           locales:
             en: Discover SU Online
+    a0070a72-1787-404f-9a7e-e269b24a79e3:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/business/mba/esports-management/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     a253f3a7-762a-4b90-bd3d-0eb66ed81a65:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/about/
+              type: url
         text:
           type: text
           locales:
@@ -151,6 +487,97 @@ composition:
             mobile: full
             tablet: full
             desktop: full
+    c47eb89e-c721-46e1-b528-91231911a716:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: https://online.su.edu/degrees/business/mba/digital-marketing/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
+    eafb171f-1f1e-4f1c-93cb-a4d69d570122:
+      parameters:
+        icon:
+          type: asset
+          locales:
+            en:
+              - _id: 1a408eaf-13dc-4dc6-b130-fe64e53c5f76
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: bf70a1d2-e94f-4bc1-9af6-db5891dae0e8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GUVy4-E5RO-106j4E0i9iw-arrow.svg
+                    type: text
+                  file:
+                    type: file
+                    value: 93c87bab-55c6-4137-b35d-79a66f52271c
+                  size:
+                    value: 443
+                    type: number
+                  title:
+                    type: text
+                    value: arrow.svg
+                  width:
+                    value: 448
+                    type: number
+                  height:
+                    value: 386
+                    type: number
+                  mediaType:
+                    value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://online.su.edu/degrees/technology/masters-applied-cybersecurity/
+              type: url
+        text:
+          type: text
+          locales:
+            en: View Degree
     f1a1e1b2-7006-4db1-8618-18fef3d399fe:
       parameters:
         displayName:
@@ -167,6 +594,9 @@ composition:
             desktop: full
     02e2162e-0dab-4f7a-b48b-fcc7823b5f7f|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: roboto-serif
         text:
           type: text
           locales:
@@ -185,6 +615,9 @@ composition:
           value: text-secondary
     046a1786-7277-4b73-926d-b6c6309d9a21|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: roboto-serif
         text:
           type: text
           locales:
@@ -201,6 +634,20 @@ composition:
         color:
           type: dex-color-palette-parameter
           value: text-secondary
+    1f2137d9-c57e-4166-ae25-ee68d11ddcf7|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 20f59b7b-b18d-43f2-9c2e-283909ab4ea6
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     1f2137d9-c57e-4166-ae25-ee68d11ddcf7|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -237,6 +684,20 @@ composition:
                   textStyle: ''
                   textFormat: 0
               direction: ltr
+    2b2a5675-210d-4e13-a875-3c45db75fdba|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 8739e921-aae5-4a35-be21-daa7fe28be66
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     2b2a5675-210d-4e13-a875-3c45db75fdba|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -279,9 +740,6 @@ composition:
           - _id: 3be80a81-29c0-4214-8648-071faf055b85
             type: richText
             parameters:
-              font:
-                type: dex-token-selector-parameter
-                value: roboto-flex
               size:
                 type: dex-segmented-control-parameter
                 value:
@@ -396,6 +854,20 @@ composition:
           type: text
           locales:
             en: Sources
+    355f2708-0370-4a16-bc8f-c486f84357ba|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 3a6c13b1-19c2-491f-bc48-66ffd63b9d40
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     41d721c6-653e-49de-acbb-aa083bf8630d|dc2e95be-21b5-4476-a309-f8a34922f528:
       slots:
         $slotSectionItems:
@@ -477,15 +949,18 @@ composition:
                     alignment:
                       type: dex-segmented-control-parameter
                       value: left
+                - _id: ae1c470a-d81e-4b94-8b08-d651888e75db
+                  type: spacer
+                  parameters:
+                    size:
+                      type: dex-token-selector-parameter
+                      value: spacer-small
                 - _id: 9a81a20c-a3bb-4ad7-8b27-6b913ea32479
                   type: text
                   parameters:
                     tag:
                       type: dex-segmented-control-parameter
                       value: p
-                    font:
-                      type: dex-token-selector-parameter
-                      value: roboto-serif
                     size:
                       type: dex-segmented-control-parameter
                       value:
@@ -522,7 +997,7 @@ composition:
                 type: dex-space-control-parameter
                 value:
                   mobile:
-                    paddingTop: container-xlarge
+                    paddingTop: container-xxlarge
                     paddingBottom: container-medium
               displayName:
                 type: text
@@ -563,6 +1038,9 @@ composition:
                                 tag:
                                   type: dex-segmented-control-parameter
                                   value: span
+                                font:
+                                  type: dex-token-selector-parameter
+                                  value: roboto-serif
                                 size:
                                   type: dex-segmented-control-parameter
                                   value:
@@ -732,7 +1210,14 @@ composition:
                               value: image/jpeg
                               type: text
                           _source: uniform-assets
+                    objectFit:
+                      type: dex-segmented-control-parameter
+                      value: cover
             parameters:
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile: {}
               displayName:
                 type: text
                 locales:
@@ -1170,6 +1655,9 @@ composition:
                           tag:
                             type: dex-segmented-control-parameter
                             value: h2
+                          font:
+                            type: dex-token-selector-parameter
+                            value: roboto-serif
                           size:
                             type: dex-segmented-control-parameter
                             value:
@@ -1185,13 +1673,10 @@ composition:
                             value: text-primary
                           weight:
                             type: dex-segmented-control-parameter
-                            value: medium
+                            value: bold
                       - _id: 358fb1a5-0226-48ff-9778-80d6ff3a274e
                         type: richText
                         parameters:
-                          font:
-                            type: dex-token-selector-parameter
-                            value: roboto-flex
                           size:
                             type: dex-segmented-control-parameter
                             value:
@@ -1339,6 +1824,20 @@ composition:
                 fluidContent: 'yes'
                 backgroundColor: 'yes'
               hideLockedParameters: true
+    8394bd6b-9460-40d8-acc7-7c3d8c34bbb6|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: c47eb89e-c721-46e1-b528-91231911a716
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     8394bd6b-9460-40d8-acc7-7c3d8c34bbb6|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1375,6 +1874,20 @@ composition:
                   textStyle: ''
                   textFormat: 0
               direction: ltr
+    8449a439-756e-4553-9438-a8596f1d87fa|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: a0070a72-1787-404f-9a7e-e269b24a79e3
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     8449a439-756e-4553-9438-a8596f1d87fa|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1448,6 +1961,20 @@ composition:
           type: text
           locales:
             en: Why Shenandoah University?
+    a5ef8ce6-ca0c-4a97-9a26-8393f868b523|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 3189b643-9212-40b0-987a-f1227891f012
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     a5ef8ce6-ca0c-4a97-9a26-8393f868b523|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1585,6 +2112,9 @@ composition:
                 value: '3'
     aaf0904b-8c2f-4c42-9605-0f5e913ddc62|9d02d05f-d50a-42bc-90bc-b7d411362280:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: null
         size:
           type: dex-segmented-control-parameter
           value:
@@ -1606,6 +2136,20 @@ composition:
           type: text
           locales:
             en: Shenandoah University Online Programs
+    ab290e14-1ae0-40d2-8852-4d857397f802|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: eafb171f-1f1e-4f1c-93cb-a4d69d570122
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     ab290e14-1ae0-40d2-8852-4d857397f802|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1642,6 +2186,20 @@ composition:
                   textStyle: ''
                   textFormat: 0
               direction: ltr
+    ad2fe45e-5fbf-42ad-bf23-6e51f41de29e|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 5ccf78f3-b236-4ac3-ad7f-0b0836d2d66c
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     ad2fe45e-5fbf-42ad-bf23-6e51f41de29e|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1702,6 +2260,9 @@ composition:
             en: Join a University Known for Top-Tier Quality
     f1a1e1b2-7006-4db1-8618-18fef3d399fe|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
       parameters:
+        font:
+          type: dex-token-selector-parameter
+          value: roboto-serif
         text:
           type: text
           locales:
@@ -1718,6 +2279,20 @@ composition:
         color:
           type: dex-color-palette-parameter
           value: text-secondary
+    f6ca9205-85b9-4280-ba0a-69b1b2d64651|448e0529-43db-43b2-b90f-c95de7492df6:
+      slots:
+        $slotSectionItems:
+          - _id: 41ad571c-1e05-4263-b6f5-a8416153d94f
+            type: button
+            _pattern: 8060e691-b0b3-428c-92f1-278fc76baf47
+            _overridability:
+              variants: true
+              parameters:
+                icon: 'yes'
+                link: 'yes'
+                text: 'yes'
+                iconPosition: 'yes'
+              hideLockedParameters: true
     f6ca9205-85b9-4280-ba0a-69b1b2d64651|551f500a-a87b-49a4-ba05-b37cd097d9e2:
       parameters:
         text:
@@ -1759,5 +2334,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-01T10:39:04.984375+00:00'
-modified: '2025-10-01T12:12:06.328112+00:00'
+modified: '2025-10-02T10:02:56.594727+00:00'
 pattern: false

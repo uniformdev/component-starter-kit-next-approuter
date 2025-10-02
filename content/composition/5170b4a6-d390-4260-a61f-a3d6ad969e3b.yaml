@@ -2503,27 +2503,6 @@ composition:
           type: text
           locales:
             en: Program Highlights
-    4687c984-d542-4ce3-a1d4-b30de6de333c|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
-      parameters:
-        font:
-          type: dex-token-selector-parameter
-          value: roboto-serif
-        text:
-          type: text
-          locales:
-            en: Flexible
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
-    4687c984-d542-4ce3-a1d4-b30de6de333c|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
-      parameters:
-        text:
-          type: text
-          locales:
-            en: To Learn on Your Schedule
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
     472c0ef2-b9ac-47b4-96e1-9cf368f106bd|7a757740-ee67-40ff-9128-13284d173be2:
       slots:
         $slotSectionItems:
@@ -4493,27 +4472,6 @@ composition:
           type: text
           locales:
             en: Sources
-    73e04f4b-b380-4381-8813-c57b00c5cec3|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
-      parameters:
-        font:
-          type: dex-token-selector-parameter
-          value: roboto-serif
-        text:
-          type: text
-          locales:
-            en: 100%
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
-    73e04f4b-b380-4381-8813-c57b00c5cec3|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
-      parameters:
-        text:
-          type: text
-          locales:
-            en: Online Coursework
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
     783ade6a-94ac-4019-9c8c-9e765c21fa2f|7a757740-ee67-40ff-9128-13284d173be2:
       slots:
         $slotSectionItems:
@@ -4758,27 +4716,6 @@ composition:
           type: text
           locales:
             en: Learn from Industry-Experienced Faculty
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
-    9c6b659c-bb1b-436f-80a2-4c2ccbab3c95|29b74799-cf5d-4d42-9f9a-4a4b240f4388:
-      parameters:
-        font:
-          type: dex-token-selector-parameter
-          value: roboto-serif
-        text:
-          type: text
-          locales:
-            en: '11:1'
-        color:
-          type: dex-color-palette-parameter
-          value: text-secondary
-    9c6b659c-bb1b-436f-80a2-4c2ccbab3c95|a3e5599c-88d4-4ff2-a81a-cdee12bfa8ff:
-      parameters:
-        text:
-          type: text
-          locales:
-            en: Student-to-Faculty Ratio
         color:
           type: dex-color-palette-parameter
           value: text-secondary
@@ -5348,8 +5285,8 @@ composition:
                 type: dex-segmented-control-parameter
                 value:
                   mobile: base
-                  tablet: 2xl
-                  desktop: 2xl
+                  tablet: base
+                  desktop: base
               text:
                 type: text
                 value: Full Bio
@@ -5488,5 +5425,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-02T10:57:36.217041+00:00'
-modified: '2025-10-02T13:36:43.381418+00:00'
+modified: '2025-10-02T14:26:51.767994+00:00'
 pattern: false

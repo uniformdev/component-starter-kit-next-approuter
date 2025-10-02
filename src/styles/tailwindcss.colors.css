@@ -1,4 +1,4 @@
-@source inline("{hover:,group-hover:,lg:,md:,}{bg,text,decoration,border,ring,fill,from,to}-{button-primary,button-primary-hover,button-secondary,button-secondary-hover,button-tertiary,button-tertiary-hover,text-primary,text-secondary,text-tertiary,general-color-1,general-color-2,general-color-3,general-color-4,page-background-primary,button-cta,button-cta-hover,general-color-5}");
+@source inline("{hover:,group-hover:,lg:,md:,}{bg,text,decoration,border,ring,fill,from,to}-{button-primary,button-primary-hover,button-secondary,button-secondary-hover,button-tertiary,button-tertiary-hover,button-cta,button-cta-hover,text-primary,text-secondary,text-tertiary,general-color-1,general-color-2,general-color-3,general-color-4,general-color-5,page-background-primary}");
 
 @theme {
 	--color-button-primary: var(--button-primary);
@@ -7,6 +7,8 @@
 	--color-button-secondary-hover: var(--button-secondary-hover);
 	--color-button-tertiary: var(--button-tertiary);
 	--color-button-tertiary-hover: var(--button-tertiary-hover);
+	--color-button-cta: var(--button-cta);
+	--color-button-cta-hover: var(--button-cta-hover);
 	--color-text-primary: var(--text-primary);
 	--color-text-secondary: var(--text-secondary);
 	--color-text-tertiary: var(--text-tertiary);
@@ -14,8 +16,6 @@
 	--color-general-color-2: var(--general-color-2);
 	--color-general-color-3: var(--general-color-3);
 	--color-general-color-4: var(--general-color-4);
-	--color-page-background-primary: var(--page-background-primary);
-	--color-button-cta: var(--button-cta);
-	--color-button-cta-hover: var(--button-cta-hover);
 	--color-general-color-5: var(--general-color-5);
+	--color-page-background-primary: var(--page-background-primary);
 }

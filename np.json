@@ -60,6 +60,10 @@
         "color-5": {
             "$type": "color",
             "$value": "#002D62"
+        },
+        "color-6": {
+            "$type": "color",
+            "$value": "#0057A8"
         }
     },
     "page": {
@@ -70,6 +74,9 @@
     },
     "container": {
         "$type": "dimension",
+        "xsmall": {
+            "$value": "12px"
+        },
         "small": {
             "$value": "24px"
         },
@@ -81,6 +88,9 @@
         },
         "xlarge": {
             "$value": "120px"
+        },
+        "xxlarge": {
+            "$value": "192px"
         }
     },
     "table": {

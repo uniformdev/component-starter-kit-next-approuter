@@ -36,9 +36,9 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: 3xl
-              tablet: 3xl
-              desktop: 3xl
+              mobile: 5xl
+              tablet: 5xl
+              desktop: 5xl
           color:
             type: dex-color-palette-parameter
             value: text-primary
@@ -61,8 +61,8 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: 3xl
-              tablet: 3xl
+              mobile: base
+              tablet: base
               desktop: base
           color:
             type: dex-color-palette-parameter
@@ -95,7 +95,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T13:39:03.88102+00:00'
-modified: '2025-10-01T13:39:37.725645+00:00'
+modified: '2025-10-02T10:35:25.674536+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/titled-container.jpg

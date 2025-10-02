@@ -46,9 +46,9 @@ composition:
                 size:
                   type: dex-segmented-control-parameter
                   value:
-                    mobile: 2xl
-                    tablet: 2xl
-                    desktop: 2xl
+                    mobile: 3xl
+                    tablet: 3xl
+                    desktop: 3xl
                 text:
                   type: text
                   locales:
@@ -69,9 +69,9 @@ composition:
                 size:
                   type: dex-segmented-control-parameter
                   value:
-                    mobile: sm
-                    tablet: sm
-                    desktop: sm
+                    mobile: base
+                    tablet: base
+                    desktop: base
                 text:
                   type: richText
                   value:
@@ -167,7 +167,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T13:42:05.24841+00:00'
-modified: '2025-10-01T14:14:05.035849+00:00'
+modified: '2025-10-02T10:36:37.980972+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg

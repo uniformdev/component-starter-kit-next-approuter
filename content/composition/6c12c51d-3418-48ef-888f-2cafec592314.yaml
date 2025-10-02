@@ -18,6 +18,9 @@ composition:
           type: text
           locales:
             en: Explore Our Programs
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     2bd8f595-56c4-4756-9cda-e6e2a88fde89:
       parameters:
         displayName:
@@ -26,10 +29,19 @@ composition:
             en: Online Coursework
     31216f0d-c5cf-43fa-b976-da2e7fb620df:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-programs/healthcare-nursing/
+              type: url
         text:
           type: text
           locales:
-            en: Explore Healthcare
+            en: Explore
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     328d4fc7-64ba-403a-9d44-98ea875d8d41:
       parameters:
         spacing:
@@ -102,28 +114,64 @@ composition:
             en: Student-to-Faculty Ratio
     89014e40-be1e-472f-8f97-d0838c2ab3ec:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-student-experience/
+              type: url
         text:
           type: text
           locales:
             en: Discover North Park
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     9ba13a9b-872c-47ef-a134-f7e48726cad3:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-programs/business/mba/
+              type: url
         text:
           type: text
           locales:
-            en: Explore Business
+            en: Explore
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     b1b19f9f-8119-4849-957f-8bcb683d14d9:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-programs/education/
+              type: url
         text:
           type: text
           locales:
-            en: Explore Education
+            en: Explore
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     c6af8ef0-acf2-431b-b429-46ea94ad5ec5:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/about/
+              type: url
         text:
           type: text
           locales:
             en: About North Park
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     26a6c25c-c427-4109-a538-79cee9b1235d|7a757740-ee67-40ff-9128-13284d173be2:
       slots:
         $slotSectionItems:
@@ -135,6 +183,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     26a6c25c-c427-4109-a538-79cee9b1235d|9d02d05f-d50a-42bc-90bc-b7d411362280:
       parameters:
@@ -327,6 +376,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     3de6932c-51ed-4851-a8cb-46212ef2501a|f5137d43-c357-4038-aa47-f914b2ebd4a9:
       parameters:
@@ -373,7 +423,7 @@ composition:
               size:
                 type: dex-segmented-control-parameter
                 value:
-                  mobile: 2xl
+                  mobile: 3xl
                   tablet: 2xl
                   desktop: 2xl
               text:
@@ -482,6 +532,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     4ed126f1-d026-45ee-93ed-c2e261b676f8|9d02d05f-d50a-42bc-90bc-b7d411362280:
       parameters:
@@ -583,6 +634,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     63d9cf99-815b-45c6-ae03-9d78731ca845|7a757740-ee67-40ff-9128-13284d173be2:
       slots:
@@ -821,6 +873,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     68cbe200-4c1b-4f93-a991-9320b3e29521|f5137d43-c357-4038-aa47-f914b2ebd4a9:
       parameters:
@@ -935,6 +988,12 @@ composition:
                     alignment:
                       type: dex-segmented-control-parameter
                       value: left
+                - _id: 752b2bce-c57e-4825-ae1c-9cf642e7c2a7
+                  type: spacer
+                  parameters:
+                    size:
+                      type: dex-token-selector-parameter
+                      value: spacer-small
                 - _id: 4f32f32e-a133-43da-ac13-5d2544139432
                   type: text
                   parameters:
@@ -971,13 +1030,14 @@ composition:
                     parameters:
                       link: 'yes'
                       text: 'yes'
+                      textTransform: 'yes'
                     hideLockedParameters: true
             parameters:
               spacing:
                 type: dex-space-control-parameter
                 value:
                   mobile:
-                    paddingTop: container-xlarge
+                    paddingTop: container-xxlarge
                     paddingBottom: container-medium
               displayName:
                 type: text
@@ -1149,7 +1209,7 @@ composition:
                 value: true
               backgroundColor:
                 type: dex-color-palette-parameter
-                value: general-color-2
+                value: general-color-6
           - _id: 11acd5f9-b6f3-40fe-b5ec-be6a863181d8
             type: container
             slots:
@@ -1406,5 +1466,5 @@ composition:
     - en
   _pattern: 8ee331ce-5029-4654-aabd-dbc2f49dea3d
 created: '2025-10-01T13:35:18.460949+00:00'
-modified: '2025-10-01T14:13:37.080558+00:00'
+modified: '2025-10-02T10:47:48.49951+00:00'
 pattern: false

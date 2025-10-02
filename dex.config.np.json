@@ -17,14 +17,17 @@
       "general-color-3": "#E8F4FE",
       "general-color-4": "{button-primary}",
       "general-color-5": "#002D62",
+      "general-color-6": "#0057A8",
       "page-background-primary": "#FFFFFF"
     }
   },
   "dimensions": {
+    "container-xsmall": "12px",
     "container-small": "24px",
     "container-medium": "48px",
     "container-large": "96px",
     "container-xlarge": "120px",
+    "container-xxlarge": "192px",
     "table-small": "4px 8px",
     "table-medium": "12px 16px",
     "table-large": "16px 24px",

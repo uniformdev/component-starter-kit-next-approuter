@@ -41,11 +41,12 @@ composition:
     parameters:
       link: 'yes'
       text: 'yes'
+      textTransform: 'yes'
     hideLockedParameters: true
   _locales:
     - en
 created: '2025-10-01T08:15:05.93091+00:00'
-modified: '2025-10-01T09:19:19.062402+00:00'
+modified: '2025-10-02T10:26:44.343901+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button-secondary.jpg

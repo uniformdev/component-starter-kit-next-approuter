@@ -71,7 +71,7 @@ composition:
           link:
             type: link
             value:
-              path: https://www.uniform.dev
+              path: https://degree.northpark.edu/
               type: url
           displayName:
             type: text
@@ -160,238 +160,319 @@ composition:
                   value: text-secondary
               _overridability:
                 hideLockedParameters: true
-            - _id: 29609c94-55ee-4fec-86f2-1b02229481e2
+            - _id: c6fa824c-020a-44a0-b1a3-e1b04895a757
               type: flex
               slots:
                 flexItem:
-                  - _id: 52cef5b2-4020-49c1-ad79-9cedb97d2d1c
-                    type: image
+                  - _id: 942ac65a-c4bc-4a60-976d-fc6125d8502e
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 52cef5b2-4020-49c1-ad79-9cedb97d2d1c
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 3f484343-a05f-4861-91db-b7a4900e6cad
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 80d06b3c-68f6-44f5-9a10-b45731bd8d57
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/d8VSyUkzQa2L_jnMP_i-KA-facebook-y.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: df8c258b-f08c-4343-b24b-6f4f242bf3e7
+                                    size:
+                                      value: 3875
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: facebook-y.png
+                                    width:
+                                      value: 320
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '15'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 3f484343-a05f-4861-91db-b7a4900e6cad
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 80d06b3c-68f6-44f5-9a10-b45731bd8d57
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/d8VSyUkzQa2L_jnMP_i-KA-facebook-y.png
-                                type: text
-                              file:
-                                type: file
-                                value: df8c258b-f08c-4343-b24b-6f4f242bf3e7
-                              size:
-                                value: 3875
-                                type: number
-                              title:
-                                type: text
-                                value: facebook-y.png
-                              width:
-                                value: 320
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '15'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.facebook.com/npuchicago/
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: facebook
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 98cb2c4e-a2d7-484c-a898-7f8773470cb2
-                    type: image
+                  - _id: d9f8c649-ce4e-40fb-9083-2b80dac7e1fa
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 98cb2c4e-a2d7-484c-a898-7f8773470cb2
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 295c3ab9-cfd1-482c-8e8e-2fa942261159
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 78ff5dc4-60fb-4a50-839f-aa079f80c45d
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/T3R5sKNNRgaObX8fZu6Btg-x-y.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 41dbb74a-63e6-4ae8-a15b-ecbbeaca3ad5
+                                    size:
+                                      value: 11711
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: x-y.png
+                                    width:
+                                      value: 512
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 295c3ab9-cfd1-482c-8e8e-2fa942261159
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 78ff5dc4-60fb-4a50-839f-aa079f80c45d
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/T3R5sKNNRgaObX8fZu6Btg-x-y.png
-                                type: text
-                              file:
-                                type: file
-                                value: 41dbb74a-63e6-4ae8-a15b-ecbbeaca3ad5
-                              size:
-                                value: 11711
-                                type: number
-                              title:
-                                type: text
-                                value: x-y.png
-                              width:
-                                value: 512
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://x.com/NPUChicago
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: x
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 45269632-5a55-4878-a21a-a753f89c1ace
-                    type: image
+                  - _id: e871242e-1c25-4618-8e1b-c4b43967bf1a
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 45269632-5a55-4878-a21a-a753f89c1ace
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 14a953c4-aa69-48da-bb1e-29efbb7b118d
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 6a90ba72-2f24-4a5b-b300-0bb8e8284dcd
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/DwDBkqKjSs6rE6gBheZ-UA-inst-y.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 9e154584-e19c-49cd-9879-3c4ac2e9402f
+                                    size:
+                                      value: 13199
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: inst-y.png
+                                    width:
+                                      value: 448
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 14a953c4-aa69-48da-bb1e-29efbb7b118d
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 6a90ba72-2f24-4a5b-b300-0bb8e8284dcd
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/DwDBkqKjSs6rE6gBheZ-UA-inst-y.png
-                                type: text
-                              file:
-                                type: file
-                                value: 9e154584-e19c-49cd-9879-3c4ac2e9402f
-                              size:
-                                value: 13199
-                                type: number
-                              title:
-                                type: text
-                                value: inst-y.png
-                              width:
-                                value: 448
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.instagram.com/npuchicago/
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: instagram
                     _overridability:
                       hideLockedParameters: true
-                  - _id: fe6eb2ba-a5a8-4c90-b121-fdccc38bb7a9
-                    type: image
+                  - _id: 92dd90f2-27e4-4ff6-973c-d51be02f5e0b
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: fe6eb2ba-a5a8-4c90-b121-fdccc38bb7a9
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 0c4e2972-30ee-4387-a497-79d0b55e4615
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: d02445d0-99ae-45c2-8a64-a3908f693ff3
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BzzOtD0LSGKcDMdEH9Yj_A-linkedin-y.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 15f44b38-895f-40f5-8deb-43693f131117
+                                    size:
+                                      value: 5330
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: linkedin-y.png
+                                    width:
+                                      value: 448
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '21'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: 0c4e2972-30ee-4387-a497-79d0b55e4615
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: d02445d0-99ae-45c2-8a64-a3908f693ff3
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BzzOtD0LSGKcDMdEH9Yj_A-linkedin-y.png
-                                type: text
-                              file:
-                                type: file
-                                value: 15f44b38-895f-40f5-8deb-43693f131117
-                              size:
-                                value: 5330
-                                type: number
-                              title:
-                                type: text
-                                value: linkedin-y.png
-                              width:
-                                value: 448
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '21'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: https://www.linkedin.com/school/northparkuniversity/
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: linkedin
                     _overridability:
                       hideLockedParameters: true
-                  - _id: 5077a88a-e738-45ca-85bc-3bb2a6b97649
-                    type: image
+                  - _id: fe21bbac-a1f0-46a4-8c3a-26e5d080674f
+                    type: link
+                    slots:
+                      linkContent:
+                        - _id: 5077a88a-e738-45ca-85bc-3bb2a6b97649
+                          type: image
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: aa8de380-9fdf-4926-9a4f-a52ce276d2bf
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 5e17b51c-948e-4808-8869-28bf2a64cf9b
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fSvq3b_WSGq-k0IwIkfVGw-yt-y.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: b797038e-c888-4571-a8e0-466334eb9453
+                                    size:
+                                      value: 6912
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: yt-y.png
+                                    width:
+                                      value: 576
+                                      type: number
+                                    height:
+                                      value: 512
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                            width:
+                              type: number
+                              value: '24'
+                            height:
+                              type: number
+                              value: '24'
+                            objectFit:
+                              type: dex-segmented-control-parameter
+                              value: cover
+                          _overridability:
+                            hideLockedParameters: true
                     parameters:
-                      image:
-                        type: asset
+                      link:
+                        type: link
                         value:
-                          - _id: aa8de380-9fdf-4926-9a4f-a52ce276d2bf
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 5e17b51c-948e-4808-8869-28bf2a64cf9b
-                              url:
-                                value: >-
-                                  https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/fSvq3b_WSGq-k0IwIkfVGw-yt-y.png
-                                type: text
-                              file:
-                                type: file
-                                value: b797038e-c888-4571-a8e0-466334eb9453
-                              size:
-                                value: 6912
-                                type: number
-                              title:
-                                type: text
-                                value: yt-y.png
-                              width:
-                                value: 576
-                                type: number
-                              height:
-                                value: 512
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
-                      width:
-                        type: number
-                        value: '24'
-                      height:
-                        type: number
-                        value: '24'
-                      objectFit:
-                        type: dex-segmented-control-parameter
-                        value: cover
+                          path: >-
+                            https://www.youtube.com/channel/UCKfDUXmdjGnDmXcNeygKbgA
+                          type: url
+                      displayName:
+                        type: text
+                        locales:
+                          en: you-tube
                     _overridability:
                       hideLockedParameters: true
               parameters:
@@ -776,6 +857,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/tuition-aid/
+              type: url
         text:
           type: text
           locales:
@@ -788,6 +875,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/admissions/
+              type: url
         text:
           type: text
           locales:
@@ -800,6 +893,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/about/
+              type: url
         text:
           type: text
           locales:
@@ -812,6 +911,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-student-experience/
+              type: url
         text:
           type: text
           locales:
@@ -824,6 +929,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-programs/
+              type: url
         text:
           type: text
           locales:
@@ -834,6 +945,6 @@ composition:
   _locales:
     - en
 created: '2025-10-01T13:21:36.275725+00:00'
-modified: '2025-10-01T13:33:05.484811+00:00'
+modified: '2025-10-02T10:32:14.479099+00:00'
 pattern: true
 categoryId: b1163ce2-5ac7-4347-bc38-a42198180718

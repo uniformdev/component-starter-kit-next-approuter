@@ -11,13 +11,10 @@ composition:
       type: dex-space-control-parameter
       value:
         mobile:
-          paddingTop: container-small
           paddingBottom: container-small
         tablet:
-          paddingTop: container-small
           paddingBottom: container-small
         desktop:
-          paddingTop: container-small
           paddingBottom: container-small
     displayName:
       type: text
@@ -79,19 +76,143 @@ composition:
           link:
             type: link
             value:
-              path: /
-              type: projectMapNode
-              nodeId: b90aa0bf-891d-4e40-9899-0d79eb1b26af
-              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              path: https://degree.northpark.edu/
+              type: url
           displayName:
             type: text
             value: Logo
+        _overridability:
+          hideLockedParameters: true
+    headerAboveContent:
+      - _id: e51024b8-51af-4c0a-bbe5-d2cddf920f8a
+        type: container
+        slots:
+          containerContent:
+            - _id: 769efae7-6abc-4165-9de0-2b02ba38351c
+              type: flex
+              slots:
+                flexItem:
+                  - _id: e859cf1e-5e91-4f8e-a472-e96a4d9f1f2d
+                    type: navigationLink
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          en:
+                            path: https://degree.northpark.edu/how-to-apply/
+                            type: url
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: base
+                      text:
+                        type: text
+                        locales:
+                          en: Apply Now
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      decoration:
+                        type: dex-segmented-control-parameter
+                        value: underline
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 45e00d28-fb1a-4ca2-ae0a-8709ee50f148
+                    type: navigationLink
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          en:
+                            path: (888) 439-0683
+                            type: tel
+                      size:
+                        type: dex-segmented-control-parameter
+                        value: base
+                      text:
+                        type: text
+                        locales:
+                          en: (888) 439-0683
+                      color:
+                        type: dex-color-palette-parameter
+                        value: text-secondary
+                      weight:
+                        type: dex-segmented-control-parameter
+                        value: normal
+                      decoration:
+                        type: dex-segmented-control-parameter
+                        value: underline
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: df901ea0-7739-45c4-892b-1d84a25f1403
+                    type: searchInput
+                    parameters:
+                      placeholder:
+                        type: text
+                        locales:
+                          en: Search
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gap:
+                  type: dex-slider-control-parameter
+                  value:
+                    mobile: '2'
+                wrap:
+                  type: dex-segmented-control-parameter
+                  value: wrap
+                spacing:
+                  type: dex-space-control-parameter
+                  value:
+                    mobile:
+                      paddingTop: container-xsmall
+                      marginBottom: container-xsmall
+                      paddingBottom: container-xsmall
+                direction:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: row
+                    tablet: row
+                    desktop: row
+                alignItems:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: center
+                displayName:
+                  type: text
+                  locales:
+                    en: Above Section
+                justifyContent:
+                  type: dex-segmented-control-parameter
+                  value:
+                    mobile: end
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          displayName:
+            type: text
+            locales:
+              en: Above Section
+          fluidContent:
+            type: checkbox
+            value: true
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: general-color-6
         _overridability:
           hideLockedParameters: true
     headerRightContent:
       - _id: 1915b3fd-03f3-4565-8e45-9741367d3719
         type: button
         parameters:
+          link:
+            type: link
+            locales:
+              en:
+                path: https://degree.northpark.edu/request-information/
+                type: url
           size:
             type: dex-token-selector-parameter
             value: button-small
@@ -102,6 +223,9 @@ composition:
           border:
             type: dex-token-selector-parameter
             value: border-primary
+          textFont:
+            type: dex-token-selector-parameter
+            value: inter
           textSize:
             type: dex-segmented-control-parameter
             value:
@@ -113,10 +237,13 @@ composition:
             value: text-primary
           textWeight:
             type: dex-segmented-control-parameter
-            value: normal
+            value: medium
           buttonColor:
             type: dex-color-palette-parameter
             value: button-cta
+          textTransform:
+            type: dex-segmented-control-parameter
+            value: uppercase
           hoverButtonColor:
             type: dex-color-palette-parameter
             value: button-cta-hover
@@ -136,9 +263,6 @@ composition:
             - _id: d4abcbec-b99c-438b-a473-046e6f4966b7
               type: navigationLink
               _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
-            - _id: 0fe02a13-db56-4f7a-bfee-001c0b09b878
-              type: navigationLink
-              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
             - _id: 23cccba1-c1a5-417a-80df-0f89c507d550
               type: button
               _pattern: 646faee6-b476-43c6-a1a8-eebe85699889
@@ -153,9 +277,6 @@ composition:
           color:
             type: dex-color-palette-parameter
             value: text-secondary
-          border:
-            type: dex-token-selector-parameter
-            value: border-primary
           weight:
             type: dex-segmented-control-parameter
             value: normal
@@ -200,7 +321,63 @@ composition:
             value: underline
           backgroundColor:
             type: dex-color-palette-parameter
-            value: general-color-3
+            value: page-background-primary
+        _overridability:
+          hideLockedParameters: true
+      - _id: d4c22f3a-1dbc-428d-831e-e35e78f9a330
+        type: navigationGroup
+        slots:
+          links:
+            - _id: 1507cd49-321f-400e-ab70-3989d3025239
+              type: navigationLink
+              _pattern: f0bb02cd-315f-40d1-8e74-948e09019995
+        parameters:
+          text:
+            type: text
+            locales:
+              en: Admissions
+          color:
+            type: dex-color-palette-parameter
+            value: text-secondary
+          weight:
+            type: dex-segmented-control-parameter
+            value: normal
+          caretIcon:
+            type: asset
+            locales:
+              en:
+                - _id: 06f50d0c-0597-4822-8457-477b9116e931
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 2b5ceea1-b339-43b4-9297-ef788b858fd2
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/BKmyau5hR6S0INGbGbbLBQ-chevron_2.png
+                      type: text
+                    file:
+                      type: file
+                      value: 105b52c1-b881-40b0-bcb3-f2d9f16643bf
+                    size:
+                      value: 4922
+                      type: number
+                    title:
+                      type: text
+                      value: chevron_2.png
+                    width:
+                      value: 512
+                      type: number
+                    height:
+                      value: 512
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+          backgroundColor:
+            type: dex-color-palette-parameter
+            value: page-background-primary
         _overridability:
           hideLockedParameters: true
       - _id: 09b1471d-7aa8-419c-85e1-ba30947775ca
@@ -218,29 +395,57 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/tuition-aid/
+              type: url
         text:
           type: text
           value: Tuition & Aid
         color:
           type: dex-color-palette-parameter
           value: text-secondary
-    0fe02a13-db56-4f7a-bfee-001c0b09b878:
+    1507cd49-321f-400e-ab70-3989d3025239:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/how-to-apply/
+              type: url
         text:
           type: text
           locales:
-            en: Master of Public Health
+            en: How to Apply
         color:
           type: dex-color-palette-parameter
           value: text-tertiary
     23cccba1-c1a5-417a-80df-0f89c507d550:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-programs/
+              type: url
         text:
           type: text
           locales:
             en: Find Your Program
+        textTransform:
+          type: dex-segmented-control-parameter
+          value: uppercase
     99b80ad6-55de-483d-8dde-245ad9d9c756:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://degree.northpark.edu/online-programs/?level_of_study=doctorate
+              type: url
         text:
           type: text
           locales:
@@ -253,6 +458,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/about/
+              type: url
         text:
           type: text
           value: About
@@ -264,6 +475,12 @@ composition:
         font:
           type: dex-token-selector-parameter
           value: null
+        link:
+          type: link
+          locales:
+            en:
+              path: https://degree.northpark.edu/online-student-experience/
+              type: url
         text:
           type: text
           value: Online Experience
@@ -272,6 +489,13 @@ composition:
           value: text-secondary
     d4abcbec-b99c-438b-a473-046e6f4966b7:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://degree.northpark.edu/online-programs/?level_of_study=certificate
+              type: url
         text:
           type: text
           locales:
@@ -281,6 +505,13 @@ composition:
           value: text-tertiary
     e89216cd-e763-458a-b0f4-3d08d089baf9:
       parameters:
+        link:
+          type: link
+          locales:
+            en:
+              path: >-
+                https://degree.northpark.edu/online-programs/?level_of_study=masters
+              type: url
         text:
           type: text
           locales:
@@ -291,7 +522,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T13:11:41.73106+00:00'
-modified: '2025-10-01T13:21:16.047324+00:00'
+modified: '2025-10-02T10:40:21.005021+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-header.jpg

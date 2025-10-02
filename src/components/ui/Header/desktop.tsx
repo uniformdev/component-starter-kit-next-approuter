@@ -2,7 +2,6 @@ import { FC } from 'react';
 import BaseContainer from '@/components/ui/Container';
 import BaseGrid from '@/components/ui/Grid';
 import BaseGridItem from '@/components/ui/GridItem';
-import { cn } from '@/utils/styling';
 import { HeaderProps } from './';
 
 export const DesktopHeader: FC<HeaderProps> = ({

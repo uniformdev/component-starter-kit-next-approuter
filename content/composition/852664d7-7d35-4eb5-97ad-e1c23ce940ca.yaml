@@ -125,6 +125,583 @@ composition:
           type: text
           locales:
             en: North Park University
+    80a4689e-0918-42a8-bfbf-a799191a1387|7a757740-ee67-40ff-9128-13284d173be2:
+      slots:
+        $slotSectionItems:
+          - _id: 2b00130f-69ef-4efb-b630-6cba8496470f
+            type: richText
+            parameters:
+              text:
+                type: richText
+                locales:
+                  en:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'You can change the theme by downloading the '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: 'design token file '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: 'and importing it into your '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: Design Extensions
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' integration.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Alternatively, you can use the '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: dex.config.json
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' file to update the theme via the CLI.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                To do this, download the required configuration,
+                                paste it into the 
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: dex.config.json
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' file, and then run:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: npm run push:dex
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 16
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+          - _id: 0c719055-3ea5-47a2-bf7c-f4f7c0b55f8a
+            type: flex
+            slots:
+              flexItem:
+                - _id: d221e30a-00e6-4696-b44e-98132d524628
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: 392b3900-407b-4537-b97a-87b6b96f1f24
+                        type: button
+                        parameters:
+                          icon:
+                            type: asset
+                            locales:
+                              en:
+                                - _id: ba8fba88-dc97-4db2-ae0f-7fc99b8801c6
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: b0fbd4b3-4abd-46cd-8f6d-361018289d12
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GAZL1tw2RFOzf1Dm3qoItA-cropped-shenandoah-favicon-1-125x125.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 2e22beb4-4272-44f0-b0ab-809b58531d5b
+                                    size:
+                                      value: 8176
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: cropped-shenandoah-favicon-1-125x125.png
+                                    width:
+                                      value: 125
+                                      type: number
+                                    height:
+                                      value: 125
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                          link:
+                            type: link
+                            locales:
+                              en:
+                                path: /api/tokens-config?type=su
+                                type: url
+                          size:
+                            type: dex-token-selector-parameter
+                            value: button-medium
+                          text:
+                            type: text
+                            locales:
+                              en: Design tokens file (Shenandoah)
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-primary
+                          textFont:
+                            type: dex-token-selector-parameter
+                            value: roboto-serif
+                          textSize:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: sm
+                              desktop: sm
+                          textColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          textWeight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          buttonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary
+                          iconPosition:
+                            type: dex-segmented-control-parameter
+                            value: right
+                          hoverTextColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          hoverButtonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary-hover
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                      - _id: e871d4c5-4f2c-42aa-8b66-65c35355ee56
+                        type: button
+                        parameters:
+                          icon:
+                            type: asset
+                            locales:
+                              en:
+                                - _id: 0b625fa8-3c79-43c9-af0a-cc29652ba2d7
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: b0fbd4b3-4abd-46cd-8f6d-361018289d12
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GAZL1tw2RFOzf1Dm3qoItA-cropped-shenandoah-favicon-1-125x125.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 2e22beb4-4272-44f0-b0ab-809b58531d5b
+                                    size:
+                                      value: 8176
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: cropped-shenandoah-favicon-1-125x125.png
+                                    width:
+                                      value: 125
+                                      type: number
+                                    height:
+                                      value: 125
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                          link:
+                            type: link
+                            locales:
+                              en:
+                                path: /api/dex-config?type=su
+                                type: url
+                          size:
+                            type: dex-token-selector-parameter
+                            value: button-medium
+                          text:
+                            type: text
+                            locales:
+                              en: DEX config (Shenandoah)
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-primary
+                          textFont:
+                            type: dex-token-selector-parameter
+                            value: roboto-serif
+                          textSize:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: sm
+                              desktop: sm
+                          textColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          textWeight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          buttonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary
+                          iconPosition:
+                            type: dex-segmented-control-parameter
+                            value: right
+                          hoverTextColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          hoverButtonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary-hover
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        desktop: '4'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        desktop: center
+                - _id: 6e385997-96a2-418d-a054-a2ff1097b856
+                  type: flex
+                  slots:
+                    flexItem:
+                      - _id: f7f3e9ec-f003-48a2-8f1e-6c88a64d78d6
+                        type: button
+                        parameters:
+                          icon:
+                            type: asset
+                            locales:
+                              en:
+                                - _id: a025c676-3552-4788-838e-f824c29ebc09
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: e3b5dda6-d48c-4c24-911e-c4d628c2f7f1
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/40fUV76ZSYmYdL0CwR70Xg-cropped-npu-favicon-1-125x125.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: dc1fb73e-c136-444a-a1ad-f5d2e306e5d3
+                                    size:
+                                      value: 3829
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: cropped-npu-favicon-1-125x125.png
+                                    width:
+                                      value: 125
+                                      type: number
+                                    height:
+                                      value: 125
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                          link:
+                            type: link
+                            locales:
+                              en:
+                                path: /api/tokens-config?type=np
+                                type: url
+                          size:
+                            type: dex-token-selector-parameter
+                            value: button-medium
+                          text:
+                            type: text
+                            locales:
+                              en: Design tokens file (North Park)
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-primary
+                          textFont:
+                            type: dex-token-selector-parameter
+                            value: roboto-serif
+                          textSize:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: sm
+                              desktop: sm
+                          textColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          textWeight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          buttonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary
+                          iconPosition:
+                            type: dex-segmented-control-parameter
+                            value: right
+                          hoverTextColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          hoverButtonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary-hover
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                      - _id: 2e4909e6-f7bc-42fa-992c-a2569f41f8ca
+                        type: button
+                        parameters:
+                          icon:
+                            type: asset
+                            locales:
+                              en:
+                                - _id: 8d386f59-bc67-462b-93ca-171a094e81b6
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: e3b5dda6-d48c-4c24-911e-c4d628c2f7f1
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/40fUV76ZSYmYdL0CwR70Xg-cropped-npu-favicon-1-125x125.png
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: dc1fb73e-c136-444a-a1ad-f5d2e306e5d3
+                                    size:
+                                      value: 3829
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: cropped-npu-favicon-1-125x125.png
+                                    width:
+                                      value: 125
+                                      type: number
+                                    height:
+                                      value: 125
+                                      type: number
+                                    mediaType:
+                                      value: image/png
+                                      type: text
+                                  _source: uniform-assets
+                          link:
+                            type: link
+                            locales:
+                              en:
+                                path: /api/dex-config?type=np
+                                type: url
+                          size:
+                            type: dex-token-selector-parameter
+                            value: button-medium
+                          text:
+                            type: text
+                            locales:
+                              en: DEX config (North Park)
+                          border:
+                            type: dex-token-selector-parameter
+                            value: border-primary
+                          textFont:
+                            type: dex-token-selector-parameter
+                            value: roboto-serif
+                          textSize:
+                            type: dex-segmented-control-parameter
+                            value:
+                              mobile: sm
+                              tablet: sm
+                              desktop: sm
+                          textColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          textWeight:
+                            type: dex-segmented-control-parameter
+                            value: bold
+                          buttonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary
+                          iconPosition:
+                            type: dex-segmented-control-parameter
+                            value: right
+                          hoverTextColor:
+                            type: dex-color-palette-parameter
+                            value: text-tertiary
+                          hoverButtonColor:
+                            type: dex-color-palette-parameter
+                            value: button-primary-hover
+                        _overridability:
+                          variants: true
+                          parameters:
+                            link: 'yes'
+                            text: 'yes'
+                            textColor: 'yes'
+                            buttonColor: 'yes'
+                            textTransform: 'yes'
+                            hoverTextColor: 'yes'
+                            hoverButtonColor: 'yes'
+                          hideLockedParameters: true
+                  parameters:
+                    gap:
+                      type: dex-slider-control-parameter
+                      value:
+                        mobile: '4'
+                        desktop: '4'
+                    direction:
+                      type: dex-segmented-control-parameter
+                      value:
+                        mobile: col
+                        tablet: col
+                        desktop: col
+                    alignItems:
+                      type: dex-segmented-control-parameter
+                      value:
+                        desktop: center
+            parameters:
+              gap:
+                type: dex-slider-control-parameter
+                value:
+                  mobile: '8'
+              spacing:
+                type: dex-space-control-parameter
+                value:
+                  mobile:
+                    marginTop: container-medium
+                    marginBottom: container-medium
+              direction:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: row
+                  tablet: row
+                  desktop: row
+              displayName:
+                type: text
+                locales:
+                  en: Buttons Section
+              justifyContent:
+                type: dex-segmented-control-parameter
+                value:
+                  mobile: center
+    80a4689e-0918-42a8-bfbf-a799191a1387|9d02d05f-d50a-42bc-90bc-b7d411362280:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: >-
+              Below you will find two theme configurations for two university
+              websites.
+    80a4689e-0918-42a8-bfbf-a799191a1387|ac5a472a-bb21-492c-91bb-cae650e46e98:
+      parameters:
+        color:
+          type: dex-color-palette-parameter
+          value: general-color-1
+    80a4689e-0918-42a8-bfbf-a799191a1387|e0c61059-c78d-4ea6-8beb-7f3eed84f227:
+      parameters:
+        text:
+          type: text
+          locales:
+            en: Useful links for setup
     852664d7-7d35-4eb5-97ad-e1c23ce940ca|dc2e95be-21b5-4476-a309-f8a34922f528:
       slots:
         $slotSectionItems:
@@ -181,6 +758,11 @@ composition:
                     parameters:
                       link: 'yes'
                       text: 'yes'
+                      textColor: 'yes'
+                      buttonColor: 'yes'
+                      textTransform: 'yes'
+                      hoverTextColor: 'yes'
+                      hoverButtonColor: 'yes'
                     hideLockedParameters: true
                 - _id: faf33251-3a86-4725-9791-9d5eca0e1d5b
                   type: button
@@ -190,6 +772,11 @@ composition:
                     parameters:
                       link: 'yes'
                       text: 'yes'
+                      textColor: 'yes'
+                      buttonColor: 'yes'
+                      textTransform: 'yes'
+                      hoverTextColor: 'yes'
+                      hoverButtonColor: 'yes'
                     hideLockedParameters: true
             parameters:
               gap:
@@ -210,9 +797,19 @@ composition:
                 type: dex-segmented-control-parameter
                 value:
                   mobile: center
+          - _id: 80a4689e-0918-42a8-bfbf-a799191a1387
+            type: flex
+            _pattern: 6fc97589-a549-4105-8b4f-387f64ea2780
+            _overridability:
+              parameters:
+                spacing: 'yes'
+                displayName: 'yes'
+                fluidContent: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
   _locales:
     - en
   _pattern: f9c058ea-c40d-4435-ac5a-53423cf654dc
 created: '2025-10-01T08:15:10.286597+00:00'
-modified: '2025-10-01T14:15:24.447356+00:00'
+modified: '2025-10-02T14:02:27.828527+00:00'
 pattern: false

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b0fbd4b3-4abd-46cd-8f6d-361018289d12
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cropped-shenandoah-favicon-1-125x125.png
+    file:
+      type: file
+      value: 2e22beb4-4272-44f0-b0ab-809b58531d5b
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/GAZL1tw2RFOzf1Dm3qoItA-cropped-shenandoah-favicon-1-125x125.png
+      type: text
+    size:
+      value: 8176
+      type: number
+    width:
+      value: 125
+      type: number
+    height:
+      value: 125
+      type: number
+    custom: {}
+created: '2025-10-02T13:58:53.213852+00:00'
+modified: '2025-10-02T13:58:53.213852+00:00'

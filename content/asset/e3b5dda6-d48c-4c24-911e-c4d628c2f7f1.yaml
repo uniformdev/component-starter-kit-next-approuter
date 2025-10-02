@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e3b5dda6-d48c-4c24-911e-c4d628c2f7f1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cropped-npu-favicon-1-125x125.png
+    file:
+      type: file
+      value: dc1fb73e-c136-444a-a1ad-f5d2e306e5d3
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/40fUV76ZSYmYdL0CwR70Xg-cropped-npu-favicon-1-125x125.png
+      type: text
+    size:
+      value: 3829
+      type: number
+    width:
+      value: 125
+      type: number
+    height:
+      value: 125
+      type: number
+    custom: {}
+created: '2025-10-02T14:00:09.71602+00:00'
+modified: '2025-10-02T14:00:09.71602+00:00'

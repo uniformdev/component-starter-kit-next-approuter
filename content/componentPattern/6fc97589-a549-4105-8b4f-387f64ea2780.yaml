@@ -51,6 +51,7 @@ composition:
             size: 'yes'
             text: 'yes'
             color: 'yes'
+            alignment: 'yes'
           hideLockedParameters: true
       - _id: ac5a472a-bb21-492c-91bb-cae650e46e98
         type: divider
@@ -68,6 +69,8 @@ composition:
             type: dex-slider-control-parameter
             value: 8px
         _overridability:
+          parameters:
+            color: 'yes'
           hideLockedParameters: true
       - _id: 9d02d05f-d50a-42bc-90bc-b7d411362280
         type: text
@@ -81,8 +84,8 @@ composition:
           size:
             type: dex-segmented-control-parameter
             value:
-              mobile: 3xl
-              tablet: 3xl
+              mobile: base
+              tablet: base
               desktop: base
           color:
             type: dex-color-palette-parameter
@@ -115,7 +118,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:15:05.606849+00:00'
-modified: '2025-10-02T09:43:14.962083+00:00'
+modified: '2025-10-02T12:43:54.896645+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/titled-container.jpg

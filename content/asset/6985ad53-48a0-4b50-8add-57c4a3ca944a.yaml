@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6985ad53-48a0-4b50-8add-57c4a3ca944a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: book_2.png
+    file:
+      type: file
+      value: 207c776f-2d5f-4de0-a950-914640bafaf9
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/r3DP6nNIT6mF8K6S56CGew-book_2.png
+      type: text
+    size:
+      value: 8046
+      type: number
+    width:
+      value: 512
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-02T12:20:06.384548+00:00'
+modified: '2025-10-02T12:20:06.384548+00:00'

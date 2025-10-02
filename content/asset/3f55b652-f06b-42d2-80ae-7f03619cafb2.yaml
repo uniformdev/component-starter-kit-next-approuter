@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3f55b652-f06b-42d2-80ae-7f03619cafb2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bernadine_dykes.png
+    file:
+      type: file
+      value: a1e6f113-3af8-4260-bdfa-49eda5befa5f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/slQH9N8DQTyKClnj0xeWgQ-bernadine_dykes.png
+      type: text
+    size:
+      value: 120673
+      type: number
+    width:
+      value: 310
+      type: number
+    height:
+      value: 421
+      type: number
+    custom: {}
+created: '2025-10-02T12:39:45.311785+00:00'
+modified: '2025-10-02T12:39:45.311785+00:00'

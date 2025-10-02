@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 43f7e991-17ca-41fc-8350-97a246061321
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: books.png
+    file:
+      type: file
+      value: f487e26d-be55-4d27-a29a-1c90d45d38db
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/iEKUmjq-RjO7g6qkj95iSg-books.png
+      type: text
+    size:
+      value: 3122
+      type: number
+    width:
+      value: 134
+      type: number
+    height:
+      value: 134
+      type: number
+    custom: {}
+created: '2025-10-02T13:27:20.947296+00:00'
+modified: '2025-10-02T13:27:20.947296+00:00'

@@ -1,0 +1,8 @@
+id: 57fbb7dd-0d34-4d13-9899-7d9e291deb3e
+name: Degrees
+order: 500
+path: /:locale/shenandoah/degrees
+type: placeholder
+pathSegment: degrees
+data: {}
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

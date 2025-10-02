@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6e29a83a-4d98-4fb5-bc7b-0cd1f13da414
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: laptop.png
+    file:
+      type: file
+      value: 8450c071-66ce-4e85-8d1d-47cff722ef2f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/oOl1BY_IT9SYmJAULfipSA-laptop.png
+      type: text
+    size:
+      value: 2544
+      type: number
+    width:
+      value: 134
+      type: number
+    height:
+      value: 134
+      type: number
+    custom: {}
+created: '2025-10-02T13:25:59.297529+00:00'
+modified: '2025-10-02T13:25:59.297529+00:00'

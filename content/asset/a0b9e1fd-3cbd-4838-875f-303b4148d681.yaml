@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a0b9e1fd-3cbd-4838-875f-303b4148d681
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-mba-hero-3-1600x800.jpg
+    file:
+      type: file
+      value: ed2afead-d9e0-4cb9-aed0-8214726b7c98
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/FFInFYPrRgaWjSYe6qN2YA-su-mba-hero-3-1600x800.jpg
+      type: text
+    size:
+      value: 193634
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2025-10-02T12:45:37.394157+00:00'
+modified: '2025-10-02T12:45:37.394157+00:00'

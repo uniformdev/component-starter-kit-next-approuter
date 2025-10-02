@@ -5,7 +5,7 @@ composition:
   parameters:
     border:
       type: dex-token-selector-parameter
-      value: border-primary
+      value: border-card
     spacing:
       type: dex-space-control-parameter
       value:
@@ -47,6 +47,7 @@ composition:
         _overridability:
           parameters:
             text: 'yes'
+            color: 'yes'
           hideLockedParameters: true
       - _id: 197ffb11-a9ab-4489-b130-4a0421f2aa92
         type: spacer
@@ -159,11 +160,12 @@ composition:
     parameters:
       height: 'yes'
       displayName: 'yes'
+      backgroundColor: 'yes'
     hideLockedParameters: true
   _locales:
     - en
 created: '2025-10-01T08:15:06.382274+00:00'
-modified: '2025-10-02T09:47:34.842233+00:00'
+modified: '2025-10-02T11:52:46.544357+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1747397797/csk-v-next/baseline/preview-images/card-default.jpg

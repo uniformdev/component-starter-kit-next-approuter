@@ -41,12 +41,16 @@ composition:
     parameters:
       link: 'yes'
       text: 'yes'
+      textColor: 'yes'
+      buttonColor: 'yes'
       textTransform: 'yes'
+      hoverTextColor: 'yes'
+      hoverButtonColor: 'yes'
     hideLockedParameters: true
   _locales:
     - en
 created: '2025-10-01T08:15:05.371571+00:00'
-modified: '2025-10-02T10:33:08.625575+00:00'
+modified: '2025-10-02T13:03:04.491142+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button.jpg

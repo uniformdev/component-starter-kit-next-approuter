@@ -38,6 +38,10 @@
         "tertiary": {
             "$type": "color",
             "$value": "#000"
+        },
+        "assets": {
+            "$type": "color",
+            "$value": "{general-color-4}"
         }
     },
     "general": {
@@ -60,6 +64,14 @@
         "color-5": {
             "$type": "color",
             "$value": "#002D62"
+        },
+        "color-6": {
+            "$type": "color",
+            "$value": "#E6D5B9"
+        },
+        "color-7": {
+            "$type": "color",
+            "$value": "#1E4272"
         }
     },
     "page": {

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: page
 name: Page
@@ -164,6 +164,7 @@ slots:
       - $localization
       - $loop
       - $personalization
+      - header
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -177,5 +178,5 @@ slots:
 titleParameter: pageTitle
 thumbnailParameter: openGraphImage
 canBeComposition: true
-created: '2025-02-17T15:34:15.142676+00:00'
-updated: '2025-02-17T15:34:15.142676+00:00'
+created: '2025-10-01T08:15:01.970745+00:00'
+updated: '2025-10-02T11:23:37.850081+00:00'

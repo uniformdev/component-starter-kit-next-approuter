@@ -1,0 +1,9 @@
+id: 08e69c2c-199e-4591-b8ac-e8a09d1b5efa
+name: MBA
+order: 500
+path: /:locale/shenandoah/degrees/business/mba
+type: composition
+pathSegment: mba
+data: {}
+compositionId: 5170b4a6-d390-4260-a61f-a3d6ad969e3b
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

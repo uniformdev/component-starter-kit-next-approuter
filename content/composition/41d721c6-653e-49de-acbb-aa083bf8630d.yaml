@@ -182,8 +182,12 @@ composition:
           type: link
           locales:
             en:
-              path: https://online.su.edu/degrees/business/mba/
-              type: url
+              path: /${locale}/shenandoah/degrees/business/mba
+              type: projectMapNode
+              nodeId: 08e69c2c-199e-4591-b8ac-e8a09d1b5efa
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
         text:
           type: text
           locales:
@@ -991,6 +995,7 @@ composition:
                     parameters:
                       link: 'yes'
                       text: 'yes'
+                      textTransform: 'yes'
                     hideLockedParameters: true
             parameters:
               spacing:
@@ -1781,6 +1786,7 @@ composition:
                           parameters:
                             link: 'yes'
                             text: 'yes'
+                            textTransform: 'yes'
                           hideLockedParameters: true
                   parameters:
                     gap:
@@ -1935,6 +1941,7 @@ composition:
               parameters:
                 link: 'yes'
                 text: 'yes'
+                textTransform: 'yes'
               hideLockedParameters: true
     97caf106-3301-4f7f-9fb8-eb55d10a2893|9d02d05f-d50a-42bc-90bc-b7d411362280:
       parameters:
@@ -2334,5 +2341,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-01T10:39:04.984375+00:00'
-modified: '2025-10-02T10:02:56.594727+00:00'
+modified: '2025-10-02T11:00:39.846091+00:00'
 pattern: false

@@ -1,0 +1,8 @@
+id: 63dca987-61b9-49ba-952e-c9c3f120f1ae
+name: Business
+order: 500
+path: /:locale/shenandoah/degrees/business
+type: placeholder
+pathSegment: business
+data: {}
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

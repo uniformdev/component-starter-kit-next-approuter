@@ -556,8 +556,12 @@ composition:
           type: link
           locales:
             en:
-              path: https://online.su.edu/degrees/business/mba/
-              type: url
+              path: /${locale}/shenandoah/degrees/business/mba
+              type: projectMapNode
+              nodeId: 08e69c2c-199e-4591-b8ac-e8a09d1b5efa
+              projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9
+              dynamicInputValues:
+                locale: ${locale}
         text:
           type: text
           locales:
@@ -568,7 +572,7 @@ composition:
   _locales:
     - en
 created: '2025-10-01T08:52:33.385447+00:00'
-modified: '2025-10-02T10:01:29.111506+00:00'
+modified: '2025-10-02T10:59:09.028678+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/main-header.jpg

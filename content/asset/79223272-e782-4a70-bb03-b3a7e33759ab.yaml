@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 79223272-e782-4a70-bb03-b3a7e33759ab
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: su-mba-image-1-1-1026x684.jpg
+    file:
+      type: file
+      value: 9091d4a8-940a-4421-83a9-89c462cac608
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/mgcTpiqjR0ykLCp-c4rHkA-su-mba-image-1-1-1026x684.jpg
+      type: text
+    size:
+      value: 97915
+      type: number
+    width:
+      value: 1026
+      type: number
+    height:
+      value: 684
+      type: number
+    custom: {}
+created: '2025-10-02T12:29:21.062279+00:00'
+modified: '2025-10-02T12:29:21.062279+00:00'

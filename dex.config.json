@@ -12,11 +12,14 @@
       "text-primary": "#002D61",
       "text-secondary": "#fff",
       "text-tertiary": "#000",
+      "text-assets": "{general-color-4}",
       "general-color-1": "#011F42",
       "general-color-2": "#00397A",
       "general-color-3": "#F6F9FC",
       "general-color-4": "#98002E",
       "general-color-5": "#002D62",
+      "general-color-6": "#E6D5B9",
+      "general-color-7": "#1E4272",
       "page-background-primary": "#FFFFFF"
     }
   },

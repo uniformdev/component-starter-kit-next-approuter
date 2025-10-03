@@ -14,7 +14,7 @@ const getItemsPerPageNumber = (itemsPerPage: ViewPort<string> | string) => {
   if (typeof itemsPerPage === 'string') {
     return Number(itemsPerPage);
   } else {
-    if (window.innerWidth >= VIEWPORT_BREAKPOINTS.desktop) {
+    if (typeof window === 'undefined' || window.innerWidth >= VIEWPORT_BREAKPOINTS.desktop) {
       return Number(itemsPerPage.desktop || itemsPerPage.tablet || itemsPerPage.mobile);
     } else if (window.innerWidth >= VIEWPORT_BREAKPOINTS.tablet) {
       return Number(itemsPerPage.tablet || itemsPerPage.mobile);

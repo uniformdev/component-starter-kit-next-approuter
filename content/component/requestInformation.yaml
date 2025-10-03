@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: requestInformation
+name: Request Information
+icon: info
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    typeConfig: null
+    localizable: true
+categoryId: 096fd5ed-5e2a-4bfa-834b-fb805d1d1ce9
+useTeamPermissions: true
+slots: []
+titleParameter: displayName
+canBeComposition: false
+created: '2025-10-03T09:06:40.708656+00:00'
+updated: '2025-10-03T10:54:35.802303+00:00'

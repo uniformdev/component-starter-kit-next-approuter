@@ -3604,20 +3604,94 @@ composition:
                                 size:
                                   type: dex-token-selector-parameter
                                   value: spacer-small
-                            - _id: b03f9b71-f493-4580-a32f-058c0c76cafe
-                              type: button
-                              _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
-                              _overridability:
-                                variants: true
-                                parameters:
-                                  link: 'yes'
-                                  text: 'yes'
-                                  textColor: 'yes'
-                                  buttonColor: 'yes'
-                                  textTransform: 'yes'
-                                  hoverTextColor: 'yes'
-                                  hoverButtonColor: 'yes'
-                                hideLockedParameters: true
+                            - _id: 14abc17b-1df3-4f52-a3d8-3acd7776b4ec
+                              type: requestInformation
+                              parameters:
+                                displayName:
+                                  type: text
+                                  locales:
+                                    en: Request Information Form
+                            - _id: c0fda463-9681-41e0-8e36-31708f51abc6
+                              type: spacer
+                              parameters:
+                                size:
+                                  type: dex-token-selector-parameter
+                                  value: spacer-small
+                            - _id: ec0e3880-077b-4e3a-bf93-3721c49c580d
+                              type: flex
+                              slots:
+                                flexItem:
+                                  - _id: b03f9b71-f493-4580-a32f-058c0c76cafe
+                                    type: button
+                                    _pattern: 53b59aed-e378-4fcb-9135-20247d92074e
+                                    _overridability:
+                                      variants: true
+                                      parameters:
+                                        link: 'yes'
+                                        text: 'yes'
+                                        textColor: 'yes'
+                                        buttonColor: 'yes'
+                                        textTransform: 'yes'
+                                        hoverTextColor: 'yes'
+                                        hoverButtonColor: 'yes'
+                                      hideLockedParameters: true
+                                  - _id: ba656ed4-cdad-4585-bb02-f241cb5f918b
+                                    type: link
+                                    slots:
+                                      linkContent:
+                                        - _id: 1ad4510a-7b67-498a-b828-46ccd319e5d8
+                                          type: text
+                                          parameters:
+                                            tag:
+                                              type: dex-segmented-control-parameter
+                                              value: span
+                                            size:
+                                              type: dex-segmented-control-parameter
+                                              value:
+                                                mobile: base
+                                            text:
+                                              type: text
+                                              locales:
+                                                en: Or call 833-611-6653
+                                            color:
+                                              type: dex-color-palette-parameter
+                                              value: text-secondary
+                                            weight:
+                                              type: dex-segmented-control-parameter
+                                              value: normal
+                                    parameters:
+                                      link:
+                                        type: link
+                                        value:
+                                          path: 833-611-6653
+                                          type: tel
+                                      displayName:
+                                        type: text
+                                        locales:
+                                          en: Phone link
+                              parameters:
+                                gap:
+                                  type: dex-slider-control-parameter
+                                  value:
+                                    tablet: '4'
+                                direction:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: col
+                                    tablet: col
+                                    desktop: col
+                                alignItems:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: center
+                                displayName:
+                                  type: text
+                                  locales:
+                                    en: Request button section
+                                justifyContent:
+                                  type: dex-segmented-control-parameter
+                                  value:
+                                    mobile: center
                             - _id: 94d36daf-e674-46bb-8a77-d5b8d7a57ea3
                               type: spacer
                               parameters:
@@ -5428,5 +5502,5 @@ composition:
     - en
   _pattern: f2a08578-7ff5-4bc2-bb02-d266d761b9ba
 created: '2025-10-02T10:57:36.217041+00:00'
-modified: '2025-10-02T21:08:03.150892+00:00'
+modified: '2025-10-03T10:55:33.087872+00:00'
 pattern: false

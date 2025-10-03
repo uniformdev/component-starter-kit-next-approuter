@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3eb3fd1b-391a-45dc-9191-aa82f6a9e001
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: calendar.png
+    file:
+      type: file
+      value: 51cb5de8-905a-42bb-9ce4-388b48eb8cc4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/e5slQHP-TLm7zTgRGfhEMw-calendar.png
+      type: text
+    size:
+      value: 6432
+      type: number
+    width:
+      value: 448
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-03T11:36:07.173948+00:00'
+modified: '2025-10-03T11:36:07.173948+00:00'

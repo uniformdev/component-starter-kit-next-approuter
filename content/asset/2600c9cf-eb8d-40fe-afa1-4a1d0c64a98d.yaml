@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2600c9cf-eb8d-40fe-afa1-4a1d0c64a98d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: calculator.png
+    file:
+      type: file
+      value: 9ffb463b-0608-40f2-a834-66515b1efd47
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iXxYYnNgSNasoippApBXZA/RmSM2xgeS86XAwzVFzHnGA-calculator.png
+      type: text
+    size:
+      value: 8503
+      type: number
+    width:
+      value: 384
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-10-03T12:11:24.005281+00:00'
+modified: '2025-10-03T12:11:24.005281+00:00'

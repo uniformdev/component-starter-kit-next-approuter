@@ -36,7 +36,7 @@
     "@uniformdev/canvas-next-rsc": "^20.20.3",
     "@uniformdev/csk-components": "^6.0.104",
     "@uniformdev/design-extensions-tools": "^6.0.104",
-    "next": "^15.3.2",
+    "next": "15.3.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

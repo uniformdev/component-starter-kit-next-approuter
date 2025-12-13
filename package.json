@@ -1,6 +1,6 @@
 {
   "name": "@uniformdev/component-starter-kit",
-  "version": "6.0.104",
+  "version": "6.1.57",
   "private": true,
   "engines": {
     "yarn": "please-use-npm",
@@ -33,24 +33,24 @@
     "uniform:publish": "uniform context manifest publish"
   },
   "dependencies": {
-    "@uniformdev/canvas-next-rsc": "^20.20.3",
-    "@uniformdev/csk-components": "^6.0.104",
-    "@uniformdev/design-extensions-tools": "^6.0.104",
-    "next": "^15.3.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@uniformdev/canvas-next-rsc": "^20.46.0",
+    "@uniformdev/csk-components": "^6.1.57",
+    "@uniformdev/design-extensions-tools": "^6.1.57",
+    "next": "^15.5.9",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.0.0",
-    "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.0",
-    "@uniformdev/cli": "^20.20.3",
-    "@uniformdev/csk-cli": "^6.0.104",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@uniformdev/cli": "^20.46.0",
+    "@uniformdev/csk-cli": "^6.1.57",
     "cross-env": "^7.0.3",
     "eslint": "^9.19.0",
-    "eslint-config-next": "^15.3.2",
+    "eslint-config-next": "^15.5.9",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",

@@ -1,25 +1,8 @@
 # Uniform Component Starter Kit
 
-This is the latest version of the Uniform Component Starter Kit (CSK) - version 6, built specifically for Next.js 15 App Router leveraging React 19, TailwindCSS and TypeScript.
+This is the latest version of the Uniform Component Starter Kit (CSK) - version 7, built specifically for Next.js 16 App Router with cache components support leveraging React 19, TailwindCSS and TypeScript.
 
 > If you are looking for the Next.js Page Router version, check out this older [repo](https://github.com/uniformdev/uniform-component-starter-kit) instead.
-
-## Key changes in v6
-
-1. This version is built specifically for Next.js 15 and React 19, leveraging the latest Uniform SDK v20+, enabled for all the latest Uniform DXP features!
-1. Minimalistic and simplified approach:
-   - zero external dependencies besides @uniformdev, minimum distractions - essentials only in the core version.
-   - Zero components added by default, can add components into your codebase with `npm run component:extract` and customize how you see fit
-   - More templates and solution recipes coming as stand-alone packages.
-1. Revamped theme management system based on a new Design Extensions integration that supports design tokens
-1. More atomic components supporting the authorable components paradigm
-1. Internationalization / localization ready
-1. Removed daisyui
-1. Included standard sitemap implementation
-1. Server-side rendering by default. Static site generation can be enabled on top.
-1. Dev Experience updates: `component:scaffold` and `component:extract` flows, watch mode for design extension update sync and a developer config for content sync that scopes the operation to developer artifacts only.
-
-Check out more about it [here](https://components.uniform.app) where you can copy and paste components from right into your project!
 
 ## Prerequisites
 
@@ -37,17 +20,17 @@ Run `npx @uniformdev/cli new` and pick `Next.js` -> `Component Starter Kit` from
 #### Option 2: manually
 
 1. `git clone` this repo.
-1. Create an empty Uniform project in your team.
-1. Setup your .env file using your Uniform project connection details (see .env.example for reference)
-   ```bash
+2. Create an empty Uniform project in your team.
+3. Setup your .env file using your Uniform project connection details (see .env.example for reference)
+  ```bash
    UNIFORM_PROJECT_ID=
    UNIFORM_API_KEY=
    UNIFORM_PREVIEW_SECRET=hello-world
-   ```
-   > Make sure your API key has "Developer" role to be able to push content.
-1. `npm install` to install dependencies
-1. Run `npm run init` to initialize your project.
-   > This command uses `@uniformdev/csk-cli` to push all content from disk (`./content` folder), design settings (colors, fonts, borders, etc.), and publish the context manifest. If CSK variants are available, you'll be prompted to select which one to initialize.
+  ```
+  > Make sure your API key has "Developer" role to be able to push content.
+4. `npm install` to install dependencies
+5. Run `npm run init` to initialize your project.
+  > This command uses `@uniformdev/csk-cli` to push all content from disk (`./content` folder), design settings (colors, fonts, borders, etc.), and publish the context manifest. If CSK variants are available, you'll be prompted to select which one to initialize.
 
 ### Step 2. Run locally in dev mode
 
@@ -59,8 +42,8 @@ At this point, you should be able to browse your site on `http://localhost:3000`
 This integration brings new parameter types for design and layout control via Uniform UI extensions to help control and manage the look and feel of your components.
 
 1. Open your project.
-   ![Your project](https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/doc/project_page.png)
-1. Navigate to the `Integrations` tab, find the `Design Extensions` integration and install it.
+  Your project
+2. Navigate to the `Integrations` tab, find the `Design Extensions` integration and install it.
 
 ## How to sync content
 
@@ -75,12 +58,19 @@ These commands use `@uniformdev/csk-cli` and handle the complete synchronization
 
 ### Granular Content Sync
 
-1. Run `npm run push:content` to push data from disk (see `./content`) to your Uniform project.
-1. Run `npm run pull:content` to pull data from your Uniform project to `./content` folder.
+**Core** is the default granular sync mode: `pull:content` and `push:content` use it without a suffix. Two other modes are available for full-library sync and developer-scoped sync.
 
-Alternatively you can use `npm run pull:content:dev` and `npm run push:content:dev` to pull and push developer-owned content to your local project. The scope of the developer-owned content is defined in the `uniform.config.dev.ts` file.
+Each mode uses a different `uniform.config.*.ts`, script pair, and (for **core** vs **full**) a different directory under `./content`. **Dev** also targets `./content/core` but only serializes the entity types listed in the config.
 
-> Developer-owned content typically scoped to components, content types, component patterns but can vary based on the stage of your project lifecycle and your preferences. For example, at some point, you may not want to sync assets like images, videos, etc.
+
+| Mode                                   | Scripts                                                   | Config                   | Content directory                  | Purpose                                                                                                                 |
+| -------------------------------------- | --------------------------------------------------------- | ------------------------ | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Core** (default, one-component mode) | `npm run pull:content` / `npm run push:content`           | `uniform.config.core.ts` | `./content/core`                   | Single-component / lean starter set—use unless you need full or dev-scoped sync.                                        |
+| **Full** (full component library)      | `npm run pull:content:full` / `npm run push:content:full` | `uniform.config.full.ts` | `./content/full`                   | Sync the full component library when you need every packaged component.                                                 |
+| **Dev** (developer artifacts only)     | `npm run pull:content:dev` / `npm run push:content:dev`   | `uniform.config.dev.ts`  | `./content/core` (scoped entities) | Sync only developer-owned types: data types, components, content types, and component patterns—no broad project preset. |
+
+
+> For **dev** sync, what gets included is defined in `uniform.config.dev.ts`. In practice you often use this for components, content types, and patterns; over time you may choose not to pull heavy assets (images, video, and so on) into local work, depending on lifecycle and team preference.
 
 ## Other scripts
 
@@ -197,7 +187,7 @@ Currently, grouping is supported for:
 
 ### Uniform Insights
 
-To enable [**Uniform Insights**](https://docs.uniform.app/docs/integrations/data/insights), add the following variables to your `.env` file:
+To enable **[Uniform Insights](https://docs.uniform.app/docs/integrations/data/insights)**, add the following variables to your `.env` file:
 
 ```bash
 UNIFORM_INSIGHTS_ENDPOINT=
@@ -210,10 +200,11 @@ UNIFORM_INSIGHTS_KEY=
 
 ### Google Analytics
 
-To integrate [**Google Analytics**](https://docs.uniform.app/docs/integrations/data/google-analytics), include this variable in your `.env` file:
+To integrate **[Google Analytics](https://docs.uniform.app/docs/integrations/data/google-analytics)**, include this variable in your `.env` file:
 
 ```bash
 GOOGLE_ANALYTICS_ID=
 ```
 
 > Learn more in the [Google Analytics integration guide](https://docs.uniform.app/docs/integrations/data/google-analytics).
+

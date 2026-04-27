@@ -4,7 +4,7 @@ module.exports = uniformConfig({
   preset: 'none',
   config: {
     serialization: {
-      directory: './content',
+      directory: './content/core',
       entitiesConfig: {
         dataType: {},
         component: {},

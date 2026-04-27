@@ -6,5 +6,5 @@ module.exports = uniformConfig({
     serializationConfig: { directory: './content/core' },
   },
   // you can disable specific entities from being included, which can speed up your sync
-  disableEntities: ['webhook'],
+  disableEntities: ['webhook', 'policyDocument'],
 });

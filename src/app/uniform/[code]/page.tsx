@@ -25,6 +25,7 @@ const resolveRouteFromCodeWithCache = async (code: string) => {
 };
 
 export default async function UniformPage({ params }: UniformPageParameters) {
+  'use cache';
   const { code } = await params;
   const result = await resolveRouteFromCodeWithCache(code);
   return (

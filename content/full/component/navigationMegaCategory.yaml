@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: navigationFlyout
-name: Navigation Flyout
-icon: image-text
+id: navigationMegaCategory
+name: Navigation Mega Category
+icon: list-tree
 parameters:
   - id: icon
     name: Icon
     type: asset
-    guidance: Use the Icon parameter to add an icon to the navigation flyout.
+    guidance: Use the Icon parameter to add a leading icon next to the category label in the rail.
     typeConfig:
       max: 1
       min: 0
@@ -15,8 +15,22 @@ parameters:
   - id: text
     name: Text
     type: text
-    guidance: Use the Text parameter to control the text that will be rendered.
+    guidance: Label shown for this category in the mega menu rail.
     typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: >-
+      Optional link used only when this component is rendered outside a
+      categorized mega menu (standalone fallback). Inside the mega menu, the
+      category swaps the right pane on hover instead of navigating.
+    typeConfig:
+      linkTypes:
+        tel: true
+        email: true
+        url: true
+        projectMapNode: true
     localizable: true
   - id: 4fa3aa01-1d60-4c4d-ace3-c68c833126b3
     name: Presentation Settings
@@ -50,7 +64,7 @@ parameters:
   - id: size
     name: Size
     type: dex-segmented-control-parameter
-    guidance: Use the Size parameter to control the font size.
+    guidance: Use the Size parameter to control the font size of the rail label.
     typeConfig:
       options:
         - key: XS
@@ -67,19 +81,11 @@ parameters:
           value: 2xl
         - key: 3XL
           value: 3xl
-        - key: 4XL
-          value: 4xl
-        - key: 5XL
-          value: 5xl
-        - key: 6XL
-          value: 6xl
-        - key: 7XL
-          value: 7xl
       withViewPort: false
   - id: color
     name: Color
     type: dex-color-palette-parameter
-    guidance: Use the Color parameter to control the text color.
+    guidance: Use the Color parameter to control the rail label text color.
     typeConfig:
       allowColors: []
       selectedGroup: text
@@ -87,7 +93,7 @@ parameters:
   - id: weight
     name: Weight
     type: dex-segmented-control-parameter
-    guidance: Use the Weight parameter to control the font weight.
+    guidance: Use the Weight parameter to control the font weight of the rail label.
     typeConfig:
       options:
         - key: Normal
@@ -98,7 +104,7 @@ parameters:
           value: bold
         - key: Extrabold
           value: extrabold
-      defaultValue: normal
+      defaultValue: medium
   - id: font
     name: Font
     type: dex-token-selector-parameter
@@ -146,7 +152,7 @@ parameters:
   - id: alignment
     name: Alignment
     type: dex-segmented-control-parameter
-    guidance: Use the Alignment parameter to align the text.
+    guidance: Use the Alignment parameter to align the rail label text.
     typeConfig:
       options:
         - key: Left
@@ -158,9 +164,12 @@ parameters:
   - id: caretIcon
     name: Caret Icon
     type: asset
-    guidance: Use the Caret Icon parameter to add a dropdown indicator icon.
+    guidance: >-
+      Optional chevron icon shown at the right edge of the rail item to indicate
+      it has nested content.
     typeConfig:
       max: 1
+      required: false
       allowedTypes:
         - image
     localizable: true
@@ -168,8 +177,8 @@ parameters:
     name: Hover Effect
     type: dex-segmented-control-parameter
     guidance: >-
-      Use the Hover Effect parameter to define the visual behavior or animation
-      that appears when a user hovers over a navigation item.
+      Visual effect applied to the rail label on hover (in addition to the
+      active-row highlight).
     typeConfig:
       options:
         - key: Underline
@@ -183,24 +192,19 @@ previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-flyout.jpg
 useTeamPermissions: true
 slots:
-  - id: navigationFlyoutLeftContent
-    name: Navigation Flyout Left Content
+  - id: categoryPanel
+    name: Category Panel
     allowedComponents:
+      - navigationGroup
       - navigationLink
-      - navigationMegaCategory
+      - image
+      - richText
+      - grid
+      - gridItem
+      - container
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
-  - id: navigationFlyoutRightContent
-    name: Navigation Flyout Right Content
-    allowedComponents: []
-    allowAllComponents: true
-    inheritAllowedComponents: false
-    patternsInAllowedComponents: false
+    patternsInAllowedComponents: true
 titleParameter: text
+thumbnailParameter: icon
 canBeComposition: false
-created: '2026-05-05T14:17:01.11825+00:00'
-updated: '2026-05-15T08:51:33.123973+00:00'
-variants:
-  - id: megaMenu
-    name: Mega Menu

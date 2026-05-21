@@ -46,7 +46,7 @@ composition:
               type: link
               locales:
                 en:
-                  path: https://dev-csk-marketing-site.vercel.app/get-started
+                  path: https://unfrm.to/csk-start
                   type: url
             title:
               type: text
@@ -59,7 +59,7 @@ composition:
               type: link
               locales:
                 en:
-                  path: https://dev-csk-marketing-site.vercel.app/components
+                  path: https://unfrm.to/csk-lib
                   type: url
             title:
               type: text

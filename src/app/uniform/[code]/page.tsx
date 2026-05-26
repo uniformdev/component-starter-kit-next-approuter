@@ -1,4 +1,3 @@
-import { CANVAS_EDITOR_STATE } from '@uniformdev/canvas';
 import { emptyPlaceholderResolver } from '@uniformdev/csk-components/components/canvas/emptyPlaceholders';
 import { compositionCache } from '@uniformdev/csk-components/utils/getSlotComponents';
 import { DesignExtensionsProvider } from '@uniformdev/design-extensions-tools/components/providers/server';
@@ -8,6 +7,7 @@ import {
   UniformPageParameters,
   createUniformStaticParams,
 } from '@uniformdev/next-app-router';
+import { deserializeEvaluationResult } from '@uniformdev/next-app-router-shared';
 import { componentResolver } from '@/components';
 import getAllStaticGeneratedPages from '@/utils/getAllStaticGeneratedPages';
 
@@ -21,9 +21,11 @@ export const generateStaticParams = async () => {
 export default async function UniformPage({ params }: UniformPageParameters) {
   'use cache';
   const { code } = await params;
-  const result = await resolveRouteFromCode({ code });
+
+  const result = deserializeEvaluationResult({ input: code });
+
   return (
-    <DesignExtensionsProvider isPreviewMode={result.pageState.compositionState === CANVAS_EDITOR_STATE}>
+    <DesignExtensionsProvider isPreviewMode={result.previewMode === 'editor'}>
       <UniformComposition
         code={code}
         resolveRoute={resolveRouteFromCode}

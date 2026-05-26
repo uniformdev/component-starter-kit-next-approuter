@@ -212,3 +212,11 @@ GOOGLE_ANALYTICS_ID=
 
 > Learn more in the [Google Analytics integration guide](https://docs.uniform.app/docs/integrations/data/google-analytics).
 
+## Known Issues
+
+### React 19 dev warning: "Encountered a script tag while rendering React component"
+
+Source: `next-themes@0.4.6` renders its anti-FOUC theme initializer as a React-created `<script>` element ([next-themes/dist/index.mjs](https://github.com/pacocoursey/next-themes)). React 19's new host-element semantics warn about that pattern.
+
+Impact: **dev-only console noise**. The script runs correctly on the initial server-rendered HTML — which is the only time FOUC prevention needs it. Production builds and runtime behavior are unaffected.
+

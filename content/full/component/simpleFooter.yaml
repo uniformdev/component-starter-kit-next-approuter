@@ -1,0 +1,82 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: simpleFooter
+name: Simple Footer
+icon: border-bottom
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: footerLinkSectionTitle
+    name: Footer Link Section Title
+    type: text
+    guidance: >-
+      Use the Footer Link Section Title parameter to add a title for the footer
+      link section.
+    typeConfig: null
+    localizable: true
+  - id: links
+    name: Links
+    type: $block
+    guidance: Use the Links parameter to add links to the footer.
+    typeConfig:
+      allowedTypes:
+        - navigationLink
+  - id: copyright
+    name: Copyright
+    type: richText
+    guidance: Use the Copyright parameter to add a copyright info for the footer.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    guidance: Use the Logo parameter to add a logo for the footer.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/footer.jpg
+useTeamPermissions: true
+slots: []
+titleParameter: displayName
+thumbnailParameter: logo
+canBeComposition: false
+created: '2025-10-09T10:42:42.467115+00:00'
+updated: '2025-10-13T13:55:35.538595+00:00'

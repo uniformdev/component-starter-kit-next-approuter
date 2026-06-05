@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: divider
+name: Divider
+icon: merge-horizontal
+parameters:
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    guidance: Use the Color parameter to control the divider line color.
+    typeConfig: null
+  - id: thickness
+    name: Thickness
+    type: dex-slider-control-parameter
+    guidance: |
+      Use the Thickness parameter to control the width or boldness of the line.
+    typeConfig:
+      step: 1
+      type: steps
+      units: px
+      maxValue: 25
+      minValue: 1
+      defaultValue: 1px
+  - id: width
+    name: Width
+    type: dex-slider-control-parameter
+    guidance: Use the Width parameter to control the horizontal size of the line.
+    typeConfig:
+      step: 10
+      type: steps
+      units: '%'
+      maxValue: 100
+      minValue: 10
+      defaultValue: 100%
+  - id: alignment
+    name: Alignment
+    type: dex-segmented-control-parameter
+    guidance: Use the Alignment parameter to align the line.
+    typeConfig:
+      options:
+        - key: Left
+          value: start
+        - key: Center
+          value: center
+        - key: Right
+          value: end
+      defaultValue: center
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/divider.jpg
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-01-29T10:47:01.298762+00:00'
+updated: '2025-10-06T21:31:32.138761+00:00'

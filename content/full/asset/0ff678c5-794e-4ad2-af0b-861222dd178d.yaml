@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0ff678c5-794e-4ad2-af0b-861222dd178d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: meta-image.png
+    file:
+      type: file
+      value: 0fd69f6a-b055-4c2a-951c-320fc2187cca
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/YBXmRPPzQZ-45Yo5jJzHAw/sZtoY8-OTCyBfGOeQVeTiA-meta-image.png
+      type: text
+    size:
+      value: 171834
+      type: number
+    width:
+      value: 1200
+      type: number
+    height:
+      value: 630
+      type: number
+    custom: {}
+created: '2025-02-17T15:33:57.60777+00:00'
+modified: '2025-02-17T15:33:57.60777+00:00'

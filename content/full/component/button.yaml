@@ -1,0 +1,202 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: button
+name: Button
+icon: rectangle-rounded
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: Use the Text parameter to control the text that will be rendered.
+    helpText: Provide a value to set the button's label.
+    typeConfig:
+      multiline: false
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: >-
+      Use the Link parameter to specify the destination URL or page that the
+      button will navigate to when clicked.
+    helpText: Select type and target link to set the button's link.
+    typeConfig: null
+    localizable: true
+  - id: 2c0fb9ff-9fbe-456b-90e7-48e768e43211
+    name: Text
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - textColor
+        - textSize
+        - textWeight
+        - textFont
+        - textTransform
+  - id: textColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    guidance: Use the Text Color parameter to specify text color.
+    helpText: Choose a pair of text colors for light and dark mode.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: textSize
+    name: Text Size
+    type: dex-segmented-control-parameter
+    guidance: Use the Text Size parameter to specify text size.
+    typeConfig:
+      options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 6XL
+          value: 6xl
+        - key: 7XL
+          value: 7xl
+      defaultValue:
+        mobile: sm
+        tablet: sm
+        desktop: sm
+      withViewPort: true
+  - id: textWeight
+    name: Weight
+    type: dex-segmented-control-parameter
+    guidance: Use the Text Weight parameter to specify text weight.
+    typeConfig:
+      options:
+        - key: Normal
+          value: normal
+        - key: Medium
+          value: medium
+        - key: Bold
+          value: bold
+        - key: Extrabold
+          value: extrabold
+      defaultValue: normal
+  - id: textFont
+    name: Font
+    type: dex-token-selector-parameter
+    guidance: Use the Font parameter to specify text font.
+    typeConfig:
+      selectedTokenType: font
+  - id: textTransform
+    name: Transform
+    type: dex-segmented-control-parameter
+    guidance: Use the Transform parameter to control the capitalization of text.
+    typeConfig:
+      options:
+        - key: Uppercase
+          value: uppercase
+        - key: Lowercase
+          value: lowercase
+        - key: Capitalize
+          value: capitalize
+  - id: c1ac7b24-7039-4ec4-93c7-be45b3bfe0a8
+    name: Icon
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - icon
+        - iconPosition
+  - id: icon
+    name: Icon
+    type: asset
+    guidance: Use the Icon parameter to add an icon to the button.
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: iconPosition
+    name: Icon Position
+    type: dex-segmented-control-parameter
+    guidance: Use the Icon Position parameter to control icon position.
+    typeConfig:
+      options:
+        - key: Left
+          value: left
+        - key: Right
+          value: right
+      defaultValue: left
+  - id: dabcd8b5-e637-436b-a481-07566abd6181
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - buttonColor
+        - border
+        - size
+  - id: buttonColor
+    name: Button Color
+    type: dex-color-palette-parameter
+    guidance: Use the Button Color parameter to specify button color.
+    helpText: Choose a pair of button colors for light and dark mode.
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the button border.
+    typeConfig:
+      selectedTokenType: border
+  - id: size
+    name: Size
+    type: dex-token-selector-parameter
+    guidance: Use the Size parameter to specify button size.
+    typeConfig:
+      defaultValue: button-small
+      selectedGroup: button
+      allowDimensions: []
+      selectedTokenType: dimension
+  - id: daea4af1-5dea-489f-b73c-9ca882aa6e6d
+    name: Hover
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - hoverButtonColor
+        - hoverTextColor
+  - id: hoverButtonColor
+    name: Button Color
+    type: dex-color-palette-parameter
+    guidance: Use the Hover Button Color parameter to specify hover button color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: button
+  - id: hoverTextColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    guidance: Use the Hover Text Color parameter to specify hover text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/button.jpg
+useTeamPermissions: true
+slots: []
+titleParameter: text
+thumbnailParameter: icon
+canBeComposition: false
+created: '2025-01-29T10:47:01.205539+00:00'
+updated: '2025-10-06T21:18:47.815648+00:00'
+variants:
+  - id: link
+    name: Link

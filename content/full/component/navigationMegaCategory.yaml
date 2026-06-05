@@ -1,0 +1,210 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigationMegaCategory
+name: Navigation Mega Category
+icon: list-tree
+parameters:
+  - id: icon
+    name: Icon
+    type: asset
+    guidance: Use the Icon parameter to add a leading icon next to the category label in the rail.
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: text
+    name: Text
+    type: text
+    guidance: Label shown for this category in the mega menu rail.
+    typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: >-
+      Optional link used only when this component is rendered outside a
+      categorized mega menu (standalone fallback). Inside the mega menu, the
+      category swaps the right pane on hover instead of navigating.
+    typeConfig:
+      linkTypes:
+        tel: true
+        email: true
+        url: true
+        projectMapNode: true
+    localizable: true
+  - id: 4fa3aa01-1d60-4c4d-ace3-c68c833126b3
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundColor
+        - border
+        - size
+        - color
+        - weight
+        - font
+        - transform
+        - decoration
+        - letterSpacing
+        - alignment
+        - caretIcon
+        - hoverEffect
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the component border.
+    typeConfig:
+      selectedTokenType: border
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    guidance: Use the Size parameter to control the font size of the rail label.
+    typeConfig:
+      options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+      withViewPort: false
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    guidance: Use the Color parameter to control the rail label text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+      allowThemeColors: []
+  - id: weight
+    name: Weight
+    type: dex-segmented-control-parameter
+    guidance: Use the Weight parameter to control the font weight of the rail label.
+    typeConfig:
+      options:
+        - key: Normal
+          value: normal
+        - key: Medium
+          value: medium
+        - key: Bold
+          value: bold
+        - key: Extrabold
+          value: extrabold
+      defaultValue: medium
+  - id: font
+    name: Font
+    type: dex-token-selector-parameter
+    guidance: Use the Font parameter to control the font family.
+    typeConfig:
+      selectedTokenType: font
+  - id: transform
+    name: Transform
+    type: dex-segmented-control-parameter
+    guidance: Use the Transform parameter to control the capitalization of text.
+    typeConfig:
+      options:
+        - key: Uppercase
+          value: uppercase
+        - key: Lowercase
+          value: lowercase
+        - key: Capitalize
+          value: capitalize
+  - id: decoration
+    name: Decoration
+    type: dex-segmented-control-parameter
+    guidance: Use the Decoration parameter to change the text decoration thickness.
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Overline
+          value: overline
+        - key: Line Through
+          value: line-through
+  - id: letterSpacing
+    name: Letter Spacing
+    type: dex-segmented-control-parameter
+    guidance: Use the Letter Spacing parameter to set the letter spacing.
+    typeConfig:
+      options:
+        - key: Tighter
+          value: tighter
+        - key: Tight
+          value: tight
+        - key: Wide
+          value: wide
+        - key: Wider
+          value: wider
+  - id: alignment
+    name: Alignment
+    type: dex-segmented-control-parameter
+    guidance: Use the Alignment parameter to align the rail label text.
+    typeConfig:
+      options:
+        - key: Left
+          value: left
+        - key: Center
+          value: center
+        - key: Right
+          value: right
+  - id: caretIcon
+    name: Caret Icon
+    type: asset
+    guidance: >-
+      Optional chevron icon shown at the right edge of the rail item to indicate
+      it has nested content.
+    typeConfig:
+      max: 1
+      required: false
+      allowedTypes:
+        - image
+    localizable: true
+  - id: hoverEffect
+    name: Hover Effect
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Visual effect applied to the rail label on hover (in addition to the
+      active-row highlight).
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Brightness
+          value: opacity-75
+        - key: Scale
+          value: scale-105
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-flyout.jpg
+useTeamPermissions: true
+slots:
+  - id: categoryPanel
+    name: Category Panel
+    allowedComponents:
+      - navigationGroup
+      - navigationLink
+      - image
+      - richText
+      - grid
+      - gridItem
+      - container
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: text
+thumbnailParameter: icon
+canBeComposition: false

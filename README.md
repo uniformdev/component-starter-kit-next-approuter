@@ -1,25 +1,8 @@
 # Uniform Component Starter Kit
 
-This is the latest version of the Uniform Component Starter Kit (CSK) - version 6, built specifically for Next.js 15 App Router leveraging React 19, TailwindCSS and TypeScript.
+This is the latest version of the Uniform Component Starter Kit (CSK) - version 7, built specifically for Next.js 16 App Router with cache components support leveraging React 19, TailwindCSS and TypeScript.
 
 > If you are looking for the Next.js Page Router version, check out this older [repo](https://github.com/uniformdev/uniform-component-starter-kit) instead.
-
-## Key changes in v6
-
-1. This version is built specifically for Next.js 15 and React 19, leveraging the latest Uniform SDK v20+, enabled for all the latest Uniform DXP features!
-1. Minimalistic and simplified approach:
-   - zero external dependencies besides @uniformdev, minimum distractions - essentials only in the core version.
-   - Zero components added by default, can add components into your codebase with `npm run component:extract` and customize how you see fit
-   - More templates and solution recipes coming as stand-alone packages.
-1. Revamped theme management system based on a new Design Extensions integration that supports design tokens
-1. More atomic components supporting the authorable components paradigm
-1. Internationalization / localization ready
-1. Removed daisyui
-1. Included standard sitemap implementation
-1. Server-side rendering by default. Static site generation can be enabled on top.
-1. Dev Experience updates: `component:scaffold` and `component:extract` flows, watch mode for design extension update sync and a developer config for content sync that scopes the operation to developer artifacts only.
-
-Check out more about it [here](https://components.uniform.app) where you can copy and paste components from right into your project!
 
 ## Prerequisites
 
@@ -47,7 +30,7 @@ Run `npx @uniformdev/cli new` and pick `Next.js` -> `Component Starter Kit` from
    > Make sure your API key has "Developer" role to be able to push content.
 1. `npm install` to install dependencies
 1. Run `npm run init` to initialize your project.
-   > This will push all content from disk (`.\content` folder) and your design settings (colors, fonts, borders, etc. for this default theme).
+   > This command uses `@uniformdev/csk-cli` to push all content from disk (`./content` folder), design settings (colors, fonts, borders, etc.), and publish the context manifest. If CSK variants are available you'll be prompted to pick one. See [CSK variants](#csk-variants) for how to skip the prompt in automation (CI, AI codegen, Uniform Platform CLI).
 
 ### Step 2. Run locally in dev mode
 
@@ -66,12 +49,32 @@ This integration brings new parameter types for design and layout control via Un
 
 The following scripts are created to facilitate sync of content between the `./content` folder and your project.
 
-1. Run `npm run push:content` to push data from disk (see `./content`) to your Uniformproject.
+### Complete Project Sync
+
+1. Run `npm run init` to initialize/push everything (content, design extensions, and context manifest) to your Uniform project.
+2. Run `npm run uniform:pull` to pull everything (content and design extensions) from your Uniform project to disk.
+
+These commands use `@uniformdev/csk-cli` and handle the complete synchronization workflow. If CSK variants are available, you'll be prompted to select which one to sync.
+
+### Granular Content Sync
+
+1. Run `npm run push:content` to push data from disk (see `./content`) to your Uniform project.
 1. Run `npm run pull:content` to pull data from your Uniform project to `./content` folder.
 
 Alternatively you can use `npm run pull:content:dev` and `npm run push:content:dev` to pull and push developer-owned content to your local project. The scope of the developer-owned content is defined in the `uniform.config.dev.ts` file.
 
 > Developer-owned content typically scoped to components, content types, component patterns but can vary based on the stage of your project lifecycle and your preferences. For example, at some point, you may not want to sync assets like images, videos, etc.
+
+## Running behind a corporate proxy
+
+Both the Next.js runtime and the CLI scripts (`pull:dex`, `push:dex`, `pull:locales`) honor `HTTPS_PROXY` / `HTTP_PROXY`:
+
+```bash
+export HTTPS_PROXY=http://your-proxy.example.com:8080
+export HTTP_PROXY=http://your-proxy.example.com:8080
+```
+
+If your proxy intercepts TLS with a custom root CA, also set `NODE_EXTRA_CA_CERTS=/path/to/ca.pem`, otherwise Node rejects the certificate with `UNABLE_TO_VERIFY_LEAF_SIGNATURE`. Each CLI also accepts `--proxy <url>` to override the env var for a single run.
 
 ## Other scripts
 
@@ -83,6 +86,7 @@ Whenever you add new **colors, dimensions, fonts, or borders**, your application
 
 ```sh
 npm run pull:dex
+npm run apply:dex
 ```
 
 This command is automatically executed when running:
@@ -105,16 +109,10 @@ When modifying an **existing value**, your app will automatically fetch the upda
 
 ## 🎨 Working with Styles
 
-If you prefer managing styles manually, you can modify the predefined configuration files located in the `styles/` directory:
-
-- `styles/border.css`
-- `styles/colors.css`
-- `styles/dimensions.css`
-- `styles/fonts.css`
-
-After making changes, push the updated configuration using:
+If you prefer managing styles manually, you can modify the predefined configuration files `dex.config.json`. After making changes, apply and push the updated configuration using:
 
 ```sh
+npm run apply:dex
 npm run push:dex
 ```
 
@@ -143,16 +141,16 @@ By default, the **Design Extension** includes two predefined groups:
 - `button`
 - `text`
 
-### **Understanding `allowGroups.json`**
+### **Understanding `allowGroups`**
 
-When your project is still using the default configuration, the `allowGroups.json` file will be **empty**. However, if you add a custom group (e.g., `page`), it will be added to this file automatically.
+When your project is still using the default configuration, the `allowGroups` field will be **empty**. However, if you add a custom group (e.g., `page`), it will be added to this field automatically.
 
 #### **Example: Adding a Custom Group (Page)**
 
-If you introduce a new group, such as `page`, the `allowGroups.json` file will be updated as follows:
+If you introduce a new group, such as `page`, the `dex.config.json` file will be updated as follows:
 
 ```json
-{ "color": ["button", "page", "text"] }
+allowedGroups: { "color": ["button", "page", "text"] }
 ```
 
 ### **Creating and Pushing Custom Groups**
@@ -213,3 +211,12 @@ GOOGLE_ANALYTICS_ID=
 ```
 
 > Learn more in the [Google Analytics integration guide](https://docs.uniform.app/docs/integrations/data/google-analytics).
+
+## Known Issues
+
+### React 19 dev warning: "Encountered a script tag while rendering React component"
+
+Source: `next-themes@0.4.6` renders its anti-FOUC theme initializer as a React-created `<script>` element ([next-themes/dist/index.mjs](https://github.com/pacocoursey/next-themes)). React 19's new host-element semantics warn about that pattern.
+
+Impact: **dev-only console noise**. The script runs correctly on the initial server-rendered HTML — which is the only time FOUC prevention needs it. Production builds and runtime behavior are unaffected.
+

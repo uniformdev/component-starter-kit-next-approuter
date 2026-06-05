@@ -1,0 +1,209 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: fixedHero
+name: Fixed Hero
+icon: image-text
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: 66c64fb5-2d29-4bc8-8b98-02c37b519cee
+    name: Content
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - eyebrowTitleText
+        - titleText
+        - titleTag
+        - descriptionText
+        - image
+  - id: eyebrowTitleText
+    name: Eyebrow Text
+    type: text
+    guidance: >-
+      Use the Eyebrow Text parameter to specify a short heading or label that
+      appears above the main title, providing context or categorization for the
+      content.
+    typeConfig: null
+    localizable: true
+  - id: titleText
+    name: Title
+    type: text
+    guidance: >-
+      Use the Title parameter to specify the main heading or name of the hero,
+      clearly describing its purpose or content.
+    typeConfig: null
+    localizable: true
+  - id: titleTag
+    name: Title HTML Tag
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Title HTML Tag parameter to control the tag with which the title
+      text will be rendered.
+    typeConfig:
+      options:
+        - key: H1
+          value: h1
+        - key: H2
+          value: h2
+        - key: P
+          value: p
+        - key: Span
+          value: span
+      required: true
+      defaultValue: h2
+  - id: descriptionText
+    name: Description
+    type: text
+    guidance: >-
+      Use the Description parameter to specify supplementary text that provides
+      additional details or context about the hero's content or purpose.
+    typeConfig: null
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Use the Image parameter to add a background image to the hero section.
+    typeConfig:
+      max: 1
+      min: 0
+      allowedTypes:
+        - image
+    allowConditionalValues: true
+  - id: 6f7eed5b-dd00-46d0-b5bd-48cf3e264beb
+    name: Call to Action
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - primaryButtonText
+        - primaryButtonLink
+        - primaryButtonTextColor
+  - id: primaryButtonText
+    name: Button Text
+    type: text
+    guidance: >-
+      Use the Button Text parameter to specify the label displayed on the
+      button.
+    helpText: Provide a value to set the button's label.
+    typeConfig:
+      multiline: false
+    localizable: true
+  - id: primaryButtonLink
+    name: Button Link
+    type: link
+    guidance: >-
+      Use the Button Link parameter to specify the URL or destination page that
+      the button will navigate to when clicked.
+    helpText: Select type and target link to set the button's link.
+    typeConfig: null
+    localizable: true
+  - id: primaryButtonTextColor
+    name: Button Text Color
+    type: dex-color-palette-parameter
+    guidance: >-
+      Use the Button Text Color parameter to define the color of the text
+      displayed on the button.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: 9f8178c3-539f-4a1e-8a4e-71bfcedfe223
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - contentAlignment
+        - height
+        - textColor
+        - overlayAutoTint
+  - id: contentAlignment
+    name: Content Alignment
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Content Alignment parameter to control the horizontal positioning
+      of the content within the hero.
+    typeConfig:
+      options:
+        - key: Left
+          value: left
+        - key: Center
+          value: center
+        - key: Right
+          value: right
+      defaultValue: center
+  - id: height
+    name: Height
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Height parameter to control the component height. For example:
+
+      Use the h-screen utility to make an element span the entire height of the
+      viewport
+
+      Use h-full utilities to give an element a 100% height.
+    helpText: Parameter for setting the height of an element.
+    typeConfig:
+      options:
+        - key: Full
+          value: full
+        - key: Screen
+          value: screen
+      withViewPort: true
+  - id: textColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    guidance: >-
+      Use the Text Color parameter to define the color of the text displayed
+      within the hero.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: overlayAutoTint
+    name: Overlay Auto Tint
+    type: dex-slider-control-parameter
+    guidance: >-
+      Use the Overlay Auto Tint parameter to automatically generate a
+      high-contrast overlay based on the selected text color, with adjustable
+      opacity. This feature enhances text readability and applies only when the
+      component is in its default variant.
+    helpText: >-
+      Generates a high-contrast overlay based on the text color with adjustable
+      opacity. Applies only when the component is in its default variant.
+    typeConfig:
+      step: 1
+      type: custom
+      units: px
+      options:
+        - key: 0%
+          value: '0'
+        - key: 20%
+          value: '0.2'
+        - key: 40%
+          value: '0.4'
+        - key: 60%
+          value: '0.6'
+        - key: 80%
+          value: '0.8'
+        - key: 100%
+          value: '1'
+      maxValue: 10
+      minValue: 0
+categoryId: f22b05f0-c4bf-4158-8ebc-4856e4d453af
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/hero-fixed.jpg
+useTeamPermissions: true
+slots: []
+titleParameter: displayName
+canBeComposition: false
+created: '2025-01-29T10:47:01.402162+00:00'
+updated: '2025-10-06T21:18:48.381473+00:00'
+variants:
+  - id: columns
+    name: Columns
+  - id: columnsReverse
+    name: Columns Reverse

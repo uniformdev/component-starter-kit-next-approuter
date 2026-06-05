@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: simpleHeader
+name: Simple Header
+icon: border-top
+parameters:
+  - id: displayName
+    name: Display Name
+    type: text
+    guidance: Used as a display name for the canvas; not rendered in the markup.
+    typeConfig: null
+    localizable: true
+  - id: links
+    name: Links
+    type: $block
+    guidance: Use the Links parameter to add links to the header.
+    typeConfig:
+      allowedTypes:
+        - navigationLink
+  - id: 80b5df59-5288-4f4f-9353-c0b0490513dc
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundColor
+        - textColor
+        - hoverTextColor
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: textColor
+    name: Text Color
+    type: dex-color-palette-parameter
+    guidance: Use the Text Color parameter to control the text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: hoverTextColor
+    name: Hover Text Color
+    type: dex-color-palette-parameter
+    guidance: Use the Hover Text Color parameter to specify hover text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+  - id: 6c13aa82-4d57-439c-9edf-4489c266526e
+    name: Images
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - logo
+        - favicon
+  - id: logo
+    name: Logo
+    type: asset
+    guidance: Use the Logo parameter to add a logo for the header.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: favicon
+    name: Favicon
+    type: asset
+    guidance: Use the Favicon parameter to add a favicon for page.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/header-default.jpg
+useTeamPermissions: true
+slots: []
+titleParameter: displayName
+thumbnailParameter: logo
+canBeComposition: false
+created: '2025-10-09T10:42:42.656159+00:00'
+updated: '2025-10-13T13:55:35.367418+00:00'
+variants:
+  - id: sticky
+    name: Sticky

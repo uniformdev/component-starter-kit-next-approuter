@@ -1,0 +1,206 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigationFlyout
+name: Navigation Flyout
+icon: image-text
+parameters:
+  - id: icon
+    name: Icon
+    type: asset
+    guidance: Use the Icon parameter to add an icon to the navigation flyout.
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: text
+    name: Text
+    type: text
+    guidance: Use the Text parameter to control the text that will be rendered.
+    typeConfig: null
+    localizable: true
+  - id: 4fa3aa01-1d60-4c4d-ace3-c68c833126b3
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundColor
+        - border
+        - size
+        - color
+        - weight
+        - font
+        - transform
+        - decoration
+        - letterSpacing
+        - alignment
+        - caretIcon
+        - hoverEffect
+  - id: backgroundColor
+    name: Background Color
+    type: dex-color-palette-parameter
+    guidance: Use the Background Color parameter to control component background color.
+    typeConfig: null
+  - id: border
+    name: Border
+    type: dex-token-selector-parameter
+    guidance: Use the Border parameter to control the component border.
+    typeConfig:
+      selectedTokenType: border
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    guidance: Use the Size parameter to control the font size.
+    typeConfig:
+      options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 6XL
+          value: 6xl
+        - key: 7XL
+          value: 7xl
+      withViewPort: false
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    guidance: Use the Color parameter to control the text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+      allowThemeColors: []
+  - id: weight
+    name: Weight
+    type: dex-segmented-control-parameter
+    guidance: Use the Weight parameter to control the font weight.
+    typeConfig:
+      options:
+        - key: Normal
+          value: normal
+        - key: Medium
+          value: medium
+        - key: Bold
+          value: bold
+        - key: Extrabold
+          value: extrabold
+      defaultValue: normal
+  - id: font
+    name: Font
+    type: dex-token-selector-parameter
+    guidance: Use the Font parameter to control the font family.
+    typeConfig:
+      selectedTokenType: font
+  - id: transform
+    name: Transform
+    type: dex-segmented-control-parameter
+    guidance: Use the Transform parameter to control the capitalization of text.
+    typeConfig:
+      options:
+        - key: Uppercase
+          value: uppercase
+        - key: Lowercase
+          value: lowercase
+        - key: Capitalize
+          value: capitalize
+  - id: decoration
+    name: Decoration
+    type: dex-segmented-control-parameter
+    guidance: Use the Decoration parameter to change the text decoration thickness.
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Overline
+          value: overline
+        - key: Line Through
+          value: line-through
+  - id: letterSpacing
+    name: Letter Spacing
+    type: dex-segmented-control-parameter
+    guidance: Use the Letter Spacing parameter to set the letter spacing.
+    typeConfig:
+      options:
+        - key: Tighter
+          value: tighter
+        - key: Tight
+          value: tight
+        - key: Wide
+          value: wide
+        - key: Wider
+          value: wider
+  - id: alignment
+    name: Alignment
+    type: dex-segmented-control-parameter
+    guidance: Use the Alignment parameter to align the text.
+    typeConfig:
+      options:
+        - key: Left
+          value: left
+        - key: Center
+          value: center
+        - key: Right
+          value: right
+  - id: caretIcon
+    name: Caret Icon
+    type: asset
+    guidance: Use the Caret Icon parameter to add a dropdown indicator icon.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: hoverEffect
+    name: Hover Effect
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Hover Effect parameter to define the visual behavior or animation
+      that appears when a user hovers over a navigation item.
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Brightness
+          value: opacity-75
+        - key: Scale
+          value: scale-105
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-flyout.jpg
+useTeamPermissions: true
+slots:
+  - id: navigationFlyoutLeftContent
+    name: Navigation Flyout Left Content
+    allowedComponents:
+      - navigationLink
+      - navigationMegaCategory
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: navigationFlyoutRightContent
+    name: Navigation Flyout Right Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: text
+canBeComposition: false
+created: '2026-05-05T14:17:01.11825+00:00'
+updated: '2026-05-15T08:51:33.123973+00:00'
+variants:
+  - id: megaMenu
+    name: Mega Menu

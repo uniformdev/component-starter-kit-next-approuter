@@ -1,0 +1,189 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigationLink
+name: Navigation Link
+icon: link
+parameters:
+  - id: icon
+    name: Icon
+    type: asset
+    guidance: Use the Icon parameter to add an icon to the navigation link.
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: text
+    name: Text
+    type: text
+    guidance: Use the Text parameter to control the text that will be rendered.
+    typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: >-
+      Use the Link parameter to specify the URL or page that the navigation item
+      directs to when clicked.
+    typeConfig:
+      linkTypes:
+        tel: true
+        email: true
+    localizable: true
+  - id: activeState
+    name: Active state
+    type: checkbox
+    guidance: >-
+      Use the Active State parameter to apply specific styles when the current
+      page matches the link’s destination, indicating the active navigation
+      item.
+    helpText: >-
+      If the current page is equal to the current link value, the active styles
+      are applied.
+    typeConfig: null
+  - id: 4fa3aa01-1d60-4c4d-ace3-c68c833126b3
+    name: Presentation Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - size
+        - color
+        - weight
+        - font
+        - transform
+        - decoration
+        - letterSpacing
+        - alignment
+        - hoverEffect
+  - id: size
+    name: Size
+    type: dex-segmented-control-parameter
+    guidance: Use the Size parameter to control the font size.
+    typeConfig:
+      options:
+        - key: XS
+          value: xs
+        - key: SM
+          value: sm
+        - key: Base
+          value: base
+        - key: LG
+          value: lg
+        - key: XL
+          value: xl
+        - key: 2XL
+          value: 2xl
+        - key: 3XL
+          value: 3xl
+        - key: 4XL
+          value: 4xl
+        - key: 5XL
+          value: 5xl
+        - key: 6XL
+          value: 6xl
+        - key: 7XL
+          value: 7xl
+      withViewPort: false
+  - id: color
+    name: Color
+    type: dex-color-palette-parameter
+    guidance: Use the Color parameter to control the text color.
+    typeConfig:
+      allowColors: []
+      selectedGroup: text
+      allowThemeColors: []
+  - id: weight
+    name: Weight
+    type: dex-segmented-control-parameter
+    guidance: Use the Weight parameter to control the font weight.
+    typeConfig:
+      options:
+        - key: Normal
+          value: normal
+        - key: Medium
+          value: medium
+        - key: Bold
+          value: bold
+        - key: Extrabold
+          value: extrabold
+      defaultValue: normal
+  - id: font
+    name: Font
+    type: dex-token-selector-parameter
+    guidance: Use the Font parameter to control the font family.
+    typeConfig:
+      selectedTokenType: font
+  - id: transform
+    name: Transform
+    type: dex-segmented-control-parameter
+    guidance: Use the Transform parameter to control the capitalization of text.
+    typeConfig:
+      options:
+        - key: Uppercase
+          value: uppercase
+        - key: Lowercase
+          value: lowercase
+        - key: Capitalize
+          value: capitalize
+  - id: decoration
+    name: Decoration
+    type: dex-segmented-control-parameter
+    guidance: Use the Decoration parameter to change the text decoration thickness.
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Overline
+          value: overline
+        - key: Line Through
+          value: line-through
+  - id: letterSpacing
+    name: Letter Spacing
+    type: dex-segmented-control-parameter
+    guidance: Use the Letter Spacing parameter to set the letter spacing.
+    typeConfig:
+      options:
+        - key: Tighter
+          value: tighter
+        - key: Tight
+          value: tight
+        - key: Wide
+          value: wide
+        - key: Wider
+          value: wider
+  - id: alignment
+    name: Alignment
+    type: dex-segmented-control-parameter
+    guidance: Use the Alignment parameter to align the text.
+    typeConfig:
+      options:
+        - key: Left
+          value: left
+        - key: Center
+          value: center
+        - key: Right
+          value: right
+  - id: hoverEffect
+    name: Hover Effect
+    type: dex-segmented-control-parameter
+    guidance: >-
+      Use the Hover Effect parameter to define the visual change or animation
+      that appears when the user hovers over the navigation link.
+    typeConfig:
+      options:
+        - key: Underline
+          value: underline
+        - key: Brightness
+          value: opacity-75
+        - key: Scale
+          value: scale-105
+categoryId: b1163ce2-5ac7-4347-bc38-a42198180718
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/csk-v-next/baseline/preview-images/navigation-link.jpg
+useTeamPermissions: true
+slots: []
+titleParameter: text
+thumbnailParameter: icon
+canBeComposition: false
+created: '2025-01-29T10:47:03.327349+00:00'
+updated: '2025-10-06T21:18:50.099523+00:00'

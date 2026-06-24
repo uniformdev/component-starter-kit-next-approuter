@@ -2,8 +2,6 @@
 
 This is the latest version of the Uniform Component Starter Kit (CSK) - version 7, built specifically for Next.js 16 App Router with cache components support leveraging React 19, TailwindCSS and TypeScript.
 
-> If you are looking for the Next.js Page Router version, check out this older [repo](https://github.com/uniformdev/uniform-component-starter-kit) instead.
-
 ## Prerequisites
 
 - A Uniform account with the ability to create a new empty project. If you don't have a Uniform account, you can request a trial account [here](https://uniform.dev/try).
@@ -15,7 +13,7 @@ This is the latest version of the Uniform Component Starter Kit (CSK) - version 
 
 #### Option 1: via Uniform CLI
 
-Run `npx @uniformdev/cli new` and pick `Next.js` -> `Component Starter Kit` from the interactive prompt. Complete the process to deploy a new instance of CSK to your
+Run `npx @uniformdev/cli@latest new` and pick `Next.js` -> `Component Starter Kit` from the interactive prompt. Complete the process to deploy a new instance of CSK to your
 
 #### Option 2: manually
 
@@ -77,6 +75,26 @@ export HTTP_PROXY=http://your-proxy.example.com:8080
 If your proxy intercepts TLS with a custom root CA, also set `NODE_EXTRA_CA_CERTS=/path/to/ca.pem`, otherwise Node rejects the certificate with `UNABLE_TO_VERIFY_LEAF_SIGNATURE`. Each CLI also accepts `--proxy <url>` to override the env var for a single run.
 
 ## Other scripts
+
+### **Working with components**
+
+The starter kit ships with a set of pre-built components. The following scripts help you customize existing components and create new ones.
+
+#### Extract a component
+
+```sh
+npm run component:extract
+```
+
+This copies the source of a built-in CSK component into your local codebase. Once extracted, the component is owned by your project, so you can freely customize its markup, styles, and behavior. You'll be prompted to choose which component(s) to extract.
+
+#### Scaffold a new component
+
+```sh
+npm run component:scaffold
+```
+
+This generates the boilerplate for a brand-new component, wiring up the files needed to register it with Uniform. Follow the interactive prompts to name and configure your component.
 
 ### **Design Extension Sync**
 

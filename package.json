@@ -35,17 +35,19 @@
     "uniform:publish": "uniform context manifest publish"
   },
   "dependencies": {
-    "@uniformdev/assets": "^20.74.1",
-    "@uniformdev/canvas": "^20.74.1",
+    "@uniformdev/assets": "20.74.6-alpha.2",
+    "@uniformdev/canvas": "20.74.6-alpha.2",
     "@uniformdev/csk-cli": "7.0.0",
     "@uniformdev/csk-components": "7.0.0",
     "@uniformdev/design-extensions-tools": "7.0.0",
-    "@uniformdev/next-app-router": "^20.74.1",
-    "@uniformdev/next-app-router-client": "^20.74.1",
-    "@uniformdev/next-app-router-shared": "^20.74.1",
+    "@uniformdev/next-app-router": "20.74.6-alpha.2",
+    "@uniformdev/next-app-router-client": "20.74.6-alpha.2",
+    "@uniformdev/next-app-router-shared": "20.74.6-alpha.2",
     "js-cookie": "^3.0.7",
-    "next": "^16.2.12",
-    "next-themes": "^0.4.6"
+    "next": "15.5.23",
+    "next-themes": "^0.4.6",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
@@ -55,7 +57,7 @@
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "@uniformdev/cli": "^20.74.1",
+    "@uniformdev/cli": "20.74.6-alpha.2",
     "cross-env": "^10.1.0",
     "eslint": "^9.31.0",
     "eslint-config-next": "^16.2.6",
@@ -67,8 +69,5 @@
     "prettier": "3.8.3",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3"
-  },
-  "overrides": {
-    "undici": "5.28.5"
   }
 }

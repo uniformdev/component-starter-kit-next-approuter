@@ -7,7 +7,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [{ protocol: 'https', hostname: '*' }],
     deviceSizes: [320, 420, 640, 768, 1024, 1280, 1536],
   },
-  cacheComponents: true,
+  experimental: {
+    useCache: true,
+  },
 };
 
 export default withUniformConfig(nextConfig);

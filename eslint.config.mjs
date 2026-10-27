@@ -1,7 +1,7 @@
 import js from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import prettierPlugin from 'eslint-plugin-prettier';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import tseslint from 'typescript-eslint';
 import nextConfig from 'eslint-config-next';
 
@@ -12,7 +12,7 @@ const eslintConfig = [
   {
     plugins: {
       prettier: prettierPlugin,
-      import: importPlugin,
+      'import-x': importPlugin,
       '@typescript-eslint': tseslint.plugin,
     },
     rules: {
@@ -22,7 +22,7 @@ const eslintConfig = [
       '@typescript-eslint/no-explicit-any': 'error',
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_', varsIgnorePattern: '_' }],
-      'import/order': [
+      'import-x/order': [
         'error',
         {
           groups: [['builtin', 'external'], 'internal', ['parent', 'sibling', 'index']],

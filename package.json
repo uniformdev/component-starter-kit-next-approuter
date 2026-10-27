@@ -5,7 +5,7 @@
   "engines": {
     "yarn": "please-use-npm",
     "pnpm": "please-use-npm",
-    "node": "^18.18.0 || ^19.8.0 || >= 20.0.0",
+    "node": "^22.22.0 || >=24.0.0",
     "npm": ">=10"
   },
   "scripts": {
@@ -35,40 +35,52 @@
     "uniform:publish": "uniform context manifest publish"
   },
   "dependencies": {
-    "@uniformdev/assets": "^20.74.1",
-    "@uniformdev/canvas": "^20.74.1",
+    "@uniformdev/assets": "^20.86.0",
+    "@uniformdev/canvas": "^20.86.0",
     "@uniformdev/csk-cli": "7.0.0",
     "@uniformdev/csk-components": "7.0.0",
     "@uniformdev/design-extensions-tools": "7.0.0",
-    "@uniformdev/next-app-router": "^20.74.1",
-    "@uniformdev/next-app-router-client": "^20.74.1",
-    "@uniformdev/next-app-router-shared": "^20.74.1",
-    "js-cookie": "^3.0.7",
-    "next": "^16.2.12",
-    "next-themes": "^0.4.6"
+    "@uniformdev/next-app-router": "^20.86.0",
+    "@uniformdev/next-app-router-client": "^20.86.0",
+    "@uniformdev/next-app-router-shared": "^20.86.0",
+    "js-cookie": "^3.0.8",
+    "next": "^16.4.3",
+    "next-themes": "^0.4.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
-    "@tailwindcss/postcss": "^4.3.0",
-    "@tailwindcss/typography": "^0.5.19",
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/js-cookie": "^3.0.6",
-    "@types/node": "^25.9.1",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "@uniformdev/cli": "^20.74.1",
+    "@types/node": "^25.9.9",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@uniformdev/cli": "^20.86.0",
     "cross-env": "^10.1.0",
-    "eslint": "^9.31.0",
-    "eslint-config-next": "^16.2.6",
+    "eslint": "^10.13.0",
+    "eslint-config-next": "^16.4.3",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-prettier": "^5.5.7",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.5.15",
-    "prettier": "3.8.3",
-    "tailwindcss": "^4.3.0",
-    "typescript": "^6.0.3"
+    "postcss": "^8.5.32",
+    "prettier": "3.9.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1"
   },
   "overrides": {
-    "undici": "5.28.5"
+    "undici": "5.28.5",
+    "eslint-plugin-import": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    }
   }
 }

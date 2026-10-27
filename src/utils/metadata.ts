@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import { AssetParamValue } from '@uniformdev/assets';
 import { flattenValues } from '@uniformdev/canvas';
 import { resolveAsset } from '@uniformdev/csk-components/utils/assets';
-import { resolveRouteFromCode, UniformPageParameters } from '@uniformdev/next-app-router';
+import { UniformPageParameters } from '@uniformdev/next-app-router';
+import { resolveRouteFromCode } from '@uniformdev/next-app-router/cache';
 
 type UniformMetadataParameters = {
   pageTitle: string;
